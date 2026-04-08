@@ -39,9 +39,9 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          <Link href="#book" className="btn-primary py-2.5 px-5 text-2xs">
-            Book a Call
-          </Link>
+          <a href="tel:+918595203751" className="btn-primary py-2.5 px-5 text-2xs">
+            +91 85952 03751
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -84,13 +84,12 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="#book"
-              onClick={() => setOpen(false)}
+            <a
+              href="tel:+918595203751"
               className="btn-primary py-3 px-5 text-2xs w-fit"
             >
-              Book a Call
-            </Link>
+              +91 85952 03751
+            </a>
           </div>
         </div>
       )}
