@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Disclaimer() {
   const [visible, setVisible] = useState(false);
@@ -25,7 +26,14 @@ export default function Disclaimer() {
     >
       <div className="bg-ink border border-border max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="border-b border-border px-8 py-7">
+        <div className="border-b border-border px-8 py-6 flex flex-col gap-4">
+          <Image
+            src="/logo.png"
+            alt="TN Chambers"
+            width={64}
+            height={32}
+            className="h-8 w-auto"
+          />
           <h1 className="font-serif text-3xl font-light text-parchment">
             Disclaimer
           </h1>

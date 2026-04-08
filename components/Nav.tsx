@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -19,12 +20,16 @@ export default function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-ink/90 backdrop-blur-sm border-b border-border">
       <nav className="container-site flex items-center justify-between h-16">
-        {/* Wordmark */}
-        <Link
-          href="/"
-          className="font-serif text-xl font-light tracking-wide text-parchment hover:text-gold transition-colors duration-200"
-        >
-          TN Chambers
+        {/* Logo */}
+        <Link href="/" className="flex items-center hover:opacity-75 transition-opacity duration-200">
+          <Image
+            src="/logo.png"
+            alt="TN Chambers"
+            width={72}
+            height={36}
+            className="h-9 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop links */}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -9,9 +10,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Identity */}
           <div>
-            <p className="font-serif text-2xl font-light text-parchment mb-3">
-              TN Chambers
-            </p>
+            <Link href="/" className="inline-block mb-4 hover:opacity-75 transition-opacity duration-200">
+              <Image
+                src="/logo.png"
+                alt="TN Chambers"
+                width={80}
+                height={40}
+                className="h-10 w-auto"
+              />
+            </Link>
             <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">
               Supreme Court Advocate. Electricity regulation, arbitration, and
               cross-border advisory for international clients.
