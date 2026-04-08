@@ -46,10 +46,10 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-parchment-dim">
               <li>
                 <a
-                  href="mailto:chambers@tnairchambers.in"
+                  href="mailto:tushaar@tnairchambers.in"
                   className="hover:text-parchment transition-colors duration-200"
                 >
-                  chambers@tnairchambers.in
+                  tushaar@tnairchambers.in
                 </a>
               </li>
               <li>Supreme Court of India</li>
