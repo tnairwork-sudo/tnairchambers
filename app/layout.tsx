@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import Disclaimer from "@/components/Disclaimer";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -103,6 +104,7 @@ export default function RootLayout({
         <link rel="canonical" href={siteUrl} />
       </head>
       <body className="antialiased min-h-screen">
+        <Disclaimer />
         {children}
       </body>
     </html>
