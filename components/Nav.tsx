@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const links = [
+  { href: "/about", label: "Tushaar Nair" },
   { href: "/energy", label: "Energy & Power" },
   { href: "/entering-india", label: "Entering India" },
   { href: "/ngos", label: "NGOs" },
