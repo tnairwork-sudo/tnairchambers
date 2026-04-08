@@ -28,6 +28,7 @@ export default function Nav() {
             width={72}
             height={36}
             className="h-9 w-auto"
+            style={{ mixBlendMode: "multiply" }}
             priority
           />
         </Link>

@@ -17,6 +17,7 @@ export default function Footer() {
                 width={80}
                 height={40}
                 className="h-10 w-auto"
+                style={{ mixBlendMode: "multiply" }}
               />
             </Link>
             <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">

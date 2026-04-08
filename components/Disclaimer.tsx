@@ -33,6 +33,7 @@ export default function Disclaimer() {
             width={64}
             height={32}
             className="h-8 w-auto"
+            style={{ mixBlendMode: "multiply" }}
           />
           <h1 className="font-serif text-3xl font-light text-parchment">
             Disclaimer
