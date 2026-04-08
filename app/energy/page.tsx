@@ -78,7 +78,7 @@ export default function EnergyPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 70% 50% at 30% 60%, #0d1a0a 0%, transparent 70%)",
+              "radial-gradient(ellipse 70% 50% at 30% 60%, #dde8d8 0%, transparent 70%)",
           }}
         />
         <div className="container-site relative z-10">

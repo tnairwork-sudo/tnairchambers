@@ -79,7 +79,7 @@ export default function NGOsPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 60% 50% at 40% 50%, #1a0d0d 0%, transparent 70%)",
+              "radial-gradient(ellipse 60% 50% at 40% 50%, #e8d8d8 0%, transparent 70%)",
           }}
         />
         <div className="container-site relative z-10">

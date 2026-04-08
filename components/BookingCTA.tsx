@@ -30,19 +30,16 @@ export default function BookingCTA({
             </p>
           )}
 
-          {/* Replace href with your Calendly or booking URL */}
           <a
-            href="https://calendly.com/tnairchambers/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tel:+918595203751"
             className="btn-primary"
           >
-            Book a 30-Minute Advisory Call
+            Call +91 85952 03751
             <span className="text-base leading-none" aria-hidden>→</span>
           </a>
 
           <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
-            No commitment. Confidential. Available for clients in all time zones.
+            Confidential. Available for clients in all time zones.
           </p>
         </div>
       </div>

@@ -79,7 +79,7 @@ export default function EmployersPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 65% 50% at 55% 35%, #0d0d1a 0%, transparent 70%)",
+              "radial-gradient(ellipse 65% 50% at 55% 35%, #d8d8e8 0%, transparent 70%)",
           }}
         />
         <div className="container-site relative z-10">

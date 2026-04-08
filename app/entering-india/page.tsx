@@ -78,7 +78,7 @@ export default function EnteringIndiaPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 70% 50% at 70% 40%, #100d1a 0%, transparent 70%)",
+              "radial-gradient(ellipse 70% 50% at 70% 40%, #ddd8e8 0%, transparent 70%)",
           }}
         />
         <div className="container-site relative z-10">
