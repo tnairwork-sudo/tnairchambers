@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageLayout from "@/components/PageLayout";
 
 export const metadata: Metadata = {
@@ -62,18 +63,30 @@ export default function AboutPage() {
       />
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="min-h-[60vh] flex flex-col justify-end pb-16 md:pb-24">
-        <div className="container-site">
+      <section className="grid grid-cols-1 md:grid-cols-2 min-h-[85vh]">
+        {/* Text */}
+        <div className="flex flex-col justify-end pb-16 md:pb-24 pt-20 md:pt-32 px-6 md:pl-16 lg:pl-24 order-2 md:order-1">
           <div className="flex items-center gap-4 mb-8">
             <div className="gold-rule" />
             <span className="label">The Advocate</span>
           </div>
-          <h1 className="heading-display text-[clamp(2.8rem,6vw,5.5rem)] text-parchment mb-6 max-w-hero text-balance">
+          <h1 className="heading-display text-[clamp(2.8rem,5vw,5rem)] text-parchment mb-8 text-balance">
             Tushaar Nair
           </h1>
-          <p className="text-lg md:text-xl text-parchment-dim font-serif font-light italic max-w-2xl leading-relaxed">
-            "Not easy to place in a single category. That is, perhaps, the most important thing to understand about him."
+          <p className="text-lg text-parchment-dim font-serif font-light italic max-w-sm leading-relaxed">
+            &ldquo;Not easy to place in a single category. That is, perhaps, the most important thing to understand about him.&rdquo;
           </p>
+        </div>
+        {/* Photo */}
+        <div className="relative min-h-[60vw] md:min-h-0 order-1 md:order-2 overflow-hidden">
+          <Image
+            src="/tushaar-1.png"
+            alt="Tushaar Nair — Supreme Court Advocate"
+            fill
+            className="object-cover object-top"
+            priority
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
         </div>
       </section>
 
@@ -106,6 +119,18 @@ export default function AboutPage() {
             <p>
               These are not hobbies. They are the texture of a mind that refuses to be narrow.
             </p>
+
+            {/* Second photo — inline, editorial */}
+            <div className="relative w-full aspect-[3/4] my-8 overflow-hidden">
+              <Image
+                src="/tushaar-2.png"
+                alt="Tushaar Nair"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 40vw"
+              />
+            </div>
+
             <p>
               He has spent years building something rarer than a network. A circle. People who were strangers once and are now, by his careful instinct and patient attention, something closer to family. He brings together, in intimate settings across cities, individuals he has selected not by their credentials but by his read of their character. What emerges from those rooms is not professional alliance. It is friendship: the kind that is unafraid of honesty, that survives disagreement, that calls at difficult moments without waiting to be asked.
             </p>
