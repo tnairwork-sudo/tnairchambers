@@ -52,8 +52,9 @@ export default function Footer() {
                   tushaar@tnairchambers.in
                 </a>
               </li>
-              <li>Supreme Court of India</li>
-              <li>New Delhi, India</li>
+              <li>135, Additional Building Complex</li>
+              <li>Supreme Court of India, Tilak Marg</li>
+              <li>New Delhi – 110001</li>
             </ul>
           </div>
         </div>
@@ -64,7 +65,7 @@ export default function Footer() {
             &copy; {year} TN Chambers. All rights reserved.
           </p>
           <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
-            Advocate on Record · Supreme Court of India
+            Supreme Court of India · New Delhi
           </p>
         </div>
       </div>
