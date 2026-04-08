@@ -25,26 +25,22 @@ export default function Disclaimer() {
     >
       <div className="bg-ink border border-border max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="border-b border-border px-8 py-6">
-          <div className="flex items-center gap-4 mb-1">
-            <div className="gold-rule" />
-            <span className="label">Legal Notice</span>
-          </div>
-          <h1 className="font-serif text-2xl font-light text-parchment mt-3">
+        <div className="border-b border-border px-8 py-7">
+          <h1 className="font-serif text-3xl font-light text-parchment">
             Disclaimer
           </h1>
         </div>
 
         {/* Body */}
-        <div className="px-8 py-6 space-y-5 text-sm text-parchment-dim leading-relaxed">
+        <div className="px-8 py-7 space-y-5 text-sm text-parchment-dim leading-[1.85]">
           <p>
-            The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner. By accessing this website, tnairchambers.in, you acknowledge and confirm that you are seeking information relating to TN Chambers of your own accord and that there has been no form of solicitation, advertisement or inducement by TN Chambers or any of its members.
+            The Bar Council of India prohibits advocates from advertising or soliciting in any form. By visiting tnairchambers.in, you confirm that you are seeking information about TN Chambers entirely of your own volition — and that no solicitation, advertisement, or inducement of any kind has been made by TN Chambers or any of its members.
           </p>
           <p>
-            The content of this website is for informational purposes only and shall not be interpreted as soliciting or advertisement. No material or information provided on this website should be construed as legal advice. TN Chambers shall not be liable for any consequence of any action taken by relying on the material or information provided on this website.
+            Everything on this website is provided for informational purposes only. Nothing here constitutes legal advice, nor should it be read as an invitation to form an advocate-client relationship. TN Chambers accepts no liability for any action taken, or omitted, in reliance upon the information contained herein.
           </p>
           <p>
-            The contents of this website are the intellectual property of TN Chambers.
+            All content on this website is the intellectual property of TN Chambers and may not be reproduced or used without prior written consent.
           </p>
         </div>
 
