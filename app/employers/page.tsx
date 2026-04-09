@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import PageLayout from "@/components/PageLayout";
-import BookingCTA from "@/components/BookingCTA";
+import LandingPageClient from "@/components/LandingPageClient";
 
 export const metadata: Metadata = {
   title: "India Labour Law Advisory for International Employers — TN Chambers",
@@ -67,115 +66,27 @@ const schema = {
 
 export default function EmployersPage() {
   return (
-    <PageLayout>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-
-      {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="min-h-[70vh] flex flex-col justify-end pb-16 md:pb-24 relative overflow-hidden">
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(ellipse 65% 50% at 55% 35%, #d8d8e8 0%, transparent 70%)",
-          }}
-        />
-        <div className="container-site relative z-10">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="gold-rule" />
-            <span className="label">International Employers · 04</span>
-          </div>
-          <h1 className="heading-display text-[clamp(2.4rem,6vw,5.5rem)] text-parchment mb-8 max-w-hero text-balance">
-            Employing people in India
-            <br />
-            <em className="text-gold-light font-light not-italic">
-              will surprise you. It doesn&apos;t have to.
-            </em>
-          </h1>
-          <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-2xl">
-            Labour law, termination risk, contractor classification, and state-level variations are not challenges you discover after the problem has happened. We get you ahead of them.
-          </p>
-        </div>
-      </section>
-
-      <div className="container-site">
-        <div className="rule" />
-      </div>
-
-      {/* ── Pain point ───────────────────────────────────────────── */}
-      <section className="container-site py-20 md:py-28">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          <div>
-            <div className="flex items-center gap-4 mb-8">
-              <div className="gold-rule" />
-              <span className="label">The Problem</span>
-            </div>
-            <h2 className="heading-section text-3xl md:text-4xl text-parchment mb-6 text-balance">
-              India&apos;s employment law doesn&apos;t work like anywhere else. Most employers find this out at the worst possible moment.
-            </h2>
-          </div>
-          <div className="space-y-5 text-parchment-dim leading-relaxed md:pt-16">
-            <p>
-              India&apos;s labour law framework is not a unified system. It is a layered architecture of central statutes, state-level rules, standing orders, and enforcement patterns that differ not just by state but by industry, headcount, and type of establishment.
-            </p>
-            <p>
-              International companies that enter India with their standard employment practices — at-will termination, broad contractor usage, centralised payroll — frequently discover retrospective statutory liability, reinstatement orders, and enforcement actions they never anticipated.
-            </p>
-            <p>
-              The New Labour Codes have consolidated some of this, but implementation is uneven and the transition period has created its own compliance questions. We stay current, so you don&apos;t have to.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div className="container-site">
-        <div className="rule" />
-      </div>
-
-      {/* ── Services ─────────────────────────────────────────────── */}
-      <section className="container-site py-20 md:py-28">
-        <div className="flex items-center gap-4 mb-14">
-          <div className="gold-rule" />
-          <span className="label">What We Handle</span>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {services.map((item) => (
-            <div
-              key={item.title}
-              className="bg-ink hover:bg-surface transition-colors duration-300 p-8 flex flex-col gap-4"
-            >
-              <h3 className="font-serif text-xl font-light text-parchment">
-                {item.title}
-              </h3>
-              <p className="text-sm text-parchment-dim leading-relaxed">{item.body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── Pull quote ───────────────────────────────────────────── */}
-      <section className="bg-surface-2 border-y border-border">
-        <div className="container-site py-16 md:py-20">
-          <blockquote className="max-w-3xl">
-            <p className="heading-section text-2xl md:text-3xl text-parchment font-light italic leading-relaxed mb-6">
-              &ldquo;The question is never whether Indian labour law is complex. It is. The question is whether your India HR structure has been built by someone who understands that complexity — or whether you are about to find out.&rdquo;
-            </p>
-            <footer className="flex items-center gap-4">
-              <div className="gold-rule" />
-              <span className="label">TN Chambers</span>
-            </footer>
-          </blockquote>
-        </div>
-      </section>
-
-      {/* ── CTA ──────────────────────────────────────────────────── */}
-      <BookingCTA
-        eyebrow="Employment Law Advisory"
-        headline="Tell us how you currently employ people in India. We'll tell you where your exposure is."
-        subtext="A 30-minute call. We'll ask about your headcount, your states of operation, your contractor arrangements, and your current contracts. You'll leave with a clear picture of what needs attention."
-      />
-    </PageLayout>
+    <LandingPageClient
+      eyebrow="International Employers · 04"
+      heroLine1="Employing people in India"
+      heroEmphasis="will surprise you. It doesn't have to."
+      heroBody="Labour law, termination risk, contractor classification, and state-level variations are not challenges you discover after the problem has happened. We get you ahead of them."
+      problemHeadline="India's employment law doesn't work like anywhere else. Most employers find this out at the worst possible moment."
+      problemBody={[
+        "India's labour law framework is not a unified system. It is a layered architecture of central statutes, state-level rules, standing orders, and enforcement patterns that differ not just by state but by industry, headcount, and type of establishment.",
+        "International companies that enter India with their standard employment practices — at-will termination, broad contractor usage, centralised payroll — frequently discover retrospective statutory liability, reinstatement orders, and enforcement actions they never anticipated.",
+        "The New Labour Codes have consolidated some of this, but implementation is uneven and the transition period has created its own compliance questions. We stay current, so you don't have to.",
+      ]}
+      services={services}
+      pullQuote="The question is never whether Indian labour law is complex. It is. The question is whether your India HR structure has been built by someone who understands that complexity — or whether you are about to find out."
+      ctaEyebrow="Employment Law Advisory"
+      ctaHeadline="Tell us how you currently employ people in India. We'll tell you where your exposure is."
+      ctaSubtext="A 30-minute call. We'll ask about your headcount, your states of operation, your contractor arrangements, and your current contracts. You'll leave with a clear picture of what needs attention."
+      gradientStyle={{
+        background:
+          "radial-gradient(ellipse 65% 50% at 55% 35%, #181825 0%, transparent 70%)",
+      }}
+      schemaJson={JSON.stringify(schema)}
+    />
   );
 }

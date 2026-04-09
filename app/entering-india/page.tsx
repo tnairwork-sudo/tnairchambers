@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import PageLayout from "@/components/PageLayout";
-import BookingCTA from "@/components/BookingCTA";
+import LandingPageClient from "@/components/LandingPageClient";
 
 export const metadata: Metadata = {
   title: "Foreign Companies Entering India — Legal Advisory for India Market Entry",
@@ -66,115 +65,27 @@ const schema = {
 
 export default function EnteringIndiaPage() {
   return (
-    <PageLayout>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-
-      {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="min-h-[70vh] flex flex-col justify-end pb-16 md:pb-24 relative overflow-hidden">
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(ellipse 70% 50% at 70% 40%, #ddd8e8 0%, transparent 70%)",
-          }}
-        />
-        <div className="container-site relative z-10">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="gold-rule" />
-            <span className="label">India Market Entry · 02</span>
-          </div>
-          <h1 className="heading-display text-[clamp(2.4rem,6vw,5.5rem)] text-parchment mb-8 max-w-hero text-balance">
-            India is the opportunity.
-            <br />
-            <em className="text-gold-light font-light not-italic">
-              The legal architecture is the obstacle.
-            </em>
-          </h1>
-          <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-2xl">
-            You need Indian counsel who speaks your language — business first, law second. Who understands what you&apos;re trying to build, and can navigate the system around it.
-          </p>
-        </div>
-      </section>
-
-      <div className="container-site">
-        <div className="rule" />
-      </div>
-
-      {/* ── Pain point ───────────────────────────────────────────── */}
-      <section className="container-site py-20 md:py-28">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          <div>
-            <div className="flex items-center gap-4 mb-8">
-              <div className="gold-rule" />
-              <span className="label">The Problem</span>
-            </div>
-            <h2 className="heading-section text-3xl md:text-4xl text-parchment mb-6 text-balance">
-              India doesn&apos;t punish ambition. It punishes unfamiliarity.
-            </h2>
-          </div>
-          <div className="space-y-5 text-parchment-dim leading-relaxed md:pt-16">
-            <p>
-              The companies that struggle in India are not the ones who lack ambition or capital. They are the ones who arrived with advisors who understand the rules but not the system — the regulators, the timelines, the unofficial sequences, the ways in which compliance on paper can still leave you operationally exposed.
-            </p>
-            <p>
-              India&apos;s legal and regulatory architecture is not hostile to foreign capital. It is simply unfamiliar, layered, and moving. The FDI policy changes. RBI master directions are updated. Sector-specific rules overlap with central and state frameworks.
-            </p>
-            <p>
-              We provide the kind of counsel that helps you see the whole board — not just the square you&apos;re currently standing on.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div className="container-site">
-        <div className="rule" />
-      </div>
-
-      {/* ── Services ─────────────────────────────────────────────── */}
-      <section className="container-site py-20 md:py-28">
-        <div className="flex items-center gap-4 mb-14">
-          <div className="gold-rule" />
-          <span className="label">What We Handle</span>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {services.map((item) => (
-            <div
-              key={item.title}
-              className="bg-ink hover:bg-surface transition-colors duration-300 p-8 flex flex-col gap-4"
-            >
-              <h3 className="font-serif text-xl font-light text-parchment">
-                {item.title}
-              </h3>
-              <p className="text-sm text-parchment-dim leading-relaxed">{item.body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── Pull quote ───────────────────────────────────────────── */}
-      <section className="bg-surface-2 border-y border-border">
-        <div className="container-site py-16 md:py-20">
-          <blockquote className="max-w-3xl">
-            <p className="heading-section text-2xl md:text-3xl text-parchment font-light italic leading-relaxed mb-6">
-              &ldquo;The question we ask every new international client is simple: what does success look like in 18 months? That answer shapes the legal strategy — not the other way around.&rdquo;
-            </p>
-            <footer className="flex items-center gap-4">
-              <div className="gold-rule" />
-              <span className="label">TN Chambers</span>
-            </footer>
-          </blockquote>
-        </div>
-      </section>
-
-      {/* ── CTA ──────────────────────────────────────────────────── */}
-      <BookingCTA
-        eyebrow="India Entry Advisory"
-        headline="Tell us what you're building in India. We'll tell you what stands in the way."
-        subtext="A 30-minute call. We'll ask about your sector, your structure, your timeline, and your existing advisors. You'll leave with an honest read of the path ahead."
-      />
-    </PageLayout>
+    <LandingPageClient
+      eyebrow="India Market Entry · 02"
+      heroLine1="India is the opportunity."
+      heroEmphasis="The legal architecture is the obstacle."
+      heroBody="You need Indian counsel who speaks your language — business first, law second. Who understands what you're trying to build, and can navigate the system around it."
+      problemHeadline="India doesn't punish ambition. It punishes unfamiliarity."
+      problemBody={[
+        "The companies that struggle in India are not the ones who lack ambition or capital. They are the ones who arrived with advisors who understand the rules but not the system — the regulators, the timelines, the unofficial sequences, the ways in which compliance on paper can still leave you operationally exposed.",
+        "India's legal and regulatory architecture is not hostile to foreign capital. It is simply unfamiliar, layered, and moving. The FDI policy changes. RBI master directions are updated. Sector-specific rules overlap with central and state frameworks.",
+        "We provide the kind of counsel that helps you see the whole board — not just the square you're currently standing on.",
+      ]}
+      services={services}
+      pullQuote="The question we ask every new international client is simple: what does success look like in 18 months? That answer shapes the legal strategy — not the other way around."
+      ctaEyebrow="India Entry Advisory"
+      ctaHeadline="Tell us what you're building in India. We'll tell you what stands in the way."
+      ctaSubtext="A 30-minute call. We'll ask about your sector, your structure, your timeline, and your existing advisors. You'll leave with an honest read of the path ahead."
+      gradientStyle={{
+        background:
+          "radial-gradient(ellipse 70% 50% at 70% 40%, #1a1825 0%, transparent 70%)",
+      }}
+      schemaJson={JSON.stringify(schema)}
+    />
   );
 }
