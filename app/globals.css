@@ -24,8 +24,8 @@
   }
 
   ::selection {
-    background: #b89a5a33;
-    color: #f0ede6;
+    background: #c4a55a28;
+    color: #0f0d0a;
   }
 
   /* Scrollbar */
@@ -33,10 +33,10 @@
     width: 2px;
   }
   ::-webkit-scrollbar-track {
-    background: #080806;
+    background: #f3efe8;
   }
   ::-webkit-scrollbar-thumb {
-    background: #c4a55a44;
+    background: #c4a55a66;
   }
 }
 

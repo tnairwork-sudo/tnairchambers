@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import ContactReveal from "@/components/ContactReveal";
 
 const links = [
   { href: "/about", label: "Tushaar Nair" },
@@ -46,9 +47,7 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          <a href="tel:+918595203751" className="btn-primary py-2.5 px-5 text-2xs">
-            +91 85952 03751
-          </a>
+          <ContactReveal variant="compact" className="py-2.5 px-5 text-2xs" />
         </div>
 
         {/* Mobile toggle */}
@@ -91,12 +90,7 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="tel:+918595203751"
-              className="btn-primary py-3 px-5 text-2xs w-fit"
-            >
-              +91 85952 03751
-            </a>
+            <ContactReveal variant="compact" className="py-3 px-5 text-2xs w-fit" />
           </div>
         </div>
       )}

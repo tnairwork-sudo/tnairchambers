@@ -1,3 +1,5 @@
+import ContactReveal from "@/components/ContactReveal";
+
 interface BookingCTAProps {
   eyebrow?: string;
   headline: string;
@@ -30,17 +32,7 @@ export default function BookingCTA({
             </p>
           )}
 
-          <a
-            href="tel:+918595203751"
-            className="btn-primary"
-          >
-            Call +91 85952 03751
-            <span className="text-base leading-none" aria-hidden>→</span>
-          </a>
-
-          <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
-            Confidential. Available for clients in all time zones.
-          </p>
+          <ContactReveal />
         </div>
       </div>
     </section>

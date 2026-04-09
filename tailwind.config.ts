@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#080806",
-        parchment: "#f0ede6",
-        "parchment-dim": "#9a9088",
+        ink: "#faf9f6",
+        parchment: "#0f0d0a",
+        "parchment-dim": "#6b6460",
         gold: "#c4a55a",
-        "gold-light": "#d8bc7a",
-        "surface": "#0f0e0b",
-        "surface-2": "#181612",
-        "border": "#2a2620",
+        "gold-light": "#b8943f",
+        "surface": "#f3efe8",
+        "surface-2": "#ece7de",
+        "border": "#dcd7cc",
       },
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],

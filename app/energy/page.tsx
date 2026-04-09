@@ -81,10 +81,6 @@ export default function EnergyPage() {
       ctaEyebrow="Energy & Power Advisory"
       ctaHeadline="Tell us your project. We'll tell you exactly where the regulatory risk sits."
       ctaSubtext="A 30-minute call. We'll ask about your project structure, your timeline, and your exposure. You'll leave with a clear picture of what stands between you and operational approval in India."
-      gradientStyle={{
-        background:
-          "radial-gradient(ellipse 70% 50% at 30% 60%, #1a2a18 0%, transparent 70%)",
-      }}
       schemaJson={JSON.stringify(schema)}
     />
   );

@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import ContactReveal from "@/components/ContactReveal";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -363,13 +364,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
               <h2 className="heading-section text-4xl md:text-5xl text-parchment mb-10 text-balance">
                 If you have a problem worth solving, call.
               </h2>
-              <a href="tel:+918595203751" className="btn-primary">
-                +91 85952 03751
-                <span className="text-base leading-none" aria-hidden>→</span>
-              </a>
-              <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
-                Confidential. Available for clients in all time zones.
-              </p>
+              <ContactReveal />
             </div>
           </div>
         </section>

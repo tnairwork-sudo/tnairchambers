@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import ContactReveal from "@/components/ContactReveal";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -64,17 +65,8 @@ export default function Home() {
       },
     });
 
-    // ── About photo parallax ───────────────────────────────────
-    gsap.to(".about-image", {
-      yPercent: -12,
-      ease: "none",
-      scrollTrigger: {
-        trigger: ".about-section",
-        start: "top bottom",
-        end: "bottom top",
-        scrub: 2,
-      },
-    });
+    // ── About section fade-in ──────────────────────────────────
+    // (no parallax on this photo — fixed position to keep face visible)
 
     // ── About text reveal ──────────────────────────────────────
     gsap.from(".about-text-item", {
@@ -197,16 +189,13 @@ export default function Home() {
               </div>
 
               <div className="hero-cta">
-                <a href="tel:+918595203751" className="btn-primary">
-                  Call +91 85952 03751
-                  <span className="text-base leading-none" aria-hidden>→</span>
-                </a>
+                <ContactReveal />
               </div>
             </div>
 
             {/* Right — photo */}
             <div className="hidden md:block absolute right-0 top-0 w-[55%] h-full overflow-hidden">
-              <div className="hero-image-wrap w-full h-[115%] -top-[8%] absolute">
+              <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
                 <Image
                   src="/tushaar-1.png"
                   alt="Tushaar Nair — Supreme Court Advocate"
@@ -216,7 +205,7 @@ export default function Home() {
                   sizes="55vw"
                 />
                 {/* Gradient fade on left edge */}
-                <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/40 to-transparent w-[40%]" />
+                <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/60 to-transparent w-[45%]" />
               </div>
             </div>
 
@@ -280,15 +269,15 @@ export default function Home() {
 
             {/* Photo */}
             <div className="relative w-full md:w-[50%] min-h-[60vw] md:min-h-0 overflow-hidden">
-              <div className="about-image absolute inset-0 scale-110">
+              <div className="absolute inset-0">
                 <Image
                   src="/tushaar-2.png"
                   alt="Tushaar Nair"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-[center_15%]"
                   sizes="50vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent" />
               </div>
             </div>
           </section>
@@ -377,13 +366,7 @@ export default function Home() {
                   Tell us your problem.<br />
                   <em className="text-gold-light font-light not-italic">We&apos;ll tell you if we&apos;re the right people to solve it.</em>
                 </h2>
-                <a href="tel:+918595203751" className="btn-primary">
-                  Call +91 85952 03751
-                  <span className="text-base leading-none" aria-hidden>→</span>
-                </a>
-                <p className="mt-6 text-xs text-parchment-dim/50 tracking-wide">
-                  Confidential. Available for clients in all time zones.
-                </p>
+                <ContactReveal />
               </div>
             </div>
           </section>

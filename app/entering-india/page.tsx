@@ -81,10 +81,6 @@ export default function EnteringIndiaPage() {
       ctaEyebrow="India Entry Advisory"
       ctaHeadline="Tell us what you're building in India. We'll tell you what stands in the way."
       ctaSubtext="A 30-minute call. We'll ask about your sector, your structure, your timeline, and your existing advisors. You'll leave with an honest read of the path ahead."
-      gradientStyle={{
-        background:
-          "radial-gradient(ellipse 70% 50% at 70% 40%, #1a1825 0%, transparent 70%)",
-      }}
       schemaJson={JSON.stringify(schema)}
     />
   );

@@ -82,10 +82,6 @@ export default function EmployersPage() {
       ctaEyebrow="Employment Law Advisory"
       ctaHeadline="Tell us how you currently employ people in India. We'll tell you where your exposure is."
       ctaSubtext="A 30-minute call. We'll ask about your headcount, your states of operation, your contractor arrangements, and your current contracts. You'll leave with a clear picture of what needs attention."
-      gradientStyle={{
-        background:
-          "radial-gradient(ellipse 65% 50% at 55% 35%, #181825 0%, transparent 70%)",
-      }}
       schemaJson={JSON.stringify(schema)}
     />
   );

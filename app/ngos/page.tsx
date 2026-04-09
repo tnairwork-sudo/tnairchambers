@@ -82,10 +82,6 @@ export default function NGOsPage() {
       ctaEyebrow="NGO & FCRA Advisory"
       ctaHeadline="Tell us your situation. We'll tell you your exposure — and your options."
       ctaSubtext="A 30-minute call. Whether you are registering for the first time, preparing for renewal, or responding to enforcement, we will give you a direct assessment of where you stand and what needs to happen next."
-      gradientStyle={{
-        background:
-          "radial-gradient(ellipse 60% 50% at 40% 50%, #251818 0%, transparent 70%)",
-      }}
       schemaJson={JSON.stringify(schema)}
     />
   );
