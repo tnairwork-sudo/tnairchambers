@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-border bg-ink">
       <div className="container-site py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 mb-12">
           {/* Identity */}
           <div>
             <Link href="/" className="inline-block mb-4 hover:opacity-75 transition-opacity duration-200">
@@ -45,6 +45,21 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Insights */}
+          <div>
+            <p className="label mb-5">Insights</p>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href="/opportunity-atlas"
+                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                >
+                  Opportunity Atlas
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -12,6 +12,7 @@ const links = [
   { href: "/entering-india", label: "Entering India" },
   { href: "/ngos", label: "NGOs" },
   { href: "/employers", label: "Employers" },
+  { href: "/opportunity-atlas", label: "Opportunity Atlas" },
 ];
 
 export default function Nav() {
@@ -41,7 +42,9 @@ export default function Nav() {
               key={link.href}
               href={link.href}
               className={`nav-link ${
-                pathname === link.href ? "text-parchment" : ""
+                pathname === link.href || pathname.startsWith(`${link.href}/`)
+                  ? "text-parchment"
+                  : ""
               }`}
             >
               {link.label}
@@ -84,7 +87,9 @@ export default function Nav() {
                 href={link.href}
                 onClick={() => setOpen(false)}
                 className={`nav-link ${
-                  pathname === link.href ? "text-parchment" : ""
+                  pathname === link.href || pathname.startsWith(`${link.href}/`)
+                    ? "text-parchment"
+                    : ""
                 }`}
               >
                 {link.label}

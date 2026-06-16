@@ -1,0 +1,13 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0F0D0A"/>
+  <rect x="84" y="84" width="1432" height="732" stroke="#DCD7CC" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M0 620C230 560 385 442 528 360C698 262 853 228 1046 266C1238 304 1386 435 1600 534V900H0V620Z" fill="#F3EFE8" fill-opacity="0.12"/>
+  <path d="M0 706C178 648 324 564 456 490C628 395 838 364 1004 402C1188 444 1352 551 1600 678V900H0V706Z" fill="#C4A55A" fill-opacity="0.18"/>
+  <path d="M112 210H392" stroke="#C4A55A" stroke-width="4"/>
+  <text x="112" y="278" fill="#C4A55A" font-family="Georgia, serif" font-size="28" letter-spacing="7">OPPORTUNITY ATLAS</text>
+  <text x="112" y="390" fill="#FAF9F6" font-family="Georgia, serif" font-size="82" font-weight="300">Duty-Free,</text>
+  <text x="112" y="476" fill="#FAF9F6" font-family="Georgia, serif" font-size="82" font-weight="300">Conditions Apply</text>
+  <text x="112" y="568" fill="#DCD7CC" font-family="Arial, sans-serif" font-size="28">India-Oman CEPA, origin rules, market entry,</text>
+  <text x="112" y="610" fill="#DCD7CC" font-family="Arial, sans-serif" font-size="28">and the legal structuring behind duty-free trade.</text>
+  <text x="112" y="752" fill="#DCD7CC" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">TN CHAMBERS</text>
+</svg>
