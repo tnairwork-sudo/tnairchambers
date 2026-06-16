@@ -1,9 +1,8 @@
 import type { MetadataRoute } from "next";
-
-const siteUrl = "https://tnairchambers.in";
+import { getAllOpportunityAtlasArticles, siteUrl } from "@/lib/opportunity-atlas";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: siteUrl,
       lastModified: new Date(),
@@ -34,5 +33,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: `${siteUrl}/opportunity-atlas`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
   ];
+
+  const articleRoutes: MetadataRoute.Sitemap = getAllOpportunityAtlasArticles().map(
+    (article) => ({
+      url: `${siteUrl}/opportunity-atlas/${article.slug}`,
+      lastModified: new Date(article.publishedAt),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    })
+  );
+
+  return [...staticRoutes, ...articleRoutes];
 }
