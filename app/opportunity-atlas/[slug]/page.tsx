@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import PageLayout from "@/components/PageLayout";
 import OpportunityAtlasArticleCard from "@/components/OpportunityAtlasArticleCard";
 import OpportunityAtlasBody from "@/components/OpportunityAtlasBody";
+import OpportunityAtlasHeroVideo from "@/components/OpportunityAtlasHeroVideo";
 import {
   formatOpportunityAtlasDate,
   getAllOpportunityAtlasArticles,
@@ -182,16 +183,27 @@ export default async function OpportunityAtlasArticlePage({
         </section>
 
         <section className="container-site py-10 md:py-14">
-          <div className="relative aspect-[16/9] border border-border overflow-hidden">
-            <Image
-              src={article.featuredImage.src}
-              alt={article.featuredImage.alt}
-              fill
-              className="object-cover"
-              priority
-              sizes="100vw"
+          {article.heroVideo ? (
+            <OpportunityAtlasHeroVideo
+              title={article.heroVideo.title}
+              videoSrc={article.heroVideo.src}
+              posterSrc={article.heroVideo.posterSrc}
+              posterAlt={article.heroVideo.posterAlt}
+              captionsSrc={article.heroVideo.captionsSrc}
+              caption={article.heroVideo.caption}
             />
-          </div>
+          ) : (
+            <div className="relative aspect-[16/9] border border-border overflow-hidden">
+              <Image
+                src={article.featuredImage.src}
+                alt={article.featuredImage.alt}
+                fill
+                className="object-cover"
+                priority
+                sizes="100vw"
+              />
+            </div>
+          )}
         </section>
 
         <section className="container-site pb-20 md:pb-28">
