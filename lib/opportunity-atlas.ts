@@ -63,6 +63,14 @@ export interface OpportunityAtlasArticle {
     src: string;
     alt: string;
   };
+  heroVideo?: {
+    title: string;
+    src: string;
+    posterSrc: string;
+    posterAlt: string;
+    captionsSrc?: string;
+    caption?: string;
+  };
   seoTitle: string;
   metaDescription: string;
   openGraphImage: string;
@@ -86,6 +94,15 @@ const articles: OpportunityAtlasArticle[] = [
     featuredImage: {
       src: "/opportunity-atlas/duty-free-conditions-apply.svg",
       alt: "Abstract TN Chambers illustration for the India-Oman CEPA article.",
+    },
+    heroVideo: {
+      title: "India-Oman CEPA explainer",
+      src: "/opportunity-atlas/duty-free-conditions-apply-cepa.mp4",
+      posterSrc: "/opportunity-atlas/duty-free-conditions-apply.svg",
+      posterAlt:
+        "Poster frame introducing the India-Oman CEPA explainer with customs, trade route, and legal structuring motif.",
+      caption:
+        "India-Oman CEPA explained: duty-free access, origin rules, and market-entry legal strategy.",
     },
     seoTitle:
       "Duty-Free, Conditions Apply — India-Oman CEPA, Origin Rules & Market Entry",
