@@ -187,6 +187,7 @@ export default async function OpportunityAtlasArticlePage({
             <OpportunityAtlasHeroVideo
               title={article.heroVideo.title}
               videoSrc={article.heroVideo.src}
+              youtubeId={article.heroVideo.youtubeId}
               posterSrc={article.heroVideo.posterSrc}
               posterAlt={article.heroVideo.posterAlt}
               captionsSrc={article.heroVideo.captionsSrc}

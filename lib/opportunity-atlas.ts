@@ -66,6 +66,7 @@ export interface OpportunityAtlasArticle {
   heroVideo?: {
     title: string;
     src: string;
+    youtubeId?: string;
     posterSrc: string;
     posterAlt: string;
     captionsSrc?: string;
@@ -98,6 +99,7 @@ const articles: OpportunityAtlasArticle[] = [
     heroVideo: {
       title: "India-Oman CEPA explainer",
       src: "/opportunity-atlas/duty-free-conditions-apply-cepa.mp4",
+      youtubeId: "hMAEEciFzyY",
       posterSrc: "/opportunity-atlas/duty-free-conditions-apply.svg",
       posterAlt:
         "Poster frame introducing the India-Oman CEPA explainer with customs, trade route, and legal structuring motif.",
