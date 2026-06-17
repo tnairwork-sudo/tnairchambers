@@ -5,7 +5,8 @@ import Image from "next/image";
 
 interface OpportunityAtlasHeroVideoProps {
   title: string;
-  videoSrc: string;
+  videoSrc?: string;
+  youtubeId?: string;
   posterSrc: string;
   posterAlt: string;
   captionsSrc?: string;
@@ -15,6 +16,7 @@ interface OpportunityAtlasHeroVideoProps {
 export default function OpportunityAtlasHeroVideo({
   title,
   videoSrc,
+  youtubeId,
   posterSrc,
   posterAlt,
   captionsSrc,
@@ -24,19 +26,29 @@ export default function OpportunityAtlasHeroVideo({
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    if (!isPlaying) {
+    if (!isPlaying || youtubeId) {
       return;
     }
 
     void videoRef.current?.play().catch(() => {
       setIsPlaying(false);
     });
-  }, [isPlaying]);
+  }, [isPlaying, youtubeId]);
 
   return (
     <figure className="space-y-3 md:space-y-4">
       <div className="relative aspect-[16/9] overflow-hidden rounded-xl border border-border bg-surface shadow-[0_16px_36px_rgba(15,13,10,0.1)]">
         {isPlaying ? (
+          youtubeId ? (
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`}
+              title={title}
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+              className="h-full w-full"
+              style={{ border: "none" }}
+            />
+          ) : (
           <video
             ref={videoRef}
             controls
@@ -51,6 +63,7 @@ export default function OpportunityAtlasHeroVideo({
               <track kind="captions" src={captionsSrc} srcLang="en" label="English" default />
             ) : null}
           </video>
+          )
         ) : (
           <>
             <Image
