@@ -87,9 +87,17 @@ export default function Footer() {
           <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
             &copy; {year} TN Chambers. All rights reserved.
           </p>
-          <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
-            Supreme Court of India · New Delhi
-          </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/reading-room"
+              className="text-2xs tracking-ultra uppercase text-parchment-dim hover:text-parchment transition-colors"
+            >
+              The Reading Room
+            </Link>
+            <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
+              Supreme Court of India · New Delhi
+            </p>
+          </div>
         </div>
       </div>
     </footer>
