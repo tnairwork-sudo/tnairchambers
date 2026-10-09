@@ -44,8 +44,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const articleRoutes: MetadataRoute.Sitemap = getAllOpportunityAtlasArticles().map(
     (article) => ({
       url: `${siteUrl}/opportunity-atlas/${article.slug}`,
-      lastModified: new Date(article.publishedAt),
-      changeFrequency: "monthly",
+      ...(article.publishedAt
+        ? { lastModified: new Date(article.publishedAt) }
+        : {}),
+      changeFrequency: "monthly" as const,
       priority: 0.8,
     })
   );

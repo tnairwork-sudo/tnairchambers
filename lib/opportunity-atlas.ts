@@ -1,3 +1,6 @@
+import contractManufacturingArticle from "@/lib/opportunity-atlas/contract-manufacturing";
+import incentiveSchemesArticle from "@/lib/opportunity-atlas/incentive-schemes";
+
 export const siteUrl = "https://tnairchambers.in";
 
 export const opportunityAtlasCategories = [
@@ -14,10 +17,23 @@ export const opportunityAtlasCategories = [
 export type OpportunityAtlasCategory =
   (typeof opportunityAtlasCategories)[number];
 
-export type ArticleBodyBlock =
+export type ArticleTextBlock =
   | {
       type: "paragraphs";
       paragraphs: string[];
+    }
+  | {
+      type: "list";
+      items: string[];
+    };
+
+export type ArticleBodyBlock =
+  | ArticleTextBlock
+  | {
+      type: "image";
+      src: string;
+      alt: string;
+      caption: string;
     }
   | {
       type: "quote";
@@ -27,7 +43,8 @@ export type ArticleBodyBlock =
   | {
       type: "section";
       title: string;
-      paragraphs: string[];
+      paragraphs?: string[];
+      blocks?: ArticleTextBlock[];
     }
   | {
       type: "cards";
@@ -54,7 +71,11 @@ export interface OpportunityAtlasArticle {
   title: string;
   author: string;
   authorBio: string;
-  publishedAt: string;
+  /**
+   * Omitted when the article must not expose a publish date to visitors
+   * or crawlers. Listing order for undated articles follows source order.
+   */
+  publishedAt?: string;
   readingTime: string;
   featured: boolean;
   category: OpportunityAtlasCategory;
@@ -62,6 +83,7 @@ export interface OpportunityAtlasArticle {
   featuredImage: {
     src: string;
     alt: string;
+    caption?: string;
   };
   heroVideo?: {
     title: string;
@@ -263,14 +285,31 @@ const articles: OpportunityAtlasArticle[] = [
       },
     ],
   },
+  contractManufacturingArticle,
+  incentiveSchemesArticle,
 ];
 
 export function getAllOpportunityAtlasArticles() {
-  return [...articles].sort(
-    (first, second) =>
-      new Date(second.publishedAt).getTime() -
-      new Date(first.publishedAt).getTime()
-  );
+  return articles
+    .map((article, index) => ({ article, index }))
+    .sort((first, second) => {
+      const firstDated = Boolean(first.article.publishedAt);
+      const secondDated = Boolean(second.article.publishedAt);
+
+      if (firstDated !== secondDated) {
+        return firstDated ? 1 : -1;
+      }
+
+      if (first.article.publishedAt && second.article.publishedAt) {
+        return (
+          new Date(second.article.publishedAt).getTime() -
+          new Date(first.article.publishedAt).getTime()
+        );
+      }
+
+      return first.index - second.index;
+    })
+    .map(({ article }) => article);
 }
 
 export function getFeaturedOpportunityAtlasArticle() {
