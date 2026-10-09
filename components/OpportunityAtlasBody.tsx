@@ -1,20 +1,68 @@
-import type { ArticleBodyBlock } from "@/lib/opportunity-atlas";
+import OpportunityAtlasFigure from "@/components/OpportunityAtlasFigure";
+import RichText from "@/components/RichText";
+import type {
+  ArticleBodyBlock,
+  ArticleTextBlock,
+} from "@/lib/opportunity-atlas";
 
 interface OpportunityAtlasBodyProps {
   body: ArticleBodyBlock[];
+}
+
+function TextBlocks({ blocks }: { blocks: ArticleTextBlock[] }) {
+  return (
+    <div className="space-y-5">
+      {blocks.map((block, index) => (
+        <TextBlock key={index} block={block} />
+      ))}
+    </div>
+  );
+}
+
+function TextBlock({ block }: { block: ArticleTextBlock }) {
+  if (block.type === "list") {
+    return (
+      <ul className="space-y-3 text-base md:text-lg text-parchment-dim leading-relaxed">
+        {block.items.map((item) => (
+          <li key={item} className="relative pl-6">
+            <span
+              aria-hidden
+              className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
+            />
+            <RichText text={item} />
+          </li>
+        ))}
+      </ul>
+    );
+  }
+
+  return (
+    <div className="space-y-5 text-base md:text-lg text-parchment-dim leading-relaxed">
+      {block.paragraphs.map((paragraph) => (
+        <p key={paragraph}>
+          <RichText text={paragraph} />
+        </p>
+      ))}
+    </div>
+  );
 }
 
 export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps) {
   return (
     <div className="space-y-14 md:space-y-16">
       {body.map((block, index) => {
-        if (block.type === "paragraphs") {
+        if (block.type === "paragraphs" || block.type === "list") {
+          return <TextBlock key={index} block={block} />;
+        }
+
+        if (block.type === "image") {
           return (
-            <div key={index} className="space-y-5 text-base md:text-lg text-parchment-dim leading-relaxed">
-              {block.paragraphs.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </div>
+            <OpportunityAtlasFigure
+              key={index}
+              src={block.src}
+              alt={block.alt}
+              caption={block.caption}
+            />
           );
         }
 
@@ -38,6 +86,12 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
         }
 
         if (block.type === "section") {
+          const blocks =
+            block.blocks ??
+            (block.paragraphs
+              ? [{ type: "paragraphs" as const, paragraphs: block.paragraphs }]
+              : []);
+
           return (
             <section key={index} className="space-y-6">
               <div className="flex items-center gap-4">
@@ -47,11 +101,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
               <h2 className="heading-section text-3xl md:text-4xl text-parchment text-balance">
                 {block.title}
               </h2>
-              <div className="space-y-5 text-base md:text-lg text-parchment-dim leading-relaxed">
-                {block.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
+              <TextBlocks blocks={blocks} />
             </section>
           );
         }
@@ -72,7 +122,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
               ) : null}
               {block.intro ? (
                 <p className="text-base md:text-lg text-parchment-dim leading-relaxed">
-                  {block.intro}
+                  <RichText text={block.intro} />
                 </p>
               ) : null}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
@@ -82,7 +132,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
                       {item.title}
                     </h3>
                     <p className="text-sm md:text-base text-parchment-dim leading-relaxed">
-                      {item.body}
+                      <RichText text={item.body} />
                     </p>
                   </div>
                 ))}
@@ -106,7 +156,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
             ) : null}
             {block.intro ? (
               <p className="text-base md:text-lg text-parchment-dim leading-relaxed">
-                {block.intro}
+                <RichText text={block.intro} />
               </p>
             ) : null}
             <div className="grid grid-cols-1 gap-px bg-border">
@@ -119,7 +169,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
                     </h3>
                   </div>
                   <p className="text-sm md:text-base text-parchment-dim leading-relaxed">
-                    {item.body}
+                    <RichText text={item.body} />
                   </p>
                 </div>
               ))}

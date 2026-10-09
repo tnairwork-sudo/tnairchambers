@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageLayout from "@/components/PageLayout";
 import OpportunityAtlasArticleCard from "@/components/OpportunityAtlasArticleCard";
 import OpportunityAtlasBody from "@/components/OpportunityAtlasBody";
+import OpportunityAtlasFigure from "@/components/OpportunityAtlasFigure";
 import OpportunityAtlasHeroVideo from "@/components/OpportunityAtlasHeroVideo";
 import {
   formatOpportunityAtlasDate,
@@ -54,9 +54,14 @@ export async function generateMetadata({
       title: article.seoTitle,
       description: article.metaDescription,
       url: `${siteUrl}/opportunity-atlas/${article.slug}`,
-      publishedTime: article.publishedAt,
+      ...(article.publishedAt ? { publishedTime: article.publishedAt } : {}),
       authors: [article.author],
-      images: [article.openGraphImage],
+      images: [
+        {
+          url: article.openGraphImage,
+          alt: article.featuredImage.alt,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
@@ -80,14 +85,12 @@ export default async function OpportunityAtlasArticlePage({
   const relatedArticles = getRelatedOpportunityAtlasArticles(article.slug);
   const articleUrl = `${siteUrl}/opportunity-atlas/${article.slug}`;
 
-  const articleSchema = {
+  const articleSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.metaDescription,
     image: [`${siteUrl}${article.openGraphImage}`],
-    datePublished: article.publishedAt,
-    dateModified: article.publishedAt,
     author: {
       "@type": "Person",
       name: article.author,
@@ -111,6 +114,11 @@ export default async function OpportunityAtlasArticlePage({
       "Regulatory Advisory",
     ],
   };
+
+  if (article.publishedAt) {
+    articleSchema.datePublished = article.publishedAt;
+    articleSchema.dateModified = article.publishedAt;
+  }
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -161,9 +169,11 @@ export default async function OpportunityAtlasArticlePage({
 
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6">
               <span className="label text-gold">{article.category}</span>
-              <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
-                {formatOpportunityAtlasDate(article.publishedAt)}
-              </span>
+              {article.publishedAt ? (
+                <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
+                  {formatOpportunityAtlasDate(article.publishedAt)}
+                </span>
+              ) : null}
               <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
                 {article.readingTime}
               </span>
@@ -194,16 +204,13 @@ export default async function OpportunityAtlasArticlePage({
               caption={article.heroVideo.caption}
             />
           ) : (
-            <div className="relative aspect-[16/9] border border-border overflow-hidden">
-              <Image
-                src={article.featuredImage.src}
-                alt={article.featuredImage.alt}
-                fill
-                className="object-cover"
-                priority
-                sizes="100vw"
-              />
-            </div>
+            <OpportunityAtlasFigure
+              src={article.featuredImage.src}
+              alt={article.featuredImage.alt}
+              caption={article.featuredImage.caption}
+              priority
+              sizes="(min-width: 1200px) 1200px, 100vw"
+            />
           )}
         </section>
 
@@ -224,10 +231,12 @@ export default async function OpportunityAtlasArticlePage({
                     <dt className="label mb-2">Author</dt>
                     <dd className="text-parchment">{article.author}</dd>
                   </div>
-                  <div>
-                    <dt className="label mb-2">Published</dt>
-                    <dd>{formatOpportunityAtlasDate(article.publishedAt)}</dd>
-                  </div>
+                  {article.publishedAt ? (
+                    <div>
+                      <dt className="label mb-2">Published</dt>
+                      <dd>{formatOpportunityAtlasDate(article.publishedAt)}</dd>
+                    </div>
+                  ) : null}
                   <div>
                     <dt className="label mb-2">Reading Time</dt>
                     <dd>{article.readingTime}</dd>
