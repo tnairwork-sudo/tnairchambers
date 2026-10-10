@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import AboutContent from "@/components/AboutContent";
 
 export const metadata: Metadata = {
-  title: "Tushaar Nair — Supreme Court Advocate",
+  title: "Tushaar Nair",
   description:
-    "Tushaar Nair practices before the Supreme Court of India. A discipline of thinking applied to electricity regulation, arbitration, and cross-border advisory — at the highest levels.",
+    "Tushaar Nair is an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. He leads Nair & Co — Advocates & Consultants, a New Delhi practice in which each service is delivered by a dedicated team.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "Tushaar Nair — Supreme Court Advocate | Nair & Co",
+    title: "Tushaar Nair — Nair & Co, Advocates & Consultants",
     description:
-      "Tushaar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him.",
+      "Advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Nair & Co — Advocates & Consultants, New Delhi.",
     url: "https://nairandco.in/about",
   },
 };
@@ -18,10 +18,12 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Tushaar Nair",
-  jobTitle: "Supreme Court Advocate",
+  jobTitle:
+    "Advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court",
   worksFor: {
     "@type": "LegalService",
     name: "Nair & Co",
+    alternateName: "Nair & Co — Advocates & Consultants",
     url: "https://nairandco.in",
   },
   address: {

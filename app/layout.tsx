@@ -21,25 +21,53 @@ const inter = Inter({
 
 const siteUrl = "https://nairandco.in";
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  name: "Nair & Co",
+  alternateName: "Nair & Co — Advocates & Consultants",
+  description:
+    "Nair & Co — Advocates & Consultants is a New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are delivered by dedicated teams. Management consultancy and investment banking are delivered by dedicated teams with the firm's strategic alliances and partner firms.",
+  url: siteUrl,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress:
+      "135, Additional Building Complex, Supreme Court of India, Tilak Marg",
+    addressLocality: "New Delhi",
+    postalCode: "110001",
+    addressCountry: "IN",
+  },
+  founder: {
+    "@type": "Person",
+    name: "Tushaar Nair",
+    jobTitle:
+      "Advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court",
+  },
+  areaServed: "IN",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Nair & Co — Supreme Court Advocate | Electricity, Arbitration & Cross-Border Advisory",
+    default: "Nair & Co — Advocates & Consultants",
     template: "%s | Nair & Co",
   },
   description:
-    "Nair & Co is a Supreme Court advocate practice specialising in electricity regulation, arbitration, and cross-border legal advisory for international companies operating in India.",
+    "Nair & Co — Advocates & Consultants, New Delhi. Tushaar Nair practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court.",
   keywords: [
-    "Supreme Court advocate India",
-    "CERC lawyer",
-    "APTEL advocate",
-    "electricity regulation India",
-    "India arbitration lawyer",
-    "foreign company India legal counsel",
-    "India entry legal advisory",
-    "FCRA compliance India",
-    "cross-border legal advisory India",
     "Nair & Co",
+    "Advocates and Consultants New Delhi",
+    "Tushaar Nair",
+    "Supreme Court of India advocate",
+    "Delhi High Court advocate",
+    "Punjab and Haryana High Court advocate",
+    "legal advisory India",
+    "corporate advisory",
+    "regulatory advisory India",
+    "intellectual property India",
+    "CERC lawyer",
+    "India arbitration lawyer",
+    "FCRA compliance India",
     "nairandco.in",
   ],
   authors: [{ name: "Nair & Co", url: siteUrl }],
@@ -54,23 +82,23 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "Nair & Co",
-    title: "Nair & Co — Supreme Court Advocate Practice",
+    title: "Nair & Co — Advocates & Consultants",
     description:
-      "Electricity regulation, arbitration, and cross-border legal advisory. Built for companies navigating India's legal architecture.",
+      "A New Delhi practice of Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Dedicated teams for each service, including electricity and power. Management consultancy and investment banking with strategic alliances across the GCC, UK, Europe, and the Americas.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nair & Co — Supreme Court Advocate Practice",
+        alt: "Nair & Co — Advocates & Consultants",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nair & Co — Supreme Court Advocate Practice",
+    title: "Nair & Co — Advocates & Consultants",
     description:
-      "Electricity regulation, arbitration, and cross-border legal advisory for companies navigating India.",
+      "New Delhi practice of Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Each service is delivered by a dedicated team.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -105,6 +133,10 @@ export default function RootLayout({
         <link rel="canonical" href={siteUrl} />
       </head>
       <body className="antialiased min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Disclaimer />
         <SmoothScroll>
           {children}

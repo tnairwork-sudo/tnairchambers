@@ -17,7 +17,7 @@ const courts = [
     body: "We argue matters that require the highest order of preparation and the clearest possible thinking under pressure — constitutional questions, service law, electricity regulation, and matters of national consequence. We do not arrive to participate. We arrive to prevail.",
   },
   {
-    name: "High Courts — Punjab & Haryana, Madras",
+    name: "High Courts — Delhi, Punjab & Haryana, Madras",
     body: "We appear before these courts in matters requiring sustained appellate advocacy: civil, service, and regulatory disputes where the quality of argument determines everything.",
   },
   {
@@ -217,7 +217,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
           <div className="relative min-h-[60vw] md:min-h-0 order-1 md:order-2 overflow-hidden">
             <Image
               src="/tushaar-1.png"
-              alt="Tushaar Nair — Supreme Court Advocate"
+              alt="Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab and Haryana High Court"
               fill
               className="about-hero-photo object-cover object-top"
               priority
@@ -239,7 +239,14 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 <span className="label">Profile</span>
               </div>
               <p className="font-serif text-2xl font-light text-parchment leading-snug">
-                Supreme Court<br />of India
+                Nair &amp; Co
+              </p>
+              <p className="mt-2 label">Advocates &amp; Consultants</p>
+              <p className="mt-6 text-sm text-parchment leading-relaxed">
+                Tushaar Nair<br />
+                Advocate, Supreme Court of India,<br />
+                Delhi High Court, and<br />
+                Punjab &amp; Haryana High Court
               </p>
               <p className="mt-4 text-sm text-parchment-dim">
                 135, Additional Building Complex<br />
@@ -249,7 +256,10 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
 
             <div className="space-y-6 text-base text-parchment-dim leading-[1.85]">
               <p className="bio-para">
-                Tushaar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him. He practices before the Supreme Court of India. He also moves, deliberately and by choice, through a world that extends well beyond law: among founders and families of consequence, among people who build things with their hands and their minds, among those for whom the quality of a room matters as much as what is said in it.
+                Tushaar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him. He practises before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. He also moves, deliberately and by choice, through a world that extends well beyond law: among founders and families of consequence, among people who build things with their hands and their minds, among those for whom the quality of a room matters as much as what is said in it.
+              </p>
+              <p className="bio-para">
+                The practice is Nair &amp; Co — Advocates &amp; Consultants, in New Delhi. It is arranged so that what a client needs can sit under one roof, each service delivered by a dedicated and separate team: legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court, electricity and power, mergers and acquisitions, intellectual property, and the work of business expansion, growth, and strategic negotiation. Management consultancy and investment banking are delivered by their own teams, with strategic alliances and partner firms across the GCC, the United Kingdom, Europe, and the Americas, and with further strategic tie-ups around the world.
               </p>
               <p className="bio-para">
                 He has a serious knowledge of how cloth is constructed and why it matters. He understands music not as background but as a discipline: the relationship between structure and improvisation, between what is written and what is felt. He is drawn to design, to neuroscience, to history, to art, to the question of how human beings actually make decisions under pressure — as opposed to how they imagine they do.
@@ -315,7 +325,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 What drives this practice, at its foundation, is a conviction about the human mind itself. That the correct application of human intelligence — trained, disciplined, directed with full attention — can solve even the most complex problems the world presents. Legal problems viewed through that lens are transformed entirely. Strategy is no longer reactive. It becomes a cognitive exercise: how does a mind, at its best, outthink the problem before the problem arrives.
               </p>
               <p className="philosophy-para">
-                That quality of mind does not begin and end at the courtroom door — whether that room is the Supreme Court, the Punjab & Haryana High Court, the Madras High Court, APTEL, NCLAT, the CAT, or a boardroom where a business advisory or investment decision is being made. This is a practice built to apply it generally.
+                That quality of mind does not begin and end at the courtroom door — whether that room is the Supreme Court, the Delhi High Court, the Punjab & Haryana High Court, the Madras High Court, APTEL, NCLAT, the CAT, or a boardroom where a business advisory or investment decision is being made. This is a practice built to apply it generally. Where the work is management consultancy or investment banking, it is delivered by a dedicated team, with our strategic alliances and partner firms.
               </p>
             </div>
           </div>
