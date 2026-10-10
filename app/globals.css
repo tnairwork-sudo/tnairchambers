@@ -53,6 +53,17 @@
     @apply font-serif font-light tracking-tight leading-[1.05];
   }
 
+  /* Reveal mask. Padding is in the heading's em so Cormorant Garamond
+     ascenders and descenders stay inside the clip once the line has settled.
+     The negative margins cancel that padding, so the gap between lines is unchanged. */
+  .line-mask {
+    overflow: hidden;
+    padding-top: 0.14em;
+    padding-bottom: 0.22em;
+    margin-top: -0.14em;
+    margin-bottom: -0.22em;
+  }
+
   .heading-section {
     @apply font-serif font-light leading-[1.1] tracking-tight;
   }

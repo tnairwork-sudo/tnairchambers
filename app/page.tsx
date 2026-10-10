@@ -48,15 +48,19 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
-    // ── Hero load sequence ─────────────────────────────────────
-    const heroTl = gsap.timeline({ defaults: { ease: "power4.out" } });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    heroTl
-      .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 1 })
-      .from(".hero-line", { y: 80, opacity: 0, duration: 1.2, stagger: 0.12 }, "-=0.6")
-      .from(".hero-body p", { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.5")
-      .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.4")
-      .from(".hero-image-wrap", { scale: 1.08, opacity: 0, duration: 1.8, ease: "power3.out" }, 0.2);
+    // ── Hero load sequence ─────────────────────────────────────
+    if (!reduceMotion) {
+      const heroTl = gsap.timeline({ defaults: { ease: "power4.out" } });
+
+      heroTl
+        .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 1 })
+        .from(".hero-line", { y: 80, opacity: 0, duration: 1.2, stagger: 0.12 }, "-=0.6")
+        .from(".hero-body p", { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.5")
+        .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.4")
+        .from(".hero-image-wrap", { scale: 1.08, opacity: 0, duration: 1.8, ease: "power3.out" }, 0.2);
+    }
 
     // ── Hero photo parallax on scroll ──────────────────────────
     gsap.to(".hero-image-wrap", {
@@ -204,26 +208,34 @@ export default function Home() {
               </div>
 
               <h1 className="mb-10">
-                <div className="overflow-hidden mb-8 md:mb-10">
-                  <div className="hero-line heading-display text-[clamp(1.65rem,2.6vw,2.35rem)] text-parchment leading-none">
-                    Tushar Nair
-                    <span className="text-gold-light font-light"> · </span>
-                    <span className="italic font-light text-gold-light">Nair &amp; Co</span>
+                <div className="flow-root mb-8 md:mb-10">
+                  <div className="line-mask text-[clamp(1.65rem,2.6vw,2.35rem)]">
+                    <div className="hero-line heading-display text-parchment leading-none">
+                      Tushar Nair
+                      <span className="text-gold-light font-light"> · </span>
+                      <span className="italic font-light text-gold-light">Nair &amp; Co</span>
+                    </div>
                   </div>
                 </div>
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-parchment leading-[1.08]">
-                    Everything
+                <div className="flow-root">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                      Everything
+                    </div>
                   </div>
                 </div>
-                <div className="overflow-hidden mt-1.5 md:mt-2">
-                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-gold-light leading-[1.08] italic not-italic font-light">
-                    a client needs,
+                <div className="flow-root mt-1.5 md:mt-2">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-gold-light leading-[1.2] font-light">
+                      a client needs,
+                    </div>
                   </div>
                 </div>
-                <div className="overflow-hidden mt-1.5 md:mt-2">
-                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-parchment leading-[1.08]">
-                    under one roof.
+                <div className="flow-root mt-1.5 md:mt-2">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                      under one roof.
+                    </div>
                   </div>
                 </div>
               </h1>
