@@ -3,6 +3,13 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import Disclaimer from "@/components/Disclaimer";
 import SmoothScroll from "@/components/SmoothScroll";
+import {
+  homepageDescription,
+  homepageTitle,
+  ogImage,
+  siteJsonLd,
+  siteUrl,
+} from "@/lib/site";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -19,17 +26,21 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteUrl = "https://tnairchambers.in";
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "TN Chambers — Supreme Court Advocate | Electricity, Arbitration & Cross-Border Advisory",
-    template: "%s | TN Chambers",
+    default: homepageTitle,
+    template: "%s | Nair & Co",
   },
-  description:
-    "TN Chambers is a Supreme Court advocate practice specialising in electricity regulation, arbitration, and cross-border legal advisory for international companies operating in India.",
+  description: homepageDescription,
   keywords: [
+    "Tushar Nair",
+    "Tushaar Nair",
+    "T Nair",
+    "Nair Tushar",
+    "Nair & Co",
+    "T Nair Chambers",
+    "TN Chambers",
     "Supreme Court advocate India",
     "CERC lawyer",
     "APTEL advocate",
@@ -39,39 +50,29 @@ export const metadata: Metadata = {
     "India entry legal advisory",
     "FCRA compliance India",
     "cross-border legal advisory India",
-    "TN Chambers",
-    "tnairchambers.in",
+    "nairandco.in",
   ],
-  authors: [{ name: "TN Chambers", url: siteUrl }],
-  creator: "TN Chambers",
-  publisher: "TN Chambers",
+  authors: [{ name: "Tushar Nair", url: `${siteUrl}/about` }],
+  creator: "Tushar Nair",
+  publisher: "Nair & Co",
   formatDetection: { email: false, address: false, telephone: false },
   alternates: {
-    canonical: "/",
+    canonical: siteUrl,
   },
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: siteUrl,
-    siteName: "TN Chambers",
-    title: "TN Chambers — Supreme Court Advocate Practice",
-    description:
-      "Electricity regulation, arbitration, and cross-border legal advisory. Built for companies navigating India's legal architecture.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "TN Chambers — Supreme Court Advocate Practice",
-      },
-    ],
+    siteName: "Nair & Co",
+    title: homepageTitle,
+    description: homepageDescription,
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TN Chambers — Supreme Court Advocate Practice",
-    description:
-      "Electricity regulation, arbitration, and cross-border legal advisory for companies navigating India.",
-    images: ["/og-image.png"],
+    title: homepageTitle,
+    description: homepageDescription,
+    images: [ogImage.url],
   },
   robots: {
     index: true,
@@ -101,10 +102,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
-      <head>
-        <link rel="canonical" href={siteUrl} />
-      </head>
       <body className="antialiased min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+        />
         <Disclaimer />
         <SmoothScroll>
           {children}

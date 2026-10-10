@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "FCRA Compliance & Legal Advisory for International NGOs in India",
   description:
-    "International NGOs operating in India face FCRA registration, compliance obligations, and a fast-changing regulatory environment. TN Chambers provides legal advisory that keeps your licence to operate intact.",
+    "International NGOs operating in India face FCRA registration, compliance obligations, and a fast-changing regulatory environment. Nair & Co provides legal advisory that keeps your licence to operate intact.",
   keywords: [
     "FCRA lawyer India",
     "foreign NGO India legal advisory",
@@ -17,12 +18,22 @@ export const metadata: Metadata = {
     "FCRA violation defence India",
     "foreign foundation India FCRA",
   ],
-  alternates: { canonical: "/ngos" },
+  alternates: { canonical: `${siteUrl}/ngos` },
   openGraph: {
-    title: "FCRA & NGO Legal Advisory in India — TN Chambers",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "FCRA & NGO Legal Advisory in India — Nair & Co",
     description:
       "Operating as a foreign NGO in India means navigating FCRA, compliance requirements, and a legal environment that changes faster than most advisories can track. One wrong move costs you your licence to operate.",
-    url: "https://tnairchambers.in/ngos",
+    url: `${siteUrl}/ngos`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FCRA & NGO Legal Advisory in India — Nair & Co",
+    description:
+      "Operating as a foreign NGO in India means navigating FCRA, compliance requirements, and a legal environment that changes faster than most advisories can track. One wrong move costs you your licence to operate.",
+    images: [ogImage.url],
   },
 };
 
@@ -56,8 +67,9 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "TN Chambers — NGO & FCRA Legal Advisory",
-  url: "https://tnairchambers.in/ngos",
+  name: "Nair & Co — NGO & FCRA Legal Advisory",
+  url: `${siteUrl}/ngos`,
+  provider: { "@id": organizationId },
   description:
     "FCRA registration, compliance, and enforcement defence for international NGOs and foundations operating in India.",
   areaServed: "India",

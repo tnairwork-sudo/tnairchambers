@@ -1,12 +1,14 @@
 import type { MetadataRoute } from "next";
+import { siteUrl } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/reading-room",
     },
-    sitemap: "https://tnairchambers.in/sitemap.xml",
-    host: "https://tnairchambers.in",
+    sitemap: `${siteUrl}/sitemap.xml`,
+    host: siteUrl,
   };
 }

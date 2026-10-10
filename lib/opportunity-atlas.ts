@@ -1,7 +1,7 @@
 import contractManufacturingArticle from "@/lib/opportunity-atlas/contract-manufacturing";
 import incentiveSchemesArticle from "@/lib/opportunity-atlas/incentive-schemes";
 
-export const siteUrl = "https://tnairchambers.in";
+export { siteUrl } from "@/lib/site";
 
 export const opportunityAtlasCategories = [
   "Market Entry",

@@ -162,6 +162,11 @@ export default function Home() {
               </div>
 
               <h1 className="mb-10">
+                <div className="overflow-hidden mb-6">
+                  <div className="hero-line">
+                    <span className="label">Tushar Nair · Nair & Co</span>
+                  </div>
+                </div>
                 <div className="overflow-hidden">
                   <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-parchment leading-[1.05]">
                     The right argument,
@@ -198,7 +203,7 @@ export default function Home() {
               <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
                 <Image
                   src="/tushaar-1.png"
-                  alt="Tushaar Nair — Supreme Court Advocate"
+                  alt="Tushar Nair (Tushaar Nair) — Supreme Court Advocate"
                   fill
                   className="object-cover object-top"
                   priority
@@ -272,7 +277,7 @@ export default function Home() {
               <div className="absolute inset-0">
                 <Image
                   src="/tushaar-2.png"
-                  alt="Tushaar Nair"
+                  alt="Tushar Nair (Tushaar Nair)"
                   fill
                   className="object-cover object-[center_15%]"
                   sizes="50vw"

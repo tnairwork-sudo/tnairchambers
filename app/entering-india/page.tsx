@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Foreign Companies Entering India — Legal Advisory for India Market Entry",
@@ -16,12 +17,22 @@ export const metadata: Metadata = {
     "FEMA compliance India",
     "India corporate legal counsel foreign",
   ],
-  alternates: { canonical: "/entering-india" },
+  alternates: { canonical: `${siteUrl}/entering-india` },
   openGraph: {
-    title: "Entering India — Legal Advisory for Foreign Companies | TN Chambers",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
     description:
-      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. TN Chambers provides counsel who speaks your language — business first, law second.",
-    url: "https://tnairchambers.in/entering-india",
+      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. Nair & Co provides counsel who speaks your language — business first, law second.",
+    url: `${siteUrl}/entering-india`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
+    description:
+      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. Nair & Co provides counsel who speaks your language — business first, law second.",
+    images: [ogImage.url],
   },
 };
 
@@ -55,8 +66,9 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "TN Chambers — India Market Entry Legal Advisory",
-  url: "https://tnairchambers.in/entering-india",
+  name: "Nair & Co — India Market Entry Legal Advisory",
+  url: `${siteUrl}/entering-india`,
+  provider: { "@id": organizationId },
   description:
     "Legal advisory for foreign companies entering the Indian market. Corporate structuring, regulatory compliance, FEMA, FDI policy, and ongoing counsel.",
   areaServed: "India",

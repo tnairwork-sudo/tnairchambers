@@ -207,6 +207,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
             </div>
             <h1 className="about-hero-name heading-display text-[clamp(3rem,5vw,5.5rem)] text-parchment mb-8">
               Tushaar Nair
+              <span className="label block mt-6">Tushar Nair · Founder, Nair & Co</span>
             </h1>
             <p className="about-hero-quote text-lg text-parchment-dim font-serif font-light italic max-w-sm leading-relaxed">
               &ldquo;Not easy to place in a single category. That is, perhaps, the most important thing to understand about him.&rdquo;
@@ -217,7 +218,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
           <div className="relative min-h-[60vw] md:min-h-0 order-1 md:order-2 overflow-hidden">
             <Image
               src="/tushaar-1.png"
-              alt="Tushaar Nair — Supreme Court Advocate"
+              alt="Tushar Nair (Tushaar Nair) — Supreme Court Advocate"
               fill
               className="about-hero-photo object-cover object-top"
               priority
@@ -249,7 +250,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
 
             <div className="space-y-6 text-base text-parchment-dim leading-[1.85]">
               <p className="bio-para">
-                Tushaar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him. He practices before the Supreme Court of India. He also moves, deliberately and by choice, through a world that extends well beyond law: among founders and families of consequence, among people who build things with their hands and their minds, among those for whom the quality of a room matters as much as what is said in it.
+                Tushar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him. The name is also written Tushaar Nair. He practices before the Supreme Court of India, and he founded Nair & Co. The firm was formerly T Nair Chambers. He also moves, deliberately and by choice, through a world that extends well beyond law: among founders and families of consequence, among people who build things with their hands and their minds, among those for whom the quality of a room matters as much as what is said in it.
               </p>
               <p className="bio-para">
                 He has a serious knowledge of how cloth is constructed and why it matters. He understands music not as background but as a discipline: the relationship between structure and improvisation, between what is written and what is felt. He is drawn to design, to neuroscience, to history, to art, to the question of how human beings actually make decisions under pressure — as opposed to how they imagine they do.
@@ -262,7 +263,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
               <div className="about-photo-2-wrap relative w-full aspect-[3/4] my-8 overflow-hidden">
                 <Image
                   src="/tushaar-2.png"
-                  alt="Tushaar Nair"
+                  alt="Tushar Nair (Tushaar Nair)"
                   fill
                   className="about-photo-2 object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 40vw"
@@ -270,7 +271,14 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
               </div>
 
               <p className="bio-para">
-                He has spent years building something rarer than a network. A circle. People who were strangers once and are now, by his careful instinct and patient attention, something closer to family. He brings together, in intimate settings across cities, individuals he has selected not by their credentials but by his read of their character. What emerges from those rooms is not professional alliance. It is friendship: the kind that is unafraid of honesty, that survives disagreement, that calls at difficult moments without waiting to be asked.
+                He has spent years building something rarer than a network. A circle. People who were strangers once and are now, by his careful instinct and patient attention, something closer to family. He brings together, in intimate settings across cities, individuals he has selected not by their credentials but by his read of their character. One of those rooms is{" "}
+                <a
+                  href="https://thebigdinner.in"
+                  className="text-gold hover:text-gold-light transition-colors duration-300"
+                >
+                  The Big Dinner
+                </a>
+                . What emerges from those rooms is not professional alliance. It is friendship: the kind that is unafraid of honesty, that survives disagreement, that calls at difficult moments without waiting to be asked.
               </p>
               <p className="bio-para">
                 He is rigorous in a courtroom. He is warm in a room. He has a serious knowledge of how institutions work, how wealth moves across generations and how families fail, how a business built on reputation can be undone in a single poorly considered decision. He reads history not for comfort but for pattern: civilisations, dynasties, enterprises — all subject to the same fractures, the same failure modes, the same pivotal moments where the quality of counsel determined everything.

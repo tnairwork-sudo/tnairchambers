@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "India Labour Law Advisory for International Employers — TN Chambers",
+  title: "India Labour Law Advisory for International Employers",
   description:
-    "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. TN Chambers provides clear, direct advisory for international employers.",
+    "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. Nair & Co provides clear, direct advisory for international employers.",
   keywords: [
     "India labour law foreign employer",
     "employment law India international company",
@@ -17,12 +18,22 @@ export const metadata: Metadata = {
     "PF ESI compliance India foreign employer",
     "India labour code compliance",
   ],
-  alternates: { canonical: "/employers" },
+  alternates: { canonical: `${siteUrl}/employers` },
   openGraph: {
-    title: "India Employment & Labour Law for International Employers — TN Chambers",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "India Employment & Labour Law for International Employers — Nair & Co",
     description:
       "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. They don't have to.",
-    url: "https://tnairchambers.in/employers",
+    url: `${siteUrl}/employers`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "India Employment & Labour Law for International Employers — Nair & Co",
+    description:
+      "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. They don't have to.",
+    images: [ogImage.url],
   },
 };
 
@@ -56,8 +67,9 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "TN Chambers — India Labour & Employment Law Advisory",
-  url: "https://tnairchambers.in/employers",
+  name: "Nair & Co — India Labour & Employment Law Advisory",
+  url: `${siteUrl}/employers`,
+  provider: { "@id": organizationId },
   description:
     "Labour law, employment compliance, termination risk, and contractor classification advisory for international companies employing people in India.",
   areaServed: "India",

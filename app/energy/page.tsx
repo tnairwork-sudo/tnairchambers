@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Electricity & Energy Regulation in India — Foreign Energy Companies",
   description:
-    "Foreign energy companies entering India's power sector need counsel who has argued before CERC, APTEL, and state electricity commissions. TN Chambers provides regulatory advocacy, licensing strategy, and dispute resolution for international power sector clients.",
+    "Foreign energy companies entering India's power sector need counsel who has argued before CERC, APTEL, and state electricity commissions. Nair & Co provides regulatory advocacy, licensing strategy, and dispute resolution for international power sector clients.",
   keywords: [
     "CERC advocate foreign company",
     "APTEL lawyer India",
@@ -16,12 +17,22 @@ export const metadata: Metadata = {
     "India power sector entry legal",
     "electricity law India Supreme Court",
   ],
-  alternates: { canonical: "/energy" },
+  alternates: { canonical: `${siteUrl}/energy` },
   openGraph: {
-    title: "India Electricity & Energy Regulation — TN Chambers",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "India Electricity & Energy Regulation — Nair & Co",
     description:
       "You want to enter India's power sector. CERC, APTEL, and regulatory unpredictability are standing between your capital and your returns. We've argued this from the inside.",
-    url: "https://tnairchambers.in/energy",
+    url: `${siteUrl}/energy`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "India Electricity & Energy Regulation — Nair & Co",
+    description:
+      "You want to enter India's power sector. CERC, APTEL, and regulatory unpredictability are standing between your capital and your returns. We've argued this from the inside.",
+    images: [ogImage.url],
   },
 };
 
@@ -55,8 +66,9 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "TN Chambers — Electricity & Energy Regulation",
-  url: "https://tnairchambers.in/energy",
+  name: "Nair & Co — Electricity & Energy Regulation",
+  url: `${siteUrl}/energy`,
+  provider: { "@id": organizationId },
   description:
     "Supreme Court advocate practice specialising in CERC, APTEL, and energy regulatory proceedings for international energy companies entering India.",
   areaServed: "India",
