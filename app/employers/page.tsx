@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
 
 export const metadata: Metadata = {
-  title: "India Labour Law Advisory for International Employers — Nair & Co",
+  title: "India Labour Law Advisory for International Employers",
   description:
     "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. Nair & Co provides clear, direct advisory for international employers.",
   keywords: [
