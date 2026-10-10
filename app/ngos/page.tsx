@@ -5,7 +5,7 @@ import { ogImage, organizationId, siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FCRA Compliance & Legal Advisory for International NGOs in India",
   description:
-    "International NGOs operating in India face FCRA registration, compliance obligations, and a fast-changing regulatory environment. Nair & Co provides legal advisory that keeps your licence to operate intact.",
+    "FCRA advisory for foundations and non-profits in India: registration, compliance, governance, and cross-border funding. Some of the work is confidential.",
   keywords: [
     "FCRA lawyer India",
     "foreign NGO India legal advisory",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Nair & Co",
     title: "FCRA & NGO Legal Advisory in India — Nair & Co",
     description:
-      "Operating as a foreign NGO in India means navigating FCRA, compliance requirements, and a legal environment that changes faster than most advisories can track. One wrong move costs you your licence to operate.",
+      "Advisory for foundations and non-profits on the Foreign Contribution (Regulation) Act, governance, and cross-border funding.",
     url: `${siteUrl}/ngos`,
     images: [ogImage],
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FCRA & NGO Legal Advisory in India — Nair & Co",
     description:
-      "Operating as a foreign NGO in India means navigating FCRA, compliance requirements, and a legal environment that changes faster than most advisories can track. One wrong move costs you your licence to operate.",
+      "Advisory for foundations and non-profits on the Foreign Contribution (Regulation) Act, governance, and cross-border funding.",
     images: [ogImage.url],
   },
 };
@@ -40,27 +40,27 @@ export const metadata: Metadata = {
 const services = [
   {
     title: "FCRA Registration & Renewal",
-    body: "New FCRA registrations, prior permission applications, and five-year renewals — handled precisely, with the documentation and timing that the Ministry of Home Affairs requires.",
+    body: "New registrations, prior-permission applications, and five-year renewals, including the documents the Ministry of Home Affairs asks for.",
   },
   {
-    title: "FCRA Compliance Audit",
-    body: "We review your current compliance posture — account designations, utilisation reporting, sub-granting arrangements — and identify exposure before the regulator does.",
+    title: "Compliance review",
+    body: "Account designation, utilisation reporting, and sub-granting, read against the Act and the conditions of registration.",
   },
   {
-    title: "MHA Show-Cause & Enforcement Response",
-    body: "If you have received a show-cause notice, suspension notice, or cancellation order, you need an advocate who has handled these proceedings. Speed and precision are everything at this stage.",
+    title: "Show-cause and enforcement",
+    body: "Show-cause notices, suspension, and cancellation are separate proceedings. The work is the response and the record.",
   },
   {
-    title: "Programme Structure Advisory",
-    body: "How you receive, hold, and deploy foreign contribution determines your regulatory risk. We advise on programme structures that achieve your mission without triggering compliance exposure.",
+    title: "How funds are held and used",
+    body: "The way a foundation receives, holds, and applies a foreign contribution is itself a compliance question.",
   },
   {
-    title: "CSR Partnership Compliance",
-    body: "Foreign foundations partnering with Indian implementing organisations face a distinct set of FCRA and CSR compliance questions. We map the obligations on both sides.",
+    title: "Partnerships with Indian organisations",
+    body: "Foreign foundations working with Indian implementing organisations meet both FCRA conditions and the terms of the partnership.",
   },
   {
-    title: "Regulatory Strategy for India Expansion",
-    body: "For international NGOs planning to deepen their India operations, we provide a clear-eyed assessment of the regulatory path — including the political context that most legal advisors avoid.",
+    title: "Governance and cross-border funding",
+    body: "Regulatory compliance, governance, and the treatment of cross-border funding. Some matters are undertaken under a non-disclosure arrangement.",
   },
 ];
 
@@ -80,20 +80,19 @@ export default function NGOsPage() {
   return (
     <LandingPageClient
       eyebrow="International NGOs · 03"
-      heroLine1="One wrong move costs you"
-      heroEmphasis="your licence to operate."
-      heroBody="Operating as a foreign NGO in India means navigating FCRA, compliance requirements, and a legal environment that changes faster than most advisories can track."
-      problemHeadline="FCRA is not just paperwork. It is your permission to exist."
+      heroLine1="Foreign contributions,"
+      heroEmphasis="and the statute that governs them."
+      heroBody="The practice advises foundations and non-profits in India on the Foreign Contribution (Regulation) Act, on governance, and on cross-border funding. Some of that work is confidential."
+      problemHeadline="The Foreign Contribution (Regulation) Act sets the terms on which foreign funds may be received and used."
       problemBody={[
-        "The Foreign Contribution (Regulation) Act governs how international NGOs receive and utilise foreign funds in India. The Ministry of Home Affairs administers it with increasing scrutiny. Cancellations, suspensions, and show-cause notices have increased substantially.",
-        "Most international NGOs discover their compliance gap only when enforcement has already begun. By that point, your operations are frozen, your Indian partners are under pressure, and the legal response needs to be both immediate and correct.",
-        "We have handled FCRA proceedings at every stage — from registration to enforcement defence. We know what the Ministry is looking for, what triggers investigation, and what it takes to restore operational status.",
+        "The Act is administered by the Ministry of Home Affairs. Registration, prior permission, renewal, designated accounts, utilisation, and sub-granting are separate questions. A show-cause, suspension, or cancellation is a further proceeding, with its own record.",
+        "The advisory has covered foundations and non-profit organisations on these regulatory and compliance questions, and on governance and cross-border funding. Some matters are undertaken under a non-disclosure arrangement.",
       ]}
       services={services}
-      pullQuote="In FCRA proceedings, timeliness is everything. A correct response filed one day late can cost you the registration entirely. This is not an area where you want to be finding your advocate."
-      ctaEyebrow="NGO & FCRA Advisory"
-      ctaHeadline="Tell us your situation. We'll tell you your exposure — and your options."
-      ctaSubtext="A 30-minute call. Whether you are registering for the first time, preparing for renewal, or responding to enforcement, we will give you a direct assessment of where you stand and what needs to happen next."
+      pullQuote="FCRA work here is registration, compliance, governance, and the proceedings that follow when the Ministry raises a question."
+      ctaEyebrow="FCRA"
+      ctaHeadline="A separate team advises foundations and non-profits."
+      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
       schemaJson={JSON.stringify(schema)}
     />
   );

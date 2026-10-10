@@ -3,12 +3,13 @@ export const siteUrl = "https://nairandco.in";
 export const personId = `${siteUrl}/#tushar-nair`;
 export const organizationId = `${siteUrl}/#nair-and-co`;
 
-/**
- * sameAs accepts only profile URLs that already exist in this codebase,
- * plus https://thebigdinner.in, which is the founder's public project.
- * LinkedIn and Instagram profile URLs are not present in the repository.
- */
-export const personSameAs = ["https://thebigdinner.in"];
+export const personProfiles = [
+  { href: "https://www.linkedin.com/in/nairtushar9", label: "LinkedIn" },
+  { href: "https://www.instagram.com/nairtushar9", label: "Instagram" },
+  { href: "https://thebigdinner.in", label: "The Big Dinner" },
+] as const;
+
+export const personSameAs = personProfiles.map((profile) => profile.href);
 
 export const ogImagePath = "/og-image.png";
 
@@ -35,7 +36,7 @@ export const siteJsonLd = {
       alternateName: ["Tushaar Nair", "T Nair", "Nair Tushar"],
       jobTitle: "Advocate, Supreme Court of India",
       description:
-        "Tushar Nair is an Advocate at the Supreme Court of India and the founder of Nair & Co.",
+        "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 and the founder of Nair & Co. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. The firm was formerly T Nair Chambers.",
       url: `${siteUrl}/about`,
       image: `${siteUrl}/tushaar-1.png`,
       worksFor: {
@@ -54,7 +55,7 @@ export const siteJsonLd = {
       alternateName: ["T Nair Chambers", "TN Chambers"],
       url: siteUrl,
       description:
-        "Nair & Co is a New Delhi practice of advocates and consultants founded by Tushar Nair. The firm was formerly T Nair Chambers.",
+        "Nair & Co — Advocates & Consultants is a New Delhi practice founded by Tushar Nair. The firm was formerly T Nair Chambers. Legal, corporate, regulatory, and courtroom work, including electricity and power, are delivered by dedicated teams. Management consultancy and investment banking are delivered with strategic alliances.",
       founder: {
         "@type": "Person",
         "@id": personId,
@@ -62,7 +63,7 @@ export const siteJsonLd = {
       },
       logo: {
         "@type": "ImageObject",
-        url: `${siteUrl}/logo.png`,
+        url: `${siteUrl}/wordmark.svg`,
       },
       image: `${siteUrl}${ogImagePath}`,
       address: {

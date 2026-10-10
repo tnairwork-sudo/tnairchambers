@@ -116,7 +116,7 @@ const articles: OpportunityAtlasArticle[] = [
       "The India-Oman CEPA moved a border overnight. For Indian businesses, the opportunity is immediate, valuable, and entirely dependent on legal structuring done before the first shipment leaves port.",
     featuredImage: {
       src: "/opportunity-atlas/duty-free-conditions-apply.svg",
-      alt: "Abstract TN Chambers illustration for the India-Oman CEPA article.",
+      alt: "Abstract Nair & Co illustration for the India-Oman CEPA article.",
     },
     heroVideo: {
       title: "India-Oman CEPA explainer",

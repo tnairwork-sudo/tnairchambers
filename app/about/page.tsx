@@ -4,7 +4,7 @@ import { ogImage, siteJsonLd, siteUrl } from "@/lib/site";
 
 const title = "Tushar Nair — Supreme Court Advocate";
 const description =
-  "Tushar Nair, also written Tushaar Nair, is a Supreme Court of India advocate and founder of Nair & Co. The firm was formerly T Nair Chambers.";
+  "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 and the founder of Nair & Co, formerly T Nair Chambers. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court.";
 
 export const metadata: Metadata = {
   title,

@@ -5,7 +5,7 @@ import { ogImage, organizationId, siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Foreign Companies Entering India — Legal Advisory for India Market Entry",
   description:
-    "India market entry legal advisory for foreign companies. Regulatory compliance, corporate structuring, licensing, and ongoing counsel from a Supreme Court advocate who puts business first, law second.",
+    "Market-entry and cross-border advisory for businesses in India, Oman, and the GCC, including the Sohar Free Zone, warehousing, logistics, and pharmaceutical trading.",
   keywords: [
     "India market entry legal advisory",
     "foreign company India legal counsel",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Nair & Co",
     title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
     description:
-      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. Nair & Co provides counsel who speaks your language — business first, law second.",
+      "Market entry in India and cross-border advisory in Oman and the GCC, including warehousing, logistics, and the Sohar Free Zone.",
     url: `${siteUrl}/entering-india`,
     images: [ogImage],
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
     description:
-      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. Nair & Co provides counsel who speaks your language — business first, law second.",
+      "Market entry in India and cross-border advisory in Oman and the GCC, including warehousing, logistics, and the Sohar Free Zone.",
     images: [ogImage.url],
   },
 };
@@ -39,27 +39,39 @@ export const metadata: Metadata = {
 const services = [
   {
     title: "Entry Structure Advisory",
-    body: "Liaison office, branch office, subsidiary, or joint venture — each structure carries different regulatory obligations, tax exposure, and repatriation rights. We map the tradeoffs clearly before you commit.",
+    body: "Liaison office, branch office, subsidiary, or joint venture. Each structure carries different regulatory, tax, and repatriation consequences.",
   },
   {
     title: "Regulatory Approvals & Licensing",
-    body: "Sector-specific approvals, environmental clearances, FDI policy compliance, and RBI reporting requirements. We handle the paperwork so you can focus on the business.",
+    body: "Sector approvals, environmental clearances, FDI compliance, and Reserve Bank reporting.",
   },
   {
     title: "FEMA & Foreign Exchange Compliance",
-    body: "Foreign exchange management is one of the most frequently misunderstood areas for international companies. We ensure your capital flows, remittances, and guarantees are structured correctly from day one.",
+    body: "Capital flows, remittances, and guarantees under the foreign-exchange rules, set out before the money moves.",
   },
   {
     title: "Commercial Contracts & JV Agreements",
-    body: "Joint venture negotiations, shareholder agreements, distribution arrangements, and supply contracts — drafted to protect your interests in Indian courts, not just in theory.",
+    body: "Joint-venture and shareholder arrangements, distribution agreements, and supply contracts, read against how those documents are treated in Indian proceedings.",
   },
   {
     title: "Ongoing Regulatory Counsel",
-    body: "India's regulatory landscape changes. We provide ongoing advisory so your India operations stay compliant as rules evolve — with direct access, not a ticketing system.",
+    body: "Continuing advice as FDI policy, sector rules, and reporting requirements change.",
   },
   {
     title: "Dispute Prevention & Resolution",
-    body: "Most India market entry disputes are avoidable. We identify the risk points early. When disputes do arise, we resolve them through negotiation, arbitration, or litigation at the highest levels.",
+    body: "Where a market-entry arrangement later becomes a dispute, the work may be negotiation, arbitration, or litigation.",
+  },
+  {
+    title: "Oman and the Sohar Free Zone",
+    body: "Warehousing, logistics, and commercial questions in Oman, including the legal, regulatory, and tax position associated with the Sohar Free Zone and port.",
+  },
+  {
+    title: "GCC market entry",
+    body: "Advisory for pharmaceutical trading, infrastructure, manufacturing, chemicals, and medical technology on warehousing, distribution, and expansion in Oman and the wider GCC.",
+  },
+  {
+    title: "Cross-border funding",
+    body: "Work with investment-banking partners in Mumbai, Bahrain, the GCC, and Europe on funding, private capital, and strategic transactions.",
   },
 ];
 
@@ -79,20 +91,20 @@ export default function EnteringIndiaPage() {
   return (
     <LandingPageClient
       eyebrow="India Market Entry · 02"
-      heroLine1="India is the opportunity."
-      heroEmphasis="The legal architecture is the obstacle."
-      heroBody="You need Indian counsel who speaks your language — business first, law second. Who understands what you're trying to build, and can navigate the system around it."
-      problemHeadline="India doesn't punish ambition. It punishes unfamiliarity."
+      heroLine1="Market entry in India,"
+      heroEmphasis="and across Oman and the GCC."
+      heroBody="The work covers corporate structure, regulatory approvals, and foreign-exchange compliance in India, and warehousing, logistics, and commercial entry in Oman, including the Sohar Free Zone."
+      problemHeadline="Entry is a question of structure, licence, and forum."
       problemBody={[
-        "The companies that struggle in India are not the ones who lack ambition or capital. They are the ones who arrived with advisors who understand the rules but not the system — the regulators, the timelines, the unofficial sequences, the ways in which compliance on paper can still leave you operationally exposed.",
-        "India's legal and regulatory architecture is not hostile to foreign capital. It is simply unfamiliar, layered, and moving. The FDI policy changes. RBI master directions are updated. Sector-specific rules overlap with central and state frameworks.",
-        "We provide the kind of counsel that helps you see the whole board — not just the square you're currently standing on.",
+        "A business entering India chooses among a liaison office, a branch, a subsidiary, or a joint venture. Each carries a different set of regulatory, tax, and repatriation consequences. FDI policy, sector rules, and Reserve Bank reporting sit on top of that choice.",
+        "Separate from India entry, the practice advises on warehousing, logistics, and distribution in Oman and the GCC, including pharmaceutical trading and the Sohar Free Zone, and on funding conversations with partners in Mumbai, Bahrain, the GCC, and Europe.",
+        "The industries include technology, manufacturing, chemicals, infrastructure, and medical technology.",
       ]}
       services={services}
-      pullQuote="The question we ask every new international client is simple: what does success look like in 18 months? That answer shapes the legal strategy — not the other way around."
-      ctaEyebrow="India Entry Advisory"
-      ctaHeadline="Tell us what you're building in India. We'll tell you what stands in the way."
-      ctaSubtext="A 30-minute call. We'll ask about your sector, your structure, your timeline, and your existing advisors. You'll leave with an honest read of the path ahead."
+      pullQuote="India entry, Oman and the GCC, and the funding conversations that sit beside them, are described here as subjects of advice."
+      ctaEyebrow="Cross-border advisory"
+      ctaHeadline="A separate team handles business expansion."
+      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
       schemaJson={JSON.stringify(schema)}
     />
   );

@@ -140,13 +140,13 @@ export default function OpportunityAtlasIndex({
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-8">
               <div className="gold-rule" />
-              <span className="label">Contact TN Chambers</span>
+              <span className="label">Contact Nair &amp; Co</span>
             </div>
             <h2 className="heading-section text-4xl md:text-5xl text-parchment mb-6 text-balance">
               Exploring new markets?
             </h2>
             <p className="text-base md:text-lg text-parchment-dim leading-relaxed mb-10 max-w-prose-tight">
-              TN Chambers helps businesses navigate international expansion,
+              Nair &amp; Co helps businesses navigate international expansion,
               regulatory compliance, investment structuring, and strategic
               growth opportunities.
             </p>

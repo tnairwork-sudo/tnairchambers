@@ -108,7 +108,7 @@ export default async function OpportunityAtlasArticlePage({
       url: siteUrl,
       logo: {
         "@type": "ImageObject",
-        url: `${siteUrl}/logo.png`,
+        url: `${siteUrl}/wordmark.svg`,
       },
     },
     mainEntityOfPage: articleUrl,
