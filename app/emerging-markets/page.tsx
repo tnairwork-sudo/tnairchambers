@@ -77,7 +77,9 @@ export default function EmergingMarketsPage() {
             risk tolerance, or a preferred way in — or leave any of those blank.
             What comes back is a briefing on markets that may fit, the demand
             for what you sell, the regulatory and legal questions, a route in,
-            the risks, and the practical next steps.
+            the risks, and the practical next steps. A live briefing searches
+            the web and X for current news, trade data, and regulation, and
+            lists the sources it used.
           </p>
         </div>
       </section>

@@ -2,6 +2,7 @@ import {
   entryModeLabel,
   formatTurnover,
   riskLabel,
+  type BriefingSource,
   type ExpansionInput,
   type ExpansionReport,
   type MarketBrief,
@@ -158,5 +159,62 @@ export function buildSampleReport(input: ExpansionInput): ExpansionReport {
         : "Do not create a local entity until a buyer has paid and the cost of the entity is known.",
       "Bring the structure — distributor, joint venture, or subsidiary — to counsel before it is signed, including tax residence, how money comes home, and where a dispute would be heard.",
     ],
+    sources: sampleSources(names),
   };
+}
+
+const ILLUSTRATIVE_SOURCES: { match: RegExp; source: BriefingSource }[] = [
+  {
+    match: /emirates|uae|dubai|abu dhabi/i,
+    source: {
+      title: "UAE government — business",
+      url: "https://u.ae/en/information-and-services/business",
+      note: "Official starting point for doing business in the United Arab Emirates.",
+    },
+  },
+  {
+    match: /singapore/i,
+    source: {
+      title: "Enterprise Singapore",
+      url: "https://www.enterprisesg.gov.sg/",
+      note: "Official agency for companies entering or operating in Singapore.",
+    },
+  },
+  {
+    match: /germany|german/i,
+    source: {
+      title: "Germany Trade & Invest",
+      url: "https://www.gtai.de/en",
+      note: "Federal agency for inward investment and foreign trade.",
+    },
+  },
+  {
+    match: /vietnam/i,
+    source: {
+      title: "UNCTAD Investment Policy Hub",
+      url: "https://investmentpolicy.unctad.org/",
+      note: "Public investment-policy material. Confirm any rule that would govern an entry into Vietnam.",
+    },
+  },
+];
+
+function sampleSources(names: string[]): BriefingSource[] {
+  const sources: BriefingSource[] = [];
+  for (const name of names) {
+    const hit = ILLUSTRATIVE_SOURCES.find((item) => item.match.test(name));
+    if (hit && !sources.some((source) => source.url === hit.source.url)) sources.push(hit.source);
+  }
+  sources.push({
+    title: "World Trade Organization — trade topics",
+    url: "https://www.wto.org/english/tratop_e/tratop_e.htm",
+    note: "Background on tariffs, standards, and market access. Not a substitute for the rule that would govern a shipment.",
+  });
+  if (sources.length < 3) {
+    sources.push({
+      title: "International Trade Centre",
+      url: "https://www.intracen.org/",
+      note: "Public trade and market information.",
+    });
+  }
+  return sources.slice(0, 6);
 }

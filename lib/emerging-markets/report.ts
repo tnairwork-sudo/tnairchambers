@@ -1,4 +1,4 @@
-import type { ExpansionReport, MarketBrief } from "@/lib/emerging-markets/options";
+import type { BriefingSource, ExpansionReport, MarketBrief } from "@/lib/emerging-markets/options";
 
 export class AnalysisError extends Error {
   readonly code: "missing_key" | "timeout" | "upstream" | "refusal" | "empty" | "shape" | "config";
@@ -16,10 +16,17 @@ export class AnalysisError extends Error {
   }
 }
 
+interface CitationAnnotation {
+  type?: string;
+  url?: string;
+  title?: string;
+}
+
 interface ResponseContentPart {
   type?: string;
   text?: string;
   refusal?: string;
+  annotations?: CitationAnnotation[];
 }
 
 interface ResponseOutputItem {
@@ -30,7 +37,91 @@ interface ResponseOutputItem {
 export interface ResponsesApiPayload {
   status?: string;
   error?: { message?: string };
+  citations?: unknown;
   output?: ResponseOutputItem[];
+}
+
+const INLINE_CITATION = /\[\[\d+\]\]\((https?:\/\/[^)\s]+)\)/g;
+
+export function safeHttpUrl(value: string): string | null {
+  const trimmed = value.trim();
+  if (!trimmed || trimmed.length > 500) return null;
+  try {
+    const url = new URL(trimmed);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return null;
+    if (!url.hostname.includes(".")) return null;
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
+export function sourceHost(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "Source";
+  }
+}
+
+function canonicalUrl(url: string): string {
+  return url.replace(/\/$/, "").toLowerCase();
+}
+
+/** Remove inline citation markdown so it cannot break the JSON briefing. */
+export function liftInlineCitations(raw: string): { text: string; urls: string[] } {
+  const urls: string[] = [];
+  const text = raw.replace(INLINE_CITATION, (_match, url: string) => {
+    urls.push(url);
+    return "";
+  });
+  return { text, urls };
+}
+
+export function citationUrls(payload: ResponsesApiPayload): string[] {
+  const urls: string[] = [];
+  if (Array.isArray(payload.citations)) {
+    for (const item of payload.citations) {
+      if (typeof item === "string") urls.push(item);
+    }
+  }
+  for (const item of payload.output ?? []) {
+    for (const part of item.content ?? []) {
+      for (const annotation of part.annotations ?? []) {
+        if (annotation.url) urls.push(annotation.url);
+      }
+    }
+  }
+  return urls;
+}
+
+export function mergeSources(primary: BriefingSource[], extraUrls: string[]): BriefingSource[] {
+  const seen = new Set<string>();
+  const merged: BriefingSource[] = [];
+
+  const add = (source: BriefingSource) => {
+    const url = safeHttpUrl(source.url);
+    if (!url || merged.length >= 8) return;
+    const key = canonicalUrl(url);
+    if (seen.has(key)) return;
+    seen.add(key);
+    const title = source.title.replace(/\s+/g, " ").trim().slice(0, 140);
+    const note = source.note.replace(/\s+/g, " ").trim().slice(0, 240);
+    merged.push({
+      title: title || sourceHost(url),
+      url,
+      note: note || "Cited in this briefing.",
+    });
+  };
+
+  for (const source of primary) add(source);
+  if (merged.length < 3) {
+    for (const url of extraUrls) {
+      add({ title: "", url, note: "Retrieved during search." });
+    }
+  }
+  return merged;
 }
 
 function asProse(value: unknown, max: number, label: string): string {
@@ -61,6 +152,20 @@ function asLines(value: unknown, maxItems: number, maxLength: number, label: str
     throw new AnalysisError("shape", `The briefing was missing ${label}.`);
   }
   return lines;
+}
+
+function asSources(value: unknown): BriefingSource[] {
+  if (!Array.isArray(value)) return [];
+  const sources: BriefingSource[] = [];
+  for (const item of value) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) continue;
+    const record = item as Record<string, unknown>;
+    const url = typeof record.url === "string" ? record.url : "";
+    const title = typeof record.title === "string" ? record.title : "";
+    const note = typeof record.note === "string" ? record.note : "";
+    sources.push({ title, url, note });
+  }
+  return mergeSources(sources, []);
 }
 
 function asMarket(value: unknown, index: number): MarketBrief {
@@ -118,13 +223,14 @@ export function normalizeReport(value: unknown): ExpansionReport {
     overview: asProse(record.overview, 1600, "an overview"),
     markets: record.markets.slice(0, 4).map((market, index) => asMarket(market, index)),
     nextSteps: asLines(record.nextSteps, 6, 400, "next steps"),
+    sources: asSources(record.sources),
   };
 }
 
 export const REPORT_SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["headline", "overview", "markets", "nextSteps"],
+  required: ["headline", "overview", "markets", "nextSteps", "sources"],
   properties: {
     headline: { type: "string" },
     overview: { type: "string" },
@@ -145,5 +251,18 @@ export const REPORT_SCHEMA = {
       },
     },
     nextSteps: { type: "array", items: { type: "string" } },
+    sources: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: ["title", "url", "note"],
+        properties: {
+          title: { type: "string" },
+          url: { type: "string" },
+          note: { type: "string" },
+        },
+      },
+    },
   },
 } as const;

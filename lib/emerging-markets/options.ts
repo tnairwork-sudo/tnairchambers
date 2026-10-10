@@ -68,11 +68,18 @@ export interface MarketBrief {
   risks: string[];
 }
 
+export interface BriefingSource {
+  title: string;
+  url: string;
+  note: string;
+}
+
 export interface ExpansionReport {
   headline: string;
   overview: string;
   markets: MarketBrief[];
   nextSteps: string[];
+  sources: BriefingSource[];
 }
 
 export type ValidationResult =
