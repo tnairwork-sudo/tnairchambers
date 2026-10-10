@@ -13,6 +13,7 @@ const links = [
   { href: "/ngos", label: "NGOs" },
   { href: "/employers", label: "Employers" },
   { href: "/opportunity-atlas", label: "Opportunity Atlas" },
+  { href: "/emerging-markets", label: "Emerging Markets" },
 ];
 
 export default function Nav() {
