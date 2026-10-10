@@ -13,6 +13,7 @@ const links = [
   { href: "/ngos", label: "NGOs" },
   { href: "/employers", label: "Employers" },
   { href: "/opportunity-atlas", label: "Opportunity Atlas" },
+  { href: "/emerging-markets", label: "Emerging Markets" },
 ];
 
 export default function Nav() {
@@ -36,12 +37,12 @@ export default function Nav() {
         </Link>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-x-3 xl:gap-x-4">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link ${
+              className={`nav-link tracking-widest whitespace-nowrap ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
                   ? "text-parchment"
                   : ""
@@ -56,7 +57,7 @@ export default function Nav() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
+          className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
           aria-label="Toggle menu"
         >
           <span
@@ -79,7 +80,7 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-ink border-t border-border">
+        <div className="lg:hidden bg-ink border-t border-border">
           <div className="container-site py-6 flex flex-col gap-5">
             {links.map((link) => (
               <Link
