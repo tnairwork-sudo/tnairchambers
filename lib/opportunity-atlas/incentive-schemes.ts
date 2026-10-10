@@ -221,7 +221,7 @@ const article: OpportunityAtlasArticle = {
           "type": "paragraphs",
           "paragraphs": [
             "The incentive is a contract with the state, sitting on top of contracts with your parent, your partner, your landlord, your power supplier and your staff. Each one is manageable. The risk is in the gaps between them. Line them up, keep the evidence, and the incentive becomes what it was meant to be: money you earned.",
-            "*TN Chambers advises foreign manufacturers on these issues, including scheme compliance, FEMA, IP and licensing, electricity law, data protection and arbitration. If any of this is relevant to your plans in India, we are glad to discuss it.*",
+            "*Nair & Co advises foreign manufacturers on these issues, including scheme compliance, FEMA, IP and licensing, electricity law, data protection and arbitration. If any of this is relevant to your plans in India, we are glad to discuss it.*",
             "*This article is general information, not legal advice. Please take specific advice before acting on it.*"
           ]
         }

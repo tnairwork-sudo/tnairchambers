@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { authenticate } from "@/app/reading-room/actions";
 import SubmitButton from "@/components/reading-room/SubmitButton";
+import Wordmark from "@/components/Wordmark";
 
 export default function Entrance({ error }: { error: boolean }) {
   return (
@@ -10,14 +10,7 @@ export default function Entrance({ error }: { error: boolean }) {
       <div className="w-full max-w-[420px]">
         {/* Logo */}
         <div className="flex justify-center mb-8">
-          <Image
-            src="/logo.png"
-            alt="TN Chambers"
-            width={80}
-            height={40}
-            className="h-10 w-auto"
-            style={{ mixBlendMode: "multiply" }}
-          />
+          <Wordmark className="text-[1.85rem]" />
         </div>
 
         {/* Gold rule */}

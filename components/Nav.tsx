@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ContactReveal from "@/components/ContactReveal";
+import Wordmark from "@/components/Wordmark";
 
 const links = [
   { href: "/about", label: "Tushaar Nair" },
@@ -21,27 +21,18 @@ export default function Nav() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-ink/90 backdrop-blur-sm border-b border-border">
-      <nav className="container-site flex items-center justify-between h-16">
+      <nav className="container-site flex items-center justify-between h-16 gap-8 lg:gap-10">
         {/* Logo */}
-        <Link href="/" className="flex items-center hover:opacity-75 transition-opacity duration-200">
-          <Image
-            src="/logo.png"
-            alt="TN Chambers"
-            width={72}
-            height={36}
-            className="h-9 w-auto"
-            style={{ mixBlendMode: "multiply" }}
-            priority
-          />
+        <Link href="/" className="flex shrink-0 items-center hover:opacity-75 transition-opacity duration-200">
+          <Wordmark className="text-[1.55rem]" />
         </Link>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-x-3 xl:gap-x-3.5">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link ${
+              className={`nav-link whitespace-nowrap tracking-[0.12em] xl:tracking-ultra ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
                   ? "text-parchment"
                   : ""
@@ -50,13 +41,13 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          <ContactReveal variant="compact" className="py-2.5 px-5 text-2xs" />
+          <ContactReveal variant="compact" className="shrink-0 py-2.5 px-5 text-2xs" />
         </div>
 
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
+          className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
           aria-label="Toggle menu"
         >
           <span
@@ -79,7 +70,7 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-ink border-t border-border">
+        <div className="lg:hidden bg-ink border-t border-border">
           <div className="container-site py-6 flex flex-col gap-5">
             {links.map((link) => (
               <Link
