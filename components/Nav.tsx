@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ContactReveal from "@/components/ContactReveal";
+import Wordmark from "@/components/Wordmark";
 
 const links = [
   { href: "/about", label: "Tushaar Nair" },
@@ -24,15 +24,7 @@ export default function Nav() {
       <nav className="container-site flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center hover:opacity-75 transition-opacity duration-200">
-          <Image
-            src="/logo.png"
-            alt="TN Chambers"
-            width={72}
-            height={36}
-            className="h-9 w-auto"
-            style={{ mixBlendMode: "multiply" }}
-            priority
-          />
+          <Wordmark className="text-[1.55rem]" />
         </Link>
 
         {/* Desktop links */}

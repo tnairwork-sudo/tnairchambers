@@ -218,7 +218,7 @@ const article: OpportunityAtlasArticle = {
           "type": "paragraphs",
           "paragraphs": [
             "None of this is exotic. It is writing down, in advance, who owns what, who does what and what happens at the end. Doing it now costs a few careful conversations. Not doing it means learning the answers in court.",
-            "*TN Chambers advises foreign companies on these issues, including FEMA compliance, manufacturing and licensing agreements, trademarks, and arbitration. If any of this raises questions for your India plans, we are happy to talk.*",
+            "*Nair & Co advises foreign companies on these issues, including FEMA compliance, manufacturing and licensing agreements, trademarks, and arbitration. If any of this raises questions for your India plans, we are happy to talk.*",
             "*This article is general information, not legal advice. Please take specific advice before acting on it.*"
           ]
         }

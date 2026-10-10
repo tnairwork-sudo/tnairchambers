@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/entering-india" },
   openGraph: {
-    title: "Entering India — Legal Advisory for Foreign Companies | TN Chambers",
+    title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
     description:
-      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. TN Chambers provides counsel who speaks your language — business first, law second.",
-    url: "https://tnairchambers.in/entering-india",
+      "India is the opportunity. The regulatory, compliance, and legal architecture is the obstacle. Nair & Co provides counsel who speaks your language — business first, law second.",
+    url: "https://nairandco.in/entering-india",
   },
 };
 
@@ -55,8 +55,8 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "TN Chambers — India Market Entry Legal Advisory",
-  url: "https://tnairchambers.in/entering-india",
+  name: "Nair & Co — India Market Entry Legal Advisory",
+  url: "https://nairandco.in/entering-india",
   description:
     "Legal advisory for foreign companies entering the Indian market. Corporate structuring, regulatory compliance, FEMA, FDI policy, and ongoing counsel.",
   areaServed: "India",

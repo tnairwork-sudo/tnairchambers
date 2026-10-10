@@ -19,16 +19,16 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteUrl = "https://tnairchambers.in";
+const siteUrl = "https://nairandco.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "TN Chambers — Supreme Court Advocate | Electricity, Arbitration & Cross-Border Advisory",
-    template: "%s | TN Chambers",
+    default: "Nair & Co — Supreme Court Advocate | Electricity, Arbitration & Cross-Border Advisory",
+    template: "%s | Nair & Co",
   },
   description:
-    "TN Chambers is a Supreme Court advocate practice specialising in electricity regulation, arbitration, and cross-border legal advisory for international companies operating in India.",
+    "Nair & Co is a Supreme Court advocate practice specialising in electricity regulation, arbitration, and cross-border legal advisory for international companies operating in India.",
   keywords: [
     "Supreme Court advocate India",
     "CERC lawyer",
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
     "India entry legal advisory",
     "FCRA compliance India",
     "cross-border legal advisory India",
-    "TN Chambers",
-    "tnairchambers.in",
+    "Nair & Co",
+    "nairandco.in",
   ],
-  authors: [{ name: "TN Chambers", url: siteUrl }],
-  creator: "TN Chambers",
-  publisher: "TN Chambers",
+  authors: [{ name: "Nair & Co", url: siteUrl }],
+  creator: "Nair & Co",
+  publisher: "Nair & Co",
   formatDetection: { email: false, address: false, telephone: false },
   alternates: {
     canonical: "/",
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: siteUrl,
-    siteName: "TN Chambers",
-    title: "TN Chambers — Supreme Court Advocate Practice",
+    siteName: "Nair & Co",
+    title: "Nair & Co — Supreme Court Advocate Practice",
     description:
       "Electricity regulation, arbitration, and cross-border legal advisory. Built for companies navigating India's legal architecture.",
     images: [
@@ -62,13 +62,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "TN Chambers — Supreme Court Advocate Practice",
+        alt: "Nair & Co — Supreme Court Advocate Practice",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TN Chambers — Supreme Court Advocate Practice",
+    title: "Nair & Co — Supreme Court Advocate Practice",
     description:
       "Electricity regulation, arbitration, and cross-border legal advisory for companies navigating India.",
     images: ["/og-image.png"],

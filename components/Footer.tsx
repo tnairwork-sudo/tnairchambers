@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Wordmark from "@/components/Wordmark";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -11,14 +11,7 @@ export default function Footer() {
           {/* Identity */}
           <div>
             <Link href="/" className="inline-block mb-4 hover:opacity-75 transition-opacity duration-200">
-              <Image
-                src="/logo.png"
-                alt="TN Chambers"
-                width={80}
-                height={40}
-                className="h-10 w-auto"
-                style={{ mixBlendMode: "multiply" }}
-              />
+              <Wordmark className="text-[1.8rem]" />
             </Link>
             <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">
               Supreme Court Advocate. Electricity regulation, arbitration, and
@@ -85,7 +78,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="rule pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
-            &copy; {year} TN Chambers. All rights reserved.
+            &copy; {year} Nair &amp; Co. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link

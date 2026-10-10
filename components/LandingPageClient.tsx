@@ -270,7 +270,7 @@ export default function LandingPageClient({
               </p>
               <footer className="flex items-center gap-4">
                 <div className="gold-rule" />
-                <span className="label">TN Chambers</span>
+                <span className="label">Nair &amp; Co</span>
               </footer>
             </blockquote>
           </div>

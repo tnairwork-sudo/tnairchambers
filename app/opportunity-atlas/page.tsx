@@ -13,7 +13,7 @@ const featuredArticle = getFeaturedOpportunityAtlasArticle() ?? articles[0];
 export const metadata: Metadata = {
   title: "Opportunity Atlas — International Business Opportunities & Global Expansion",
   description:
-    "Opportunity Atlas is TN Chambers’ publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
+    "Opportunity Atlas is Nair & Co’s publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
   keywords: [
     "International Business Opportunities",
     "Market Entry Strategy",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/opportunity-atlas" },
   openGraph: {
-    title: "Opportunity Atlas — TN Chambers",
+    title: "Opportunity Atlas — Nair & Co",
     description:
       "Strategic insight into foreign investment, market entry, regulatory developments, and cross-border growth opportunities.",
     url: `${siteUrl}/opportunity-atlas`,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Opportunity Atlas — TN Chambers",
+    title: "Opportunity Atlas — Nair & Co",
     description:
       "Strategic insight into foreign investment, market entry, regulatory developments, and cross-border growth opportunities.",
     images: [featuredArticle.openGraphImage],
@@ -47,10 +47,10 @@ const collectionSchema = {
   name: "Opportunity Atlas",
   url: `${siteUrl}/opportunity-atlas`,
   description:
-    "TN Chambers’ publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
+    "Nair & Co’s publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
   isPartOf: {
     "@type": "WebSite",
-    name: "TN Chambers",
+    name: "Nair & Co",
     url: siteUrl,
   },
 };

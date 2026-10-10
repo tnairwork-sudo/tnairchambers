@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { signOut } from "@/app/reading-room/actions";
+import Wordmark from "@/components/Wordmark";
 
 export default function DossierShell({
   clientName,
@@ -16,14 +16,7 @@ export default function DossierShell({
         <div className="container-site py-6 flex items-center justify-between">
           {/* Logo + Wordmark */}
           <Link href="/reading-room/dossier" className="flex items-center gap-4 hover:opacity-75 transition-opacity">
-            <Image
-              src="/logo.png"
-              alt="TN Chambers"
-              width={80}
-              height={40}
-              className="h-8 w-auto"
-              style={{ mixBlendMode: "multiply" }}
-            />
+            <Wordmark className="text-[1.45rem]" />
             <span className="font-serif text-parchment text-xl tracking-tight hidden sm:inline">
               The Reading Room
             </span>
@@ -50,7 +43,7 @@ export default function DossierShell({
       {/* Footer */}
       <footer className="bg-ink border-t border-border mt-12">
         <div className="container-site py-6 text-center text-2xs text-parchment-dim">
-          Privileged & Confidential · TN Chambers · New Delhi
+          Privileged & Confidential · Nair &amp; Co · New Delhi
         </div>
       </footer>
     </div>
