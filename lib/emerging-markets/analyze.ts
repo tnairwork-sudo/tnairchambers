@@ -23,7 +23,7 @@ const DEFAULT_MODEL = "grok-4.7";
 
 export { AnalysisError };
 
-const INSTRUCTIONS = `You prepare confidential market-expansion briefings for TN Chambers, a Supreme Court of India advocate practice in New Delhi. The reader is a company considering where to grow.
+const INSTRUCTIONS = `You prepare confidential market-expansion briefings for Nair & Co, a Supreme Court of India advocate practice in New Delhi. The reader is a company considering where to grow.
 
 Before you write, search the web and X for current news, trade data, and published regulation that bear on this company and the markets you recommend. Use what you find. Do not invent statute numbers, case names, tax rates, incentive figures, filing deadlines, or URLs. Where a legal or regulatory point is not supported by a page you retrieved, say that it must be confirmed with local counsel.
 
@@ -172,7 +172,7 @@ export async function prepareBriefing(
     if (process.env.NODE_ENV === "production") {
       throw new AnalysisError(
         "missing_key",
-        "This briefing cannot be prepared just now. Please write to tushaar@tnairchambers.in or telephone +91 85952 03751, and the chambers will take up the question directly.",
+        "This briefing cannot be prepared just now. Please write to tushaar@tnairchambers.in or telephone +91 85952 03751, and the firm will take up the question directly.",
         503,
       );
     }

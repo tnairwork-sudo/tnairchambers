@@ -97,10 +97,10 @@ export default async function OpportunityAtlasArticlePage({
     },
     publisher: {
       "@type": "Organization",
-      name: "TN Chambers",
+      name: "Nair & Co",
       logo: {
         "@type": "ImageObject",
-        url: `${siteUrl}/logo.png`,
+        url: `${siteUrl}/wordmark.svg`,
       },
     },
     mainEntityOfPage: articleUrl,

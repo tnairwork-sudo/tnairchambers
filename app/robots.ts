@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tnairchambers.in/sitemap.xml",
-    host: "https://tnairchambers.in",
+    sitemap: "https://nairandco.in/sitemap.xml",
+    host: "https://nairandco.in",
   };
 }

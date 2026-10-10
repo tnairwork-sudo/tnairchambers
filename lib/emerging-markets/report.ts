@@ -195,7 +195,7 @@ export function extractOutputText(payload: ResponsesApiPayload): string {
       if (part.type === "refusal") {
         throw new AnalysisError(
           "refusal",
-          "A briefing could not be prepared from the details provided. Please revise them, or write to the chambers.",
+          "A briefing could not be prepared from the details provided. Please revise them, or write to the firm.",
         );
       }
       if (part.type === "output_text" && part.text) chunks.push(part.text);

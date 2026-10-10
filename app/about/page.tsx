@@ -7,10 +7,10 @@ export const metadata: Metadata = {
     "Tushaar Nair practices before the Supreme Court of India. A discipline of thinking applied to electricity regulation, arbitration, and cross-border advisory — at the highest levels.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "Tushaar Nair — Supreme Court Advocate | TN Chambers",
+    title: "Tushaar Nair — Supreme Court Advocate | Nair & Co",
     description:
       "Tushaar Nair is not easy to place in a single category. That is, perhaps, the most important thing to understand about him.",
-    url: "https://tnairchambers.in/about",
+    url: "https://nairandco.in/about",
   },
 };
 
@@ -21,8 +21,8 @@ const schema = {
   jobTitle: "Supreme Court Advocate",
   worksFor: {
     "@type": "LegalService",
-    name: "TN Chambers",
-    url: "https://tnairchambers.in",
+    name: "Nair & Co",
+    url: "https://nairandco.in",
   },
   address: {
     "@type": "PostalAddress",
@@ -32,7 +32,7 @@ const schema = {
     postalCode: "110001",
     addressCountry: "IN",
   },
-  url: "https://tnairchambers.in/about",
+  url: "https://nairandco.in/about",
 };
 
 export default function AboutPage() {

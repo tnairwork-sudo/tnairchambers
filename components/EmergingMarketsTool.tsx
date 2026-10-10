@@ -91,7 +91,7 @@ export default function EmergingMarketsTool() {
         });
       });
     } catch {
-      setError("We could not reach the chambers site just now. Please try again.");
+      setError("We could not reach the firm's site just now. Please try again.");
     } finally {
       setSubmitting(false);
     }

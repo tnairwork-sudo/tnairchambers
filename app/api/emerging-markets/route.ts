@@ -43,13 +43,13 @@ export async function POST(request: Request) {
     try {
       if (new URL(origin).host !== host) {
         return NextResponse.json(
-          { error: "This briefing can only be requested from the chambers website." },
+          { error: "This briefing can only be requested from the firm's website." },
           { status: 403 },
         );
       }
     } catch {
       return NextResponse.json(
-        { error: "This briefing can only be requested from the chambers website." },
+        { error: "This briefing can only be requested from the firm's website." },
         { status: 403 },
       );
     }

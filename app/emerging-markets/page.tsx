@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "@/components/PageLayout";
 import EmergingMarketsTool from "@/components/EmergingMarketsTool";
 
-const siteUrl = "https://tnairchambers.in";
+const siteUrl = "https://nairandco.in";
 const path = "/emerging-markets";
 
 export const metadata: Metadata = {
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     "market entry strategy",
     "cross-border structuring",
     "foreign investment",
-    "TN Chambers",
+    "Nair & Co",
   ],
   alternates: { canonical: path },
   openGraph: {
-    title: "Emerging Markets and Business Opportunities | TN Chambers",
+    title: "Emerging Markets and Business Opportunities | Nair & Co",
     description:
       "A written briefing on where a company might expand: markets, demand, regulatory questions, entry route, risks, and next steps.",
     url: `${siteUrl}${path}`,
@@ -33,15 +33,15 @@ const schema = {
   name: "Emerging Markets and Business Opportunities",
   url: `${siteUrl}${path}`,
   description:
-    "An informational briefing tool on international business expansion, prepared for visitors to TN Chambers.",
+    "An informational briefing tool on international business expansion, prepared for visitors to Nair & Co.",
   isPartOf: {
     "@type": "WebSite",
-    name: "TN Chambers",
+    name: "Nair & Co",
     url: siteUrl,
   },
   about: {
     "@type": "LegalService",
-    name: "TN Chambers",
+    name: "Nair & Co",
     address: {
       "@type": "PostalAddress",
       streetAddress: "135, Additional Building Complex, Supreme Court of India, Tilak Marg",

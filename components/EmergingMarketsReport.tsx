@@ -53,7 +53,7 @@ export default function EmergingMarketsReport({
           <div>
             <div className="flex items-center gap-4 mb-5">
               <div className="gold-rule" />
-              <span className="label">TN Chambers · New Delhi</span>
+              <span className="label">Nair & Co · New Delhi</span>
             </div>
             <p className="label mb-3">Confidential briefing</p>
             <h2
@@ -215,15 +215,15 @@ export default function EmergingMarketsReport({
         <div className="max-w-3xl">
           <div className="flex items-center gap-4 mb-6">
             <div className="gold-rule" />
-            <span className="label">Consult TN Chambers</span>
+            <span className="label">Consult Nair & Co</span>
           </div>
           <h3 className="heading-section text-3xl md:text-4xl text-parchment mb-5 text-balance">
             Discuss the structure before you commit to a market.
           </h3>
           <p className="text-base text-parchment-dim leading-relaxed mb-8 max-w-prose-tight">
-            TN Chambers advises on cross-border structuring, market entry, and the
+            Nair & Co advises on cross-border structuring, market entry, and the
             regulatory questions that sit underneath an expansion. If this briefing
-            describes a path you are considering, the chambers can take it up with you.
+            describes a path you are considering, the firm can take it up with you.
           </p>
           <div className="space-y-2 text-sm text-parchment-dim leading-relaxed mb-8">
             <p>
@@ -250,7 +250,7 @@ export default function EmergingMarketsReport({
             href="mailto:tushaar@tnairchambers.in?subject=Cross-border%20market%20entry"
             className="btn-primary"
           >
-            Write to the chambers
+            Write to the firm
             <span className="text-base leading-none" aria-hidden>
               →
             </span>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Wordmark from "@/components/Wordmark";
 
 export default function Disclaimer() {
   const [visible, setVisible] = useState(false);
@@ -27,14 +27,7 @@ export default function Disclaimer() {
       <div className="bg-ink border border-border max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="border-b border-border px-8 py-6 flex flex-col gap-4">
-          <Image
-            src="/logo.png"
-            alt="TN Chambers"
-            width={64}
-            height={32}
-            className="h-8 w-auto"
-            style={{ mixBlendMode: "multiply" }}
-          />
+          <Wordmark className="text-[1.65rem]" />
           <h1 className="font-serif text-3xl font-light text-parchment">
             Disclaimer
           </h1>
@@ -43,13 +36,13 @@ export default function Disclaimer() {
         {/* Body */}
         <div className="px-8 py-7 space-y-5 text-sm text-parchment-dim leading-[1.85]">
           <p>
-            The Bar Council of India prohibits advocates from advertising or soliciting in any form. By visiting tnairchambers.in, you confirm that you are seeking information about TN Chambers entirely of your own volition — and that no solicitation, advertisement, or inducement of any kind has been made by TN Chambers or any of its members.
+            The Bar Council of India prohibits advocates from advertising or soliciting in any form. By visiting nairandco.in, you confirm that you are seeking information about Nair &amp; Co entirely of your own volition — and that no solicitation, advertisement, or inducement of any kind has been made by Nair &amp; Co or any of its members.
           </p>
           <p>
-            Everything on this website is provided for informational purposes only. Nothing here constitutes legal advice, nor should it be read as an invitation to form an advocate-client relationship. TN Chambers accepts no liability for any action taken, or omitted, in reliance upon the information contained herein.
+            Everything on this website is provided for informational purposes only. Nothing here constitutes legal advice, nor should it be read as an invitation to form an advocate-client relationship. Nair &amp; Co accepts no liability for any action taken, or omitted, in reliance upon the information contained herein.
           </p>
           <p>
-            All content on this website is the intellectual property of TN Chambers and may not be reproduced or used without prior written consent.
+            All content on this website is the intellectual property of Nair &amp; Co and may not be reproduced or used without prior written consent.
           </p>
         </div>
 
@@ -74,7 +67,7 @@ export default function Disclaimer() {
               </div>
             </div>
             <span className="text-xs text-parchment-dim leading-relaxed">
-              I have read and understood the disclaimer above. I wish to proceed to the website of TN Chambers.
+              I have read and understood the disclaimer above. I wish to proceed to the website of Nair &amp; Co.
             </span>
           </label>
 

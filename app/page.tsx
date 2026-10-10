@@ -181,7 +181,7 @@ export default function Home() {
 
               <div className="hero-body max-w-md mb-10 space-y-4">
                 <p className="text-base text-parchment-dim leading-relaxed">
-                  TN Chambers is a Supreme Court advocate practice built on one belief — the right argument, made precisely, changes everything.
+                  Nair &amp; Co is a Supreme Court advocate practice built on one belief — the right argument, made precisely, changes everything.
                 </p>
                 <p className="text-base text-parchment leading-relaxed font-light">
                   We don&apos;t wait to be found. We already know your problem.
