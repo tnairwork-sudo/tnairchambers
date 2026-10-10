@@ -56,6 +56,26 @@ function modelName(): string {
   return configured || DEFAULT_MODEL;
 }
 
+function redactSecret(text: string, secret: string): string {
+  if (!secret) return text;
+  return text.split(secret).join("[redacted]");
+}
+
+/** Logs the upstream failure for Vercel. The key is never written. */
+async function logUpstreamFailure(response: Response, apiKey: string): Promise<void> {
+  let body = "";
+  try {
+    body = await response.text();
+  } catch {
+    body = "(unreadable body)";
+  }
+  const redacted = redactSecret(body, apiKey).slice(0, 8000);
+  console.error("xAI briefing request failed", {
+    status: response.status,
+    body: redacted || "(empty body)",
+  });
+}
+
 async function requestReport(apiKey: string, input: ExpansionInput): Promise<ExpansionReport> {
   let response: Response;
   try {
@@ -104,15 +124,15 @@ async function requestReport(apiKey: string, input: ExpansionInput): Promise<Exp
     );
   }
 
-  if (response.status === 401 || response.status === 403) {
-    throw new AnalysisError(
-      "config",
-      "This briefing cannot be prepared just now. Please write to tushaar@tnairchambers.in or telephone +91 85952 03751.",
-      503,
-    );
-  }
-
   if (!response.ok) {
+    await logUpstreamFailure(response, apiKey);
+    if (response.status === 401 || response.status === 403) {
+      throw new AnalysisError(
+        "config",
+        "This briefing cannot be prepared just now. Please write to tushaar@tnairchambers.in or telephone +91 85952 03751.",
+        503,
+      );
+    }
     throw new AnalysisError(
       "upstream",
       "We could not prepare a briefing just now. Please try again, or write to tushaar@tnairchambers.in.",
