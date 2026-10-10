@@ -9,6 +9,13 @@ import {
 
 const COMPLEMENTS = ["United Arab Emirates", "Singapore", "Germany", "Vietnam"];
 
+function offerPhrase(products: string): string {
+  const flat = products.replace(/\s+/g, " ").trim();
+  const first = flat.split(/[,;.]/)[0]?.trim() || flat;
+  const short = first.length > 52 ? first.slice(0, 52).replace(/\s+\S*$/, "") : first;
+  return short.charAt(0).toLowerCase() + short.slice(1);
+}
+
 function clip(value: string, max: number): string {
   const flat = value.replace(/\s+/g, " ").trim();
   if (flat.length <= max) return flat;
@@ -64,7 +71,8 @@ const TO_USD: Record<string, number> = {
 function modePhrase(input: ExpansionInput): string {
   if (input.entryModes.length === 1) return entryModeLabel(input.entryModes[0]).toLowerCase();
   if (input.entryModes.length > 1) {
-    return input.entryModes.map((mode) => entryModeLabel(mode).toLowerCase()).join(", ");
+    const labels = input.entryModes.map((mode) => entryModeLabel(mode).toLowerCase());
+    return `${labels.slice(0, -1).join(", ")} and ${labels[labels.length - 1]}`;
   }
   const usd = input.turnover * (TO_USD[input.currency] ?? 1);
   if (usd < 5_000_000) return "export through a distributor";
@@ -103,7 +111,7 @@ function marketBrief(name: string, input: ExpansionInput, index: number): Market
   return {
     name,
     rationale: lead,
-    demandFit: `Demand is plausible where buyers already purchase ${products} from abroad, or where local supply is thin on specification, service, or the paperwork that accompanies the product. That is a hypothesis to test with conversations, not a claim that the market is open.`,
+    demandFit: `The offer — ${products} — is most plausible where buyers already bring this kind of equipment or service in from abroad, or where local supply is thin on specification, after-sales support, or the paperwork that travels with it. Treat that as a hypothesis to test with named buyers, not as a claim that the market is open.`,
     regulatory: `Entering ${name} turns on foreign-ownership rules, customs classification, product standards, and any licence that attaches to this line of business. Those points are local and they change. They should be confirmed with counsel in ${name} before a contract is signed. Sanctions, export controls, and the identity of the end customer should be checked on each sale.`,
     entryRoute: input.entryModes.length
       ? `Honour the stated preference: ${mode}. Keep the first arrangement short, with a defined territory, and with clarity on price, brand, and who may appoint sub-agents.`
@@ -137,7 +145,7 @@ export function buildSampleReport(input: ExpansionInput): ExpansionReport {
     : "Run a six-month test with a ceiling on stock, people, and exclusivity, and a written date on which the arrangement is reviewed.";
 
   return {
-    headline: `A first reading on where ${clip(input.products, 64)} could be sold next`,
+    headline: `A first reading on where ${offerPhrase(input.products)} could be sold next`,
     overview: `This reading starts from an annual turnover of ${money} and from an offer built around ${products}. As described, the company is this: ${about}\n\nPreferences taken into account — ${preferenceBits.join("; ")}. Where a preference was left blank, the note below chooses a cautious default and says so. The lead markets are ${names.join(", ")}.${alsoSentence}\n\nWhat follows is a structured starting point. It is not a market study, a measured forecast, or a decision to enter.`,
     markets: names.map((name, index) => marketBrief(name, input, index)),
     nextSteps: [
