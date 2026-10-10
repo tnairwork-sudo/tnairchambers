@@ -14,8 +14,9 @@ export default function Footer() {
               <Wordmark className="text-[1.8rem]" />
             </Link>
             <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">
-              Supreme Court Advocate. Electricity regulation, arbitration, and
-              cross-border advisory for international clients.
+              Advocates &amp; Consultants, New Delhi. Each practice is delivered
+              by a dedicated team. Management consultancy and investment banking,
+              with our strategic alliances.
             </p>
           </div>
 
