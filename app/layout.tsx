@@ -27,7 +27,7 @@ const organizationJsonLd = {
   name: "Nair & Co",
   alternateName: "Nair & Co — Advocates & Consultants",
   description:
-    "Nair & Co — Advocates & Consultants is a New Delhi practice of Tushaar Nair, an advocate of the Supreme Court of India. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation including the Supreme Court, mergers and acquisitions, intellectual property, and business expansion are delivered by dedicated teams. Management consultancy and investment banking are delivered by dedicated teams with the firm's strategic alliances and partner firms.",
+    "Nair & Co — Advocates & Consultants is a New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are delivered by dedicated teams. Management consultancy and investment banking are delivered by dedicated teams with the firm's strategic alliances and partner firms.",
   url: siteUrl,
   address: {
     "@type": "PostalAddress",
@@ -40,7 +40,8 @@ const organizationJsonLd = {
   founder: {
     "@type": "Person",
     name: "Tushaar Nair",
-    jobTitle: "Advocate, Supreme Court of India",
+    jobTitle:
+      "Advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court",
   },
   areaServed: "IN",
 };
@@ -52,12 +53,14 @@ export const metadata: Metadata = {
     template: "%s | Nair & Co",
   },
   description:
-    "Nair & Co — Advocates & Consultants, New Delhi. Practice of Tushaar Nair, an advocate of the Supreme Court of India. Each service is delivered by a dedicated team.",
+    "Nair & Co — Advocates & Consultants, New Delhi. Tushaar Nair practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court.",
   keywords: [
     "Nair & Co",
     "Advocates and Consultants New Delhi",
     "Tushaar Nair",
     "Supreme Court of India advocate",
+    "Delhi High Court advocate",
+    "Punjab and Haryana High Court advocate",
     "legal advisory India",
     "corporate advisory",
     "regulatory advisory India",
@@ -81,7 +84,7 @@ export const metadata: Metadata = {
     siteName: "Nair & Co",
     title: "Nair & Co — Advocates & Consultants",
     description:
-      "A New Delhi practice of Tushaar Nair, advocate of the Supreme Court of India. Dedicated teams for each service. Management consultancy and investment banking with strategic alliances across the GCC, UK, Europe, and the Americas.",
+      "A New Delhi practice of Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Dedicated teams for each service, including electricity and power. Management consultancy and investment banking with strategic alliances across the GCC, UK, Europe, and the Americas.",
     images: [
       {
         url: "/og-image.png",
@@ -95,7 +98,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nair & Co — Advocates & Consultants",
     description:
-      "New Delhi practice of Tushaar Nair, advocate of the Supreme Court of India. Each service is delivered by a dedicated team, with strategic alliances for management consultancy and investment banking.",
+      "New Delhi practice of Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. Each service is delivered by a dedicated team.",
     images: ["/og-image.png"],
   },
   robots: {

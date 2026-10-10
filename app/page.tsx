@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const courts = [
   { name: "Supreme Court of India", body: "Constitutional questions, service law, electricity regulation, and matters of national consequence. We do not arrive to participate. We arrive to prevail." },
-  { name: "High Courts", sub: "Punjab & Haryana · Madras", body: "Sustained appellate advocacy in civil, service, and regulatory disputes where the quality of argument determines everything." },
+  { name: "High Courts", sub: "Delhi · Punjab & Haryana · Madras", body: "Sustained appellate advocacy in civil, service, and regulatory disputes where the quality of argument determines everything." },
   { name: "Tribunals", sub: "APTEL · NCLAT · CAT", body: "The Appellate Tribunal for Electricity, the National Company Law Appellate Tribunal, and the Central Administrative Tribunal. Each forum demands a different register of preparation." },
   { name: "Arbitration & DRT", body: "Commercial disputes, stuck receivables, broken partnerships. The instrument is chosen for its precision, not its drama." },
 ];
@@ -26,11 +26,17 @@ const practices = [
   { href: "/employers", number: "04", label: "International Employers", body: "Labour law, termination risk, contractor classification, and state-level compliance for companies employing in India." },
 ];
 
-const teams = [
+const teams: { name: string; line: string; href?: string; featured?: boolean }[] = [
+  {
+    name: "Electricity & Power",
+    href: "/energy",
+    featured: true,
+    line: "Regulatory, tariff, and power purchase agreement disputes before electricity regulatory commissions and APTEL, by a dedicated team.",
+  },
   { name: "Legal Advisory", line: "Legal questions in a commercial or institutional matter, by a dedicated team." },
   { name: "Corporate Advisory", line: "Corporate structure, governance, and the documents of a business, by a separate team." },
   { name: "Policy & Regulatory Advisory", line: "Statutes, regulators, and sector policy, advised upon by a dedicated team." },
-  { name: "Courtroom Litigation", line: "Advocacy before courts and tribunals, including the Supreme Court of India, by a dedicated team." },
+  { name: "Courtroom Litigation", line: "Advocacy before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court, and before tribunals, by a dedicated team." },
   { name: "Management Consultancy", line: "Management questions, delivered by a dedicated team with our strategic alliances and partner firms." },
   { name: "Investment Banking", line: "Investment banking work, delivered by a dedicated team with our strategic alliances and partner firms." },
   { name: "Mergers & Acquisitions", line: "The work of mergers and acquisitions, delivered by a dedicated team." },
@@ -217,7 +223,7 @@ export default function Home() {
 
               <div className="hero-body max-w-md mb-10 space-y-4">
                 <p className="text-base text-parchment-dim leading-relaxed">
-                  Nair &amp; Co — Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate of the Supreme Court of India. Each service is delivered by a dedicated, separate team.
+                  Nair &amp; Co — Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Each service is delivered by a dedicated, separate team.
                 </p>
                 <p className="text-base text-parchment leading-relaxed font-light">
                   Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
@@ -234,7 +240,7 @@ export default function Home() {
               <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
                 <Image
                   src="/tushaar-1.png"
-                  alt="Tushaar Nair, advocate of the Supreme Court of India"
+                  alt="Tushaar Nair, advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab and Haryana High Court"
                   fill
                   className="object-cover object-top"
                   priority
@@ -271,7 +277,7 @@ export default function Home() {
               </div>
               <div className="overflow-hidden">
                 <p className="manifesto-line text-base text-parchment-dim leading-relaxed max-w-xl">
-                  Nair &amp; Co — Advocates &amp; Consultants is the New Delhi practice of Tushaar Nair, an advocate of the Supreme Court of India. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, mergers and acquisitions, intellectual property, and business expansion are each the work of a separate team. Management consultancy and investment banking are delivered by dedicated teams, with our strategic alliances and partner firms.
+                  Nair &amp; Co — Advocates &amp; Consultants is the New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are each the work of a separate team. Management consultancy and investment banking are delivered by dedicated teams, with our strategic alliances and partner firms.
                 </p>
               </div>
             </div>
@@ -284,18 +290,35 @@ export default function Home() {
               <span id="what-we-do-label" className="label">What We Do</span>
             </div>
             <p className="reveal-up text-base text-parchment-dim leading-relaxed max-w-2xl mb-14">
-              Nine practice teams, each separate from the others. Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
+              Ten practice teams, each separate from the others. Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-              {teams.map((team, index) => (
-                <div key={team.name} className="team-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4">
-                  <span className="label text-parchment-dim/30">{String(index + 1).padStart(2, "0")}</span>
-                  <div>
-                    <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-3">{team.name}</h2>
-                    <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
+              {teams.map((team, index) => {
+                const className = `team-card group bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4 ${
+                  team.featured ? "md:col-span-2 lg:col-span-3 md:flex-row md:items-end md:justify-between" : ""
+                }`;
+                const inner = (
+                  <>
+                    <div className="flex flex-col gap-4 max-w-3xl">
+                      <span className="label text-parchment-dim/30">{String(index + 1).padStart(2, "0")}</span>
+                      <div>
+                        <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-3">{team.name}</h2>
+                        <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
+                      </div>
+                    </div>
+                    {team.href && <span className="label group-hover:text-gold transition-colors duration-300">View →</span>}
+                  </>
+                );
+                return team.href ? (
+                  <Link key={team.name} href={team.href} className={className}>
+                    {inner}
+                  </Link>
+                ) : (
+                  <div key={team.name} className={className}>
+                    {inner}
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
 
@@ -335,7 +358,7 @@ export default function Home() {
               </h2>
               <div className="about-text-item space-y-5 text-parchment-dim leading-relaxed text-base max-w-md mb-10">
                 <p>
-                  He practices before the Supreme Court of India, and leads Nair &amp; Co — Advocates &amp; Consultants in New Delhi. Each service is delivered by a dedicated, separate team. Management consultancy and investment banking are delivered with strategic alliances and partner firms.
+                  He practises before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court, and leads Nair &amp; Co — Advocates &amp; Consultants in New Delhi. Each service is delivered by a dedicated, separate team. Management consultancy and investment banking are delivered with strategic alliances and partner firms.
                 </p>
                 <p>
                   He thinks before most people have finished their sentence — not because he is impatient, but because he has been trained, in the particular crucible of appellate advocacy, to find the structure beneath the surface of things.
