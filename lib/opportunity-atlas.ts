@@ -129,7 +129,7 @@ const articles: OpportunityAtlasArticle[] = [
         "India-Oman CEPA explained: duty-free access, origin rules, and market-entry legal strategy.",
     },
     seoTitle:
-      "Duty-Free, Conditions Apply — India-Oman CEPA, Origin Rules & Market Entry",
+      "Duty-Free, Conditions Apply: India-Oman CEPA, Origin Rules and Market Entry",
     metaDescription:
       "An Opportunity Atlas analysis of the India-Oman CEPA: duty-free access, regulatory reliance, origin rules, Omanisation, and the legal structuring Indian businesses need to capture the benefit.",
     openGraphImage: "/opportunity-atlas/duty-free-conditions-apply.svg",

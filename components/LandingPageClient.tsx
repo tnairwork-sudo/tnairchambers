@@ -211,7 +211,7 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Pain point ──────────────────────────────────────────── */}
-        <section className="pain-section container-site py-20 md:py-28">
+        <section className="pain-section container-site py-24 md:py-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <div className="pain-headline flex flex-col gap-6">
@@ -239,7 +239,7 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Services grid ────────────────────────────────────────── */}
-        <section className="container-site py-20 md:py-28">
+        <section className="container-site py-24 md:py-32">
           <div className="flex items-center gap-4 mb-14">
             <div className="gold-rule" />
             <span className="label">{servicesLabel}</span>
@@ -248,7 +248,7 @@ export default function LandingPageClient({
             {services.map((item) => (
               <div
                 key={item.title}
-                className="service-card bg-ink hover:bg-surface transition-colors duration-300 p-8 md:p-10 flex flex-col gap-4"
+                className="service-card bg-ink hover:bg-surface transition-colors duration-300 p-8 md:p-10 flex flex-col gap-5"
               >
                 <h3 className="font-serif text-xl font-light text-parchment">
                   {item.title}

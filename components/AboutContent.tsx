@@ -190,7 +190,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
             </div>
             <h1 className="about-hero-name heading-display text-[clamp(3rem,5vw,5.5rem)] text-parchment mb-8">
               Tushaar Nair
-              <span className="label block mt-6">Tushar Nair · Founder, Nair & Co</span>
+              <span className="label mt-6 block max-w-[14rem] !tracking-[0.16em] sm:max-w-none sm:!tracking-[0.22em]">Tushar Nair · Founder, Nair & Co</span>
             </h1>
             <p className="about-hero-quote text-lg text-parchment-dim font-serif font-light italic max-w-md leading-relaxed">
               Advocate, Supreme Court of India. Enrolled with the Bar Council of Delhi in 2024. The practice was formerly T Nair Chambers.
@@ -234,7 +234,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
               </p>
               <p className="mt-4 text-sm text-parchment-dim">
                 135, Additional Building Complex<br />
-                Tilak Marg, New Delhi – 110001
+                Tilak Marg, New Delhi, 110001
               </p>
               <ul className="mt-6 space-y-2">
                 {personProfiles.map((profile) => (
@@ -252,7 +252,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
 
             <div className="space-y-6 text-base text-parchment-dim leading-[1.85]">
               <p className="bio-para">
-                Tushar Nair is an advocate practising before the Supreme Court of India. The name is also written Tushaar Nair. He was enrolled with the Bar Council of Delhi in 2024, and he founded Nair &amp; Co — Advocates &amp; Consultants, in New Delhi. The firm was formerly T Nair Chambers.
+                Tushar Nair is an advocate practising before the Supreme Court of India. The name is also written Tushaar Nair. He was enrolled with the Bar Council of Delhi in 2024, and he founded Nair &amp; Co, Advocates &amp; Consultants, in New Delhi. The firm was formerly T Nair Chambers.
               </p>
               <p className="bio-para">
                 The practice covers inter-state water disputes, electricity law, arbitration, commercial litigation, corporate advisory, private equity, investment banking, intellectual property, and cross-border transactions. Courtroom work, legal advisory, corporate advisory, policy and regulatory advisory, electricity and power, mergers and acquisitions, intellectual property, and business expansion are each carried by a separate team. Management consultancy and investment banking are delivered by their own teams, with strategic alliances and partner firms in Mumbai, Bahrain, the GCC, the United Kingdom, Europe, and the Americas.
@@ -263,7 +263,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                   href="/opportunity-atlas/duty-free-conditions-apply"
                   className="text-gold hover:text-gold-light transition-colors duration-300"
                 >
-                  Opportunity Atlas note on the India–Oman CEPA
+                  Opportunity Atlas note on the India-Oman CEPA
                 </a>
                 .
               </p>
@@ -289,7 +289,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 >
                   The Big Dinner
                 </a>
-                , a private monthly dinner series held in London, Mumbai, Delhi, Dubai, Hyderabad, and Bengaluru. It is a personal, non-commercial initiative. The rooms bring together people from family offices, science, engineering, aviation, the arts, design, music, consulting, defence, manufacturing, and hospitality — a community of about 1,500.
+                , a private monthly dinner series held in London, Mumbai, Delhi, Dubai, Hyderabad, and Bengaluru. It is a personal, non-commercial initiative. The rooms bring together people from family offices, science, engineering, aviation, the arts, design, music, consulting, defence, manufacturing, and hospitality. The community is about 1,500.
               </p>
             </div>
           </div>

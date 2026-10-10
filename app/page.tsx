@@ -108,7 +108,7 @@ export default function Home() {
     });
 
     // ── About section fade-in ──────────────────────────────────
-    // (no parallax on this photo — fixed position to keep face visible)
+    // (no parallax on this photo: fixed position to keep face visible)
 
     // ── About text reveal ──────────────────────────────────────
     gsap.from(".about-text-item", {
@@ -196,7 +196,7 @@ export default function Home() {
 
           {/* ── HERO ─────────────────────────────────────────────── */}
           <section className="hero-section relative min-h-screen flex overflow-hidden bg-ink">
-            {/* Left — text */}
+            {/* Left: text */}
             <div className="relative z-10 flex flex-col justify-end pb-16 md:pb-24 pt-32 w-full md:w-[48%] px-6 md:pl-16 lg:pl-24">
               <div className="hero-eyebrow flex items-center gap-4 mb-10">
                 <div className="gold-rule" />
@@ -204,7 +204,7 @@ export default function Home() {
               </div>
 
               <h1 className="mb-10">
-                <div className="overflow-hidden mb-7">
+                <div className="overflow-hidden mb-8 md:mb-10">
                   <div className="hero-line heading-display text-[clamp(1.65rem,2.6vw,2.35rem)] text-parchment leading-none">
                     Tushar Nair
                     <span className="text-gold-light font-light"> · </span>
@@ -212,17 +212,17 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-parchment leading-[1.05]">
+                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-parchment leading-[1.08]">
                     Everything
                   </div>
                 </div>
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-gold-light leading-[1.05] italic not-italic font-light">
+                <div className="overflow-hidden mt-1.5 md:mt-2">
+                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-gold-light leading-[1.08] italic not-italic font-light">
                     a client needs,
                   </div>
                 </div>
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-parchment leading-[1.05]">
+                <div className="overflow-hidden mt-1.5 md:mt-2">
+                  <div className="hero-line heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-parchment leading-[1.08]">
                     under one roof.
                   </div>
                 </div>
@@ -230,7 +230,7 @@ export default function Home() {
 
               <div className="hero-body max-w-md mb-10 space-y-4">
                 <p className="text-base text-parchment-dim leading-relaxed">
-                  Nair &amp; Co — Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Each service is delivered by a dedicated, separate team.
+                  Nair &amp; Co, Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Each service is delivered by a dedicated, separate team.
                 </p>
                 <p className="text-base text-parchment leading-relaxed font-light">
                   Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
@@ -242,7 +242,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right — photo */}
+            {/* Right: photo */}
             <div className="hidden md:block absolute right-0 top-0 w-[55%] h-full overflow-hidden">
               <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
                 <Image
@@ -284,7 +284,7 @@ export default function Home() {
               </div>
               <div className="overflow-hidden">
                 <p className="manifesto-line text-base text-parchment-dim leading-relaxed max-w-xl">
-                  Nair &amp; Co — Advocates &amp; Consultants is the New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are each the work of a separate team. Management consultancy and investment banking are delivered by dedicated teams, with our strategic alliances and partner firms.
+                  Nair &amp; Co, Advocates &amp; Consultants, is the New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are each the work of a separate team. Management consultancy and investment banking are delivered by dedicated teams, with our strategic alliances and partner firms.
                 </p>
               </div>
             </div>
@@ -309,7 +309,7 @@ export default function Home() {
                     <div className="flex flex-col gap-4 max-w-3xl">
                       <span className="label text-parchment-dim/30">{String(index + 1).padStart(2, "0")}</span>
                       <div>
-                        <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-3">{team.name}</h2>
+                        <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-4">{team.name}</h2>
                         <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
                       </div>
                     </div>
@@ -365,10 +365,10 @@ export default function Home() {
               </h2>
               <div className="about-text-item space-y-5 text-parchment-dim leading-relaxed text-base max-w-md mb-10">
                 <p>
-                  He practises before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court, and leads Nair &amp; Co — Advocates &amp; Consultants in New Delhi. Each service is delivered by a dedicated, separate team. Management consultancy and investment banking are delivered with strategic alliances and partner firms.
+                  He practises before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court, and leads Nair &amp; Co, Advocates &amp; Consultants, in New Delhi. Each service is delivered by a dedicated, separate team. Management consultancy and investment banking are delivered with strategic alliances and partner firms.
                 </p>
                 <p>
-                  He thinks before most people have finished their sentence — not because he is impatient, but because he has been trained, in the particular crucible of appellate advocacy, to find the structure beneath the surface of things.
+                  He thinks before most people have finished their sentence, not because he is impatient, but because he has been trained, in the particular crucible of appellate advocacy, to find the structure beneath the surface of things.
                 </p>
                 <p>
                   To hear what is not being said. To see where the argument will fail before it has been made.
@@ -421,7 +421,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
               {courts.map((court) => (
-                <div key={court.name} className="court-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-3">
+                <div key={court.name} className="court-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4">
                   <div>
                     <h3 className="font-serif text-xl md:text-2xl font-light text-parchment">{court.name}</h3>
                     {court.sub && <p className="label text-parchment-dim/50 mt-1">{court.sub}</p>}

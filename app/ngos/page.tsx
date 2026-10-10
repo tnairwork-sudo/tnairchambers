@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Nair & Co",
-    title: "FCRA & NGO Legal Advisory in India — Nair & Co",
+    title: "FCRA and NGO Legal Advisory in India | Nair & Co",
     description:
       "Advisory for foundations and non-profits on the Foreign Contribution (Regulation) Act, governance, and cross-border funding.",
     url: `${siteUrl}/ngos`,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "FCRA & NGO Legal Advisory in India — Nair & Co",
+    title: "FCRA and NGO Legal Advisory in India | Nair & Co",
     description:
       "Advisory for foundations and non-profits on the Foreign Contribution (Regulation) Act, governance, and cross-border funding.",
     images: [ogImage.url],
@@ -67,7 +67,7 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Nair & Co — NGO & FCRA Legal Advisory",
+  name: "Nair & Co, NGO and FCRA Legal Advisory",
   url: `${siteUrl}/ngos`,
   provider: { "@id": organizationId },
   description:

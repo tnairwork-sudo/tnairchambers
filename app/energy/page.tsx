@@ -3,7 +3,7 @@ import LandingPageClient from "@/components/LandingPageClient";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Electricity & Energy Regulation in India — Foreign Energy Companies",
+  title: "Electricity and Energy Regulation in India, Foreign Energy Companies",
   description:
     "Electricity law at Nair & Co covers regulatory proceedings, tariffs, power-purchase disputes, and arbitration involving state electricity authorities, power-sector entities, and public-sector utilities.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Nair & Co",
-    title: "India Electricity & Energy Regulation — Nair & Co",
+    title: "India Electricity and Energy Regulation | Nair & Co",
     description:
       "Electricity regulation, tariff and power-purchase disputes, and arbitration involving utilities and public-sector power entities.",
     url: `${siteUrl}/energy`,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "India Electricity & Energy Regulation — Nair & Co",
+    title: "India Electricity and Energy Regulation | Nair & Co",
     description:
       "Electricity regulation, tariff and power-purchase disputes, and arbitration involving utilities and public-sector power entities.",
     images: [ogImage.url],
@@ -51,7 +51,7 @@ const services = [
   },
   {
     title: "PPA Disputes & Arbitration",
-    body: "Power Purchase Agreement disputes, renegotiations, and arbitration — whether before CERC, state commissions, or under institutional arbitration rules.",
+    body: "Power Purchase Agreement disputes, renegotiations, and arbitration, whether before CERC, state commissions, or under institutional arbitration rules.",
   },
   {
     title: "Policy & Regulatory Risk Advisory",
@@ -74,7 +74,7 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Nair & Co — Electricity & Energy Regulation",
+  name: "Nair & Co, Electricity and Energy Regulation",
   url: `${siteUrl}/energy`,
   provider: { "@id": organizationId },
   description:

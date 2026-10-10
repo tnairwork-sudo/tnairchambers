@@ -37,7 +37,7 @@ const article: OpportunityAtlasArticle = {
           "type": "paragraphs",
           "paragraphs": [
             "PLI stands for \"Production Linked Incentive\". The government pays a percentage of your extra sales of India-made products, over a base year, if you also meet investment thresholds.",
-            "The Electronics Component Manufacturing Scheme (ECMS), notified on 8 April 2025 with operating guidelines from 26 April 2025, applies similar logic to components. Depending on the product, it offers a turnover-linked incentive (a percentage of extra sales), a capex incentive (a percentage of eligible capital spending), or a mix. The outlay was originally ₹22,919 crore; the government says the Union Budget 2026–27 raised it to ₹40,000 crore.",
+            "The Electronics Component Manufacturing Scheme (ECMS), notified on 8 April 2025 with operating guidelines from 26 April 2025, applies similar logic to components. Depending on the product, it offers a turnover-linked incentive (a percentage of extra sales), a capex incentive (a percentage of eligible capital spending), or a mix. The outlay was originally ₹22,919 crore; the government says the Union Budget 2026-27 raised it to ₹40,000 crore.",
             "Notice what you are promising under the ECMS guidelines:"
           ]
         },

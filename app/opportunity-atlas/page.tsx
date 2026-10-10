@@ -12,7 +12,7 @@ const articles = getAllOpportunityAtlasArticles();
 const featuredArticle = getFeaturedOpportunityAtlasArticle() ?? articles[0];
 
 export const metadata: Metadata = {
-  title: "Opportunity Atlas — International Business Opportunities & Global Expansion",
+  title: "Opportunity Atlas: International Business Opportunities and Global Expansion",
   description:
     "Opportunity Atlas is Nair & Co’s publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/opportunity-atlas` },
   openGraph: {
-    title: "Opportunity Atlas — Nair & Co",
+    title: "Opportunity Atlas | Nair & Co",
     description:
       "Strategic insight into foreign investment, market entry, regulatory developments, and cross-border growth opportunities.",
     url: `${siteUrl}/opportunity-atlas`,
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Opportunity Atlas — Nair & Co",
+    title: "Opportunity Atlas | Nair & Co",
     description:
       "Strategic insight into foreign investment, market entry, regulatory developments, and cross-border growth opportunities.",
     images: [featuredArticle.openGraphImage],

@@ -7,8 +7,8 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-border bg-ink">
-      <div className="container-site py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 mb-12">
+      <div className="container-site py-16 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 md:gap-x-10 md:gap-y-14 xl:gap-12 mb-14">
           {/* Identity */}
           <div>
             <Link href="/" className="inline-block mb-4 hover:opacity-75 transition-opacity duration-200">
@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Practices */}
           <div>
             <p className="label mb-5">Practice Areas</p>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               {[
                 { href: "/energy", label: "Energy & Power Regulation" },
                 { href: "/entering-india", label: "India Market Entry" },
@@ -46,7 +46,7 @@ export default function Footer() {
           {/* Insights */}
           <div>
             <p className="label mb-5">Insights</p>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               <li>
                 <Link
                   href="/opportunity-atlas"
@@ -61,7 +61,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <p className="label mb-5">Contact</p>
-            <ul className="space-y-3 text-sm text-parchment-dim">
+            <ul className="space-y-4 text-sm text-parchment-dim">
               <li>
                 <a
                   href="mailto:tushaar@tnairchambers.in"
@@ -72,7 +72,7 @@ export default function Footer() {
               </li>
               <li>135, Additional Building Complex</li>
               <li>Supreme Court of India, Tilak Marg</li>
-              <li>New Delhi – 110001</li>
+              <li>New Delhi, 110001</li>
               {personProfiles.map((profile) => (
                 <li key={profile.href}>
                   <a

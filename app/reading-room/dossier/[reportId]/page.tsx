@@ -89,7 +89,7 @@ export default async function ReportPage({
 
       {/* Confidentiality notice */}
       <div className="text-center text-sm text-parchment-dim italic pt-12 border-t border-border">
-        Privileged & Confidential — prepared for {dossier.name} only
+        Privileged and Confidential. Prepared for {dossier.name} only.
       </div>
     </div>
   );

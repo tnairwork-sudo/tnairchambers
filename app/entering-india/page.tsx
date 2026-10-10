@@ -3,7 +3,7 @@ import LandingPageClient from "@/components/LandingPageClient";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Foreign Companies Entering India — Legal Advisory for India Market Entry",
+  title: "Foreign Companies Entering India: Legal Advisory for India Market Entry",
   description:
     "Market-entry and cross-border advisory for businesses in India, Oman, and the GCC, including the Sohar Free Zone, warehousing, logistics, and pharmaceutical trading.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Nair & Co",
-    title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
+    title: "Entering India: Legal Advisory for Foreign Companies | Nair & Co",
     description:
       "Market entry in India and cross-border advisory in Oman and the GCC, including warehousing, logistics, and the Sohar Free Zone.",
     url: `${siteUrl}/entering-india`,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Entering India — Legal Advisory for Foreign Companies | Nair & Co",
+    title: "Entering India: Legal Advisory for Foreign Companies | Nair & Co",
     description:
       "Market entry in India and cross-border advisory in Oman and the GCC, including warehousing, logistics, and the Sohar Free Zone.",
     images: [ogImage.url],
@@ -78,7 +78,7 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Nair & Co — India Market Entry Legal Advisory",
+  name: "Nair & Co, India Market Entry Legal Advisory",
   url: `${siteUrl}/entering-india`,
   provider: { "@id": organizationId },
   description:
