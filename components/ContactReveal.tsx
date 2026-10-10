@@ -79,7 +79,7 @@ export default function ContactReveal({
         </p>
         <p>135, Additional Building Complex</p>
         <p>Supreme Court of India, Tilak Marg</p>
-        <p>New Delhi – 110001</p>
+        <p>New Delhi, 110001</p>
       </div>
       <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
         Confidential. Available for clients in all time zones.

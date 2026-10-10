@@ -13,6 +13,7 @@ import {
   getRelatedOpportunityAtlasArticles,
   siteUrl,
 } from "@/lib/opportunity-atlas";
+import { organizationId, personId } from "@/lib/site";
 
 interface ArticlePageProps {
   params: Promise<{
@@ -48,9 +49,10 @@ export async function generateMetadata({
       "Regulatory Advisory",
       article.category,
     ],
-    alternates: { canonical: `/opportunity-atlas/${article.slug}` },
+    alternates: { canonical: `${siteUrl}/opportunity-atlas/${article.slug}` },
     openGraph: {
       type: "article",
+      siteName: "Nair & Co",
       title: article.seoTitle,
       description: article.metaDescription,
       url: `${siteUrl}/opportunity-atlas/${article.slug}`,
@@ -59,6 +61,8 @@ export async function generateMetadata({
       images: [
         {
           url: article.openGraphImage,
+          width: 1200,
+          height: 630,
           alt: article.featuredImage.alt,
         },
       ],
@@ -93,11 +97,15 @@ export default async function OpportunityAtlasArticlePage({
     image: [`${siteUrl}${article.openGraphImage}`],
     author: {
       "@type": "Person",
+      "@id": personId,
       name: article.author,
+      url: `${siteUrl}/about`,
     },
     publisher: {
       "@type": "Organization",
+      "@id": organizationId,
       name: "Nair & Co",
+      url: siteUrl,
       logo: {
         "@type": "ImageObject",
         url: `${siteUrl}/wordmark.svg`,

@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "The Reading Room",
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-  },
+  alternates: { canonical: `${siteUrl}/reading-room` },
 };
 
 export default function ReadingRoomLayout({

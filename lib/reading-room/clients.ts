@@ -32,7 +32,7 @@ const CLIENTS: Record<string, ClientDossier> = {
     id: "precious-electrochem",
     name: "Precious Electrochem Ltd.",
     engagement:
-      "Strategic analysis: Sohar Free Zone expansion and India–Oman CEPA trade impact modelling",
+      "Strategic analysis: Sohar Free Zone expansion and India-Oman CEPA trade impact modelling",
     reference: "PE-2024-06-001",
     counsel: "Tushaar Sharma, Counsel",
     opened: "2024-06-01T00:00:00Z",

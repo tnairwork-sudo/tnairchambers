@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "India Labour Law Advisory for International Employers",
@@ -17,23 +18,33 @@ export const metadata: Metadata = {
     "PF ESI compliance India foreign employer",
     "India labour code compliance",
   ],
-  alternates: { canonical: "/employers" },
+  alternates: { canonical: `${siteUrl}/employers` },
   openGraph: {
-    title: "India Employment & Labour Law for International Employers — Nair & Co",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "India Employment and Labour Law for International Employers | Nair & Co",
     description:
       "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. They don't have to.",
-    url: "https://nairandco.in/employers",
+    url: `${siteUrl}/employers`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "India Employment and Labour Law for International Employers | Nair & Co",
+    description:
+      "Employing people in India is not like employing people anywhere else. Labour law, termination risk, contractor classification, and state-level variations will surprise you. They don't have to.",
+    images: [ogImage.url],
   },
 };
 
 const services = [
   {
     title: "Employment Contract Review & Drafting",
-    body: "Contracts that are legally enforceable in India, not just in the jurisdiction of your headquarters. We draft for the Indian employment law reality — not for theoretical best practice.",
+    body: "Contracts that are legally enforceable in India, not just in the jurisdiction of your headquarters. We draft for the Indian employment law reality, not for theoretical best practice.",
   },
   {
     title: "Termination Risk Assessment",
-    body: "India's Industrial Disputes Act, standing orders, and retrenchment provisions create real termination risk for employers. We assess the exposure before you act — not after.",
+    body: "India's Industrial Disputes Act, standing orders, and retrenchment provisions create real termination risk for employers. We assess the exposure before you act, not after.",
   },
   {
     title: "Contractor Classification",
@@ -41,7 +52,7 @@ const services = [
   },
   {
     title: "PF, ESI & Statutory Compliance",
-    body: "Provident Fund, Employees' State Insurance, gratuity, and the new Labour Codes — the statutory compliance obligations for Indian employers are layered and change with headcount and state.",
+    body: "Provident Fund, Employees' State Insurance, gratuity, and the new Labour Codes: the statutory compliance obligations for Indian employers are layered and change with headcount and state.",
   },
   {
     title: "State-Level Labour Law Navigation",
@@ -56,8 +67,9 @@ const services = [
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Nair & Co — India Labour & Employment Law Advisory",
-  url: "https://nairandco.in/employers",
+  name: "Nair & Co, India Labour and Employment Law Advisory",
+  url: `${siteUrl}/employers`,
+  provider: { "@id": organizationId },
   description:
     "Labour law, employment compliance, termination risk, and contractor classification advisory for international companies employing people in India.",
   areaServed: "India",
@@ -74,11 +86,11 @@ export default function EmployersPage() {
       problemHeadline="India's employment law doesn't work like anywhere else. Most employers find this out at the worst possible moment."
       problemBody={[
         "India's labour law framework is not a unified system. It is a layered architecture of central statutes, state-level rules, standing orders, and enforcement patterns that differ not just by state but by industry, headcount, and type of establishment.",
-        "International companies that enter India with their standard employment practices — at-will termination, broad contractor usage, centralised payroll — frequently discover retrospective statutory liability, reinstatement orders, and enforcement actions they never anticipated.",
+        "International companies that enter India with their standard employment practices, including at-will termination, broad contractor usage, and centralised payroll, frequently discover retrospective statutory liability, reinstatement orders, and enforcement actions they never anticipated.",
         "The New Labour Codes have consolidated some of this, but implementation is uneven and the transition period has created its own compliance questions. We stay current, so you don't have to.",
       ]}
       services={services}
-      pullQuote="The question is never whether Indian labour law is complex. It is. The question is whether your India HR structure has been built by someone who understands that complexity — or whether you are about to find out."
+      pullQuote="The question is never whether Indian labour law is complex. It is. The question is whether your India HR structure has been built by someone who understands that complexity, or whether you are about to find out."
       ctaEyebrow="Employment Law Advisory"
       ctaHeadline="Tell us how you currently employ people in India. We'll tell you where your exposure is."
       ctaSubtext="A 30-minute call. We'll ask about your headcount, your states of operation, your contractor arrangements, and your current contracts. You'll leave with a clear picture of what needs attention."

@@ -164,7 +164,7 @@ export default function FreeZoneScenario() {
           <p className="text-4xl font-serif text-gold-light">
             {calculations.paybackMonths > 0
               ? `${numberFormatter.format(calculations.paybackMonths)} months`
-              : "—"}
+              : "n/a"}
           </p>
         </div>
       </div>

@@ -36,7 +36,7 @@ export default function Disclaimer() {
         {/* Body */}
         <div className="px-8 py-7 space-y-5 text-sm text-parchment-dim leading-[1.85]">
           <p>
-            The Bar Council of India prohibits advocates from advertising or soliciting in any form. By visiting nairandco.in, you confirm that you are seeking information about Nair &amp; Co entirely of your own volition — and that no solicitation, advertisement, or inducement of any kind has been made by Nair &amp; Co or any of its members.
+            The Bar Council of India prohibits advocates from advertising or soliciting in any form. By visiting nairandco.in, you confirm that you are seeking information about Nair &amp; Co entirely of your own volition, and that no solicitation, advertisement, or inducement of any kind has been made by Nair &amp; Co or any of its members.
           </p>
           <p>
             Everything on this website is provided for informational purposes only. Nothing here constitutes legal advice, nor should it be read as an invitation to form an advocate-client relationship. Nair &amp; Co accepts no liability for any action taken, or omitted, in reliance upon the information contained herein.

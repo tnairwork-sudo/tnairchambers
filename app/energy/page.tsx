@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Electricity & Energy Regulation in India — Foreign Energy Companies",
+  title: "Electricity and Energy Regulation in India, Foreign Energy Companies",
   description:
-    "Foreign energy companies entering India's power sector need counsel who has argued before CERC, APTEL, and state electricity commissions. Nair & Co provides regulatory advocacy, licensing strategy, and dispute resolution for international power sector clients.",
+    "Electricity law at Nair & Co covers regulatory proceedings, tariffs, power-purchase disputes, and arbitration involving state electricity authorities, power-sector entities, and public-sector utilities.",
   keywords: [
     "CERC advocate foreign company",
     "APTEL lawyer India",
@@ -16,47 +17,66 @@ export const metadata: Metadata = {
     "India power sector entry legal",
     "electricity law India Supreme Court",
   ],
-  alternates: { canonical: "/energy" },
+  alternates: { canonical: `${siteUrl}/energy` },
   openGraph: {
-    title: "India Electricity & Energy Regulation — Nair & Co",
+    type: "website",
+    siteName: "Nair & Co",
+    title: "India Electricity and Energy Regulation | Nair & Co",
     description:
-      "You want to enter India's power sector. CERC, APTEL, and regulatory unpredictability are standing between your capital and your returns. We've argued this from the inside.",
-    url: "https://nairandco.in/energy",
+      "Electricity regulation, tariff and power-purchase disputes, and arbitration involving utilities and public-sector power entities.",
+    url: `${siteUrl}/energy`,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "India Electricity and Energy Regulation | Nair & Co",
+    description:
+      "Electricity regulation, tariff and power-purchase disputes, and arbitration involving utilities and public-sector power entities.",
+    images: [ogImage.url],
   },
 };
 
 const services = [
   {
     title: "CERC & APTEL Proceedings",
-    body: "Central Electricity Regulatory Commission filings, tariff petitions, inter-state transmission disputes, and appellate proceedings before APTEL — handled with the precision these forums require.",
+    body: "Central Electricity Regulatory Commission filings, tariff petitions, inter-state transmission disputes, and appellate proceedings before APTEL.",
   },
   {
     title: "State Commission Navigation",
-    body: "India has 36 state and UT electricity commissions, each with its own procedural norms and regulatory culture. We know which arguments land, and which ones backfire.",
+    body: "India has 36 state and UT electricity commissions, each with its own procedure. The work is to identify the forum and the record that forum requires.",
   },
   {
     title: "Regulatory Licensing & Approvals",
-    body: "Generation, transmission, and distribution licences. Open access approvals. Grid connection disputes. We navigate the licensing architecture so your project doesn't stall at the gate.",
+    body: "Generation, transmission, and distribution licences, open access, and grid-connection disputes.",
   },
   {
     title: "PPA Disputes & Arbitration",
-    body: "Power Purchase Agreement disputes, renegotiations, and arbitration — whether before CERC, state commissions, or under institutional arbitration rules.",
+    body: "Power Purchase Agreement disputes, renegotiations, and arbitration, whether before CERC, state commissions, or under institutional arbitration rules.",
   },
   {
     title: "Policy & Regulatory Risk Advisory",
-    body: "Before you commit capital, you need to understand the regulatory risk. We provide honest, direct advisory on where India's power sector regulation is headed — and where it will resist.",
+    body: "Advisory on the regulatory setting of a power project: the commissions, the licence, and the contract, before capital is committed.",
   },
   {
     title: "Cross-Border Structuring",
-    body: "Foreign direct investment in India's power sector involves FEMA, sectoral caps, and regulatory approvals. We align the legal and regulatory architecture from day one.",
+    body: "Foreign direct investment in India's power sector involves FEMA, sectoral caps, and regulatory approvals. The work is to set out that architecture before capital is committed.",
+  },
+  {
+    title: "State electricity sector",
+    body: "Matters involving state electricity authorities and power-sector entities, including regulatory questions and disputes in a state electricity sector.",
+  },
+  {
+    title: "Power-sector arbitration",
+    body: "Commercial arbitration between utilities and public-sector power corporations, including contractual disputes, alongside arbitrations at the Delhi International Arbitration Centre.",
   },
 ];
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Nair & Co — Electricity & Energy Regulation",
-  url: "https://nairandco.in/energy",
+  name: "Nair & Co, Electricity and Energy Regulation",
+  url: `${siteUrl}/energy`,
+  provider: { "@id": organizationId },
   description:
     "Supreme Court advocate practice specialising in CERC, APTEL, and energy regulatory proceedings for international energy companies entering India.",
   areaServed: "India",
@@ -67,20 +87,19 @@ export default function EnergyPage() {
   return (
     <LandingPageClient
       eyebrow="Energy & Power · 01"
-      heroLine1="You want to enter India's power sector."
-      heroEmphasis="We've argued it from the inside."
-      heroBody="CERC, APTEL, state commissions, and regulatory unpredictability are standing between your capital and your returns. You need someone who has stood in these proceedings — not just read about them."
-      problemHeadline="India's power sector is an opportunity. The regulatory architecture is a labyrinth."
+      heroLine1="Electricity law, regulation, and arbitration."
+      heroEmphasis="A dedicated team."
+      heroBody="The work covers proceedings before electricity regulatory commissions and APTEL, tariff and power-purchase disputes, and arbitration involving state electricity authorities, power-sector entities, and public-sector utilities."
+      problemHeadline="Electricity regulation in India is divided across commissions, a tribunal, and contract."
       problemBody={[
-        "India has one of the world's most complex electricity regulatory structures. The Central Electricity Regulatory Commission, the Appellate Tribunal for Electricity, 36 state commissions, the Ministry of Power, and the nodal agencies — each with overlapping jurisdiction and conflicting precedent.",
-        "International energy companies consistently underestimate the regulatory risk. They arrive with financial models, technology, and capital — and then encounter a system that moves on its own timeline, in its own language, and rewards those who understand its internal logic.",
-        "We have operated in this system for years. We know the precedents, the regulators, the procedural pressure points, and the arguments that succeed.",
+        "The Central Electricity Regulatory Commission, the Appellate Tribunal for Electricity, and the state electricity commissions each have their own procedure. Tariff, licensing, open access, and power-purchase agreements sit across those forums, and often in arbitration as well.",
+        "The practice has included electricity matters involving state electricity authorities and power-sector entities, and an arbitration between a state power utility and a public-sector power corporation. It has also included assistance in arbitrations at the Delhi International Arbitration Centre.",
       ]}
       services={services}
-      pullQuote="The question is not whether India's electricity regulators will push back. They will. The question is whether your counsel knows exactly where — and has a prepared response."
-      ctaEyebrow="Energy & Power Advisory"
-      ctaHeadline="Tell us your project. We'll tell you exactly where the regulatory risk sits."
-      ctaSubtext="A 30-minute call. We'll ask about your project structure, your timeline, and your exposure. You'll leave with a clear picture of what stands between you and operational approval in India."
+      pullQuote="Electricity work here is regulatory, contractual, and arbitral: commissions, APTEL, and disputes involving utilities and infrastructure."
+      ctaEyebrow="Energy & Power"
+      ctaHeadline="The electricity team is a separate practice within Nair & Co."
+      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
       schemaJson={JSON.stringify(schema)}
     />
   );

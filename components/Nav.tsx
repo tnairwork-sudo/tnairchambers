@@ -27,12 +27,12 @@ export default function Nav() {
           <Wordmark className="text-[1.55rem]" />
         </Link>
 
-        <div className="hidden lg:flex items-center gap-x-3 xl:gap-x-3.5">
+        <div className="hidden lg:flex items-center gap-x-4 xl:gap-x-6">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link whitespace-nowrap tracking-[0.12em] xl:tracking-ultra ${
+              className={`nav-link whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
                   ? "text-parchment"
                   : ""

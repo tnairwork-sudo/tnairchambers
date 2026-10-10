@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const courts = [
   { name: "Supreme Court of India", body: "Constitutional questions, service law, electricity regulation, and matters of national consequence. We do not arrive to participate. We arrive to prevail." },
-  { name: "High Courts", sub: "Punjab & Haryana · Madras", body: "Sustained appellate advocacy in civil, service, and regulatory disputes where the quality of argument determines everything." },
+  { name: "High Courts", sub: "Delhi · Punjab & Haryana · Madras", body: "Sustained appellate advocacy in civil, service, and regulatory disputes where the quality of argument determines everything." },
   { name: "Tribunals", sub: "APTEL · NCLAT · CAT", body: "The Appellate Tribunal for Electricity, the National Company Law Appellate Tribunal, and the Central Administrative Tribunal. Each forum demands a different register of preparation." },
   { name: "Arbitration & DRT", body: "Commercial disputes, stuck receivables, broken partnerships. The instrument is chosen for its precision, not its drama." },
 ];
@@ -26,19 +26,41 @@ const practices = [
   { href: "/employers", number: "04", label: "International Employers", body: "Labour law, termination risk, contractor classification, and state-level compliance for companies employing in India." },
 ];
 
+const teams: { name: string; line: string; href?: string; featured?: boolean }[] = [
+  {
+    name: "Electricity & Power",
+    href: "/energy",
+    featured: true,
+    line: "Regulatory, tariff, and power purchase agreement disputes before electricity regulatory commissions and APTEL, by a dedicated team.",
+  },
+  { name: "Legal Advisory", line: "Legal questions in a commercial or institutional matter, by a dedicated team." },
+  { name: "Corporate Advisory", line: "Corporate structure, governance, and the documents of a business, by a separate team." },
+  { name: "Policy & Regulatory Advisory", line: "Statutes, regulators, and sector policy, advised upon by a dedicated team." },
+  { name: "Courtroom Litigation", line: "Advocacy before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court, and before tribunals, by a dedicated team." },
+  { name: "Management Consultancy", line: "Management questions, delivered by a dedicated team with our strategic alliances and partner firms." },
+  { name: "Investment Banking", line: "Investment banking work, delivered by a dedicated team with our strategic alliances and partner firms." },
+  { name: "Mergers & Acquisitions", line: "The work of mergers and acquisitions, delivered by a dedicated team." },
+  { name: "Intellectual Property", line: "Intellectual property advisory, delivered by a separate team." },
+  { name: "Business Expansion, Growth & Strategic Negotiation", line: "Expansion, growth, and negotiation, delivered by a dedicated team." },
+];
+
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
-    // ── Hero load sequence ─────────────────────────────────────
-    const heroTl = gsap.timeline({ defaults: { ease: "power4.out" } });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    heroTl
-      .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 1 })
-      .from(".hero-line", { y: 80, opacity: 0, duration: 1.2, stagger: 0.12 }, "-=0.6")
-      .from(".hero-body p", { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.5")
-      .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.4")
-      .from(".hero-image-wrap", { scale: 1.08, opacity: 0, duration: 1.8, ease: "power3.out" }, 0.2);
+    // ── Hero load sequence ─────────────────────────────────────
+    if (!reduceMotion) {
+      const heroTl = gsap.timeline({ defaults: { ease: "power4.out" } });
+
+      heroTl
+        .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 1 })
+        .from(".hero-line", { y: 80, opacity: 0, duration: 1.2, stagger: 0.12 }, "-=0.6")
+        .from(".hero-body p", { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.5")
+        .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.4")
+        .from(".hero-image-wrap", { scale: 1.08, opacity: 0, duration: 1.8, ease: "power3.out" }, 0.2);
+    }
 
     // ── Hero photo parallax on scroll ──────────────────────────
     gsap.to(".hero-image-wrap", {
@@ -65,8 +87,32 @@ export default function Home() {
       },
     });
 
+    // ── Practice teams ─────────────────────────────────────────
+    gsap.from(".team-card", {
+      y: 70,
+      opacity: 0,
+      stagger: 0.08,
+      duration: 0.9,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".teams-section",
+        start: "top 70%",
+      },
+    });
+
+    gsap.from(".alliances-copy", {
+      y: 40,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".alliances-section",
+        start: "top 75%",
+      },
+    });
+
     // ── About section fade-in ──────────────────────────────────
-    // (no parallax on this photo — fixed position to keep face visible)
+    // (no parallax on this photo: fixed position to keep face visible)
 
     // ── About text reveal ──────────────────────────────────────
     gsap.from(".about-text-item", {
@@ -154,37 +200,52 @@ export default function Home() {
 
           {/* ── HERO ─────────────────────────────────────────────── */}
           <section className="hero-section relative min-h-screen flex overflow-hidden bg-ink">
-            {/* Left — text */}
+            {/* Left: text */}
             <div className="relative z-10 flex flex-col justify-end pb-16 md:pb-24 pt-32 w-full md:w-[48%] px-6 md:pl-16 lg:pl-24">
               <div className="hero-eyebrow flex items-center gap-4 mb-10">
                 <div className="gold-rule" />
-                <span className="label">Supreme Court of India · New Delhi</span>
+                <span className="label">Advocates &amp; Consultants · New Delhi</span>
               </div>
 
               <h1 className="mb-10">
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-parchment leading-[1.05]">
-                    The right argument,
+                <div className="flow-root mb-8 md:mb-10">
+                  <div className="line-mask text-[clamp(1.65rem,2.6vw,2.35rem)]">
+                    <div className="hero-line heading-display text-parchment leading-none">
+                      Tushar Nair
+                      <span className="text-gold-light font-light"> · </span>
+                      <span className="italic font-light text-gold-light">Nair &amp; Co</span>
+                    </div>
                   </div>
                 </div>
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-gold-light leading-[1.05] italic not-italic font-light">
-                    made precisely,
+                <div className="flow-root">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                      Everything
+                    </div>
                   </div>
                 </div>
-                <div className="overflow-hidden">
-                  <div className="hero-line heading-display text-[clamp(2.6rem,5.5vw,5.2rem)] text-parchment leading-[1.05]">
-                    changes everything.
+                <div className="flow-root mt-1.5 md:mt-2">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-gold-light leading-[1.2] font-light">
+                      a client needs,
+                    </div>
+                  </div>
+                </div>
+                <div className="flow-root mt-1.5 md:mt-2">
+                  <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
+                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                      under one roof.
+                    </div>
                   </div>
                 </div>
               </h1>
 
               <div className="hero-body max-w-md mb-10 space-y-4">
                 <p className="text-base text-parchment-dim leading-relaxed">
-                  Nair &amp; Co is a Supreme Court advocate practice built on one belief — the right argument, made precisely, changes everything.
+                  Nair &amp; Co, Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Each service is delivered by a dedicated, separate team.
                 </p>
                 <p className="text-base text-parchment leading-relaxed font-light">
-                  We don&apos;t wait to be found. We already know your problem.
+                  Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
                 </p>
               </div>
 
@@ -193,12 +254,12 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right — photo */}
+            {/* Right: photo */}
             <div className="hidden md:block absolute right-0 top-0 w-[55%] h-full overflow-hidden">
               <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
                 <Image
                   src="/tushaar-1.png"
-                  alt="Tushaar Nair — Supreme Court Advocate"
+                  alt="Tushar Nair (Tushaar Nair), advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab and Haryana High Court"
                   fill
                   className="object-cover object-top"
                   priority
@@ -220,22 +281,84 @@ export default function Home() {
             <div className="container-site max-w-4xl">
               <div className="overflow-hidden mb-2">
                 <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-parchment leading-[1.3]">
-                  We operate at the intersection of electricity regulation,
+                  Legal work, corporate work, policy,
                 </p>
               </div>
               <div className="overflow-hidden mb-2">
                 <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-parchment leading-[1.3]">
-                  arbitration, and cross-border advisory
+                  the courtroom, and what sits beside them.
                 </p>
               </div>
               <div className="overflow-hidden mb-8">
                 <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-gold-light italic leading-[1.3]">
-                  for companies navigating India&apos;s legal architecture.
+                  A dedicated team for each.
                 </p>
               </div>
               <div className="overflow-hidden">
                 <p className="manifesto-line text-base text-parchment-dim leading-relaxed max-w-xl">
-                  We don&apos;t wait to be found. We already know your problem.
+                  Nair &amp; Co, Advocates &amp; Consultants, is the New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Legal advisory, corporate advisory, policy and regulatory advisory, courtroom litigation, electricity and power, mergers and acquisitions, intellectual property, and business expansion are each the work of a separate team. Management consultancy and investment banking are delivered by dedicated teams, with our strategic alliances and partner firms.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* ── WHAT WE DO ───────────────────────────────────────── */}
+          <section id="what-we-do" aria-labelledby="what-we-do-label" className="teams-section container-site py-24 md:py-32">
+            <div className="reveal-up flex items-center gap-4 mb-6">
+              <div className="gold-rule" />
+              <span id="what-we-do-label" className="label">What We Do</span>
+            </div>
+            <p className="reveal-up text-base text-parchment-dim leading-relaxed max-w-2xl mb-14">
+              Ten practice teams, each separate from the others. Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
+              {teams.map((team, index) => {
+                const className = `team-card group bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4 ${
+                  team.featured ? "md:col-span-2 lg:col-span-3 md:flex-row md:items-end md:justify-between" : ""
+                }`;
+                const inner = (
+                  <>
+                    <div className="flex flex-col gap-4 max-w-3xl">
+                      <span className="label text-parchment-dim/30">{String(index + 1).padStart(2, "0")}</span>
+                      <div>
+                        <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-4">{team.name}</h2>
+                        <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
+                      </div>
+                    </div>
+                    {team.href && <span className="label group-hover:text-gold transition-colors duration-300">View →</span>}
+                  </>
+                );
+                return team.href ? (
+                  <Link key={team.name} href={team.href} className={className}>
+                    {inner}
+                  </Link>
+                ) : (
+                  <div key={team.name} className={className}>
+                    {inner}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          {/* ── ALLIANCES ────────────────────────────────────────── */}
+          <section id="alliances" aria-labelledby="alliances-label" className="alliances-section border-y border-border bg-surface">
+            <div className="container-site py-16 md:py-24">
+              <div className="alliances-copy">
+                <div className="flex items-center gap-4 mb-10">
+                  <div className="gold-rule" />
+                  <span id="alliances-label" className="label">Alliances</span>
+                </div>
+                <p className="flex flex-wrap items-baseline gap-x-4 gap-y-2 font-serif font-light text-[clamp(2rem,4.2vw,3.6rem)] text-parchment leading-[1.15] tracking-tight">
+                  {["GCC", "UK", "Europe", "Americas"].map((region, index) => (
+                    <span key={region} className="inline-flex items-baseline gap-4">
+                      {region}
+                      {index < 3 && <span className="text-gold" aria-hidden="true">·</span>}
+                    </span>
+                  ))}
+                </p>
+                <p className="mt-8 max-w-2xl text-base text-parchment-dim leading-relaxed">
+                  Strategic alliances and partner firms in investment banking and management consultancy across these regions, with further strategic tie-ups around the world. Both are delivered by dedicated teams.
                 </p>
               </div>
             </div>
@@ -254,7 +377,10 @@ export default function Home() {
               </h2>
               <div className="about-text-item space-y-5 text-parchment-dim leading-relaxed text-base max-w-md mb-10">
                 <p>
-                  He practices before the Supreme Court of India. He thinks before most people have finished their sentence — not because he is impatient, but because he has been trained, in the particular crucible of appellate advocacy, to find the structure beneath the surface of things.
+                  He practises before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court, and leads Nair &amp; Co, Advocates &amp; Consultants, in New Delhi. Each service is delivered by a dedicated, separate team. Management consultancy and investment banking are delivered with strategic alliances and partner firms.
+                </p>
+                <p>
+                  He thinks before most people have finished their sentence, not because he is impatient, but because he has been trained, in the particular crucible of appellate advocacy, to find the structure beneath the surface of things.
                 </p>
                 <p>
                   To hear what is not being said. To see where the argument will fail before it has been made.
@@ -272,7 +398,7 @@ export default function Home() {
               <div className="absolute inset-0">
                 <Image
                   src="/tushaar-2.png"
-                  alt="Tushaar Nair"
+                  alt="Tushar Nair (Tushaar Nair)"
                   fill
                   className="object-cover object-[center_15%]"
                   sizes="50vw"
@@ -307,7 +433,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
               {courts.map((court) => (
-                <div key={court.name} className="court-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-3">
+                <div key={court.name} className="court-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4">
                   <div>
                     <h3 className="font-serif text-xl md:text-2xl font-light text-parchment">{court.name}</h3>
                     {court.sub && <p className="label text-parchment-dim/50 mt-1">{court.sub}</p>}

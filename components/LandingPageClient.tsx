@@ -54,32 +54,36 @@ export default function LandingPageClient({
 
   useGSAP(
     () => {
-      // ── Hero entrance ──────────────────────────────────────────────
-      const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-      tl.fromTo(
-        ".lp-eyebrow",
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.8 }
-      )
-        .fromTo(
-          ".lp-hero-line1",
-          { y: 70, opacity: 0 },
-          { y: 0, opacity: 1, duration: 1 },
-          "-=0.4"
+      // ── Hero entrance ──────────────────────────────────────────────
+      if (!reduceMotion) {
+        const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+        tl.fromTo(
+          ".lp-eyebrow",
+          { y: 20, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.8 }
         )
-        .fromTo(
-          ".lp-hero-emphasis",
-          { y: 70, opacity: 0 },
-          { y: 0, opacity: 1, duration: 1 },
-          "-=0.75"
-        )
-        .fromTo(
-          ".lp-hero-body",
-          { y: 30, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.8 },
-          "-=0.6"
-        );
+          .fromTo(
+            ".lp-hero-line1",
+            { y: 70, opacity: 0 },
+            { y: 0, opacity: 1, duration: 1 },
+            "-=0.4"
+          )
+          .fromTo(
+            ".lp-hero-emphasis",
+            { y: 70, opacity: 0 },
+            { y: 0, opacity: 1, duration: 1 },
+            "-=0.75"
+          )
+          .fromTo(
+            ".lp-hero-body",
+            { y: 30, opacity: 0 },
+            { y: 0, opacity: 1, duration: 0.8 },
+            "-=0.6"
+          );
+      }
 
       // ── Pain point section ─────────────────────────────────────────
       gsap.fromTo(
@@ -189,12 +193,12 @@ export default function LandingPageClient({
               <span className="label">{eyebrow}</span>
             </div>
 
-            <h1 className="heading-display text-[clamp(2.6rem,6vw,5.5rem)] text-parchment mb-8 max-w-hero">
-              <span className="lp-hero-line1 block overflow-hidden">
-                <span className="block">{heroLine1}</span>
+            <h1 className="heading-display flow-root text-[clamp(2.6rem,6vw,5.5rem)] text-parchment mb-8 max-w-hero">
+              <span className="lp-hero-line1 line-mask block">
+                <span className="block leading-[1.2]">{heroLine1}</span>
               </span>
-              <span className="lp-hero-emphasis block overflow-hidden">
-                <em className="block text-gold-light font-light not-italic">
+              <span className="lp-hero-emphasis line-mask block">
+                <em className="block leading-[1.2] text-gold-light font-light not-italic">
                   {heroEmphasis}
                 </em>
               </span>
@@ -211,7 +215,7 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Pain point ──────────────────────────────────────────── */}
-        <section className="pain-section container-site py-20 md:py-28">
+        <section className="pain-section container-site py-24 md:py-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <div className="pain-headline flex flex-col gap-6">
@@ -239,7 +243,7 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Services grid ────────────────────────────────────────── */}
-        <section className="container-site py-20 md:py-28">
+        <section className="container-site py-24 md:py-32">
           <div className="flex items-center gap-4 mb-14">
             <div className="gold-rule" />
             <span className="label">{servicesLabel}</span>
@@ -248,7 +252,7 @@ export default function LandingPageClient({
             {services.map((item) => (
               <div
                 key={item.title}
-                className="service-card bg-ink hover:bg-surface transition-colors duration-300 p-8 md:p-10 flex flex-col gap-4"
+                className="service-card bg-ink hover:bg-surface transition-colors duration-300 p-8 md:p-10 flex flex-col gap-5"
               >
                 <h3 className="font-serif text-xl font-light text-parchment">
                   {item.title}
