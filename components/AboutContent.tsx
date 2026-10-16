@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ContactReveal from "@/components/ContactReveal";
-import { chamberAddressLine, personProfiles } from "@/lib/site";
+import { officePlace, personProfiles } from "@/lib/site";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -232,8 +232,8 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 Bar Council of Delhi<br />
                 Enrolled 2024 · D/4136/2024
               </p>
-              <p className="mt-4 text-sm text-parchment-dim leading-relaxed">
-                {chamberAddressLine}
+              <p className="mt-4 text-sm text-parchment-dim">
+                {officePlace}
               </p>
               <ul className="mt-6 space-y-2">
                 {personProfiles.map((profile) => (
@@ -358,7 +358,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 New Delhi
               </h2>
               <p className="text-base text-parchment-dim leading-relaxed mb-10 max-w-xl">
-                {chamberAddressLine}.
+                {officePlace}.
               </p>
               <ContactReveal />
             </div>

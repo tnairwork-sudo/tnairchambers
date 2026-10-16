@@ -104,7 +104,7 @@ export default function EnteringIndiaPage() {
       pullQuote="India entry, Oman and the GCC, and the funding conversations that sit beside them, are described here as subjects of advice."
       ctaEyebrow="Cross-border advisory"
       ctaHeadline="A separate team handles business expansion."
-      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
+      ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
   );

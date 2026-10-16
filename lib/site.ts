@@ -6,17 +6,12 @@ export const websiteId = `${siteUrl}/#website`;
 
 export const brandName = "Nair & Co, Advocates & Consultants";
 
-export const chamberStreetAddress =
-  "Chamber No. 135, D Block, Additional Building Complex, Supreme Court of India, Tilak Marg";
-export const chamberLocality = "New Delhi";
-export const chamberRegion = "Delhi";
-export const chamberPostalCode = "110001";
-export const chamberAddressLine = `${chamberStreetAddress}, ${chamberLocality} ${chamberPostalCode}`;
+export const officePlace = "New Delhi, India";
 
-export const chamberPhoneDisplay = "+91 85952 03751";
-export const chamberPhoneHref = "tel:+918595203751";
-export const chamberPhoneSchema = "+91-85952-03751";
-export const chamberEmail = "tushaar@tnairchambers.in";
+export const officePhoneDisplay = "+91 85952 03751";
+export const officePhoneHref = "tel:+918595203751";
+export const officePhoneSchema = "+91-85952-03751";
+export const officeEmail = "tushaar@tnairchambers.in";
 
 export const personProfiles = [
   { href: "https://www.linkedin.com/in/nairtushar9", label: "LinkedIn" },
@@ -50,8 +45,8 @@ export const siteJsonLd = {
       name: "Tushar Nair",
       alternateName: ["Tushaar Nair", "T Nair", "Nair Tushar"],
       jobTitle: "Advocate, Supreme Court of India",
-      telephone: chamberPhoneSchema,
-      email: chamberEmail,
+      telephone: officePhoneSchema,
+      email: officeEmail,
       description:
         "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 (enrolment D/4136/2024) and the founder of Nair & Co, Advocates & Consultants. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. The firm was formerly T Nair Chambers.",
       url: `${siteUrl}/about`,
@@ -85,23 +80,15 @@ export const siteJsonLd = {
       image: `${siteUrl}${ogImagePath}`,
       address: {
         "@type": "PostalAddress",
-        streetAddress: chamberStreetAddress,
-        addressLocality: chamberLocality,
-        addressRegion: chamberRegion,
-        postalCode: chamberPostalCode,
+        addressLocality: "New Delhi",
         addressCountry: "IN",
       },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 28.6225,
-        longitude: 77.2405,
-      },
-      telephone: chamberPhoneSchema,
-      email: chamberEmail,
+      telephone: officePhoneSchema,
+      email: officeEmail,
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: chamberPhoneSchema,
-        email: chamberEmail,
+        telephone: officePhoneSchema,
+        email: officeEmail,
         contactType: "office",
         areaServed: "IN",
       },

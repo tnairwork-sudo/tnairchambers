@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
 import {
-  chamberAddressLine,
-  chamberEmail,
-  chamberPhoneDisplay,
-  chamberPhoneHref,
+  officeEmail,
+  officePhoneDisplay,
+  officePhoneHref,
+  officePlace,
   personProfiles,
 } from "@/lib/site";
 
@@ -70,21 +70,21 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-parchment-dim">
               <li>
                 <a
-                  href={chamberPhoneHref}
+                  href={officePhoneHref}
                   className="hover:text-parchment transition-colors duration-200"
                 >
-                  {chamberPhoneDisplay}
+                  {officePhoneDisplay}
                 </a>
               </li>
               <li>
                 <a
-                  href={`mailto:${chamberEmail}`}
+                  href={`mailto:${officeEmail}`}
                   className="hover:text-parchment transition-colors duration-200"
                 >
-                  {chamberEmail}
+                  {officeEmail}
                 </a>
               </li>
-              <li className="leading-relaxed">{chamberAddressLine}</li>
+              <li>{officePlace}</li>
               {personProfiles.map((profile) => (
                 <li key={profile.href}>
                   <a
