@@ -2,9 +2,15 @@
 
 import { useState, useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import {
+  officeEmail,
+  officePhoneDisplay,
+  officePhoneHref,
+  officePlace,
+} from "@/lib/site";
 
 interface ContactRevealProps {
-  /** "full" = phone + address block (for CTA sections)
+  /** "full" = phone, email, and locality (for CTA sections)
    *  "compact" = phone only, smaller layout (for nav) */
   variant?: "full" | "compact";
   className?: string;
@@ -45,16 +51,16 @@ export default function ContactReveal({
     return (
       <div ref={contentRef} style={{ opacity: 0 }} className="flex flex-col gap-1">
         <a
-          href="tel:+918595203751"
+          href={officePhoneHref}
           className="font-sans text-xs tracking-widest uppercase font-medium text-parchment hover:text-gold transition-colors duration-200"
         >
-          +91 85952 03751
+          {officePhoneDisplay}
         </a>
         <a
-          href="mailto:tushaar@tnairchambers.in"
+          href={`mailto:${officeEmail}`}
           className="font-sans text-2xs tracking-wide text-parchment-dim hover:text-parchment transition-colors duration-200 uppercase"
         >
-          tushaar@tnairchambers.in
+          {officeEmail}
         </a>
       </div>
     );
@@ -63,23 +69,21 @@ export default function ContactReveal({
   return (
     <div ref={contentRef} style={{ opacity: 0 }}>
       <a
-        href="tel:+918595203751"
+        href={officePhoneHref}
         className="font-serif text-3xl md:text-4xl font-light text-parchment block mb-5 hover:text-gold-light transition-colors duration-200"
       >
-        +91 85952 03751
+        {officePhoneDisplay}
       </a>
       <div className="space-y-1.5 text-sm text-parchment-dim leading-relaxed">
         <p>
           <a
-            href="mailto:tushaar@tnairchambers.in"
+            href={`mailto:${officeEmail}`}
             className="hover:text-parchment transition-colors duration-200"
           >
-            tushaar@tnairchambers.in
+            {officeEmail}
           </a>
         </p>
-        <p>135, Additional Building Complex</p>
-        <p>Supreme Court of India, Tilak Marg</p>
-        <p>New Delhi, 110001</p>
+        <p>{officePlace}</p>
       </div>
       <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
         Confidential. Available for clients in all time zones.

@@ -2,6 +2,16 @@ export const siteUrl = "https://nairandco.in";
 
 export const personId = `${siteUrl}/#tushar-nair`;
 export const organizationId = `${siteUrl}/#nair-and-co`;
+export const websiteId = `${siteUrl}/#website`;
+
+export const brandName = "Nair & Co, Advocates & Consultants";
+
+export const officePlace = "New Delhi, India";
+
+export const officePhoneDisplay = "+91 85952 03751";
+export const officePhoneHref = "tel:+918595203751";
+export const officePhoneSchema = "+91-85952-03751";
+export const officeEmail = "tushaar@tnairchambers.in";
 
 export const personProfiles = [
   { href: "https://www.linkedin.com/in/nairtushar9", label: "LinkedIn" },
@@ -35,8 +45,10 @@ export const siteJsonLd = {
       name: "Tushar Nair",
       alternateName: ["Tushaar Nair", "T Nair", "Nair Tushar"],
       jobTitle: "Advocate, Supreme Court of India",
+      telephone: officePhoneSchema,
+      email: officeEmail,
       description:
-        "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 and the founder of Nair & Co. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. The firm was formerly T Nair Chambers.",
+        "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 (enrolment D/4136/2024) and the founder of Nair & Co, Advocates & Consultants. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. The firm was formerly T Nair Chambers.",
       url: `${siteUrl}/about`,
       image: `${siteUrl}/tushaar-1.png`,
       worksFor: {
@@ -52,7 +64,7 @@ export const siteJsonLd = {
       "@id": organizationId,
       name: "Nair & Co",
       legalName: "Nair & Co",
-      alternateName: ["T Nair Chambers", "TN Chambers"],
+      alternateName: [brandName, "T Nair Chambers", "TN Chambers"],
       url: siteUrl,
       description:
         "Nair & Co, Advocates & Consultants, is a New Delhi practice founded by Tushar Nair. The firm was formerly T Nair Chambers. Legal, corporate, regulatory, and courtroom work, including electricity and power, are delivered by dedicated teams. Management consultancy and investment banking are delivered with strategic alliances.",
@@ -68,16 +80,50 @@ export const siteJsonLd = {
       image: `${siteUrl}${ogImagePath}`,
       address: {
         "@type": "PostalAddress",
-        streetAddress:
-          "135, Additional Building Complex, Supreme Court of India, Tilak Marg",
         addressLocality: "New Delhi",
-        postalCode: "110001",
         addressCountry: "IN",
+      },
+      telephone: officePhoneSchema,
+      email: officeEmail,
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: officePhoneSchema,
+        email: officeEmail,
+        contactType: "office",
+        areaServed: "IN",
       },
       areaServed: {
         "@type": "Country",
         name: "India",
       },
+      knowsAbout: [
+        "Electricity law",
+        "Power sector regulation",
+        "CERC and state electricity regulatory commissions",
+        "APTEL appeals",
+        "Supreme Court of India litigation",
+        "Delhi High Court litigation",
+        "Punjab and Haryana High Court litigation",
+        "Corporate advisory",
+        "FCRA compliance",
+        "Trademark law",
+        "Arbitration",
+        "National Company Law Tribunal proceedings",
+        "National Company Law Appellate Tribunal proceedings",
+        "Data protection",
+        "Property disputes",
+        "Foreign market entry into India",
+        "Labour law for international employers",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      url: siteUrl,
+      name: brandName,
+      alternateName: "Nair & Co",
+      publisher: { "@id": organizationId },
+      inLanguage: "en-IN",
     },
   ],
 };

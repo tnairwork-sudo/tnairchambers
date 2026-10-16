@@ -99,7 +99,7 @@ export default function EnergyPage() {
       pullQuote="Electricity work here is regulatory, contractual, and arbitral: commissions, APTEL, and disputes involving utilities and infrastructure."
       ctaEyebrow="Energy & Power"
       ctaHeadline="The electricity team is a separate practice within Nair & Co."
-      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
+      ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
   );

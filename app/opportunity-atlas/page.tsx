@@ -6,7 +6,7 @@ import {
   getFeaturedOpportunityAtlasArticle,
   siteUrl,
 } from "@/lib/opportunity-atlas";
-import { ogImage, organizationId } from "@/lib/site";
+import { ogImage, websiteId } from "@/lib/site";
 
 const articles = getAllOpportunityAtlasArticles();
 const featuredArticle = getFeaturedOpportunityAtlasArticle() ?? articles[0];
@@ -60,8 +60,8 @@ const collectionSchema = {
     "Nair & Co’s publication covering international business opportunities, market-entry strategy, foreign investment, global expansion, and cross-border regulatory advisory.",
   isPartOf: {
     "@type": "WebSite",
-    "@id": organizationId,
-    name: "Nair & Co",
+    "@id": websiteId,
+    name: "Nair & Co, Advocates & Consultants",
     url: siteUrl,
   },
 };

@@ -92,7 +92,7 @@ export default function NGOsPage() {
       pullQuote="FCRA work here is registration, compliance, governance, and the proceedings that follow when the Ministry raises a question."
       ctaEyebrow="FCRA"
       ctaHeadline="A separate team advises foundations and non-profits."
-      ctaSubtext="Chambers are at the Supreme Court complex, Tilak Marg, New Delhi."
+      ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
   );
