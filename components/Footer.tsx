@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
-import { personProfiles } from "@/lib/site";
+import {
+  chamberAddressLine,
+  chamberEmail,
+  chamberPhoneDisplay,
+  chamberPhoneHref,
+  personProfiles,
+} from "@/lib/site";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -64,15 +70,21 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-parchment-dim">
               <li>
                 <a
-                  href="mailto:tushaar@tnairchambers.in"
+                  href={chamberPhoneHref}
                   className="hover:text-parchment transition-colors duration-200"
                 >
-                  tushaar@tnairchambers.in
+                  {chamberPhoneDisplay}
                 </a>
               </li>
-              <li>135, Additional Building Complex</li>
-              <li>Supreme Court of India, Tilak Marg</li>
-              <li>New Delhi, 110001</li>
+              <li>
+                <a
+                  href={`mailto:${chamberEmail}`}
+                  className="hover:text-parchment transition-colors duration-200"
+                >
+                  {chamberEmail}
+                </a>
+              </li>
+              <li className="leading-relaxed">{chamberAddressLine}</li>
               {personProfiles.map((profile) => (
                 <li key={profile.href}>
                   <a

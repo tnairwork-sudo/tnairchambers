@@ -3,6 +3,8 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import Disclaimer from "@/components/Disclaimer";
 import SmoothScroll from "@/components/SmoothScroll";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import {
   homepageDescription,
   homepageTitle,
@@ -25,6 +27,21 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
+
+const googleSiteVerification =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() || undefined;
+const bingSiteVerification =
+  process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION?.trim() || undefined;
+
+const verification: Metadata["verification"] | undefined =
+  googleSiteVerification || bingSiteVerification
+    ? {
+        ...(googleSiteVerification ? { google: googleSiteVerification } : {}),
+        ...(bingSiteVerification
+          ? { other: { "msvalidate.01": bingSiteVerification } }
+          : {}),
+      }
+    : undefined;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -89,13 +106,10 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/apple-touch-icon.png",
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
   },
   manifest: "/site.webmanifest",
+  ...(verification ? { verification } : {}),
 };
 
 export default function RootLayout({
@@ -114,6 +128,8 @@ export default function RootLayout({
         <SmoothScroll>
           {children}
         </SmoothScroll>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
