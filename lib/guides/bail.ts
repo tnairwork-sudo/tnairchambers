@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const bailGuide: GuidePage = {
   slug: "bail-delhi-high-court",
-  seoTitle: "Bail in the Delhi High Court: Regular and Anticipatory Bail",
+  seoTitle: "Bail in the Delhi High Court",
   description:
-    "Regular and anticipatory bail in the Delhi High Court under the BNSS, with the former CrPC sections, the process, and the documents usually filed.",
+    "Bail in the Delhi High Court: regular and anticipatory bail under the Bharatiya Nagarik Suraksha Sanhita, with the former CrPC sections, the process, and the documents. Information only.",
   keywords: [
     "bail in delhi high court",
     "anticipatory bail Delhi High Court",
@@ -16,7 +16,7 @@ export const bailGuide: GuidePage = {
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title: "Regular bail and anticipatory bail",
+  title: "Bail in the Delhi High Court",
   lede: "Bail in the Delhi High Court is a statutory application, not a writ. The Bharatiya Nagarik Suraksha Sanhita, 2023, has been in force from 1 July 2024. This note sets out the sections that govern regular bail and anticipatory bail, the former Code of Criminal Procedure sections they correspond to, and the papers and the process. It does not predict whether bail will be granted in any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
@@ -132,9 +132,9 @@ export const bailGuide: GuidePage = {
           items: [
             "Identify the application. Anticipatory bail is section 482. Regular bail, for a person in custody, is section 483 when the High Court or the Court of Session is the court. Cancellation, or a change of conditions, is also within section 483.",
             "For a person already in custody, an application is often made first to the Court of Session, so that the High Court has that order on the record. The statute does not say the High Court is without power until the Court of Session has been approached. The practice and the statute are not the same sentence, and the court looks at what has in fact been done.",
-            "The application is filed through the High Court's e-filing facility, with the court fee that facility states.",
+            "The application is filed through the High Court's e-filing facility.",
             "Notice is given to the Public Prosecutor where section 483 requires it, and in every case where the court so directs. The state is heard.",
-            "The court may grant bail, refuse it, or grant it on conditions. If bail is granted, the bond and the surety follow sections 484 and 485. The amount of the bond is fixed with regard to the circumstances and shall not be excessive.",
+            "The court may grant bail, refuse it, or grant it on conditions. If bail is granted, the bond and the surety follow sections 484 and 485. Section 484 requires the bond to be fixed with regard to the circumstances of the case, and not to be excessive.",
             "A grant of bail is an order in that case. It is not a template for the next case.",
           ],
         },
@@ -161,7 +161,6 @@ export const bailGuide: GuidePage = {
             "Particulars of a proposed surety, when the court requires a surety. Fitness of a surety can be shown by affidavit, and the court may inquire into it.",
             "An affidavit, where the practice requires the application to be verified.",
             "A vakalatnama, where an advocate files the application.",
-            "The court fee prescribed for the application.",
           ],
         },
       ],
@@ -180,9 +179,9 @@ export const bailGuide: GuidePage = {
   ],
   faqs: [
     {
-      question: "What is the difference between regular bail and anticipatory bail in the Delhi High Court?",
+      question: "What is Bail in the Delhi High Court?",
       answer:
-        "Regular bail is for a person already in custody, under section 483 of the BNSS, which corresponds to section 439 of the CrPC. Anticipatory bail is a direction, before arrest, that the person be released if arrested, under section 482 of the BNSS, which corresponds to section 438 of the CrPC.",
+        "Bail in the Delhi High Court is a statutory application. Regular bail, for a person already in custody, is under section 483 of the BNSS, which corresponds to section 439 of the CrPC. Anticipatory bail, before arrest, is under section 482 of the BNSS, which corresponds to section 438 of the CrPC.",
     },
     {
       question: "Can anticipatory bail be filed in the Delhi High Court without first going to the Court of Session?",

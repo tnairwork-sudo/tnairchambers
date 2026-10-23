@@ -15,9 +15,9 @@ const pilAlternates = [
 
 export const pilGuide: GuidePage = {
   slug: "pil-delhi-high-court",
-  seoTitle: "Public Interest Litigation in the Delhi High Court",
+  seoTitle: "What is a PIL, and how to file a PIL",
   description:
-    "What a public interest litigation is, and how one is filed in the Delhi High Court under the Delhi High Court (Public Interest Litigation) Rules, 2010.",
+    "What is a PIL, and how to file a PIL, in the Delhi High Court under the Delhi High Court (Public Interest Litigation) Rules, 2010. Information only.",
   keywords: [
     "public interest litigation Delhi High Court",
     "PIL Delhi High Court",
@@ -27,8 +27,8 @@ export const pilGuide: GuidePage = {
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title: "Public interest litigation",
-  lede: "A public interest litigation, often shortened to PIL, is not a separate article of the Constitution. In the Delhi High Court it is a writ petition under Article 226, filed for a public injury rather than a private dispute, and screened under the Delhi High Court (Public Interest Litigation) Rules, 2010. The Hindi note on this subject answers the question often typed as PIL kya hai.",
+  title: "What is a PIL, and how to file a PIL",
+  lede: "What is a PIL, and how to file a PIL, are the two questions this note answers for the Delhi High Court. A public interest litigation is not a separate article of the Constitution. It is a writ petition under Article 226, filed for a public injury rather than a private dispute, and screened under the Delhi High Court (Public Interest Litigation) Rules, 2010. The Hindi note answers the question often typed as PIL kya hai.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   alternates: pilAlternates,
@@ -90,7 +90,7 @@ export const pilGuide: GuidePage = {
             "The source of the petitioner's knowledge of the facts, and the inquiry made to check them.",
             "The class of persons for whose benefit the petition is filed, and how those persons are unable to approach the court themselves.",
             "The persons or bodies likely to be affected by the orders sought, who are joined as respondents, and a statement that, to the petitioner's knowledge, no other person or body is likely to be affected.",
-            "The petitioner's background, so far as it shows competence to espouse the cause. An organisation states the names of its office bearers and the nature of its work. The petitioner also states the means to pay costs if the court imposes them, and gives an undertaking to that effect.",
+            "The petitioner's background, so far as it shows competence to espouse the cause. An organisation states the names of its office bearers and the nature of its work, and gives the undertaking the rules require.",
             "Any representation already made to the authority concerned, and any reply received.",
             "Any earlier public interest petition or letter petition, in a table, with the number, the status, and the outcome.",
             "A brief pleading of the cause, the grounds, and a precise prayer.",
@@ -123,8 +123,8 @@ export const pilGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The petition is filed through the High Court's e-filing facility, with the court fee that facility states. The Chief Justice constitutes a bench which, subject to any direction to the contrary, hears public interest litigation. The Chief Justice may still mark a matter to another bench.",
-            "The rules do not limit the court's inherent power to make orders required by the ends of justice, or to prevent abuse of the process. That power includes imposing costs, and debarring a petitioner or an advocate who files a frivolous or motivated public interest litigation.",
+            "The petition is filed through the High Court's e-filing facility. The Chief Justice constitutes a bench which, subject to any direction to the contrary, hears public interest litigation. The Chief Justice may still mark a matter to another bench.",
+            "The rules do not limit the court's inherent power to make orders required by the ends of justice, or to prevent abuse of the process. That power includes restraining a petitioner or an advocate who files a frivolous or motivated public interest litigation.",
             "Nothing in this note suggests that a petition will be entertained. The screening is the point of the rules. A petition that is in truth a private dispute is an ordinary writ, if it is a writ at all, and the note on Article 226 describes that procedure.",
           ],
         },
@@ -133,9 +133,9 @@ export const pilGuide: GuidePage = {
   ],
   faqs: [
     {
-      question: "PIL kya hai, in the Delhi High Court?",
+      question: "What is a PIL in the Delhi High Court?",
       answer:
-        "It is a writ petition under Article 226 filed for a public injury, or a letter the court entertains as one, under the Delhi High Court (Public Interest Litigation) Rules, 2010. It is not a separate constitutional article, and it is not a private dispute under another name.",
+        "What is a PIL: it is a writ petition under Article 226 filed for a public injury, or a letter the court entertains as one, under the Delhi High Court (Public Interest Litigation) Rules, 2010. It is not a separate constitutional article, and it is not a private dispute under another name.",
     },
     {
       question: "Can a personal dispute be filed as a public interest litigation?",
@@ -153,18 +153,18 @@ export const pilGuide: GuidePage = {
         "The absence of personal gain, the source of the facts, the class of persons affected and why they cannot approach the court, who else may be affected, the petitioner's background, any representation already made, and any earlier public interest petition. An affidavit in the form annexed to the rules accompanies the petition.",
     },
     {
-      question: "Can the court impose costs on a public interest petition?",
+      question: "How to file a PIL in the Delhi High Court?",
       answer:
-        "Yes. The rules preserve the court's power to impose costs, and to debar a petitioner or an advocate who files a frivolous or motivated public interest litigation.",
+        "On how to file a PIL, lodge a writ petition under Article 226 that carries the statements the 2010 Rules require, with the affidavit in the annexed form, through the High Court's e-filing facility. A private dispute is not filed as a public interest litigation.",
     },
   ],
 };
 
 export const pilGuideHindi: GuidePage = {
   slug: "pil-delhi-high-court-hindi",
-  seoTitle: "PIL kya hai: दिल्ली उच्च न्यायालय में जनहित याचिका",
+  seoTitle: "PIL kya hai",
   description:
-    "PIL kya hai: दिल्ली उच्च न्यायालय में जनहित याचिका क्या है, और 2010 के नियमों के अनुसार उसे कैसे दायर किया जाता है. केवल जानकारी.",
+    "PIL kya hai: दिल्ली उच्च न्यायालय में जनहित याचिका क्या है, और 2010 के नियमों के अनुसार उसे कैसे दायर किया जाता है. केवल जानकारी, नई दिल्ली, भारत.",
   keywords: [
     "pil kya hai",
     "PIL क्या है",
@@ -174,7 +174,7 @@ export const pilGuideHindi: GuidePage = {
     "New Delhi",
   ],
   eyebrow: "दिल्ली उच्च न्यायालय",
-  title: "PIL क्या है",
+  title: "PIL kya hai",
   lede: "जनहित याचिका को संक्षेप में PIL कहा जाता है. खोज में यह प्रश्न अक्सर PIL kya hai लिखा जाता है. दिल्ली उच्च न्यायालय में यह संविधान के अनुच्छेद 226 के अधीन एक रिट याचिका है, जिसे निजी विवाद के लिए नहीं, बल्कि सार्वजनिक क्षति के लिए दायर किया जाता है. इसकी प्रक्रिया दिल्ली उच्च न्यायालय (जनहित याचिका) नियम, 2010 में है.",
   inLanguage: "hi-IN",
   dateLabel: "23 अक्तूबर 2026",
@@ -237,7 +237,7 @@ export const pilGuideHindi: GuidePage = {
             "तथ्यों की जानकारी का स्रोत, और उनकी जाँच के लिए की गई पूछताछ.",
             "जिन लोगों के लाभ के लिए याचिका है वह वर्ग, और वे स्वयं न्यायालय क्यों नहीं आ सकते.",
             "जिन व्यक्तियों या निकायों पर मांगे गए आदेशों का प्रभाव पड़ सकता है, उन्हें पक्षकार बनाया जाए, और याचिकाकर्ता की जानकारी में ऐसा कोई अन्य व्यक्ति या निकाय न हो.",
-            "याचिकाकर्ता की पृष्ठभूमि, जहाँ तक वह इस कारण को उठाने की क्षमता दिखाए. संस्था होने पर पदाधिकारियों के नाम और कार्य की प्रकृति. यदि न्यायालय व्यय लगाए तो उसे चुकाने के साधन, और इस बारे में वचन.",
+            "याचिकाकर्ता की पृष्ठभूमि, जहाँ तक वह इस कारण को उठाने की क्षमता दिखाए. संस्था होने पर पदाधिकारियों के नाम और कार्य की प्रकृति, तथा नियमों के अनुसार अपेक्षित वचन.",
             "संबंधित प्राधिकारी को दिया गया कोई अभ्यावेदन, और मिला उत्तर.",
             "पहले दायर कोई जनहित याचिका या पत्र याचिका, तालिका में, संख्या, स्थिति और परिणाम के साथ.",
             "कारण का संक्षिप्त कथन, आधार, और स्पष्ट प्रार्थना.",
@@ -270,8 +270,8 @@ export const pilGuideHindi: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "याचिका उच्च न्यायालय की ई-फाइलिंग सुविधा से दायर होती है, उसी न्यायालय शुल्क के साथ जो सुविधा बताए. मुख्य न्यायाधीश एक पीठ गठित करते हैं जो, विपरीत निर्देश न हो तो, जनहित याचिका सुनती है. मुख्य न्यायाधीश किसी मामले को दूसरी पीठ को भी चिह्नित कर सकते हैं.",
-            "नियम न्यायालय की अंतर्निहित शक्ति को सीमित नहीं करते. न्यायालय न्याय के लिए आवश्यक आदेश दे सकता है, और प्रक्रिया के दुरुपयोग को रोक सकता है. इस शक्ति में व्यय लगाना, तथा तुच्छ या प्रेरित जनहित याचिका दायर करने वाले याचिकाकर्ता या अधिवक्ता को रोकना, सम्मिलित है.",
+            "याचिका उच्च न्यायालय की ई-फाइलिंग सुविधा से दायर होती है. मुख्य न्यायाधीश एक पीठ गठित करते हैं जो, विपरीत निर्देश न हो तो, जनहित याचिका सुनती है. मुख्य न्यायाधीश किसी मामले को दूसरी पीठ को भी चिह्नित कर सकते हैं.",
+            "नियम न्यायालय की अंतर्निहित शक्ति को सीमित नहीं करते. न्यायालय न्याय के लिए आवश्यक आदेश दे सकता है, और प्रक्रिया के दुरुपयोग को रोक सकता है. इस शक्ति में तुच्छ या प्रेरित जनहित याचिका दायर करने वाले याचिकाकर्ता या अधिवक्ता को रोकना सम्मिलित है.",
             "इस पृष्ठ से यह अर्थ नहीं निकलता कि याचिका ग्रहण कर ही ली जाएगी. नियमों का उद्देश्य यही जाँच है. जो याचिका वास्तव में निजी विवाद हो, वह साधारण रिट है, यदि वह रिट हो. अनुच्छेद 226 की प्रक्रिया अलग नोट में है.",
           ],
         },
@@ -300,9 +300,9 @@ export const pilGuideHindi: GuidePage = {
         "निजी लाभ का अभाव, तथ्यों का स्रोत, प्रभावित लोगों का वर्ग और वे न्यायालय क्यों नहीं आ सकते, और किस पर आदेश का प्रभाव पड़ सकता है, याचिकाकर्ता की पृष्ठभूमि, किया गया अभ्यावेदन, और पहले की जनहित याचिका. नियमों से संलग्न प्रारूप का शपथपत्र साथ होता है.",
     },
     {
-      question: "क्या न्यायालय जनहित याचिका पर व्यय लगा सकता है?",
+      question: "PIL kya hai, दिल्ली उच्च न्यायालय में?",
       answer:
-        "हाँ. नियम न्यायालय की वह शक्ति बनाए रखते हैं कि वह व्यय लगाए, और तुच्छ या प्रेरित जनहित याचिका दायर करने वाले याचिकाकर्ता या अधिवक्ता को रोके.",
+        "PIL kya hai: यह अनुच्छेद 226 के अधीन सार्वजनिक क्षति के लिए दायर रिट याचिका है, या ऐसा पत्र जिसे न्यायालय 2010 के नियमों के अनुसार ग्रहण करे. यह अलग संवैधानिक अनुच्छेद नहीं है.",
     },
   ],
 };

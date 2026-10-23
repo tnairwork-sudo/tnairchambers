@@ -1,6 +1,10 @@
 import { bailGuide } from "@/lib/guides/bail";
-import { feesGuide } from "@/lib/guides/fees";
+import { caseStatusGuide } from "@/lib/guides/case-status";
+import { efilingGuide } from "@/lib/guides/efiling";
+import { lawyerGuide } from "@/lib/guides/lawyer";
+import { limitationGuide } from "@/lib/guides/limitation";
 import { pilGuide, pilGuideHindi } from "@/lib/guides/pil";
+import { processGuide } from "@/lib/guides/process";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
 import { writGuide } from "@/lib/guides/writ";
 import { organizationId, siteUrl } from "@/lib/site";
@@ -9,10 +13,14 @@ export const guidesPublishedOn = "2026-10-23";
 
 const pages: GuidePage[] = [
   writGuide,
-  feesGuide,
+  limitationGuide,
+  processGuide,
+  caseStatusGuide,
+  efilingGuide,
   bailGuide,
   pilGuide,
   pilGuideHindi,
+  lawyerGuide,
 ];
 
 export function getGuides(): GuidePage[] {
@@ -35,21 +43,25 @@ export const guidesIndexPath = "/guides";
 export const guidesIndexUrl = `${siteUrl}${guidesIndexPath}`;
 
 export const guidesIndex: GuidesIndexContent = {
-  seoTitle: "Delhi High Court Guides on Writs, Bail, Fees, and PIL",
+  seoTitle: "Delhi High Court Guides",
   description:
-    "Informational notes on a writ petition in the Delhi High Court, bail in the Delhi High Court, high court lawyer fees, and what a PIL is (PIL kya hai).",
+    "Informational notes from New Delhi, India, including Writ petition in Delhi High Court, Bail in the Delhi High Court, What is a PIL, and PIL kya hai.",
   keywords: [
-    "delhi high court lawyer",
-    "writ petition delhi high court",
-    "high court lawyer fees",
-    "bail in delhi high court",
-    "pil kya hai",
-    "Delhi High Court",
+    "Writ petition in Delhi High Court",
+    "Article 226 writ after limitation",
+    "Delhi High Court case status and cause list explained",
+    "E-filing in the Delhi High Court",
+    "Bail in the Delhi High Court",
+    "What is a PIL",
+    "how to file a PIL",
+    "PIL kya hai",
+    "How a Delhi High Court case works",
+    "Delhi High Court lawyer: a guide to choosing and working with counsel",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
   title: "Guides",
-  lede: "These notes describe procedure in the High Court of Delhi. They cover a writ petition under Article 226, including delay and laches, bail under the Bharatiya Nagarik Suraksha Sanhita, public interest litigation, and the difference between court fees and a professional fee. They are published from New Delhi, India. They are not advice on any case.",
+  lede: "These notes describe procedure in the High Court of Delhi. They cover a writ petition, delay, the life of a case, case status and the cause list, e-filing, bail, and public interest litigation in English and in Hindi. A separate note describes choosing and working with counsel, without naming anyone. They are published from New Delhi, India. They are not advice on any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   faqs: [
@@ -59,11 +71,6 @@ export const guidesIndex: GuidesIndexContent = {
         "No. They describe procedure and the governing provisions. They are not advice on any facts, and reading them does not create an advocate-client relationship.",
     },
     {
-      question: "Do the guides quote a lawyer's fee?",
-      answer:
-        "No. The note on fees explains court fees and the factors that affect a professional fee. It states no figure and makes no offer.",
-    },
-    {
       question: "Which court do the notes describe?",
       answer:
         "The High Court of Delhi. The place named on these pages is New Delhi, India, and no other address is given.",
@@ -71,12 +78,17 @@ export const guidesIndex: GuidesIndexContent = {
     {
       question: "Is bail described under the old Code or the new Sanhita?",
       answer:
-        "The Bharatiya Nagarik Suraksha Sanhita has been in force from 1 July 2024. The bail note gives the Sanhita section and the former Code of Criminal Procedure section. A proceeding already pending on that date may continue under the old Code.",
+        "The Bharatiya Nagarik Suraksha Sanhita has been in force from 1 July 2024. The note titled Bail in the Delhi High Court gives the Sanhita section and the former Code of Criminal Procedure section. A proceeding already pending on that date may continue under the old Code.",
     },
     {
       question: "Where is the Hindi note on PIL kya hai?",
       answer:
-        "The public interest litigation note is published in English and in Hindi. The Hindi page is linked from the English page, and the other way round.",
+        "The English note is titled What is a PIL, and how to file a PIL. The Hindi note is titled PIL kya hai. Each links to the other.",
+    },
+    {
+      question: "Do the notes recommend an advocate?",
+      answer:
+        "No. The note titled Delhi High Court lawyer: a guide to choosing and working with counsel describes the relationship. It names no advocate and invites no engagement.",
     },
   ],
 };

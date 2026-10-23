@@ -2,20 +2,18 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const writGuide: GuidePage = {
   slug: "writ-petition-delhi-high-court",
-  seoTitle: "Writ Petition in the Delhi High Court under Article 226",
+  seoTitle: "Writ petition in Delhi High Court",
   description:
-    "How a writ petition is filed in the Delhi High Court under Article 226, including jurisdiction, the papers, and how delay and laches are explained. Information only.",
+    "Writ petition in Delhi High Court: what Article 226 permits, which papers are filed, and how a petition moves after it is lodged. Information only, from New Delhi, India.",
   keywords: [
-    "writ petition delhi high court",
+    "Writ petition in Delhi High Court",
     "Article 226",
     "Delhi High Court writ",
-    "laches",
-    "delay in writ petition",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title: "A writ petition under Article 226",
-  lede: "Article 226 of the Constitution allows the High Court of Delhi to issue directions, orders, and writs. This note describes what that jurisdiction is, how a petition is ordinarily put together, and how delay is explained. It is a description of the procedure, not advice on whether a particular petition should be filed.",
+  title: "Writ petition in Delhi High Court",
+  lede: "A writ petition in Delhi High Court is a petition under Article 226 of the Constitution. The High Court may issue directions, orders, and writs. This note describes that jurisdiction and how a petition is ordinarily put together. It is a description of the procedure, not advice on whether any petition should be filed.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
@@ -61,7 +59,6 @@ export const writGuide: GuidePage = {
             "The petition itself: facts, grounds, and a precise prayer.",
             "An affidavit of the petitioner verifying the petition.",
             "Annexures, paginated and identified in the list of dates.",
-            "The court fee prescribed for that class of petition.",
             "A vakalatnama, where an advocate is engaged.",
             "A separate application, where interim relief is sought and the current practice asks for one.",
           ],
@@ -81,7 +78,7 @@ export const writGuide: GuidePage = {
           type: "list",
           ordered: true,
           items: [
-            "The petition is filed through the High Court's e-filing facility. The facility states the court fee before submission.",
+            "The petition is filed through the High Court's e-filing facility. That step is described in the note on e-filing.",
             "The registry scrutinises the papers. If there is a defect, it is notified, and it is cured within the time the registry indicates.",
             "After scrutiny, the petition is listed according to the roster.",
             "The court may issue notice. Service then follows the direction given in the order and the practice of the court.",
@@ -110,41 +107,13 @@ export const writGuide: GuidePage = {
       ],
     },
     {
-      heading: "Delay, limitation, and laches",
+      heading: "Delay is a separate question",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Article 226 does not prescribe a period of limitation. There is no clause in the article that says a writ must be filed within a stated number of days.",
-            "The Limitation Act, 1963, including section 5 of that Act, does not give a petitioner a right to have delay condoned as if a writ were an appeal or an application under that Act. Courts sometimes look at the period fixed for a corresponding civil remedy as a measure of what delay is long. That comparison is a guide to discretion. It is not a statutory limitation period for the writ.",
-            "The controlling idea is laches. The jurisdiction is discretionary. The court may refuse relief where the petitioner has waited without a fair explanation, and particularly where the waiting has prejudiced the opposite party or where the rights of a third person have settled in the meantime. A petition filed years after the order, with no account of the interval, is at that risk.",
-            "Where a statute gives an appeal, a revision, or another remedy, and that remedy has its own period, letting the period pass and then coming to the writ court is viewed strictly. The writ is not a device for reviving a remedy that was allowed to lapse.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "How delay is explained",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "The explanation belongs in the petition. It is a chronology, not a sentence of regret. It should state when the order or action was made, when the petitioner came to know of it, what was done in the interval, and why the petition was not filed earlier. Documents that support those dates are annexed.",
-            "A general statement that the petitioner was taking advice, or was unwell, or was not aware of the law, carries little weight unless the dates and the papers support it. The explanation is given on affidavit, because the petition itself is verified on affidavit.",
-            "If the registry's current practice asks for a separate application as well, the same chronology is set out there. The form follows the practice direction then in force. This note does not invent a form number.",
-            "An explanation does not require the court to entertain the petition. The court may accept the explanation, accept it in part, or decline the petition. Third-party rights and prejudice are part of that decision. Delay that is explained can still be delay that the court will not excuse.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "What the court often considers",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "Where a statute provides a remedy that is equally efficacious, the court ordinarily expects that remedy to be used. That expectation is a rule of discretion, not a jurisdictional bar. In practice the court has entertained petitions in situations such as an act without jurisdiction, a failure to follow the principles of natural justice, or a challenge to the vires of a law or a rule. None of these is a formula, and none of them removes the need to explain delay.",
-            "The maintainability of a writ is decided on the record of that petition. This note cannot say, and does not say, that any class of case will be admitted.",
+            "Article 226 does not write down a period of limitation. Delay is still a reason on which the court may refuse relief. How that explanation is set out is the subject of the note titled Article 226 writ after limitation.",
+            "Where a statute provides a remedy that is equally efficacious, the court ordinarily expects that remedy to be used. That expectation is a rule of discretion, not a jurisdictional bar. The maintainability of a writ is decided on the record of that petition.",
           ],
         },
       ],
@@ -152,14 +121,14 @@ export const writGuide: GuidePage = {
   ],
   faqs: [
     {
-      question: "Does Article 226 fix a limitation period for a writ in the Delhi High Court?",
+      question: "Writ petition in Delhi High Court: what is it?",
       answer:
-        "No. Article 226 does not prescribe a period. The court may still refuse a delayed petition on the ground of laches, particularly where the delay is unexplained or has caused prejudice.",
+        "A writ petition in Delhi High Court is a petition under Article 226 asking the High Court of Delhi for a direction, order, or writ. It is discretionary, and it is not a statutory appeal.",
     },
     {
-      question: "Does section 5 of the Limitation Act condone delay in a writ as a matter of right?",
+      question: "Which writs can the High Court issue?",
       answer:
-        "No. Section 5 applies to appeals and applications under the Limitation Act. A writ petitioner does not have a right under that section to have delay condoned. The court considers the explanation as a matter of discretion.",
+        "Article 226 names writs in the nature of habeas corpus, mandamus, prohibition, quo warranto, and certiorari, and it also allows other directions and orders, for the enforcement of fundamental rights and for any other purpose.",
     },
     {
       question: "Can the Delhi High Court hear a writ if the authority is seated outside Delhi?",
@@ -169,12 +138,12 @@ export const writGuide: GuidePage = {
     {
       question: "Is an alternative statutory remedy a bar to a writ?",
       answer:
-        "It is not an absolute bar. The court ordinarily expects an equally efficacious statutory remedy to be used. It may still entertain a writ, in its discretion, in situations such as a want of jurisdiction or a breach of natural justice. The record decides it.",
+        "It is not an absolute bar. The court ordinarily expects an equally efficacious statutory remedy to be used. It may still entertain a writ, in its discretion, where the record justifies it.",
     },
     {
-      question: "Does a full explanation of delay mean the petition will be heard?",
+      question: "Where is delay in filing a writ explained?",
       answer:
-        "No. The explanation is necessary where there is delay. It does not bind the court. The court may accept it, accept it in part, or decline the petition.",
+        "In the separate note, Article 226 writ after limitation. A delayed petition can be refused for laches even though the article fixes no period.",
     },
   ],
 };
