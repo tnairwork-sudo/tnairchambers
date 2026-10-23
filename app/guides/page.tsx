@@ -82,28 +82,46 @@ export default function GuidesIndexPage() {
       </section>
 
       <section className="container-site py-16 md:py-20">
-        <div className="max-w-3xl">
-          <h2 className="heading-section text-3xl md:text-4xl text-parchment mb-8">
-            Notes
-          </h2>
-          <ul className="border-t border-border">
-            {guides.map((guide) => (
-              <li key={guide.slug} className="border-b border-border">
-                <Link
-                  href={guidePath(guide.slug)}
-                  className="block py-7 group"
-                >
-                  <span className="label text-gold">{guide.eyebrow}</span>
-                  <span className="mt-3 block font-serif text-3xl font-light text-parchment group-hover:text-gold-light transition-colors duration-200 text-balance">
-                    {guide.title}
-                  </span>
-                  <span className="mt-3 block text-sm md:text-base text-parchment-dim leading-relaxed">
-                    {guide.description}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <div className="max-w-3xl space-y-16">
+          {[
+            {
+              heading: "The High Court",
+              note: "Procedure in the High Court of Delhi, for companies, promoters, rights holders, and families.",
+              items: guides.filter((guide) => (guide.group ?? "court") === "court"),
+            },
+            {
+              heading: "India Entry",
+              note: "For a foreign company, including one reading from South Korea, Singapore, the Gulf, Europe, or the United States. The notes describe the Indian rules. They are published from New Delhi, India.",
+              items: guides.filter((guide) => guide.group === "entry"),
+            },
+          ].map((section) => (
+            <div key={section.heading}>
+              <h2 className="heading-section text-3xl md:text-4xl text-parchment mb-4">
+                {section.heading}
+              </h2>
+              <p className="text-sm md:text-base text-parchment-dim leading-relaxed mb-8 max-w-3xl">
+                {section.note}
+              </p>
+              <ul className="border-t border-border">
+                {section.items.map((guide) => (
+                  <li key={guide.slug} className="border-b border-border">
+                    <Link
+                      href={guidePath(guide.slug)}
+                      className="block py-7 group"
+                    >
+                      <span className="label text-gold">{guide.eyebrow}</span>
+                      <span className="mt-3 block font-serif text-3xl font-light text-parchment group-hover:text-gold-light transition-colors duration-200 text-balance">
+                        {guide.title}
+                      </span>
+                      <span className="mt-3 block text-sm md:text-base text-parchment-dim leading-relaxed">
+                        {guide.description}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </section>
 

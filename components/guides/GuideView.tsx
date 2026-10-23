@@ -93,7 +93,10 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
 
 export default function GuideView({ guide }: { guide: GuidePage }) {
   const hindi = guide.inLanguage === "hi-IN";
-  const others = getGuides().filter((item) => item.slug !== guide.slug);
+  const group = guide.group ?? "court";
+  const others = getGuides().filter(
+    (item) => item.slug !== guide.slug && (item.group ?? "court") === group
+  );
   const headingStyle = hindi
     ? { fontFamily: "var(--font-hindi-serif), serif" }
     : undefined;

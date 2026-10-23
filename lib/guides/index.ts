@@ -1,10 +1,18 @@
 import { bailGuide } from "@/lib/guides/bail";
 import { commercialGuide } from "@/lib/guides/commercial";
 import { companyGuide } from "@/lib/guides/company";
+import { dpdpGuide } from "@/lib/guides/dpdp";
+import { enforcementGuide } from "@/lib/guides/enforcement";
+import { eorGuide } from "@/lib/guides/eor";
+import { fdiGuide } from "@/lib/guides/fdi";
 import { ipGuide } from "@/lib/guides/ip";
+import { jointVentureGuide } from "@/lib/guides/joint-venture";
 import { lawyerGuide } from "@/lib/guides/lawyer";
+import { pressNoteGuide } from "@/lib/guides/press-note-3";
 import { processGuide } from "@/lib/guides/process";
+import { repatriationGuide } from "@/lib/guides/repatriation";
 import { slpGuide } from "@/lib/guides/slp";
+import { subsidiaryGuide } from "@/lib/guides/subsidiary";
 import { successionGuide } from "@/lib/guides/succession";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
 import { writGuide } from "@/lib/guides/writ";
@@ -22,6 +30,14 @@ const pages: GuidePage[] = [
   slpGuide,
   processGuide,
   lawyerGuide,
+  fdiGuide,
+  pressNoteGuide,
+  jointVentureGuide,
+  dpdpGuide,
+  subsidiaryGuide,
+  eorGuide,
+  repatriationGuide,
+  enforcementGuide,
 ];
 
 export function getGuides(): GuidePage[] {
@@ -44,9 +60,9 @@ export const guidesIndexPath = "/guides";
 export const guidesIndexUrl = `${siteUrl}${guidesIndexPath}`;
 
 export const guidesIndex: GuidesIndexContent = {
-  seoTitle: "Delhi High Court guides",
+  seoTitle: "Delhi High Court and India Entry guides",
   description:
-    "Informational notes from New Delhi, India, on Commercial disputes and arbitration in the Delhi High Court, Writ petitions against regulators and government in the Delhi High Court, and the related work of that Court.",
+    "Informational notes from New Delhi, India, on Commercial disputes and arbitration in the Delhi High Court and on FDI in India: automatic route, government route and 100% FDI sectors. Not legal advice.",
   keywords: [
     "Commercial disputes and arbitration in the Delhi High Court",
     "Writ petitions against regulators and government in the Delhi High Court",
@@ -57,11 +73,20 @@ export const guidesIndex: GuidesIndexContent = {
     "Supreme Court SLPs from Delhi High Court orders",
     "How a Delhi High Court case works",
     "Delhi High Court lawyer: choosing and working with counsel",
+    "FDI in India: automatic route, government route and 100% FDI sectors",
+    "Press Note 3 explained",
+    "Joint ventures in India with a foreign company",
+    "DPDP Act compliance for foreign companies",
+    "Setting up a foreign subsidiary in India",
+    "liaison office, branch office or subsidiary",
+    "Employer of record in India and Indian labour codes",
+    "Repatriation of profits from India",
+    "Enforcement of foreign judgments and arbitral awards in India",
     "New Delhi",
   ],
-  eyebrow: "Delhi High Court",
-  title: "Delhi High Court guides",
-  lede: "These notes describe the work of the High Court of Delhi that concerns companies, promoters, rights holders, and families. They cover commercial disputes and arbitration, writs against regulators and government, the line between this Court and the company law tribunal, property and succession in Delhi, intellectual property, bail in economic offences, and a petition for special leave to the Supreme Court. One note describes how a case moves, including case status, the cause list, and e-filing. Another describes choosing and working with counsel, without naming anyone. They are published from New Delhi, India. They are not advice on any case.",
+  eyebrow: "New Delhi",
+  title: "Guides",
+  lede: "Two groups of notes, both published from New Delhi, India. The first describes the work of the High Court of Delhi: commercial disputes and arbitration, writs, the line with the company law tribunal, property and succession, intellectual property, bail in economic offences, special leave to the Supreme Court, the life of a case, and choosing counsel. The second is India Entry, for a foreign company. It describes foreign investment, a joint venture, a subsidiary or a branch, data protection, employment, the remittance of profits, and the enforcement of a foreign judgment or award. They are not advice on any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   faqs: [
@@ -73,7 +98,12 @@ export const guidesIndex: GuidesIndexContent = {
     {
       question: "Which court do the notes describe?",
       answer:
-        "The High Court of Delhi, and, where the statute so provides, the Supreme Court on a petition for special leave from an order of that Court. The place named on these pages is New Delhi, India.",
+        "The High Court group describes the High Court of Delhi and, where the statute so provides, the Supreme Court. The India Entry group describes the rules that apply to a foreign company. The place named on these pages is New Delhi, India.",
+    },
+    {
+      question: "Where are the notes for a foreign company?",
+      answer:
+        "In the India Entry group. They include FDI in India: automatic route, government route and 100% FDI sectors, Press Note 3 explained, and Setting up a foreign subsidiary in India. They are informational. They do not invite an engagement.",
     },
     {
       question:

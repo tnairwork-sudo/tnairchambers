@@ -37,6 +37,8 @@ export type GuidePage = {
   sections: GuideSection[];
   faqs: GuideFaq[];
   alternates?: GuideAlternate[];
+  /** Court notes, or the India Entry notes for a foreign company. */
+  group?: "court" | "entry";
 };
 
 export type GuidesIndexContent = {
