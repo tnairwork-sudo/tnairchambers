@@ -12,7 +12,7 @@ const illustrations: Record<string, GuideIllustration> = {
       "Two doors share one frame. One opens onto a judge. The other opens onto the private table the contract already chose.",
   },
   "writ-petitions-against-regulators-delhi-high-court": {
-    alt: "Writ petitions against regulators and government in the Delhi High Court: a large official stamp, and a narrow opening a writ petition delhi high court looks through.",
+    alt: "Writ petitions against regulators and government in the Delhi High Court: a large official stamp, and the narrow opening the Court looks through.",
     caption:
       "The stamp is large. The opening the court looks through is small.",
   },
@@ -22,22 +22,22 @@ const illustrations: Record<string, GuideIllustration> = {
       "One register, divided. One half is the tribunal. The other half is still a contract.",
   },
   "nri-property-and-succession-delhi": {
-    alt: "NRI property and succession matters in Delhi: a key cut for a Delhi lock, and a foreign skyline on the ring that cannot turn it. An NRI property dispute delhi stays with the house.",
+    alt: "NRI property and succession matters in Delhi: a key cut for a Delhi lock, and a foreign skyline on the ring that cannot turn it.",
     caption:
       "The key is cut for a lock in Delhi. The skyline hanging on the ring does not turn it.",
   },
   "ip-and-trademark-litigation-delhi-high-court": {
-    alt: "IP and trademark litigation in the Delhi High Court: two near-matching labels, and the gap between them. Trademark infringement delhi high court is that gap.",
+    alt: "IP and trademark litigation in the Delhi High Court: two near-matching labels, and the narrow gap between them.",
     caption:
       "Two labels, almost twins. The narrow space between them is the case.",
   },
   "white-collar-bail-delhi-high-court": {
-    alt: "White-collar bail and anticipatory bail in the Delhi High Court: a white collar as a label on the case, and a door latch made from the statute. Anticipatory bail delhi high court is that latch, before the door closes.",
+    alt: "White-collar bail and anticipatory bail in the Delhi High Court: a white collar as a label on the case, and a door latch made from the statute.",
     caption:
       "The collar is a name for the case. The latch on the door is the statute.",
   },
   "supreme-court-slp-from-delhi-high-court": {
-    alt: "Supreme Court SLPs from Delhi High Court orders: a stair that ends at a shut door. An SLP supreme court from delhi high court asks for leave, and the door does not owe a key.",
+    alt: "Supreme Court SLPs from Delhi High Court orders: a stair that ends at a shut door, which does not owe anyone a key.",
     caption:
       "The stair up from the High Court is real. The door at the top does not owe anyone a key.",
   },
@@ -52,32 +52,32 @@ const illustrations: Record<string, GuideIllustration> = {
       "The papers are a map of one case. They are not a ranking of names.",
   },
   "fdi-in-india": {
-    alt: "FDI in India: automatic route, government route and 100% FDI sectors, drawn as three gates. One is open, one asks you to wait, and one was never a gate. The FDI rules in india are the gates.",
+    alt: "FDI in India: automatic route, government route and 100% FDI sectors, drawn as three gates. One stands open, one asks you to wait, and one was never a gate.",
     caption:
       "Three gates. One stands open. One asks you to wait. One was never a gate.",
   },
   "press-note-3": {
-    alt: "Press Note 3 explained: a letterhead from somewhere else, and a thread running past it to the person who owns the shares. Press note 3 follows the thread.",
+    alt: "Press Note 3 explained: a letterhead from one country, and a thread running past it to the person who owns the shares.",
     caption:
       "The letterhead says one country. The thread runs past it, to the person who owns the shares.",
   },
   "joint-venture-in-india": {
-    alt: "Joint ventures in India with a foreign company: two keys, cut differently, turning one Indian lock. A joint venture in india with foreign company cannot redraw the door.",
+    alt: "Joint ventures in India with a foreign company: two keys, cut differently, turning one Indian lock that neither key can redraw.",
     caption:
       "Two keys, cut differently, turn one Indian lock. Neither key can redraw the door.",
   },
   "dpdp-act-compliance": {
-    alt: "DPDP Act compliance for foreign companies: a shop window facing Delhi, with no shop behind it. DPDP act compliance does not wait for a lease.",
+    alt: "DPDP Act compliance for foreign companies: a window facing Delhi that still asks for a name, with no shop on the street behind it.",
     caption:
       "There is no shop on the street. The window still faces Delhi, and it still asks for a name.",
   },
   "setting-up-foreign-subsidiary-in-india": {
-    alt: "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary, drawn as three desks, only one of them a building of its own. A liaison office in india does not earn.",
+    alt: "Setting up a foreign subsidiary in India: three desks in a row, of which only the third is a building of its own.",
     caption:
       "Three desks in a row. Only the third is a building of its own.",
   },
   "employer-of-record-india": {
-    alt: "Employer of record in India and Indian labour codes: a nameplate that says employer, and other hands directing the day. Employer of record india is the nameplate, not the test.",
+    alt: "Employer of record in India and Indian labour codes: a nameplate that says employer, and other hands directing the day.",
     caption:
       "The nameplate says employer. The hands directing the day belong to someone else.",
   },
@@ -87,7 +87,7 @@ const illustrations: Record<string, GuideIllustration> = {
       "Three envelopes leave one building. The flap, not the paper, tells them apart.",
   },
   "enforcement-of-foreign-judgments-in-india": {
-    alt: "Enforcement of foreign judgments and arbitral awards in India: a court seal and an arbitrator's signature on one table, opening different doors. Enforcement of foreign judgments in india follows the seal.",
+    alt: "Enforcement of foreign judgments and arbitral awards in India: a court seal and an arbitrator's signature on one table, opening different doors.",
     caption:
       "Two papers on one table. A court seal and an arbitrator's signature open different doors.",
   },

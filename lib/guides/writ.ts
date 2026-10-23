@@ -2,107 +2,94 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const writGuide: GuidePage = {
   slug: "writ-petitions-against-regulators-delhi-high-court",
-  seoTitle:
-    "Writ petitions against regulators and government in the Delhi High Court",
+  seoTitle: "Writ petitions against regulators and government in the Delhi High Court",
   description:
-    "Writ petitions against regulators and government in the Delhi High Court: a writ petition delhi high court under Article 226, including an article 226 writ after limitation. Information only, from New Delhi, India.",
+    "Writ petitions against regulators and government in the Delhi High Court: when Article 226 is a narrow look at a public decision, and when the statute already gave a different appeal. Information only, from New Delhi.",
   keywords: [
     "Writ petitions against regulators and government in the Delhi High Court",
-    "writ petition delhi high court",
-    "article 226 writ after limitation",
     "Article 226",
+    "regulators",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title:
-    "Writ petitions against regulators and government in the Delhi High Court",
-  lede: "Writ petitions against regulators and government in the Delhi High Court are how a person or a company asks a constitutional court to look at official power. A tax order, a customs detention, a tender, a direction from a regulator: the common feeling is that the authority got its own statute wrong. This note is published by [Nair & Co, Advocates & Consultants](/), New Delhi. It explains when that feeling has a proceeding, and when the statute already gave a different one.",
+  title: "Writ petitions against regulators and government in the Delhi High Court",
+  lede: "A company in Delhi opens a letter from a regulator and finds itself blacklisted, or assessed, or kept out of a tender it thought it had met. The letter is a large official stamp, and the instinct is to ask the Delhi High Court to re-read the whole file and reach a kinder result. Article 226 does not work like that. The stamp stays large, and the opening the Court looks through is small: power, a hearing, and the kind of unfairness a writ will touch. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, describes that opening and does not say that any particular letter will be set aside.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "A writ petition delhi high court supervises. It does not rehear",
+      heading: "What is a writ against a public authority?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A writ petition delhi high court is a petition under Article 226. Start with the job, not the Latin. The High Court watches whether government, and the authorities Parliament created, stayed inside the law. It can issue directions, orders, and writs, including habeas corpus, mandamus, prohibition, quo warranto, and certiorari, both to enforce fundamental rights and for any other purpose.",
-            "The second limb is why the article reaches an ordinary administrative order, not only a case about a fundamental right in the textbook sense. The court asks a legality question. Was there jurisdiction? Was the statute followed? Was there a hearing? Was the decision taken in bad faith, or so arbitrarily that it is not a decision under the Act at all?",
-            "It does not sit as a second technical committee. If the authority scored a bid, the court does not rescore it. If an officer classified goods, the court does not become the classifier.",
+            "Article 226 of the Constitution lets this High Court issue directions, orders, and writs to any person or authority, including government, for the enforcement of fundamental rights and for any other purpose. The second half of that sentence is wide. The practice is not. The Court supervises public power. It does not sit as the regulator's appeal clerk, and it does not rescore a tender because a bidder prefers different marks.",
+            "Think of the stamp as the decision, and of the writ as a narrow slot cut in it. You can see through the slot. You cannot climb through it and redo the job.",
+            "Article 226(2) allows the petition where the cause of action arises, wholly or in part, within the Court's territory, even if the authority sits elsewhere. A Delhi office, or a letter received here, is a fact to be stated. It is not a slogan. Article 226(3) deals with an interim order made without hearing the other side: if a vacation application is filed, and the Court does not dispose of it within two weeks, or the next day the Court is open, the interim order stands vacated. That is a discipline on ex parte protection, not a promise that protection will be given.",
           ],
         },
       ],
     },
     {
-      heading: "Why so many of these cases are filed in Delhi",
+      heading: "When do you need it, and when is there already an appeal?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Article 226(2) is the map. The High Court may issue a writ to a government or authority even if that authority sits outside its territory, provided the cause of action arises, wholly or in part, inside the territory. Many regulators have offices in Delhi, so a cause of action often arises here. The seat of the authority is not, by itself, the test, and neither is the petitioner's home.",
-            "A company in Bengaluru does not acquire a Delhi writ merely by preferring the forum. It acquires one if part of the cause of action arose in Delhi.",
+            "You need the writ when the complaint is about how public power was used, and the statute has not already given you a workable appeal on that complaint. The Court is slow to entertain a writ where a statutory appeal was open and was allowed to lapse. The usual exceptions are familiar and narrow: the authority had no jurisdiction, the decision broke natural justice, or the attack is on the validity of the provision itself.",
+            "Income-tax appeals on a substantial question of law lie under section 260A. Customs uses section 130. Central goods and services tax uses section 117. Securities appeals go to the Securities Appellate Tribunal under section 15T, and from there to the Supreme Court under section 15Z on a question of law.",
+            "Foreign-exchange adjudication goes to the Appellate Tribunal under section 17 of the Foreign Exchange Management Act, and to the High Court under section 35 on a question of law. The foreign-trade statute has its own appeal and revision. Where those roads exist, the writ is not a shortcut around them. A commercial claim that is really a contract, rather than a challenge to public power, belongs in [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court).",
           ],
         },
       ],
     },
     {
-      heading: "Use the appeal the statute already built",
+      heading: "How does the petition move, and what does the Court look at?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The jurisdiction is discretionary. Where the statute provides an appeal or a revision that can actually be used, the court ordinarily expects you to use it. Letting that remedy expire, and then coming to Article 226 to revive it, is looked at strictly. The writ is not a condonation of a missed appeal.",
-            "There are real exceptions. The court may still step in where the authority had no jurisdiction, where natural justice was denied, or where the attack is on the vires of the law or of the delegated legislation. A statutory appellate authority cannot strike down the Act that created it. A writ can raise that question. Those exceptions are pleaded with facts. They are not a preface.",
+            "The petition is filed in this Court in New Delhi, with an affidavit and the record of the decision: the show-cause notice, the reply, the order, and the dates. The life of the filing, from diary number to the list, is in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works). At the first hearing the Court decides whether to issue notice, and sometimes whether a small interim protection is justified while the authority answers.",
+            "On tenders, the Court looks for arbitrariness, mala fides, bias, or a breach of the conditions the authority itself published. It does not re-mark the bids. Blacklisting needs notice and a hearing, because it takes away the chance to be considered later, and an order that skips that hearing is the sort of thing the slot is cut to reveal.",
+            "On tax and regulatory assessments, the Court asks whether the authority asked itself the statutory question, not whether the Court would have assessed a different figure. A writ is discretionary. Even a legal error does not compel relief if the petitioner slept on the remedy or the appeal was the right road.",
           ],
         },
       ],
     },
     {
-      heading: "Tax, customs, trade, securities, and the Reserve Bank",
+      heading: "What about delay, when there is no limitation period?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Income tax shows the pattern cleanly. An appeal on facts runs up the statutory ladder. An appeal to the High Court under section 260A of the Income-tax Act, 1961, lies on a substantial question of law from the Appellate Tribunal. That section is the appeal. A writ is not a further appeal on facts, and even section 260A is not a reappreciation of evidence.",
-            "Customs is the same shape. Appeal to the Commissioner, then the tribunal, then the High Court under section 130 of the Customs Act, 1962, if the case involves a substantial question of law. A classification fought on facts belongs on that ladder. Goods and services tax follows it too: appellate authority, then the tribunal, then the High Court under section 117 of the Central Goods and Services Tax Act, 2017, on a substantial question of law. Where a forum cannot in fact be approached, petitions are moved here. Each is decided on its own facts. The absence of a forum is pleaded, not assumed.",
-            "Foreign trade licensing sits under the Foreign Trade (Development and Regulation) Act, 1992, which provides an appeal and a revision. A writ is for want of jurisdiction, a denied hearing, or a challenge to the policy instrument itself. An order of the securities regulator is appealed under section 15T of its Act to the Securities Appellate Tribunal, and from the Tribunal to the Supreme Court under section 15Z on a question of law. That is the prescribed path. Under the foreign-exchange law, adjudication is followed by an appeal to the Appellate Tribunal under section 17, and a further appeal to the High Court on a question of law under section 35. Where no such appeal exists, judicial review remains, on legality, not as a merits rehearing.",
+            "Article 226 states no period of limitation. That absence is not an invitation to arrive whenever it is convenient. The Court applies laches: a delay that has let the other side, or the public decision, settle. Section 5 of the Limitation Act, which can condone delay in a court appeal, is not a right to condone a writ.",
+            "A statutory appeal that was allowed to expire is looked at strictly. The explanation is a chronology on affidavit, not an adjective. If part of the cause of action arose here, the petition has to say what that part was.",
+            "A public-interest petition is a narrow cousin, governed in this Court by the Delhi High Court (Public Interest Litigation) Rules, 2010. It is not a private grievance told in the language of the public. A company fighting its own blacklisting is a private litigant, and it should say so. The rules exist so that the Court's time for real public questions is not used as a second caption for a commercial disappointment.",
           ],
         },
       ],
     },
     {
-      heading: "A tender is a narrow review",
+      heading: "What should you prepare?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A tender is a commercial decision of the authority. The court asks whether it was arbitrary, mala fide, biased, or in breach of the conditions the authority itself published. It does not choose the winner. An interim order that stops a public work is granted with caution, because the work stands still. The ordinary tests remain a serious case to try, the balance of convenience, and injury that cannot be repaired later.",
-            "Article 226(3) adds a specific consequence. If an interim order is made without copies and without a hearing, the affected party may apply to vacate it. If that application is not decided within two weeks, the interim order stands vacated. If the court closes before the two weeks run, the next open day counts. Blacklisting is separate, and more severe than rejecting a bid. It needs notice and a hearing.",
+            "Prepare the decision, the path that led to it, and a single sentence of what is wrong in law. If you had a hearing, exhibit the notice and your reply. If you did not, say that you did not, because natural justice is a fact.",
+            "If a statutory appeal exists, say why this petition is still the right road, or the Court will ask and the silence will be the answer. Dates matter more than indignation. A timeline that shows when the order was received, when the appeal expired, and when the petition was filed is the document that meets a laches objection.",
+            "Interim protection, if you ask for it, has to say what happens in the next weeks if nothing is done: a bank guarantee invoked, a tender closed, a licence that cannot be used. The Court is not moved by the size of the business. It is moved by a consequence that cannot be undone, tied to a serious question in the slot. An ex parte order, if made, carries the two-week discipline of Article 226(3) once the other side applies to vacate it.",
           ],
         },
       ],
     },
     {
-      heading: "An article 226 writ after limitation",
+      heading: "What mistakes close the opening?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "An article 226 writ after limitation is the petition filed when time has passed since the order complained of. Article 226 itself fixes no period. That is not permission to file when convenient. The jurisdiction is discretionary, and the court may refuse a petition for laches: delay that has hurt the other side, or delay that is simply unexplained.",
-            "Section 5 of the Limitation Act, which can condone delay in proceedings to which it applies, is not a right to have a late writ heard. Where a statutory appeal was allowed to lapse, the court is slow to revive it. What the court is given, when delay matters, is an explanation on affidavit. A chronology: the date of the order, the date you knew, what happened in between, and why the petition comes now. A line that the matter was under consideration is not a chronology. A full explanation does not guarantee a hearing. It is the condition of asking.",
-            "One neighbouring form should not be confused with this. A petition about a public injury, rather than the petitioner's own legal right, is screened as a public interest litigation under the Delhi High Court rules of 2010. Those rules decline letter petitions that are really private, commercial, or service grievances. A company enforcing its own right files an ordinary writ, with an affidavit and a precise prayer.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "In short",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "Article 226 supervises legality. It is wide, and it is discretionary. If the statute built an appeal, that appeal is the ordinary path, unless jurisdiction, natural justice, or vires takes the case outside it. Delay is explained with dates, not with a mood. An interim order is not the end of the case, and an ex parte one can vacate itself under Article 226(3).",
-            "The life of the petition after it is lodged, from diary number to cause list, is in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works). A commercial claim that is really a contract, rather than a challenge to public power, belongs in [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court). Nothing on this page says that any petition will be admitted.",
+            "The usual mistake is to ask the Court to be a better regulator. A long affidavit about why the company's bid was commercially superior does not become a writ because it uses the word arbitrary. The second mistake is to let the appeal die and then describe the writ as if no appeal had existed. The third is delay without a chronology. Each of these asks the Court to widen the slot until it is a rehearing, which is the thing Article 226 is careful not to be.",
+            "A writ order can itself be the subject of an appeal within the Court, or of special leave, depending on what was decided. Nothing here identifies which letters survive that look. The useful question, the morning the letter arrives, is smaller. Is this a public decision, is there already an appeal, and is the complaint one of the few things the Court will see through the stamp?",
           ],
         },
       ],
@@ -111,29 +98,29 @@ export const writGuide: GuidePage = {
   faqs: [
     {
       question:
-        "What are Writ petitions against regulators and government in the Delhi High Court?",
+        "What are writ petitions against regulators and government in the Delhi High Court?",
       answer:
-        "Writ petitions against regulators and government in the Delhi High Court are petitions under Article 226. A writ petition delhi high court supervises the legality of official action. It is not a substitute for a statutory appeal.",
+        "Writ petitions against regulators and government in the Delhi High Court are requests under Article 226 that the Court supervise a public decision. The Court looks at power, hearing, and fairness of a limited kind. It does not rehear the merits as if it were the regulator, and it expects a statutory appeal to be used where one exists.",
     },
     {
-      question: "Can the High Court hear the petition if the regulator sits outside Delhi?",
+      question: "Is there a time limit for filing the petition?",
       answer:
-        "Yes, if the cause of action arises wholly or in part within the territory. Article 226(2) says so. The seat of the authority, with no cause of action here, is not enough.",
+        "Article 226 names none. The Court still refuses a petition for laches, which is delay that has let the decision settle. Section 5 of the Limitation Act is not a right to condone that delay. A statutory appeal that was allowed to lapse is viewed strictly, and the explanation belongs in a chronology on affidavit.",
     },
     {
-      question: "Is a writ the appeal against the securities regulator?",
+      question: "Can the Court rescore a tender?",
       answer:
-        "No. The prescribed appeal is to the Securities Appellate Tribunal under section 15T, and from the Tribunal to the Supreme Court under section 15Z on a question of law.",
+        "No. The Court looks for arbitrariness, mala fides, bias, or a departure from the conditions the authority published. It does not award fresh marks. Blacklisting, separately, needs notice and a hearing before a person is shut out of later work.",
     },
     {
-      question: "Will the court rescore a tender?",
+      question: "Where can the petition be filed if the authority sits outside Delhi?",
       answer:
-        "No. It examines arbitrariness, mala fides, bias, and breach of the published conditions. It does not choose the successful bidder.",
+        "Article 226(2) allows the petition if the cause of action arises, wholly or in part, within the territory of this Court. The petition has to state that part. A Delhi address, without more, is not the cause of action.",
     },
     {
-      question: "What is an article 226 writ after limitation?",
+      question: "What happens to an interim order made without hearing the authority?",
       answer:
-        "An article 226 writ after limitation is a writ filed after time has passed. The article sets no period, but the court may refuse it for laches. Delay is explained by a chronology on affidavit. An explanation does not guarantee a hearing.",
+        "If the authority applies to vacate it and the application is not disposed of within two weeks, or the next day the Court is open, Article 226(3) vacates the ex parte order. The rule disciplines interim protection. It does not decide the petition.",
     },
   ],
 };
