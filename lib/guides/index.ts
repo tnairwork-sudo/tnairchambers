@@ -1,10 +1,11 @@
 import { bailGuide } from "@/lib/guides/bail";
-import { caseStatusGuide } from "@/lib/guides/case-status";
-import { efilingGuide } from "@/lib/guides/efiling";
+import { commercialGuide } from "@/lib/guides/commercial";
+import { companyGuide } from "@/lib/guides/company";
+import { ipGuide } from "@/lib/guides/ip";
 import { lawyerGuide } from "@/lib/guides/lawyer";
-import { limitationGuide } from "@/lib/guides/limitation";
-import { pilGuide, pilGuideHindi } from "@/lib/guides/pil";
 import { processGuide } from "@/lib/guides/process";
+import { slpGuide } from "@/lib/guides/slp";
+import { successionGuide } from "@/lib/guides/succession";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
 import { writGuide } from "@/lib/guides/writ";
 import { organizationId, siteUrl } from "@/lib/site";
@@ -12,14 +13,14 @@ import { organizationId, siteUrl } from "@/lib/site";
 export const guidesPublishedOn = "2026-10-23";
 
 const pages: GuidePage[] = [
+  commercialGuide,
   writGuide,
-  limitationGuide,
-  processGuide,
-  caseStatusGuide,
-  efilingGuide,
+  companyGuide,
+  successionGuide,
+  ipGuide,
   bailGuide,
-  pilGuide,
-  pilGuideHindi,
+  slpGuide,
+  processGuide,
   lawyerGuide,
 ];
 
@@ -43,25 +44,24 @@ export const guidesIndexPath = "/guides";
 export const guidesIndexUrl = `${siteUrl}${guidesIndexPath}`;
 
 export const guidesIndex: GuidesIndexContent = {
-  seoTitle: "Delhi High Court Guides",
+  seoTitle: "Delhi High Court guides",
   description:
-    "Informational notes from New Delhi, India, including Writ petition in Delhi High Court, Bail in the Delhi High Court, What is a PIL, and PIL kya hai.",
+    "Informational notes from New Delhi, India, on Commercial disputes and arbitration in the Delhi High Court, Writ petitions against regulators and government in the Delhi High Court, and the related work of that Court.",
   keywords: [
-    "Writ petition in Delhi High Court",
-    "Article 226 writ after limitation",
-    "Delhi High Court case status and cause list explained",
-    "E-filing in the Delhi High Court",
-    "Bail in the Delhi High Court",
-    "What is a PIL",
-    "how to file a PIL",
-    "PIL kya hai",
+    "Commercial disputes and arbitration in the Delhi High Court",
+    "Writ petitions against regulators and government in the Delhi High Court",
+    "Company and corporate disputes in the Delhi High Court",
+    "NRI property and succession matters in Delhi",
+    "IP and trademark litigation in the Delhi High Court",
+    "White-collar bail and anticipatory bail in the Delhi High Court",
+    "Supreme Court SLPs from Delhi High Court orders",
     "How a Delhi High Court case works",
-    "Delhi High Court lawyer: a guide to choosing and working with counsel",
+    "Delhi High Court lawyer: choosing and working with counsel",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title: "Guides",
-  lede: "These notes describe procedure in the High Court of Delhi. They cover a writ petition, delay, the life of a case, case status and the cause list, e-filing, bail, and public interest litigation in English and in Hindi. A separate note describes choosing and working with counsel, without naming anyone. They are published from New Delhi, India. They are not advice on any case.",
+  title: "Delhi High Court guides",
+  lede: "These notes describe the work of the High Court of Delhi that concerns companies, promoters, rights holders, and families. They cover commercial disputes and arbitration, writs against regulators and government, the line between this Court and the company law tribunal, property and succession in Delhi, intellectual property, bail in economic offences, and a petition for special leave to the Supreme Court. One note describes how a case moves, including case status, the cause list, and e-filing. Another describes choosing and working with counsel, without naming anyone. They are published from New Delhi, India. They are not advice on any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   faqs: [
@@ -73,22 +73,23 @@ export const guidesIndex: GuidesIndexContent = {
     {
       question: "Which court do the notes describe?",
       answer:
-        "The High Court of Delhi. The place named on these pages is New Delhi, India, and no other address is given.",
+        "The High Court of Delhi, and, where the statute so provides, the Supreme Court on a petition for special leave from an order of that Court. The place named on these pages is New Delhi, India.",
     },
     {
-      question: "Is bail described under the old Code or the new Sanhita?",
+      question:
+        "Where does a commercial arbitration sit, as against a company petition?",
       answer:
-        "The Bharatiya Nagarik Suraksha Sanhita has been in force from 1 July 2024. The note titled Bail in the Delhi High Court gives the Sanhita section and the former Code of Criminal Procedure section. A proceeding already pending on that date may continue under the old Code.",
+        "Commercial disputes and arbitration in the Delhi High Court describes sections 9, 11 and 34. Company and corporate disputes in the Delhi High Court describes the matters that go instead to the National Company Law Tribunal. The two are not interchangeable.",
     },
     {
-      question: "Where is the Hindi note on PIL kya hai?",
+      question: "How is bail in an economic offence described?",
       answer:
-        "The English note is titled What is a PIL, and how to file a PIL. The Hindi note is titled PIL kya hai. Each links to the other.",
+        "The note titled White-collar bail and anticipatory bail in the Delhi High Court gives the Sanhita section, the former Code section, and the additional conditions in the money-laundering and company-fraud statutes. A proceeding already pending on 1 July 2024 may continue under the old Code.",
     },
     {
       question: "Do the notes recommend an advocate?",
       answer:
-        "No. The note titled Delhi High Court lawyer: a guide to choosing and working with counsel describes the relationship. It names no advocate and invites no engagement.",
+        "No. The note titled Delhi High Court lawyer: choosing and working with counsel describes the relationship. It names no advocate and invites no engagement.",
     },
   ],
 };

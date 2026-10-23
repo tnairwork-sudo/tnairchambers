@@ -18,7 +18,7 @@ export default function GuideFooter() {
               <Wordmark className="text-[1.8rem]" />
             </Link>
             <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">
-              Informational notes on procedure in the High Court of Delhi.
+              Informational notes on the High Court of Delhi.
               New Delhi, India.
             </p>
           </div>

@@ -4,77 +4,77 @@ export const processGuide: GuidePage = {
   slug: "how-a-delhi-high-court-case-works",
   seoTitle: "How a Delhi High Court case works",
   description:
-    "How a Delhi High Court case works, from lodging and scrutiny to listing, notice, hearing, and the order. Information only, from New Delhi, India.",
+    "How a Delhi High Court case works: e-filing, scrutiny, case status, the cause list, listing, and the order. Information only, from New Delhi, India.",
   keywords: [
     "How a Delhi High Court case works",
-    "Delhi High Court procedure",
+    "Delhi High Court case status",
     "cause list",
+    "e-filing",
     "diary number",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
   title: "How a Delhi High Court case works",
-  lede: "How a Delhi High Court case works is a sequence, not a single hearing. Papers are lodged, the registry scrutinises them, the matter is registered and then listed, the other side is notified, and the court hears it and passes an order. This note describes that sequence in general. A writ, a bail application, and a public interest petition each have a note of their own.",
+  lede: "How a Delhi High Court case works is a sequence, not a single hearing. Papers are lodged, ordinarily by e-filing. The registry scrutinises them. The matter is registered, listed according to the roster, and called if it is reached. Case status is the record of that one matter. The cause list is the list of matters a court will take on a given day. This note describes both, and the path between them.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "The court, and the kinds of work",
+      heading: "The court",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The High Court of Delhi sits at New Delhi. It hears writ petitions under Article 226, criminal work including bail, appeals, and the original civil suits the law assigns to it. The Chief Justice allocates classes of work to benches by roster. A matter is listed before the bench to which that class belongs.",
-            "The sequence below is the ordinary path of a contested matter. An uncontested request, or a matter disposed of at the first call, is shorter. The path is not a promise that every case will pass every step.",
+            "The High Court of Delhi sits at New Delhi. It hears writ petitions, commercial suits, intellectual property suits, arbitration petitions, criminal work including bail, appeals, and the original civil and testamentary matters the law assigns to it. The Chief Justice allocates classes of work to benches by roster. A matter is listed before the bench to which that class belongs. A commercial dispute of the kind the statute assigns to the Commercial Division is listed there. Intellectual property is listed in the Intellectual Property Division.",
+            "The sequence below is the ordinary path of a contested matter. A matter disposed of at the first call is shorter. The path is not a promise that every case will pass every step, and it is not a prediction of the result.",
           ],
         },
       ],
     },
     {
-      heading: "Lodging and scrutiny",
+      heading: "E-filing, scrutiny, and the diary number",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A new matter is lodged, ordinarily through the e-filing facility described in the note titled E-filing in the Delhi High Court. It receives a diary number. The registry checks the papers. Defects are notified and cured. When the filing is in order it is registered and receives a case number.",
-            "Registration means the matter is a case on the file of the court. It does not mean the case has been argued, and it does not mean any interim order has been made.",
+            "A new petition or application is lodged through the High Court's e-filing facility. The filer signs in, enters the case type and the parties, and uploads the petition or application, the affidavit, and the annexures. Where an advocate files, a vakalatnama is uploaded with them. Paper filing is available only where the current practice still permits it.",
+          ],
+        },
+        {
+          type: "list",
+          ordered: true,
+          items: [
+            "The filing receives a diary number. The diary number identifies the lodging. It is not a case number, and it does not mean the matter has been registered.",
+            "The registry scrutinises the papers. Defects, such as a missing affidavit, an illegible annexure, or a pleading that does not correspond to its index, are notified.",
+            "Defects are removed within the time the registry indicates. This note does not invent that period. A filing that is not cured is not registered.",
+            "When the filing is in order it is registered and receives a case number. Registration means the matter is a case on the file of the court. It does not mean the case has been argued, and it does not mean any interim order has been made.",
           ],
         },
       ],
     },
     {
-      heading: "Listing",
+      heading: "Case status and the cause list",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A registered matter is listed according to the roster. The cause list for a sitting names the court, the item number, and the case. How that list is read is the subject of the note titled Delhi High Court case status and cause list explained.",
-            "Where an early listing is sought, the request follows the current practice direction. It is a request about when the matter is called. The court decides whether to take it up.",
+            "Case status is the record of one matter. It shows the parties, the advocates on record, the dates, the orders that have been uploaded, and the next date if one has been given. It answers the question of what has happened in that case. It does not say what will happen at the next hearing.",
+            "The cause list is published for a sitting, usually the day before. It names the court, the item number, and the case. The main list is the list first published. A supplementary list adds matters afterwards. An item that is not reached has not been called. Not reached is not a dismissal, and it is not an order.",
+            "The display board shows the item a court is currently on. It is a live indication of progress through that day's list. It is not an order, and a matter that has scrolled past on the board is confirmed from the order, not from a recollection of the board.",
+            "The order, once it is signed and uploaded, is the text that governs. Case status shows that an order exists. The order itself is read separately. What was said in court, if it differs from the signed order, does not prevail over the order.",
           ],
         },
       ],
     },
     {
-      heading: "Notice and the written response",
+      heading: "Notice, the response, and the hearing",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "If the court issues notice, the other parties are served in the manner the order and the rules require. A respondent who is served files a reply, often called a counter affidavit in a writ. The petitioner may file a rejoinder. Each of those papers is on affidavit where the practice requires it.",
-            "The court may also pass an interim order before the final hearing. An interim order holds the position for the time being. It is not the final decision. In a writ, Article 226(3) sets a consequence where an interim order is made without copies and without a hearing, and the affected party then applies to vacate it. That consequence is described in the note titled Writ petition in Delhi High Court.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "The hearing and the order",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "On the day of hearing the matter is called by its item number, if it is reached. Counsel, or a party in person, addresses the court on the record. The court may adjourn, may decide a part of the controversy, or may reserve and pronounce the order later.",
-            "The order is the court's decision for that hearing. Once it is signed and uploaded it is the text that governs, not a recollection of what was said. Case status shows that an order exists. The order itself is read separately.",
-            "A further proceeding, such as an appeal or a review, exists only where the law provides it, and only within the conditions that law sets. This note does not set those conditions out case by case.",
+            "If the court issues notice, the other parties are served in the manner the order and the rules require. A respondent files a reply, often called a counter affidavit in a writ, and the petitioner may file a rejoinder. Each is on affidavit where the practice requires it. In a commercial suit the written statement is on the tighter clock described in the note titled Commercial disputes and arbitration in the Delhi High Court.",
+            "The court may pass an interim order before the final hearing. An interim order holds the position for the time being. It is not the final decision. Where a writ interim order is made without copies and without a hearing, Article 226(3) sets a consequence, described in the note titled Writ petitions against regulators and government in the Delhi High Court.",
+            "On the day of hearing the matter is called by its item number, if it is reached. Counsel, or a party appearing in person, addresses the court on the record. The court may adjourn, may decide a part of the controversy, or may reserve judgment and pronounce it later.",
           ],
         },
       ],
@@ -85,17 +85,19 @@ export const processGuide: GuidePage = {
         {
           type: "list",
           items: [
-            "Writ petition in Delhi High Court describes a petition under Article 226.",
-            "Article 226 writ after limitation describes delay and laches.",
-            "Bail in the Delhi High Court describes regular and anticipatory bail.",
-            "What is a PIL, and how to file a PIL, describes a public interest petition. The Hindi note is titled PIL kya hai.",
-            "E-filing in the Delhi High Court describes lodging. Delhi High Court case status and cause list explained describes how a matter is found afterwards.",
+            "Commercial disputes and arbitration in the Delhi High Court describes the Commercial Division and sections 9, 11 and 34.",
+            "Writ petitions against regulators and government in the Delhi High Court describes Article 226, including delay.",
+            "Company and corporate disputes in the Delhi High Court describes the line between this Court and the National Company Law Tribunal.",
+            "NRI property and succession matters in Delhi describes probate, letters of administration, partition, and title.",
+            "IP and trademark litigation in the Delhi High Court describes the Intellectual Property Division and injunctions.",
+            "White-collar bail and anticipatory bail in the Delhi High Court describes bail in economic offences.",
+            "Supreme Court SLPs from Delhi High Court orders describes a petition for special leave. Filing one does not, by itself, stay the order made here.",
           ],
         },
         {
           type: "paragraphs",
           paragraphs: [
-            "Those notes are descriptions of procedure. None of them predicts the result of a case.",
+            "A further note, Delhi High Court lawyer: choosing and working with counsel, describes the professional relationship. It names no advocate. None of these notes predicts the result of a case.",
           ],
         },
       ],
@@ -105,27 +107,27 @@ export const processGuide: GuidePage = {
     {
       question: "How a Delhi High Court case works, in one sequence?",
       answer:
-        "How a Delhi High Court case works: the papers are lodged and scrutinised, the matter is registered, it is listed before the roster bench, notice goes if the court so directs, replies are filed, the court hears the matter if it is reached, and an order is passed.",
+        "How a Delhi High Court case works: the papers are e-filed and scrutinised, defects are cured, the matter is registered, it is listed before the roster bench, case status records the dates and the orders, the cause list gives the item for a sitting, and the court hears the matter if it is reached.",
     },
     {
-      question: "Does registration mean the case has been decided?",
+      question: "What is the difference between a diary number and a case number?",
       answer:
-        "No. Registration means the filing has a case number. Hearing and the order come later, if the matter is listed and reached.",
+        "A diary number identifies the lodging, before scrutiny is complete. A case number is given on registration. Registration is not a decision.",
+    },
+    {
+      question: "What is the difference between case status and the cause list?",
+      answer:
+        "Case status is the record of one matter. The cause list is the list of matters a court will take on a given day. A supplementary list adds matters after the main list. An item that is not reached has not been decided.",
+    },
+    {
+      question: "Does the display board record the order?",
+      answer:
+        "No. The display board shows which item a court is on. The order is the signed text, read once it is uploaded. Case status shows that the order exists.",
     },
     {
       question: "Who decides which bench hears the case?",
       answer:
-        "The Chief Justice allocates classes of work by roster. A matter is listed before the bench to which that class of work is assigned.",
-    },
-    {
-      question: "Is an interim order the end of the case?",
-      answer:
-        "No. An interim order holds the position until the matter is finally decided, or until the court varies it. The final order is a separate step.",
-    },
-    {
-      question: "Does every case go through every step?",
-      answer:
-        "No. A matter may be disposed of at the first call, or adjourned, or not reached. The sequence above is the ordinary path of a contested case, not a timetable.",
+        "The Chief Justice allocates classes of work by roster. A matter is listed before the bench to which that class is assigned, including the Commercial Division and the Intellectual Property Division.",
     },
   ],
 };

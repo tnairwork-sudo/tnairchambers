@@ -1,45 +1,32 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const bailGuide: GuidePage = {
-  slug: "bail-delhi-high-court",
-  seoTitle: "Bail in the Delhi High Court",
+  slug: "white-collar-bail-delhi-high-court",
+  seoTitle: "White-collar bail and anticipatory bail in the Delhi High Court",
   description:
-    "Bail in the Delhi High Court: regular and anticipatory bail under the Bharatiya Nagarik Suraksha Sanhita, with the former CrPC sections, the process, and the documents. Information only.",
+    "White-collar bail and anticipatory bail in the Delhi High Court: economic offences, the Prevention of Money Laundering Act, and the Bharatiya Nagarik Suraksha Sanhita. Information only, from New Delhi, India.",
   keywords: [
-    "bail in delhi high court",
-    "anticipatory bail Delhi High Court",
-    "regular bail Delhi High Court",
+    "White-collar bail and anticipatory bail in the Delhi High Court",
+    "PMLA bail",
+    "anticipatory bail economic offence",
     "BNSS 482",
     "BNSS 483",
-    "section 438 CrPC",
-    "section 439 CrPC",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
-  title: "Bail in the Delhi High Court",
-  lede: "Bail in the Delhi High Court is a statutory application, not a writ. The Bharatiya Nagarik Suraksha Sanhita, 2023, has been in force from 1 July 2024. This note sets out the sections that govern regular bail and anticipatory bail, the former Code of Criminal Procedure sections they correspond to, and the papers and the process. It does not predict whether bail will be granted in any case.",
+  title: "White-collar bail and anticipatory bail in the Delhi High Court",
+  lede: "White-collar bail and anticipatory bail in the Delhi High Court are statutory applications. The seriousness of an economic offence is a relevant consideration. It is not, by itself, a bar. A bar exists only where a statute writes one, as the Prevention of Money Laundering Act and the fraud provision of the Companies Act do. This note sets out those provisions. It does not say whether bail will be granted in any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "Two different applications",
+      heading: "Two applications",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Regular bail is sought when a person is already in custody. Anticipatory bail is sought before arrest, by a person who has reason to believe that he or she may be arrested on an accusation of a non-bailable offence. The court, if it grants anticipatory bail, directs that the person be released on bail in the event of that arrest.",
-            "The two applications are filed under different sections. They are not nicknames for the same relief. A writ of habeas corpus is a third, different proceeding, and it is not a substitute label for a bail application.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "The sections, and the former Code",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "The Sanhita repealed the Code of Criminal Procedure, 1973. Section 531(2)(a) of the Sanhita keeps the old Code in place for an appeal, application, trial, inquiry, or investigation that was already pending when the Sanhita came into force. A matter of that kind continues under the Code. A proceeding begun afterwards is governed by the Sanhita. The table gives both numbers so that an older order and a new application can be read together.",
+            "Regular bail is sought when a person is already in custody. Anticipatory bail is sought before arrest, by a person who has reason to believe that he or she may be arrested for a non-bailable offence. If the court grants it, the direction is that the person be released on bail in the event of that arrest. The two applications are made under different sections. Neither is a writ.",
+            "The Bharatiya Nagarik Suraksha Sanhita, 2023, has been in force from 1 July 2024. Section 531(2)(a) keeps the Code of Criminal Procedure, 1973, in place for an appeal, application, trial, inquiry or investigation that was already pending on that date. A proceeding begun afterwards is governed by the Sanhita. A special statute such as the Prevention of Money Laundering Act prescribes additional conditions, and those conditions prevail where they differ.",
           ],
         },
         {
@@ -50,7 +37,7 @@ export const bailGuide: GuidePage = {
           rows: [
             ["Bail in a bailable offence", "Section 478", "Section 436"],
             [
-              "Maximum period for which an undertrial may be detained",
+              "Maximum period of detention of an undertrial",
               "Section 479",
               "Section 436A",
             ],
@@ -59,23 +46,14 @@ export const bailGuide: GuidePage = {
               "Section 480",
               "Section 437",
             ],
-            [
-              "Bond to appear if a higher court issues notice",
-              "Section 481",
-              "Section 437A",
-            ],
-            [
-              "Direction for bail to a person who apprehends arrest",
-              "Section 482",
-              "Section 438",
-            ],
+            ["Anticipatory bail", "Section 482", "Section 438"],
             [
               "Special powers of the High Court and the Court of Session",
               "Section 483",
               "Section 439",
             ],
             [
-              "Detention when investigation is not finished in twenty-four hours, and release if the outer period expires",
+              "Detention during investigation, and release when the outer period expires",
               "Section 187",
               "Section 167",
             ],
@@ -84,94 +62,58 @@ export const bailGuide: GuidePage = {
       ],
     },
     {
-      heading: "Anticipatory bail",
+      heading: "The Sanhita, in the High Court",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 482 of the Sanhita, which corresponds to section 438 of the old Code, allows a person who apprehends arrest for a non-bailable offence to apply to the High Court or to the Court of Session. The statute confers that jurisdiction on both courts. If the court thinks fit, it directs that, in the event of arrest, the person shall be released on bail.",
-            "The direction may carry conditions. The section itself names some of them: that the person shall be available for interrogation, shall not induce or threaten a person acquainted with the facts, and shall not leave India without the permission of the court. The court may also impose conditions of the kind section 480(3) provides for certain non-bailable offences.",
-            "Section 482(4) is an exclusion. Nothing in the section applies to a case involving arrest on an accusation of an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023. Other statutes may contain their own restrictions. Those restrictions are read from the statute that creates them, not from this note.",
+            "Section 482, corresponding to section 438 of the old Code, confers anticipatory bail on the High Court and on the Court of Session. The statute gives the jurisdiction to both. The direction may require the person to be available for interrogation, not to induce or threaten a person acquainted with the facts, and not to leave India without the permission of the court.",
+            "Section 482(4) is an exclusion, and it is a narrow one. Nothing in the section applies to a case involving arrest on an accusation of an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023. Economic offences are not that exclusion. A restriction on anticipatory bail in an economic offence comes, if at all, from the special statute, not from section 482(4).",
+            "Section 483, corresponding to section 439, is the special power of the High Court and of the Court of Session to grant regular bail, to modify conditions, and to direct that a person released on bail be taken back into custody. Before bail is granted for an offence triable exclusively by the Court of Session, or punishable with imprisonment for life, notice is given to the Public Prosecutor, unless the court dispenses with notice for reasons recorded because it is not practicable. The offences in section 65 or section 70(2) of the Nyaya Sanhita carry a further requirement of notice and of the informant's presence. Section 482 does not apply to those offences. Section 483 does, with those requirements.",
+            "A bailable offence is section 478, corresponding to section 436. The economic offences this note describes are treated by their own statutes as non-bailable.",
           ],
         },
       ],
     },
     {
-      heading: "Regular bail in the High Court",
+      heading: "Money laundering",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 483 of the Sanhita, which corresponds to section 439 of the old Code, is the special power of the High Court and of the Court of Session. Either court may direct that a person accused of an offence and in custody be released on bail, and may set aside or modify a condition imposed by a Magistrate.",
-            "Before granting bail to a person accused of an offence triable exclusively by the Court of Session, or of an offence punishable with imprisonment for life, the High Court or the Court of Session gives notice of the application to the Public Prosecutor. The court may dispense with that notice only if it is not practicable, and only by recording reasons.",
-            "A further rule applies where the offence is triable under section 65 or section 70(2) of the Bharatiya Nyaya Sanhita, 2023. Notice of the bail application goes to the Public Prosecutor within fifteen days of receipt of the notice of the application. The presence of the informant, or of a person the informant authorises, is obligatory at that hearing. Section 482 does not apply to those offences. Section 483 does, with these requirements.",
-            "Section 483(3) also allows the High Court or the Court of Session to direct that a person who has been released on bail under the chapter be arrested and committed to custody.",
+            "Section 45 of the Prevention of Money Laundering Act, 2002, opens with a non obstante clause and imposes two conditions. The Public Prosecutor must have an opportunity to oppose the application. Where the Prosecutor opposes it, the court must be satisfied that there are reasonable grounds for believing that the person is not guilty of the offence and is not likely to commit any offence while on bail. Those conditions are stricter than the ordinary discretion under section 483. The section is addressed to release on bail. It is not confined in terms to a person already in custody, and an application for anticipatory bail in a prosecution under the Act is considered in the light of it.",
+            "A proviso allows the Special Court to direct release of a person who is under the age of sixteen, a woman, or sick or infirm, and of a person falling within the further category the proviso defines by the sum alleged. A direction under the proviso is a discretion of that court. It is not an entitlement.",
+            "The offence is tied to proceeds of crime from a scheduled offence. The status of that scheduled offence is part of the record. The prosecution is on a complaint before the Special Court, which is a Court of Session designated for the Act. The Enforcement Directorate's internal record is not itself that complaint. A person who is arrested is entitled to be informed of the grounds of arrest.",
+            "The punishment under section 4 is, in the ordinary case, imprisonment that may extend to seven years, and in a case linked to a specified drug offence it may extend to ten years. Under section 187(3) of the Sanhita, which corresponds to section 167 of the old Code, the outer period of detention during investigation is sixty days where the offence is not punishable with death, imprisonment for life, or imprisonment for ten years or more, and ninety days where it is. On the expiry of the period that applies, the accused is released on bail if prepared to furnish bail, and if bail is in fact furnished. Until it is furnished, custody continues. That release is a statutory consequence. It is not the discretion in section 483.",
           ],
         },
       ],
     },
     {
-      heading: "Custody during investigation",
+      heading: "Fraud, corruption, and the other economic offences",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 187 of the Sanhita, which corresponds to section 167 of the old Code, is the provision on detention when investigation cannot be completed in twenty-four hours. A Magistrate may authorise detention. Police custody under that section is for a term not exceeding fifteen days in the whole. Those days may be in parts, and they may fall at any time during the first forty days of a sixty-day detention, or the first sixty days of a ninety-day detention, as the case may be.",
-            "The outer period in section 187(3) is ninety days where the investigation relates to an offence punishable with death, imprisonment for life, or imprisonment for ten years or more, and sixty days in any other case. On the expiry of that period the accused is released on bail if he or she is prepared to furnish bail, and does furnish it. The section is express that, until bail is furnished, custody continues. This is often called default bail. It is a statutory consequence of the expiry of the period, not a discretion of the same kind as section 483.",
-            "Section 479 is different again. It deals with the maximum period for which an undertrial may be detained, by reference to the maximum sentence for the offence. A person who has undergone detention of one half of that maximum is released on bail, where the offence is not one for which death or imprisonment for life is a specified punishment. A first-time offender, meaning a person who has never been convicted, is released on bond at one third. The court may, after hearing the Public Prosecutor and for reasons recorded in writing, order longer detention or require a bail bond instead of a personal bond. Section 479(2) qualifies the section: where an investigation, inquiry, or trial for more than one offence, or in multiple cases, is pending, the person is not released on bail under this section.",
+            "Section 212(6) of the Companies Act, 2013, read with section 447, imposes the same two conditions on bail in a prosecution for fraud investigated by the Serious Fraud Investigation Office. The Public Prosecutor is heard, and where the Prosecutor opposes, the court is satisfied of reasonable grounds for believing that the person is not guilty and is not likely to commit any offence while on bail. The proviso for a person under sixteen, a woman, or a person who is sick or infirm, is a direction the Special Court may give.",
+            "An offence investigated by the Central Bureau of Investigation, or prosecuted under the Prevention of Corruption Act, is considered on the ordinary bail jurisdiction together with the gravity of the accusation, the nature of the evidence, the likelihood of absconding, and the likelihood that evidence will be interfered with. Gravity is relevant. It is not a statutory refusal. The court looks at the individual case, including the role alleged, the stage of the investigation or the trial, and the conditions that could meet a particular risk.",
+            "Section 479 limits how long an undertrial may be detained, by reference to the maximum sentence. Where the offence is not punishable with death or imprisonment for life, detention of one half of the maximum leads to release on bail. A first-time offender, meaning a person who has never been convicted, is dealt with at one third, on bond. The court may, after hearing the Public Prosecutor and for reasons recorded, order continued detention or require a bail bond. Section 479(2) withholds release under that section where an investigation, inquiry or trial in more than one offence, or in more than one case, is pending.",
           ],
         },
       ],
     },
     {
-      heading: "The process in the Delhi High Court",
+      heading: "The application",
       blocks: [
         {
           type: "list",
           ordered: true,
           items: [
-            "Identify the application. Anticipatory bail is section 482. Regular bail, for a person in custody, is section 483 when the High Court or the Court of Session is the court. Cancellation, or a change of conditions, is also within section 483.",
-            "For a person already in custody, an application is often made first to the Court of Session, so that the High Court has that order on the record. The statute does not say the High Court is without power until the Court of Session has been approached. The practice and the statute are not the same sentence, and the court looks at what has in fact been done.",
-            "The application is filed through the High Court's e-filing facility.",
-            "Notice is given to the Public Prosecutor where section 483 requires it, and in every case where the court so directs. The state is heard.",
-            "The court may grant bail, refuse it, or grant it on conditions. If bail is granted, the bond and the surety follow sections 484 and 485. Section 484 requires the bond to be fixed with regard to the circumstances of the case, and not to be excessive.",
-            "A grant of bail is an order in that case. It is not a template for the next case.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Documents",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "The papers depend on the stage of the case. The usual set is the following. A document that does not exist yet, such as a chargesheet that has not been filed, is not invented in order to complete a list.",
-          ],
-        },
-        {
-          type: "list",
-          items: [
-            "The application, with a short account of the facts and the grounds.",
-            "A copy of the FIR or complaint, where one has been registered and a copy is available.",
-            "The arrest memo, the remand orders, and the custody warrant, where the person is already in custody.",
-            "Any earlier bail order, including an order of the Court of Session or of a Magistrate.",
-            "The police report, if it has been filed.",
-            "Documents relevant to conditions, such as proof of residence, when the court is asked to consider them.",
-            "Particulars of a proposed surety, when the court requires a surety. Fitness of a surety can be shown by affidavit, and the court may inquire into it.",
-            "An affidavit, where the practice requires the application to be verified.",
-            "A vakalatnama, where an advocate files the application.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Bailable offences, briefly",
-      blocks: [
-        {
-          type: "paragraphs",
-          paragraphs: [
-            "Section 478, which corresponds to section 436 of the old Code, is the rule for a bailable offence. A person accused of a bailable offence, other than in the situations the section itself excepts, is released on bail if prepared to give bail. If the person is indigent and cannot furnish a surety, the officer or the court may, and in the case of an indigent person shall, discharge that person on a personal bond. Inability to give a bail bond within a week of arrest is a sufficient ground to presume that the person is indigent. This section is the ordinary work of the police station and the Magistrate. It is included here so that it is not confused with section 483.",
+            "Identify the application. Anticipatory bail is section 482. Regular bail, for a person in custody, is section 483 when the High Court is the court. Where a special statute imposes further conditions, those conditions are addressed in the same application.",
+            "The papers include the application and the grounds; the first information report in the scheduled or predicate offence, where there is one; the complaint, if it has been filed; the grounds of arrest and the remand orders, where the person is in custody; any earlier bail order; and a vakalatnama where an advocate files.",
+            "Notice goes to the Public Prosecutor where section 483 requires it, and wherever the court so directs. In a money-laundering or fraud prosecution the statute requires that the Prosecutor have an opportunity to oppose.",
+            "The court may grant bail, refuse it, or grant it on conditions. Section 484 requires the bond to be fixed with regard to the circumstances of the case, and not to be excessive. A condition can address a real risk, such as travel, contact with witnesses, or the integrity of electronic records. A condition is not a punishment in advance.",
+            "A grant is an order in that case. It is not a template for the next one.",
           ],
         },
       ],
@@ -179,34 +121,30 @@ export const bailGuide: GuidePage = {
   ],
   faqs: [
     {
-      question: "What is Bail in the Delhi High Court?",
+      question:
+        "What is White-collar bail and anticipatory bail in the Delhi High Court?",
       answer:
-        "Bail in the Delhi High Court is a statutory application. Regular bail, for a person already in custody, is under section 483 of the BNSS, which corresponds to section 439 of the CrPC. Anticipatory bail, before arrest, is under section 482 of the BNSS, which corresponds to section 438 of the CrPC.",
+        "White-collar bail and anticipatory bail in the Delhi High Court are applications under the Bharatiya Nagarik Suraksha Sanhita, overlaid with the conditions in a special statute. Regular bail is section 483, corresponding to section 439 of the old Code. Anticipatory bail is section 482, corresponding to section 438.",
     },
     {
-      question: "Can anticipatory bail be filed in the Delhi High Court without first going to the Court of Session?",
+      question: "Does the gravity of an economic offence rule out bail?",
       answer:
-        "Section 482 allows the application to be made to the High Court or to the Court of Session. The statute gives the jurisdiction to both. Whether a particular application is entertained is a decision on that application.",
+        "No. Gravity is a relevant consideration. A statutory bar exists only where a statute writes one. Section 45 of the Prevention of Money Laundering Act and section 212(6) of the Companies Act write additional conditions. They do not apply to every economic offence.",
+    },
+    {
+      question: "What are the two conditions in a money-laundering bail?",
+      answer:
+        "The Public Prosecutor must have an opportunity to oppose. Where the Prosecutor opposes, the court must be satisfied that there are reasonable grounds for believing that the person is not guilty and is not likely to commit any offence while on bail.",
     },
     {
       question: "When does default bail arise?",
       answer:
-        "Under section 187(3) of the BNSS, which corresponds to section 167 of the CrPC, the outer period is 90 days where the offence is punishable with death, imprisonment for life, or imprisonment for ten years or more, and 60 days in other cases. On expiry, the accused is released on bail if prepared to furnish bail, and if bail is in fact furnished.",
+        "Under section 187(3) of the Sanhita, the outer period is ninety days where the offence is punishable with death, imprisonment for life, or imprisonment for ten years or more, and sixty days otherwise. Ordinary money-laundering, punishable up to seven years, falls in the sixty-day class. The ten-year class is the longer maximum.",
     },
     {
-      question: "Is anticipatory bail available for every offence?",
+      question: "Does an investigation begun before 1 July 2024 use the Sanhita?",
       answer:
-        "No. Section 482(4) of the BNSS says that nothing in that section applies to a case involving arrest on an accusation of an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023. Other statutes may impose their own restrictions.",
-    },
-    {
-      question: "Does a pending investigation from before 1 July 2024 use the BNSS?",
-      answer:
-        "No. Section 531(2)(a) of the BNSS provides that an appeal, application, trial, inquiry, or investigation already pending when the Sanhita came into force continues under the Code of Criminal Procedure, 1973.",
-    },
-    {
-      question: "Does this note say whether bail will be granted?",
-      answer:
-        "No. Bail is decided on the record of the case. The sections describe the jurisdiction. They do not describe an outcome.",
+        "No. Section 531(2)(a) provides that an appeal, application, trial, inquiry or investigation already pending when the Sanhita came into force continues under the Code of Criminal Procedure, 1973.",
     },
   ],
 };
