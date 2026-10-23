@@ -85,7 +85,7 @@ export const bailGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "The usual mistake is to argue the trial, when a bail hearing decides liberty on the present record and under the section that governs. The mirror mistake is to treat every economic case as if section 45 applied to it. That section is for a money-laundering prosecution. An SFIO fraud has its own pair of conditions, and a corruption case borrows neither by atmosphere. Asking for anticipatory bail after the arrest, or in a case that section 482(4) excludes, aims at the wrong latch.",
-            "A refusal is an order in that one case. It may be taken to the Supreme Court by special leave, a request rather than a further appeal as of right, as set out in [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court), and the filing does not itself open a door this Court has shut.  The note cannot say whether the summons becomes an arrest. It can say which door he is standing at, and what is written on the latch.",
+            "A refusal is an order in that one case. It may be taken to the Supreme Court by special leave, a request rather than a further appeal as of right, as set out in [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court), and the filing does not itself open a door this Court has shut. The note cannot say whether the summons becomes an arrest. It can say which door he is standing at, and what is written on the latch.",
           ],
         },
       ],
