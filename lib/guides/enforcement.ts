@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const enforcementGuide: GuidePage = {
-  slug: "enforcement-of-foreign-judgments-and-arbitral-awards-in-india",
+  slug: "enforcement-of-foreign-judgments-in-india",
   group: "entry",
   seoTitle: "Enforcement of foreign judgments and arbitral awards in India",
   description:

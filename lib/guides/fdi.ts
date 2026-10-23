@@ -105,7 +105,7 @@ export const fdiGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "An Indian company that is owned or controlled by non-residents invests downstream as foreign investment. Ownership, in the Rules, is more than 50 per cent of the capital. Control is the right to appoint a majority of the directors, or to control management or policy decisions. A subsidiary incorporated in India is not an Indian investor for this purpose merely because it was incorporated here. Its next subscription is tested against the same cap.",
-            "A separate rule, made in April 2020 and set out in [Press Note 3 explained](/guides/press-note-3-explained), puts an investment on the government route where the investor is an entity of a country that shares a land border with India, or where the beneficial owner is situated in or is a citizen of such a country. The rule applies in a sector that is otherwise fully open on the automatic route. It does not open a prohibited sector. How two partners hold the company is [Joint ventures in India with a foreign company](/guides/joint-ventures-in-india-with-a-foreign-company).",
+            "A separate rule, made in April 2020 and set out in [Press Note 3 explained](/guides/press-note-3), puts an investment on the government route where the investor is an entity of a country that shares a land border with India, or where the beneficial owner is situated in or is a citizen of such a country. The rule applies in a sector that is otherwise fully open on the automatic route. It does not open a prohibited sector. How two partners hold the company is [Joint ventures in India with a foreign company](/guides/joint-venture-in-india).",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const fdiGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "An issuance of shares to a non-resident is reported in the form the Rules prescribe, commonly the form known as FC-GPR, through the authorised dealer and the Reserve Bank's reporting system. A transfer between a resident and a non-resident is reported, commonly as FC-TRS. The report is evidence that the step was recorded. It is not approval, and it is not a document of title.",
-            "The same investment may also be a combination under the Competition Act, 2002. Where assets, turnover, or deal value cross the thresholds then in force, the combination is not to be given effect before the Competition Commission has approved it, or before the waiting period has passed. Sectoral permission under the FDI rules in India does not decide that question. How the Indian company itself is formed is [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india).",
+            "The same investment may also be a combination under the Competition Act, 2002. Where assets, turnover, or deal value cross the thresholds then in force, the combination is not to be given effect before the Competition Commission has approved it, or before the waiting period has passed. Sectoral permission under the FDI rules in India does not decide that question. How the Indian company itself is formed is [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india).",
           ],
         },
       ],

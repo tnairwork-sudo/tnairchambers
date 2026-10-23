@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const pressNoteGuide: GuidePage = {
-  slug: "press-note-3-explained",
+  slug: "press-note-3",
   group: "entry",
   seoTitle: "Press Note 3 explained",
   description:
@@ -78,7 +78,7 @@ export const pressNoteGuide: GuidePage = {
           paragraphs: [
             "It does not forbid the investment. It moves the investment from the automatic route to the government route. Prior approval is required. A report filed after the shares have been issued does not stand in for that approval. A reader who treats the press note as a ban will refuse a transaction the Government is still allowed to approve. A reader who treats it as a formality will issue shares the bank cannot report as automatic. Both mistakes come from the heading, not from the paragraph.",
             "It does not open a prohibited sector. Lottery, gambling, chit funds, nidhi companies, real estate business as the policy defines it, and the other prohibitions in the foreign-investment note remain prohibitions. Government route is not a route into a closed sector.",
-            "It does not, by itself, reach an investor from Korea, Singapore, the Gulf, Europe or the United States who has no beneficial owner situated in or citizen of a land-border country. The enquiry is factual. A holding company in Singapore does not answer it. The ownership above that company is part of the fact. How that holding is written into a shareholders' agreement is [Joint ventures in India with a foreign company](/guides/joint-ventures-in-india-with-a-foreign-company).",
+            "It does not, by itself, reach an investor from Korea, Singapore, the Gulf, Europe or the United States who has no beneficial owner situated in or citizen of a land-border country. The enquiry is factual. A holding company in Singapore does not answer it. The ownership above that company is part of the fact. How that holding is written into a shareholders' agreement is [Joint ventures in India with a foreign company](/guides/joint-venture-in-india).",
           ],
         },
       ],

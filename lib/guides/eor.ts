@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const eorGuide: GuidePage = {
-  slug: "employer-of-record-in-india",
+  slug: "employer-of-record-india",
   group: "entry",
   seoTitle: "Employer of record in India and Indian labour codes",
   description:
@@ -37,7 +37,7 @@ export const eorGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "It is not a liaison office, and it is not a subsidiary. Those are permissions to be present, described in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india). A foreign company that carries on business in India through people it directs still has the question those forms were built to answer. Signing employment letters through an Indian firm does not retire the question.",
+            "It is not a liaison office, and it is not a subsidiary. Those are permissions to be present, described in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india). A foreign company that carries on business in India through people it directs still has the question those forms were built to answer. Signing employment letters through an Indian firm does not retire the question.",
             "The contractor analysis is the Contract Labour (Regulation and Abolition) Act, 1970, or the corresponding provision of the Occupational Safety, Health and Working Conditions Code once that provision governs the establishment. Above the thresholds, registration and licensing attach, and the principal employer has a residual liability if the contractor does not pay wages or social security. Supervision by the foreign company is what often makes the foreign company the principal employer. A contract that calls the arrangement a service, while the foreign company directs the working day, is the contract this liability is written for.",
           ],
         },

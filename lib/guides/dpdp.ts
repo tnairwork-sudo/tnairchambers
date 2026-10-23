@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const dpdpGuide: GuidePage = {
-  slug: "dpdp-act-compliance-for-foreign-companies",
+  slug: "dpdp-act-compliance",
   group: "entry",
   seoTitle: "DPDP Act compliance for foreign companies",
   description:
@@ -26,7 +26,7 @@ export const dpdpGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "Picture a clothing site run from Singapore. It takes orders for delivery in Delhi, and it asks the buyer for a name and an address. No one from the company has visited India. DPDP act compliance is already a question, because the site is offering goods to people in India and is processing their personal data in order to do it. The absence of a lease in Nehru Place is not the test.",
-            "Section 3 is the territorial rule. The Act applies to a person who processes digital personal data in India, whether or not that person is in India. It also applies to processing outside India, if the processing is in connection with any activity related to offering goods or services to data principals in India. Incorporation here is not required. A subsidiary, a branch, or a liaison office is not required. Incorporation, where it happens, is a different note: [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india).",
+            "Section 3 is the territorial rule. The Act applies to a person who processes digital personal data in India, whether or not that person is in India. It also applies to processing outside India, if the processing is in connection with any activity related to offering goods or services to data principals in India. Incorporation here is not required. A subsidiary, a branch, or a liaison office is not required. Incorporation, where it happens, is a different note: [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india).",
           ],
         },
       ],

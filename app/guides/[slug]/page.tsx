@@ -53,12 +53,12 @@ export async function generateMetadata({
   const languages = languageAlternates(guide);
   const art = guideArt(guide.slug);
   const alt = guide.illustration?.alt ?? guide.title;
-  const images = [art.hero, art.square].map((slot) => ({
-    url: slot.src,
-    width: slot.width,
-    height: slot.height,
+  const ogImage = {
+    url: art.hero.src,
+    width: art.hero.width,
+    height: art.hero.height,
     alt,
-  }));
+  };
 
   return {
     title: guide.seoTitle,
@@ -75,13 +75,13 @@ export async function generateMetadata({
       description: guide.description,
       url,
       locale: guide.inLanguage === "hi-IN" ? "hi_IN" : "en_IN",
-      images,
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: `${guide.seoTitle} | Nair & Co`,
       description: guide.description,
-      images,
+      images: [ogImage],
     },
   };
 }

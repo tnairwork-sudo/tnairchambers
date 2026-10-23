@@ -56,27 +56,27 @@ const illustrations: Record<string, GuideIllustration> = {
     caption:
       "Three gates. One stands open. One asks you to wait. One was never a gate.",
   },
-  "press-note-3-explained": {
+  "press-note-3": {
     alt: "Press Note 3 explained: a letterhead from somewhere else, and a thread running past it to the person who owns the shares. Press note 3 follows the thread.",
     caption:
       "The letterhead says one country. The thread runs past it, to the person who owns the shares.",
   },
-  "joint-ventures-in-india-with-a-foreign-company": {
+  "joint-venture-in-india": {
     alt: "Joint ventures in India with a foreign company: two keys, cut differently, turning one Indian lock. A joint venture in india with foreign company cannot redraw the door.",
     caption:
       "Two keys, cut differently, turn one Indian lock. Neither key can redraw the door.",
   },
-  "dpdp-act-compliance-for-foreign-companies": {
+  "dpdp-act-compliance": {
     alt: "DPDP Act compliance for foreign companies: a shop window facing Delhi, with no shop behind it. DPDP act compliance does not wait for a lease.",
     caption:
       "There is no shop on the street. The window still faces Delhi, and it still asks for a name.",
   },
-  "setting-up-a-foreign-subsidiary-in-india": {
+  "setting-up-foreign-subsidiary-in-india": {
     alt: "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary, drawn as three desks, only one of them a building of its own. A liaison office in india does not earn.",
     caption:
       "Three desks in a row. Only the third is a building of its own.",
   },
-  "employer-of-record-in-india": {
+  "employer-of-record-india": {
     alt: "Employer of record in India and Indian labour codes: a nameplate that says employer, and other hands directing the day. Employer of record india is the nameplate, not the test.",
     caption:
       "The nameplate says employer. The hands directing the day belong to someone else.",
@@ -86,7 +86,7 @@ const illustrations: Record<string, GuideIllustration> = {
     caption:
       "Three envelopes leave one building. The flap, not the paper, tells them apart.",
   },
-  "enforcement-of-foreign-judgments-and-arbitral-awards-in-india": {
+  "enforcement-of-foreign-judgments-in-india": {
     alt: "Enforcement of foreign judgments and arbitral awards in India: a court seal and an arbitrator's signature on one table, opening different doors. Enforcement of foreign judgments in india follows the seal.",
     caption:
       "Two papers on one table. A court seal and an arbitrator's signature open different doors.",

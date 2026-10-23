@@ -26,7 +26,7 @@ export const repatriationGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "A parent in Dubai owns an Indian company that has had a good year. The board wants to send money home. There are three ordinary envelopes. The company declares a dividend. Or, if the Indian presence is a branch rather than a company, the branch remits its profit. Or the parent sells the shares and takes the proceeds. People call all three repatriation. The bank, the company law, and the tax statute do not.",
-            "Which envelope is open depends on what was set up in the first place. A subsidiary, a branch and a liaison office are compared in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india). A liaison office has nothing to put in any of the three envelopes, because it does not earn.",
+            "Which envelope is open depends on what was set up in the first place. A subsidiary, a branch and a liaison office are compared in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india). A liaison office has nothing to put in any of the three envelopes, because it does not earn.",
           ],
         },
       ],

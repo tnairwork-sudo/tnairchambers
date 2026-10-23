@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const jointVentureGuide: GuidePage = {
-  slug: "joint-ventures-in-india-with-a-foreign-company",
+  slug: "joint-venture-in-india",
   group: "entry",
   seoTitle: "Joint ventures in India with a foreign company",
   description:
@@ -26,7 +26,7 @@ export const jointVentureGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "Think of a German machinery maker and an Indian distributor who want to build the machines in Pune rather than ship them. They could shake hands and call it a collaboration. The form that can hire, own the land, and survive a change of managers is a private company. Each of them holds shares. The company, not either partner, is the person that contracts with the factory's suppliers. A bank will not open an account for a collaboration that is not a person, and a landlord will not take a lease from two signatures and a hope.",
-            "A joint venture in india with foreign company is that arrangement, in the usual case. The foreign subscription is foreign investment. It is tested under [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india), including the land-border rule in [Press Note 3 explained](/guides/press-note-3-explained). The sector of the factory, not the warmth of the partnership, decides the route.",
+            "A joint venture in india with foreign company is that arrangement, in the usual case. The foreign subscription is foreign investment. It is tested under [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india), including the land-border rule in [Press Note 3 explained](/guides/press-note-3). The sector of the factory, not the warmth of the partnership, decides the route.",
           ],
         },
       ],
@@ -39,7 +39,7 @@ export const jointVentureGuide: GuidePage = {
           paragraphs: [
             "The ordinary vehicle is a private company under the Companies Act, 2013. It is an Indian company, and it is tax resident because it is an Indian company. Its shareholders may be foreign. Their nationality does not export the company.",
             "An unincorporated collaboration, or a partnership, is more confined. A limited liability partnership may receive foreign investment only where the Non-debt Instruments Rules allow, which is narrower than the permission for a company, and often only where investment is open without extra conditions. Choosing an LLP to avoid the company law of a joint venture is a choice that often fails the foreign-investment condition first.",
-            "How the company is incorporated, and how it differs from a branch or a liaison office of the foreign parent, is [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india). A joint venture is a subsidiary of the foreign company only if the foreign company controls it. Many do not. Control is a fact about votes and about the board, not a word in the preamble.",
+            "How the company is incorporated, and how it differs from a branch or a liaison office of the foreign parent, is [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india). A joint venture is a subsidiary of the foreign company only if the foreign company controls it. Many do not. Control is a fact about votes and about the board, not a word in the preamble.",
           ],
         },
       ],

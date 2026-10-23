@@ -1,7 +1,7 @@
 import type { GuidePage } from "@/lib/guides/types";
 
 export const subsidiaryGuide: GuidePage = {
-  slug: "setting-up-a-foreign-subsidiary-in-india",
+  slug: "setting-up-foreign-subsidiary-in-india",
   group: "entry",
   seoTitle:
     "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
@@ -107,7 +107,7 @@ export const subsidiaryGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "A subsidiary is incorporated under the Companies Act, 2013, almost always as a private company. A private company has at least two members and at least two directors. Every company must have at least one director who stays in India for a total of not less than one hundred and eighty-two days during the financial year. That resident director is a statutory requirement. A power of attorney does not replace it.",
-            "The company has a registered office in India, established within the period the Act allows, which for a new company is thirty days of incorporation. Incorporation is made on the integrated form the Ministry of Corporate Affairs prescribes. The foreign parent subscribes to the shares. That subscription is foreign investment. The sector, the cap, the route and the land-border rule are those in [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india) and [Press Note 3 explained](/guides/press-note-3-explained). The issuance is reported. The report is not the permission.",
+            "The company has a registered office in India, established within the period the Act allows, which for a new company is thirty days of incorporation. Incorporation is made on the integrated form the Ministry of Corporate Affairs prescribes. The foreign parent subscribes to the shares. That subscription is foreign investment. The sector, the cap, the route and the land-border rule are those in [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india) and [Press Note 3 explained](/guides/press-note-3). The issuance is reported. The report is not the permission.",
             "The subsidiary can hire, contract, import, manufacture and sell, within its objects and within the licences the activity needs. It is a separate person. A creditor of the subsidiary does not, by that fact, become a creditor of the parent, and the reverse is also true. The separation fails where a guarantee, a sham, or a statute lifts it.",
           ],
         },
@@ -120,7 +120,7 @@ export const subsidiaryGuide: GuidePage = {
           type: "paragraphs",
           paragraphs: [
             "A representative who meets people, collects information and sends it home, and who does not conclude contracts, is the work of a liaison office. A foreign company that will sell its own services into India, within the branch list, may be a branch. A foreign company that will manufacture, trade at retail, or do anything the branch list does not name, is incorporating a subsidiary.",
-            "Employment sits on top of that choice. A liaison office that hires a staff to do the parent's selling has usually left the liaison permission. An arrangement under which an Indian firm employs people for the foreign company is a different structure, described in [Employer of record in India and Indian labour codes](/guides/employer-of-record-in-india). It is not a silent form of branch.",
+            "Employment sits on top of that choice. A liaison office that hires a staff to do the parent's selling has usually left the liaison permission. An arrangement under which an Indian firm employs people for the foreign company is a different structure, described in [Employer of record in India and Indian labour codes](/guides/employer-of-record-india). It is not a silent form of branch.",
             "Money moving back to the parent is also a different note. Dividends of a subsidiary, profits of a branch, and the closure of a liaison office are not the same remittance. They are described in [Repatriation of profits from India](/guides/repatriation-of-profits-from-india).",
           ],
         },
