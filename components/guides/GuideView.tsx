@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import SetHtmlLang from "@/components/guides/SetHtmlLang";
 import { bciDisclaimer, bciDisclaimerHindi } from "@/lib/guides/disclaimer";
+import { guideArt } from "@/lib/guides/art";
 import {
   getGuides,
   guidePath,
@@ -126,6 +127,8 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
   const headingStyle = hindi
     ? { fontFamily: "var(--font-hindi-serif), serif" }
     : undefined;
+  const art = guideArt(guide.slug);
+  const illustration = guide.illustration;
 
   return (
     <article
@@ -158,11 +161,39 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
           </div>
 
           <h1
-            className="heading-display text-[clamp(2.8rem,6vw,5.4rem)] text-parchment mb-6 text-balance max-w-hero"
+            className="heading-display text-[clamp(2.8rem,6vw,5.4rem)] text-parchment mb-8 text-balance max-w-hero"
             style={headingStyle}
           >
             {guide.title}
           </h1>
+
+          {illustration ? (
+            <figure className="mb-10">
+              {art.hero.ready ? (
+                <img
+                  src={art.hero.src}
+                  alt={illustration.alt}
+                  width={art.hero.width}
+                  height={art.hero.height}
+                  className="aspect-video w-full border border-border object-cover"
+                />
+              ) : (
+                <div
+                  className="aspect-video w-full border border-border bg-surface"
+                  role="img"
+                  aria-label={illustration.alt}
+                >
+                  <div className="flex h-full items-end p-6 md:p-8" aria-hidden>
+                    <div className="gold-rule" />
+                  </div>
+                </div>
+              )}
+              <figcaption className="mt-4 max-w-3xl font-serif text-base italic font-light leading-relaxed text-parchment-dim md:text-lg">
+                {illustration.caption}
+              </figcaption>
+            </figure>
+          ) : null}
+
           <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
             <RichText text={guide.lede} />
           </p>

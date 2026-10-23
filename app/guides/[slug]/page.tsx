@@ -12,7 +12,8 @@ import {
   guidesIndexUrl,
   languageAlternates,
 } from "@/lib/guides";
-import { ogImage, siteUrl } from "@/lib/site";
+import { guideArt } from "@/lib/guides/art";
+import { siteUrl } from "@/lib/site";
 
 const hindiSans = Noto_Sans_Devanagari({
   subsets: ["devanagari"],
@@ -50,6 +51,14 @@ export async function generateMetadata({
 
   const url = guideUrl(guide.slug);
   const languages = languageAlternates(guide);
+  const art = guideArt(guide.slug);
+  const alt = guide.illustration?.alt ?? guide.title;
+  const images = [art.hero, art.square].map((slot) => ({
+    url: slot.src,
+    width: slot.width,
+    height: slot.height,
+    alt,
+  }));
 
   return {
     title: guide.seoTitle,
@@ -66,13 +75,13 @@ export async function generateMetadata({
       description: guide.description,
       url,
       locale: guide.inLanguage === "hi-IN" ? "hi_IN" : "en_IN",
-      images: [ogImage],
+      images,
     },
     twitter: {
       card: "summary_large_image",
       title: `${guide.seoTitle} | Nair & Co`,
       description: guide.description,
-      images: [ogImage.url],
+      images,
     },
   };
 }
@@ -87,12 +96,21 @@ export default async function GuideArticlePage({ params }: GuidePageProps) {
 
   const url = guideUrl(guide.slug);
   const hindi = guide.inLanguage === "hi-IN";
+  const art = guideArt(guide.slug);
+  const illustration = guide.illustration;
   const schemas = [
     articleSchema({
       headline: guide.title,
       description: guide.description,
       url,
       inLanguage: guide.inLanguage,
+      image: [art.hero, art.square].map((slot) => ({
+        url: `${siteUrl}${slot.src}`,
+        width: slot.width,
+        height: slot.height,
+        caption: illustration?.caption ?? guide.title,
+        description: illustration?.alt ?? guide.title,
+      })),
     }),
     faqSchema(guide.faqs, url),
     breadcrumbSchema([

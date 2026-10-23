@@ -14,6 +14,7 @@ import { repatriationGuide } from "@/lib/guides/repatriation";
 import { slpGuide } from "@/lib/guides/slp";
 import { subsidiaryGuide } from "@/lib/guides/subsidiary";
 import { successionGuide } from "@/lib/guides/succession";
+import { illustrationFor } from "@/lib/guides/illustrations";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
 import { writGuide } from "@/lib/guides/writ";
 import { organizationId, siteUrl } from "@/lib/site";
@@ -41,11 +42,14 @@ const pages: GuidePage[] = [
 ];
 
 export function getGuides(): GuidePage[] {
-  return pages;
+  return pages.map((page) => ({
+    ...page,
+    illustration: illustrationFor(page.slug),
+  }));
 }
 
 export function getGuide(slug: string): GuidePage | undefined {
-  return pages.find((page) => page.slug === slug);
+  return getGuides().find((page) => page.slug === slug);
 }
 
 export function guidePath(slug: string): string {
@@ -169,6 +173,13 @@ export function articleSchema(input: {
   description: string;
   url: string;
   inLanguage: string;
+  image?: {
+    url: string;
+    width: number;
+    height: number;
+    caption: string;
+    description: string;
+  }[];
 }) {
   return {
     "@context": "https://schema.org",
@@ -178,6 +189,18 @@ export function articleSchema(input: {
     inLanguage: input.inLanguage,
     datePublished: guidesPublishedOn,
     dateModified: guidesPublishedOn,
+    ...(input.image
+      ? {
+          image: input.image.map((item) => ({
+            "@type": "ImageObject",
+            url: item.url,
+            width: item.width,
+            height: item.height,
+            caption: item.caption,
+            description: item.description,
+          })),
+        }
+      : {}),
     author: {
       "@type": "Organization",
       name: "Nair & Co, Advocates & Consultants",

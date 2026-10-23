@@ -24,6 +24,13 @@ export type GuideAlternate = {
   label: string;
 };
 
+export type GuideIllustration = {
+  /** What the drawing shows, including the article's search phrase. */
+  alt: string;
+  /** Italic line under the picture, explaining the pun. */
+  caption: string;
+};
+
 export type GuidePage = {
   slug: string;
   seoTitle: string;
@@ -39,6 +46,8 @@ export type GuidePage = {
   alternates?: GuideAlternate[];
   /** Court notes, or the India Entry notes for a foreign company. */
   group?: "court" | "entry";
+  /** Set when the guides list is read. Not stored on each note. */
+  illustration?: GuideIllustration;
 };
 
 export type GuidesIndexContent = {
