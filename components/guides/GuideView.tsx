@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import SetHtmlLang from "@/components/guides/SetHtmlLang";
 import { bciDisclaimer, bciDisclaimerHindi } from "@/lib/guides/disclaimer";
@@ -7,6 +8,29 @@ import {
 } from "@/lib/guides";
 import type { GuideBlock, GuidePage } from "@/lib/guides/types";
 
+const INLINE_LINK = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
+
+function RichText({ text }: { text: string }) {
+  const nodes: ReactNode[] = [];
+  let last = 0;
+  for (const match of text.matchAll(INLINE_LINK)) {
+    const start = match.index ?? 0;
+    if (start > last) nodes.push(text.slice(last, start));
+    nodes.push(
+      <Link
+        key={`${start}-${match[2]}`}
+        href={match[2]}
+        className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+      >
+        {match[1]}
+      </Link>
+    );
+    last = start + match[0].length;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return <>{nodes}</>;
+}
+
 function Blocks({ blocks }: { blocks: GuideBlock[] }) {
   return (
     <div className="space-y-5">
@@ -14,8 +38,10 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
         if (block.type === "paragraphs") {
           return (
             <div key={index} className="space-y-5">
-              {block.paragraphs.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
+              {block.paragraphs.map((paragraph, paragraphIndex) => (
+                <p key={paragraphIndex}>
+                  <RichText text={paragraph} />
+                </p>
               ))}
             </div>
           );
@@ -28,9 +54,9 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
                 key={index}
                 className="list-decimal space-y-3 pl-5 text-parchment-dim marker:text-parchment"
               >
-                {block.items.map((item) => (
-                  <li key={item} className="pl-2">
-                    {item}
+                {block.items.map((item, itemIndex) => (
+                  <li key={itemIndex} className="pl-2">
+                    <RichText text={item} />
                   </li>
                 ))}
               </ol>
@@ -39,13 +65,13 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
 
           return (
             <ul key={index} className="space-y-3">
-              {block.items.map((item) => (
-                <li key={item} className="relative pl-6">
+              {block.items.map((item, itemIndex) => (
+                <li key={itemIndex} className="relative pl-6">
                   <span
                     aria-hidden
                     className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
                   />
-                  {item}
+                  <RichText text={item} />
                 </li>
               ))}
             </ul>
@@ -74,7 +100,7 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
                   <tr key={row.join("|")} className="border-b border-border last:border-b-0">
                     {row.map((cell) => (
                       <td key={cell} className="px-4 py-3 align-top">
-                        {cell}
+                        <RichText text={cell} />
                       </td>
                     ))}
                   </tr>
@@ -138,7 +164,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             {guide.title}
           </h1>
           <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
-            {guide.lede}
+            <RichText text={guide.lede} />
           </p>
 
           {guide.alternates && guide.alternates.length > 0 ? (
@@ -159,7 +185,14 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             </p>
           ) : null}
 
-          <p className="mt-8 text-sm text-parchment">Nair &amp; Co</p>
+          <p className="mt-8 text-sm text-parchment">
+            <Link
+              href="/"
+              className="underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+            >
+              Nair &amp; Co, Advocates &amp; Consultants
+            </Link>
+          </p>
           <p className="text-sm text-parchment-dim">New Delhi, India</p>
         </div>
       </section>

@@ -4,105 +4,105 @@ export const commercialGuide: GuidePage = {
   slug: "commercial-disputes-and-arbitration-delhi-high-court",
   seoTitle: "Commercial disputes and arbitration in the Delhi High Court",
   description:
-    "Commercial disputes and arbitration in the Delhi High Court: the Commercial Division, and petitions under sections 9, 11 and 34 of the Arbitration and Conciliation Act, 1996. Information only, from New Delhi, India.",
+    "Commercial disputes and arbitration in the Delhi High Court: the commercial division delhi high court, and a section 9, section 11, or section 34 arbitration petition. Information only, from New Delhi, India.",
   keywords: [
     "Commercial disputes and arbitration in the Delhi High Court",
-    "Commercial Division",
-    "section 9 Arbitration Act",
-    "section 11 Arbitration Act",
-    "section 34 Arbitration Act",
+    "commercial division delhi high court",
+    "section 9",
+    "section 11",
+    "section 34 arbitration petition",
     "New Delhi",
   ],
   eyebrow: "Delhi High Court",
   title: "Commercial disputes and arbitration in the Delhi High Court",
-  lede: "Commercial disputes and arbitration in the Delhi High Court are heard, where the statute so provides, by the Commercial Division. A commercial suit, a petition for interim measures, a petition to appoint an arbitrator in a domestic arbitration, and a petition to set aside an award are different proceedings. This note describes that division of work. It does not predict the outcome of any of them.",
+  lede: "Commercial disputes and arbitration in the Delhi High Court start from a familiar scene. A buyer will not pay. A supplier says the goods matched the contract. They cannot fix it on a call, and the contract mentions arbitration in Delhi. This note is published by [Nair & Co, Advocates & Consultants](/), New Delhi. It explains the court and three requests people mix up. It is not advice on any contract.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "The Commercial Division",
+      heading: "A lawsuit and an arbitration are different doors",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The Commercial Courts Act, 2015, constitutes a Commercial Division in a High Court having ordinary original civil jurisdiction. The High Court of Delhi is such a court. The Division hears commercial disputes of specified value. Specified value is defined in the Act, and a higher value may be notified. A dispute at or above that value, if it is a commercial dispute, is the Division's work.",
-            "A commercial dispute, in the Act's list, includes the ordinary transactions of merchants, bankers, financiers and traders, export and import, carriage of goods, construction and infrastructure, insurance, licensing and franchising, joint ventures, shareholders' agreements, technology, intellectual property, and the sale of goods. Immovable property is included only where it is used exclusively in trade or commerce. A private dispute about a residence is not turned into a commercial dispute by the label on the plaint.",
+            "One door is a suit. You ask a judge to decide who is right. The other door is arbitration. Private decision-makers, chosen because the contract said so, decide, and their decision is called an award. The court still has a role, but it is a supporting role and a limited check. It is not a second trial of the invoice.",
+            "Both can be listed in the same building, which is why they get confused. A commercial suit and an arbitration petition can each come before the Commercial Division. They ask for different things. The suit asks for a decision on the dispute. The petition asks the court to protect the arbitration, to appoint someone, or to examine an award on a closed list of grounds.",
           ],
         },
       ],
     },
     {
-      heading: "A commercial suit",
+      heading: "What the commercial division delhi high court is",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Before a commercial suit is instituted, section 12A of the Act requires pre-institution mediation, unless the suit contemplates urgent interim relief. The exception is for urgency that the plaint actually contemplates. It is not a formula added to avoid the section.",
-            "Once the suit is filed, the written statement is on a short clock. The defendant has thirty days, which the court may extend, but not beyond one hundred and twenty days from service. After that outer day the right to file the statement is lost. The schedule to the Act also brings in summary judgment, where a party has no real prospect of succeeding or of defending, and a case-management hearing at which the court fixes the steps that remain.",
-            "The Commercial Division is still a civil court applying the Code of Civil Procedure, with those amendments. It is not an arbitral tribunal, and a suit is not an arbitration.",
+            "The commercial division delhi high court is a division of the High Court of Delhi, sitting in New Delhi. It is not a separate court in another city. The Commercial Courts Act, 2015, created it for commercial disputes of a specified value, in a High Court that has ordinary original civil jurisdiction. This High Court does.",
+            "A commercial dispute, in the Act's own list, is the disagreement merchants, banks, builders, insurers, licensors, and joint-venture partners actually have: trade, carriage, construction, shareholders' agreements, technology, intellectual property. A family house is not made commercial by the word on the cover. Immovable property counts only when it is used exclusively in trade or commerce.",
+            "Specified value is defined in the Act, and a higher figure may be notified. This note does not freeze a number. Below the line, another court may hear it. At or above the line, if it is truly commercial, the Division is the forum. It still uses the Code of Civil Procedure, with the Act's amendments for speed. It is not itself an arbitral tribunal.",
           ],
         },
       ],
     },
     {
-      heading: "Which court, in an arbitration",
+      heading: "How a commercial suit actually moves",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Under the Arbitration and Conciliation Act, 1996, the court for a petition is the principal civil court of original jurisdiction, which includes a High Court in the exercise of its ordinary original civil jurisdiction. In Delhi, that court is the High Court of Delhi. Where the arbitration is a commercial dispute of specified value, the Commercial Courts Act directs the applications and appeals filed in the High Court to the Commercial Division. That is so for a domestic arbitration and for an international commercial arbitration.",
-            "The seat decides the court once a seat has been agreed or determined. An arbitration seated in Delhi is brought here. A seat in another place is brought in the court of that seat. The fact that a party has an office in Delhi is not the test.",
-            "A person who has not signed the arbitration agreement is not, for that reason alone, a party to it. Whether a non-signatory is bound depends on the agreement and the facts. This note does not decide that question for any contract.",
+            "Before most commercial suits are instituted, section 12A requires pre-institution mediation, unless the suit truly contemplates urgent interim relief. The exception is for urgency the plaint describes. A sentence added only to avoid mediation is the sentence read first.",
+            "The written statement then runs on a short clock. Thirty days, extendable for reasons, but not beyond one hundred and twenty days from service. After that day the right to file it is lost. People used to civil suits, where time is begged and often given, find this the sharpest surprise.",
+            "The Act's schedule also allows summary judgment where a party has no real prospect of success or of a defence, and a case-management hearing that fixes what is left. None of that predicts the winner. It predicts that the case will not drift. Lodging, diary numbers, and the cause list are described in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works).",
           ],
         },
       ],
     },
     {
-      heading: "Section 9: interim measures",
+      heading: "Section 9 is a request to hold still",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 9 allows a party to ask the court for an interim measure before the arbitration begins, during it, or after the award but before it is enforced under section 36. The measures include preservation of the subject matter, securing the amount in dispute, an interim injunction, detention or inspection, and an interim receiver.",
-            "Section 9(3), introduced by the 2015 amendment, changes the route once the tribunal is constituted. The court shall not then entertain the application, unless it finds that circumstances exist which may not render the remedy under section 17 efficacious. Section 17 is the tribunal's own power to grant interim measures. After the tribunal exists, section 17 is the ordinary application, and section 9 is the exception.",
+            "Once the contract provides for arbitration, the court for a petition is the principal civil court of original jurisdiction. In Delhi that is this High Court. If the dispute is commercial and of specified value, the petition filed here goes to the Commercial Division, whether the arbitration is domestic or international. The seat decides which court, once a seat exists. An office in Delhi is not a seat. A seat in Singapore is not cured by a Delhi invoice.",
+            "A section 9 application is what you file when waiting would make the eventual award useless. The machines are about to leave the warehouse. The balance is about to leave the account. The court may preserve the subject matter, secure the amount in dispute, grant an interim injunction, order inspection, or appoint a receiver. It is not deciding the invoice. It is stopping the facts from disappearing.",
+            "There is a hinge. After the tribunal is constituted, section 9(3) says the court shall not entertain the application unless the remedy under section 17 would not work. Section 17 is the tribunal's own interim power. From that moment section 17 is the ordinary door, and section 9 is the exception.",
           ],
         },
       ],
     },
     {
-      heading: "Section 11: appointment",
+      heading: "Section 11 asks for a referee",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Where the agreed appointment procedure fails, a party may apply for the appointment of an arbitrator. In a domestic arbitration the application is made to the High Court. In an international commercial arbitration, defined in section 2(1)(f) as an arbitration in which at least one party is foreign in the sense that section describes, the application is made to the Supreme Court, not to the Delhi High Court.",
-            "The High Court appoints. It does not try the merits of the dispute at that stage. The enquiry is confined to the existence of an arbitration agreement, examined as the Act now provides. The High Court of Delhi also has an arbitration centre. Referral to that centre depends on the agreement or on an order. It is not automatic.",
+            "A section 11 application is filed when the agreed appointment has failed. One side will not name anyone. The named person will not act. Someone has to complete the tribunal. In a domestic arbitration that request goes to the High Court. In an international commercial arbitration, where at least one party is foreign in the sense section 2(1)(f) describes, it goes to the Supreme Court, not to the Delhi High Court.",
+            "The court appoints. It does not try the merits. The enquiry stays with whether an arbitration agreement exists, examined as the Act now provides. The High Court has an arbitration centre. Referral to it depends on the clause or on an order. It is not automatic. A company that never signed is not a party merely because it shares a group. Whether it is bound is a question of the contract and the facts.",
           ],
         },
       ],
     },
     {
-      heading: "Section 34: setting aside an award",
+      heading: "A section 34 arbitration petition is a safety valve",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "An arbitral award is final, subject to the narrow challenge in section 34. The application is not an appeal. The court does not reappraise the evidence, and an error of fact, or a mere error in the application of law, is not by itself a ground.",
-            "The grounds in section 34(2) include incapacity, an invalid arbitration agreement, want of proper notice or of an opportunity to present the case, an award that travels outside the reference, a tribunal constituted otherwise than as agreed, a subject matter that is not arbitrable, and conflict with the public policy of India. Public policy, after the 2015 amendment, is confined to fraud or corruption, contravention of the fundamental policy of Indian law, and conflict with the most basic notions of morality or justice. For a domestic award other than an international commercial arbitration, section 34(2A) adds patent illegality appearing on the face of the award. That additional ground does not apply to an international commercial arbitration.",
-            "Time is strict. Section 34(3) gives three months from the date on which the party received the signed award or, if a request under section 33 was disposed of, from the date of that disposal. The court may entertain the application for a further thirty days if it is satisfied that the applicant was prevented by sufficient cause, and not thereafter. There is no further power to condone delay.",
-            "Filing the application does not, by itself, stay the award. A stay is a separate order under section 36. Until it is stayed, the award is enforceable as a decree once the time for a challenge has passed, or once the challenge has failed.",
+            "A section 34 arbitration petition asks the court to set an award aside. Think of a safety valve, not a rematch. The court does not reweigh the evidence. Disliking the reading of the contract is not a ground.",
+            "Section 34(2) lists the grounds: incapacity, an invalid agreement, want of notice or of a chance to put the case, an award outside the reference, a tribunal constituted otherwise than agreed, a subject that cannot be arbitrated, and conflict with the public policy of India. After 2015, public policy means fraud or corruption, contravention of the fundamental policy of Indian law, or conflict with the most basic notions of morality or justice. For a domestic award other than an international commercial arbitration, section 34(2A) adds patent illegality on the face of the award. That extra ground stops there.",
+            "Time is strict. Three months from receipt of the signed award, or from the disposal of a request under section 33. A further thirty days if the court is satisfied of sufficient cause, and not thereafter. Filing does not stay the award. A stay is a separate order under section 36. A foreign award is a different instrument, described in [Enforcement of foreign judgments and arbitral awards in India](/guides/enforcement-of-foreign-judgments-and-arbitral-awards-in-india).",
           ],
         },
       ],
     },
     {
-      heading: "The appeal, and what this note does not decide",
+      heading: "In short",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 37 provides an appeal from stated orders, including an order under section 9 and an order setting aside or refusing to set aside an award under section 34. In the Delhi High Court that appeal lies to the Commercial Appellate Division where the Act so directs. Section 37 says there shall be no second appeal. That sentence does not remove the Supreme Court's power under Article 136, which is described in the note titled Supreme Court SLPs from Delhi High Court orders.",
-            "Nothing in this note says that a suit will be decreed, that an injunction will be granted, that an arbitrator will be appointed on particular terms, or that an award will be set aside. Each of those is a decision on a record.",
+            "A commercial suit asks the Division to decide the dispute, on a fast written-statement clock and, usually, after pre-institution mediation. Section 9 holds the position, and yields to the tribunal once the tribunal can act. Section 11 completes the tribunal, in this High Court if the arbitration is domestic and in the Supreme Court if it is international. A section 34 arbitration petition attacks the award on a closed list, inside a closed time, and does not stop enforcement unless a stay is granted.",
+            "An appeal from stated orders lies under section 37, to the Commercial Appellate Division where the statute directs. There is no second appeal under that section. Article 136 remains, and is described in [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court). A fight about the company's affairs, rather than about a contract, may belong in the tribunal: see [Company and corporate disputes in the Delhi High Court](/guides/company-and-corporate-disputes-delhi-high-court). None of these doors predicts a result. Each is decided on its own record.",
           ],
         },
       ],
@@ -113,27 +113,27 @@ export const commercialGuide: GuidePage = {
       question:
         "What does Commercial disputes and arbitration in the Delhi High Court cover?",
       answer:
-        "Commercial disputes and arbitration in the Delhi High Court covers the Commercial Division, a commercial suit, and three arbitral proceedings: interim measures under section 9, appointment of an arbitrator under section 11, and a challenge to an award under section 34.",
+        "Commercial disputes and arbitration in the Delhi High Court covers the commercial division delhi high court, a commercial suit, section 9, section 11, and a section 34 arbitration petition.",
     },
     {
-      question: "Does the Delhi High Court appoint the arbitrator in every arbitration?",
+      question: "Does the Delhi High Court appoint every arbitrator?",
       answer:
-        "No. In a domestic arbitration the application under section 11 is made to the High Court. In an international commercial arbitration it is made to the Supreme Court.",
+        "No. Section 11 in a domestic arbitration goes to the High Court. In an international commercial arbitration it goes to the Supreme Court.",
     },
     {
-      question: "Can a section 9 application be filed after the tribunal is constituted?",
+      question: "Can section 9 be used after the tribunal exists?",
       answer:
-        "Only in the circumstances section 9(3) states. Once the tribunal has been constituted, the court does not entertain the application unless the remedy under section 17 would not be efficacious.",
+        "Only if section 9(3) is met. Once the tribunal is constituted, the court does not entertain the application unless the remedy under section 17 would not be efficacious.",
     },
     {
-      question: "Is a petition under section 34 an appeal on the evidence?",
+      question: "Is a section 34 arbitration petition a retrial?",
       answer:
-        "No. The court does not reappraise evidence. The grounds are those in section 34(2) and, for a domestic award that is not an international commercial arbitration, patent illegality under section 34(2A). The period is three months, with a further thirty days and not thereafter.",
+        "No. The court does not reappraise evidence. The period is three months, with a further thirty days and not thereafter. Filing does not stay the award.",
     },
     {
-      question: "Does filing a challenge stop the award from being enforced?",
+      question: "Does a Delhi office decide the court?",
       answer:
-        "No. A stay is a separate order under section 36. Filing the section 34 application does not, by itself, stay the award.",
+        "No. Once the arbitration has a seat, the seat decides the court. An office in Delhi is not a seat.",
     },
   ],
 };

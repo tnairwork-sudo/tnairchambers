@@ -72,7 +72,11 @@ export default function GuidesIndexPage() {
           <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl mb-8">
             {guidesIndex.lede}
           </p>
-          <p className="text-sm text-parchment">Nair &amp; Co</p>
+          <p className="text-sm text-parchment">
+            <Link href="/" className="underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200">
+              Nair &amp; Co, Advocates &amp; Consultants
+            </Link>
+          </p>
           <p className="text-sm text-parchment-dim">
             New Delhi, India
             <span className="mx-3 text-parchment-dim/40">/</span>

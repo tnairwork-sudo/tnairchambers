@@ -150,8 +150,13 @@ function publisher() {
   return {
     "@type": "Organization",
     "@id": organizationId,
-    name: "Nair & Co",
+    name: "Nair & Co, Advocates & Consultants",
     url: siteUrl,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "New Delhi",
+      addressCountry: "IN",
+    },
     logo: {
       "@type": "ImageObject",
       url: `${siteUrl}/wordmark.svg`,
@@ -175,7 +180,7 @@ export function articleSchema(input: {
     dateModified: guidesPublishedOn,
     author: {
       "@type": "Organization",
-      name: "Nair & Co",
+      name: "Nair & Co, Advocates & Consultants",
       url: siteUrl,
     },
     publisher: publisher(),

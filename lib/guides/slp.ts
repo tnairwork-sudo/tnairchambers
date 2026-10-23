@@ -4,90 +4,107 @@ export const slpGuide: GuidePage = {
   slug: "supreme-court-slp-from-delhi-high-court",
   seoTitle: "Supreme Court SLPs from Delhi High Court orders",
   description:
-    "Supreme Court SLPs from Delhi High Court orders under Article 136: when special leave is the petition, when a statutory appeal comes first, and why filing does not stay the order. Information only.",
+    "Supreme Court SLPs from Delhi High Court orders, the petition people search as an SLP supreme court from delhi high court. Leave is a discretion. Filing does not stay the order. Information only.",
   keywords: [
     "Supreme Court SLPs from Delhi High Court orders",
+    "SLP supreme court from delhi high court",
     "Article 136",
     "special leave petition",
-    "Commercial Appellate Division",
-    "advocate on record",
     "New Delhi",
   ],
   eyebrow: "Supreme Court",
   title: "Supreme Court SLPs from Delhi High Court orders",
-  lede: "Supreme Court SLPs from Delhi High Court orders are petitions for special leave under Article 136 of the Constitution. Leave is asked for. It is not owed. The article is a discretionary power to hear an appeal from any judgment, decree, determination, sentence or order of any court or tribunal in India. It is not a further appeal written into the statute that produced the order. This note describes the petition. It does not estimate the prospect of leave in any case.",
+  lede: "Supreme Court SLPs from Delhi High Court orders are requests, not rights. A company has lost, or won only in part, in New Delhi, and wants the highest court to look again. The Constitution allows the Supreme Court to grant special leave. It does not owe it. This note is published by [Nair & Co, Advocates & Consultants](/), New Delhi. It describes the petition. It does not estimate leave in any case.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "Article 136",
+      heading: "An SLP supreme court from delhi high court is a request for leave",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Article 136(1) provides that, notwithstanding anything in the chapter on the Union judiciary, the Supreme Court may, in its discretion, grant special leave to appeal from any judgment, decree, determination, sentence or order in any cause or matter passed by any court or tribunal in the territory of India. Article 136(2) excepts courts and tribunals constituted under a law relating to the Armed Forces.",
-            "The width of the article is the reason the restraint exists. The Court grants leave where it finds a serious error, a question of general importance, or a miscarriage of justice that warrants its intervention. It does not rehear every dispute that a High Court has decided. A petition that only reargues the facts, without identifying the error, is a petition that asks the Court to do what the article does not promise.",
-            "Dismissal at the threshold, without a full appeal, is a possible outcome. If leave is granted, the petition becomes the appeal and is then heard as such. Those are different stages. A listing of the petition is not a grant of leave.",
+            "An SLP supreme court from delhi high court is the everyday name for a petition under Article 136. The article says that, notwithstanding the rest of the chapter, the Supreme Court may, in its discretion, grant special leave to appeal from any judgment, decree, determination, sentence, or order of any court or tribunal in India. Article 136(2) excepts courts constituted under a law relating to the Armed Forces.",
+            "The width is the reason for the restraint. Leave is granted where the court sees a serious error, a question of general importance, or a miscarriage that warrants its time. It is not granted because the loser is disappointed, or because the sum is large. A petition that only retells the facts, without identifying the error, asks the court to do what the article does not promise.",
+            "Dismissal at the threshold, without a full appeal, is a possible outcome. If leave is granted, the petition becomes the appeal and is heard as such. A listing is not a grant of leave. Those are different days.",
           ],
         },
       ],
     },
     {
-      heading: "The statutory appeal comes first",
+      heading: "Use the appeal you already have",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Where the statute provides an appeal, that appeal is the ordinary next step. From a judgment or order of the Commercial Division, an appeal lies to the Commercial Appellate Division of the High Court, as the Commercial Courts Act provides, and not every interlocutory order is appealable. From an order under section 9 of the Arbitration and Conciliation Act, or from an order setting aside or refusing to set aside an award under section 34, section 37 provides an appeal. Section 37 also says there shall be no second appeal. That sentence does not remove Article 136. It does mean that the statutory appeal is used before a party asks the Supreme Court to do the work of the Commercial Appellate Division.",
-            "A certificate under Article 132 or Article 133 is a different and narrower route. The High Court certifies a substantial question of constitutional interpretation, or, in a civil matter, a substantial question of law of general importance which in its opinion ought to be decided by the Supreme Court. Refusal of a certificate does not exhaust Article 136. It is also not a reason to skip an appeal that the statute already gives.",
-            "In criminal proceedings an appeal or a revision lies where the Bharatiya Nagarik Suraksha Sanhita, or the former Code, provides it. An order granting or refusing bail is commonly brought to the Supreme Court by special leave, because that is often the proceeding the law leaves open. It is still a discretionary petition, and the note titled White-collar bail and anticipatory bail in the Delhi High Court describes the bail jurisdiction itself.",
+            "Where a statute provides an appeal, that appeal is the ordinary next step. From a judgment or order of the Commercial Division, an appeal lies to the Commercial Appellate Division, as the Commercial Courts Act provides, and not every interlocutory order is appealable. From an order under section 9 of the Arbitration Act, or from an order setting aside or refusing to set aside an award, section 37 provides an appeal. Section 37 also says there is no second appeal. That sentence does not remove Article 136. It does mean the statutory appeal is used before anyone asks the Supreme Court to do the Division Bench's work.",
+            "The shape of those Delhi proceedings is in [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court). A certificate under Article 132 or 133 is a different and narrower route: the High Court certifies a substantial question. Refusal of a certificate does not exhaust Article 136. It is also not a reason to skip an appeal the statute already gives.",
+            "In criminal work an appeal or a revision lies where the criminal procedure provides it. An order granting or refusing bail is often brought up by special leave, because that is frequently the proceeding left open. It is still discretionary. The bail jurisdiction itself is in [White-collar bail and anticipatory bail in the Delhi High Court](/guides/white-collar-bail-delhi-high-court).",
           ],
         },
       ],
     },
     {
-      heading: "Which orders, and who files",
+      heading: "Who files it, and where",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The petition is filed in the Supreme Court of India. It is not filed in the Delhi High Court. The Delhi order is the order under challenge: an original-side decree, an order of the Commercial Appellate Division, a writ order, an order under section 34, or a bail order. An interim order can be challenged. The Supreme Court is slow to interfere with a discretionary interim order, unless the order is perverse or the injury it causes cannot be undone at the final hearing.",
-            "A petition in the Supreme Court is filed by an advocate-on-record. That is a rule of the Supreme Court. An advocate entitled to appear in the Delhi High Court is not, by that fact, an advocate-on-record. The two roles are commonly held by different people, the one instructing and the other on the record of the Supreme Court.",
+            "The petition is filed in the Supreme Court of India. It is not filed in the Delhi High Court. The Delhi order is the order under challenge: an original-side decree, an order of the Commercial Appellate Division, a writ, an order under section 34, or a bail order. An interim order can be challenged. The Supreme Court is slow to interfere with a discretionary interim order unless it is perverse or the injury cannot be undone at the end.",
+            "A petition in the Supreme Court is filed by an advocate-on-record. That is a rule of that court. An advocate entitled to appear in the Delhi High Court is not, by that fact, an advocate-on-record. The two roles are commonly held by different people, one instructing and one on the record. [Delhi High Court lawyer: choosing and working with counsel](/guides/delhi-high-court-lawyer) describes the distinction without naming anyone.",
           ],
         },
       ],
     },
     {
-      heading: "Time, and the effect of filing",
+      heading: "Time, and the fact that filing changes nothing",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The Supreme Court Rules fix the period. A civil petition is ordinarily filed within ninety days of the judgment or order. Where the High Court has refused a certificate of fitness, the period is ordinarily sixty days from the refusal. A criminal petition is ordinarily filed within sixty days. Delay beyond the period is not a right. The Court may condone it on an application that explains the delay. An explanation is not a guarantee.",
-            "Filing the petition does not stay the order of the High Court. A stay is a separate prayer, and it is granted or refused by a separate order. Until that order is made, the High Court's order remains in force and may be acted upon. A party who needs the High Court's order not to operate asks for a stay. The party does not treat the lodging of the petition as one.",
-            "A review lies to the High Court on the limited grounds the law provides, principally an error apparent on the face of the record. A review is not a precondition to special leave. If a review is filed, or has been decided, the petition says so. The Supreme Court is not left to discover it.",
+            "The Supreme Court Rules fix the period. A civil petition is ordinarily filed within ninety days of the judgment. Where the High Court has refused a certificate of fitness, the period is ordinarily sixty days from the refusal. A criminal petition is ordinarily filed within sixty days. Delay is not a right. The court may condone it on an application that explains the delay. An explanation is not a guarantee.",
+            "Filing does not stay the High Court's order. A stay is a separate prayer, granted or refused by a separate order. Until that order, the Delhi order remains in force and may be acted on. A party who needs it not to operate asks for a stay. The party does not treat the lodging as one.",
+            "A review lies to the High Court on limited grounds, principally an error apparent on the face of the record. A review is not a precondition to special leave. If one is filed, or has been decided, the petition says so. A curative petition is not this petition. It arises, if at all, after the Supreme Court has dismissed a review. It is not a second special-leave petition under another name.",
           ],
         },
       ],
     },
     {
-      heading: "What the petition contains",
+      heading: "What the paper contains",
       blocks: [
         {
           type: "list",
           items: [
-            "The order under challenge, in the form the Supreme Court Rules require, and the material orders that led to it.",
-            "A statement of the facts, kept to what is necessary to see the error alleged.",
-            "The questions of law, or the grounds, on which leave is sought. A ground is a reason leave should be granted. It is not a repetition of the High Court pleading.",
+            "The order under challenge, in the form the Rules require, and the material orders that led to it.",
+            "The facts, kept to what is needed to see the error alleged.",
+            "The grounds on which leave is sought. A ground is a reason leave should be granted, not a repetition of the High Court pleading.",
             "A disclosure of any appeal, review, or earlier petition, and of its result.",
             "The prayer, including a prayer for stay if a stay is sought.",
             "The filing by, or in the name of, an advocate-on-record.",
           ],
         },
+      ],
+    },
+    {
+      heading: "What leave is not",
+      blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A curative petition is not this petition. It arises, if at all, after the Supreme Court has dismissed a review. It is not the first approach to the Court, and it is not a second special-leave petition under another name.",
+            "Leave is not a comment on the importance of the business. A large infrastructure contract and a small bail order can each be the subject of a petition, and each can be refused. The court is looking for a reason to spend its jurisdiction, not for a reason the parties care. An error that is real, but that does not travel beyond the case, is often left where it is.",
+            "Nor is leave a way to repair a record that was never made in Delhi. A fact that was not placed before the High Court is a difficult fact to introduce for the first time in a special-leave petition. The petition is about the order, and the order is about the record on which it was passed. A question the High Court never decided is not created by retelling the facts at greater length. [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works) is where that record was built.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Article 136 is a discretion to grant leave, from almost any order, including an order of the Delhi High Court. The statutory appeal comes first where one exists. The petition is filed by an advocate-on-record, in the Supreme Court, ordinarily within ninety days in a civil matter and sixty in a criminal matter. Lodging it does not stay Delhi.",
+            "How the Delhi order came to be made is a separate story, told in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works). Leave may be refused at the threshold. If it is granted, the appeal is then heard. This note does not say which of those will happen.",
           ],
         },
       ],
@@ -97,17 +114,17 @@ export const slpGuide: GuidePage = {
     {
       question: "What are Supreme Court SLPs from Delhi High Court orders?",
       answer:
-        "Supreme Court SLPs from Delhi High Court orders are petitions for special leave under Article 136. The Supreme Court may, in its discretion, grant leave to appeal. Leave is not a right, and filing the petition does not stay the High Court's order.",
+        "Supreme Court SLPs from Delhi High Court orders are petitions for special leave under Article 136. An SLP supreme court from delhi high court asks for leave. It is not a right, and filing it does not stay the High Court's order.",
     },
     {
-      question: "Must a statutory appeal be used before a petition for special leave?",
+      question: "Must a statutory appeal be used first?",
       answer:
-        "Where the statute provides an appeal, that appeal is the ordinary next step. An appeal from the Commercial Division lies to the Commercial Appellate Division. An appeal under section 37 of the Arbitration Act lies as that section provides. Article 136 remains, and it is not used to skip the appeal already provided.",
+        "Where the statute provides an appeal, that appeal is the ordinary next step. An appeal from the Commercial Division lies to the Commercial Appellate Division. Article 136 remains, and it is not used to skip the appeal already given.",
     },
     {
       question: "Within what time is the petition filed?",
       answer:
-        "Under the Supreme Court Rules, a civil petition is ordinarily filed within ninety days, and within sixty days where the High Court has refused a certificate. A criminal petition is ordinarily filed within sixty days. Delay can be asked to be condoned. It is not condoned as of right.",
+        "Under the Supreme Court Rules, a civil petition is ordinarily filed within ninety days, and within sixty days where a certificate was refused. A criminal petition is ordinarily filed within sixty days. Delay can be explained. It is not condoned as of right.",
     },
     {
       question: "Does lodging the petition stay the Delhi order?",
@@ -115,9 +132,9 @@ export const slpGuide: GuidePage = {
         "No. A stay is a separate order. Until it is made, the High Court's order remains in force.",
     },
     {
-      question: "Who can file the petition in the Supreme Court?",
+      question: "Who can file it?",
       answer:
-        "An advocate-on-record. Authority to appear in the Delhi High Court does not, by itself, include authority to file a petition in the Supreme Court.",
+        "An advocate-on-record. Authority to appear in the Delhi High Court does not, by itself, include authority to file in the Supreme Court.",
     },
   ],
 };

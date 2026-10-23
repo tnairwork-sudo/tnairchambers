@@ -8,64 +8,86 @@ export const eorGuide: GuidePage = {
     "Employer of record in India and Indian labour codes: what the arrangement is, when Indian law looks through it, and which of the four labour codes is in force. Information only, from New Delhi, India.",
   keywords: [
     "Employer of record in India and Indian labour codes",
-    "Employer of record in India",
+    "employer of record india",
     "Indian labour codes",
     "contract labour",
     "New Delhi",
   ],
   eyebrow: "India Entry",
   title: "Employer of record in India and Indian labour codes",
-  lede: "Employer of record in India and Indian labour codes meet at a point the contract often slides past. An employer of record is not a creature of an Indian statute. It is a contract under which an Indian entity hires a person and that person works for a foreign company. Indian labour law looks at who employs, who pays, and who controls the work. A clause that says the foreign company is not the employer is a clause. It is not the test.",
+  lede: "Employer of record in India and Indian labour codes meet where a contract often slides past the statute. An employer of record is not a creature of an Indian Act. It is a contract under which an Indian entity hires a person, and that person works for a foreign company. Indian labour law looks at who employs, who pays, and who controls the work. A clause that says the foreign company is not the employer is a clause. It is not the test. This note is published by [Nair & Co, Advocates & Consultants](/), New Delhi. It describes the look-through. It does not recommend the arrangement.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What the arrangement is",
+      heading: "A person in Bengaluru, a company in two places",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "In a typical arrangement the Indian entity makes the offer, pays the salary, withholds what has to be withheld, and is named as the employer on the paper. The foreign company directs the work. Sometimes the foreign company also decides hiring, discipline and dismissal, and the Indian entity signs what it is told to sign. Sometimes the Indian entity genuinely manages the employment and the foreign company only receives the work product.",
-            "Those are different facts, and they have different consequences. Where the Indian entity is the employer in substance, the labour statutes attach to it. Where the foreign company controls the work, an authority or a court can treat the foreign company as the employer, or can treat the Indian entity as a contractor and the foreign company as the principal employer. The second of those is the Contract Labour (Regulation and Abolition) Act, 1970, or the corresponding provision of the Occupational Safety, Health and Working Conditions Code once that provision is what governs the establishment.",
-            "The arrangement is not a liaison office and it is not a subsidiary. A foreign company that is carrying on business in India through people it directs has a different question under the foreign-exchange rules and under tax, which is described below. The note titled Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary describes the forms that are actually permissions to be present.",
+            "A software company in California wants an engineer in Bengaluru next month, and it does not yet want an Indian company of its own. An Indian firm offers the engineer a job, pays the monthly sum, and is named as the employer. The Californian managers set the hours, review the work, and decide whether the engineer stays. That is the usual picture behind the phrase employer of record india.",
+            "Sometimes the Indian firm genuinely manages the employment, and the foreign company only receives the work. Sometimes the Indian firm signs what it is told to sign. Those are different facts. Where the Indian entity is the employer in substance, the labour statutes attach to it. Where the foreign company controls the work, an authority can treat the foreign company as the employer, or treat the Indian entity as a contractor and the foreign company as the principal employer.",
           ],
         },
       ],
     },
     {
-      heading: "The four codes",
+      heading: "What employer of record india is not",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Parliament enacted four codes to consolidate the central labour statutes. The Code on Wages, 2019, consolidates the law on wages, bonus and equal remuneration. The Industrial Relations Code, 2020, consolidates the law on trade unions, standing orders and industrial disputes. The Code on Social Security, 2020, consolidates provident fund, employees' insurance, gratuity, maternity benefit and the related cesses. The Occupational Safety, Health and Working Conditions Code, 2020, consolidates the law on safety, working conditions and, among other statutes, contract labour.",
-            "A code comes into force by notification, not on the day of assent. The Code on Wages was brought into force from 18 December 2020. The Industrial Relations Code records an effective date of 21 November 2025. The Code on Social Security was brought into force in stages, including 3 May 2021 and 21 November 2025. The Occupational Safety, Health and Working Conditions Code records enforcement on 21 November 2025. Where a provision of a code is in force, that provision governs, and the Act it repealed does not. State rules, and the state shops-and-establishments statutes, continue to apply alongside the codes, because a good deal of daily compliance is administered by the state.",
+            "It is not a liaison office, and it is not a subsidiary. Those are permissions to be present, described in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-a-foreign-subsidiary-in-india). A foreign company that carries on business in India through people it directs still has the question those forms were built to answer. Signing employment letters through an Indian firm does not retire the question.",
+            "The contractor analysis is the Contract Labour (Regulation and Abolition) Act, 1970, or the corresponding provision of the Occupational Safety, Health and Working Conditions Code once that provision governs the establishment. Above the thresholds, registration and licensing attach, and the principal employer has a residual liability if the contractor does not pay wages or social security. Supervision by the foreign company is what often makes the foreign company the principal employer. A contract that calls the arrangement a service, while the foreign company directs the working day, is the contract this liability is written for.",
           ],
         },
       ],
     },
     {
-      heading: "What attaches to an employment in India",
+      heading: "Four codes, brought in by notification",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Wages are governed by the Code on Wages where it applies: minimum wages, the time of payment, and the prohibition on unauthorised deduction. Social security is provident fund, insurance, gratuity and maternity benefit, under the Code on Social Security to the extent the relevant provision is in force, and otherwise under the statute that provision replaced. Provident fund has historically applied to an establishment of the notified class, classically one with twenty or more persons. Gratuity has historically accrued after five years of continuous service. The code, once its provision is in force, is the text. The old threshold is not assumed to have survived it.",
-            "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, is not one of the four codes. It applies to a workplace in India. A workplace includes a place visited by the employee arising out of or during the course of employment, including a transportation provided by the employer. An establishment with ten or more employees constitutes an internal committee. A foreign company with no Indian entity does not step outside the Act by having no board in India, if it has a workplace here.",
-            "Contract labour, where the Indian entity is a contractor and the foreign company is the principal employer, brings registration and licensing above the thresholds, and a residual liability of the principal employer if the contractor does not pay wages or social security. Supervision by the foreign company is what often makes the foreign company the principal employer. A contract that calls the arrangement a service, while the foreign company directs the individual's working day, is the contract this liability is written for.",
+            "Parliament enacted four codes to consolidate the central labour statutes. The Code on Wages, 2019, consolidates the law on wages, bonus and equal remuneration, in place of the Payment of Wages Act, 1936, the Minimum Wages Act, 1948, the Payment of Bonus Act, 1965, and the Equal Remuneration Act, 1976. The Industrial Relations Code, 2020, consolidates trade unions, standing orders and industrial disputes. The Code on Social Security, 2020, consolidates provident fund, employees' insurance, gratuity, maternity benefit and the related cesses. The Occupational Safety, Health and Working Conditions Code, 2020, consolidates safety, working conditions and, among other statutes, contract labour.",
+            "A code comes into force by notification, not on the day of assent. The Code on Wages was brought into force from 18 December 2020. The Industrial Relations Code records an effective date of 21 November 2025. The Code on Social Security was brought into force in stages, including 3 May 2021 and 21 November 2025. The Occupational Safety, Health and Working Conditions Code records enforcement on 21 November 2025. Where a provision of a code is in force, that provision governs, and the Act it repealed does not. State rules, and the state shops-and-establishments statutes, continue beside the codes. A good deal of daily compliance is administered by the state.",
           ],
         },
       ],
     },
     {
-      heading: "Tax presence is a separate question",
+      heading: "What attaches to a job in India",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A permanent establishment is defined by the tax treaty between India and the country where the foreign company is resident, and, where no treaty applies, by Indian tax law. The usual tests are a fixed place of business, a dependent agent who habitually concludes contracts, and, in many treaties with Korea, Singapore, the Gulf, Europe and the United States, a services threshold measured in days. An employer-of-record contract does not decide that test. It can be evidence of the facts the test uses. It can equally be irrelevant, if the foreign company has a fixed place or a dependent agent of its own.",
-            "Secondment is a different arrangement: the foreign company's own employees work for an Indian affiliate, often with the salary paid abroad and reimbursed. It is not an employer of record. It has been litigated as a tax question of its own. Calling a secondment an employer-of-record arrangement, or the reverse, does not change the facts the treaty uses.",
-            "Nothing in this note says that an employer-of-record arrangement is unlawful, or that it is safe. It says that the arrangement is looked through where the statute looks at control, and that a foreign company which is in substance carrying on a business in India has the question of a subsidiary or a branch whether or not an Indian entity signs the employment letters.",
+            "Wages, where the Code on Wages applies, cover the minimum, the time of payment, and the bar on a deduction the Code does not allow. Social security is provident fund, insurance, gratuity and maternity benefit, under the Code on Social Security to the extent the relevant provision is in force, and otherwise under the statute that provision replaced. Provident fund has historically applied to an establishment of a notified class, classically one with twenty or more persons. Gratuity has historically accrued after five years of continuous service. Once the code's provision is in force, the code is the text. The old threshold is not assumed to have survived it.",
+            "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, is not one of the four codes. It applies to a workplace in India, including a place visited by the employee arising out of or during employment, and a transport the employer provides. An establishment with ten or more employees constitutes an internal committee. A foreign company with no Indian board does not step outside the Act by having no subsidiary, if it has a workplace here.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Tax presence is a different question",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A permanent establishment is defined by the tax treaty between India and the country where the foreign company is resident and, where no treaty applies, by Indian tax law. The usual tests are a fixed place of business, a dependent agent who habitually concludes contracts, and, in many treaties with Korea, Singapore, the Gulf, Europe and the United States, a services presence measured in days. The day count is the treaty's count. This note does not supply one. An employer-of-record contract does not decide the test. It can be evidence of the facts the test uses. It can be irrelevant, if the foreign company has a fixed place or a dependent agent of its own.",
+            "Secondment is a different arrangement. The foreign company's own employees work for an Indian affiliate, often with the salary paid abroad and met by the affiliate. It is not an employer of record. It has been litigated as a tax question of its own. Calling a secondment by the other name, or the reverse, does not change the facts the treaty uses.",
+            "Nothing in this note says the arrangement is unlawful, or that it is safe. It says the statute looks at control, and that a foreign company which is in substance carrying on business in India has the question of a subsidiary or a branch whether or not an Indian entity signs the letters.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The phrase is contractual. The statutes look at who employs, who pays, and who directs the day. Control can make the foreign company the employer, or the principal employer of contract labour, with a residual liability if wages or social security go unpaid. The four codes govern where their provisions have been notified, and state establishments law continues beside them.",
+            "The harassment statute follows the workplace, not the existence of a subsidiary. A permanent establishment is a treaty question on its own facts. The arrangement is neither a permission to be present nor a way of retiring that question. Nothing here tells a company to use the structure, or not to.",
           ],
         },
       ],
@@ -75,12 +97,12 @@ export const eorGuide: GuidePage = {
     {
       question: "What is an Employer of record in India and Indian labour codes problem?",
       answer:
-        "Employer of record in India and Indian labour codes describes a contract under which an Indian entity employs a person who works for a foreign company, and the codes and statutes that decide who the employer is. The contract's label is not the test. Control of the work is.",
+        "Employer of record in India and Indian labour codes describes a contract under which an Indian entity employs a person who works for a foreign company, and the codes and statutes that decide who the employer is. The phrase employer of record india is not a statutory category. The contract's label is not the test. Control of the work is.",
     },
     {
       question: "Are the four labour codes in force?",
       answer:
-        "By notification, not by assent alone. The Code on Wages from 18 December 2020. The Industrial Relations Code from 21 November 2025. The Code on Social Security in stages, including 3 May 2021 and 21 November 2025. The Occupational Safety, Health and Working Conditions Code from 21 November 2025. State shops-and-establishments law continues beside them.",
+        "By notification, not by assent alone. The Code on Wages from 18 December 2020. The Industrial Relations Code from 21 November 2025. The Code on Social Security in stages, including 3 May 2021 and 21 November 2025. The Occupational Safety, Health and Working Conditions Code from 21 November 2025. State shops-and-establishments law continues beside them. Where a provision is in force, that provision governs.",
     },
     {
       question: "Does the foreign company escape the harassment statute by having no Indian company?",
