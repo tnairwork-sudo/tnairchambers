@@ -61,6 +61,14 @@ export default function Footer() {
                   Opportunity Atlas
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/guides"
+                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                >
+                  Guides
+                </Link>
+              </li>
             </ul>
           </div>
 
