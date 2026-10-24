@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import SiteJsonLd from "@/components/SiteJsonLd";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -89,6 +90,8 @@ const schema = {
 
 export default function EnteringIndiaPage() {
   return (
+    <>
+    <SiteJsonLd />
     <LandingPageClient
       eyebrow="India Market Entry · 02"
       heroLine1="Market entry in India,"
@@ -107,5 +110,6 @@ export default function EnteringIndiaPage() {
       ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
+    </>
   );
 }

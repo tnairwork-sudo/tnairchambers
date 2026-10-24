@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getGuides, guidesIndexUrl, guidesPublishedOn, guideUrl } from "@/lib/guides";
 import { getAllOpportunityAtlasArticles, siteUrl } from "@/lib/opportunity-atlas";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -58,5 +59,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...staticRoutes, ...articleRoutes];
+  const guideRoutes: MetadataRoute.Sitemap = [
+    {
+      url: guidesIndexUrl,
+      lastModified: new Date(guidesPublishedOn),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+    ...getGuides().map((guide) => ({
+      url: guideUrl(guide.slug),
+      lastModified: new Date(guidesPublishedOn),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticRoutes, ...articleRoutes, ...guideRoutes];
 }
