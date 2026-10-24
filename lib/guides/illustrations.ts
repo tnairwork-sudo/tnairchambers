@@ -7,39 +7,39 @@ import type { GuideIllustration } from "@/lib/guides/types";
  */
 const illustrations: Record<string, GuideIllustration> = {
   "commercial-disputes-and-arbitration-delhi-high-court": {
-    alt: "Commercial disputes and arbitration in the Delhi High Court, drawn as two doors in one frame: one opening onto a judge, the other onto a private table.",
+    alt: "Commercial disputes and arbitration in the Delhi High Court: one route is a suit before a judge, and the other is the private process the contract already chose.",
     caption:
-      "Two doors share one frame. One opens onto a judge. The other opens onto the private table the contract already chose.",
+      "One route is a suit before a judge. The other is the private process the contract already chose.",
   },
   "writ-petitions-against-regulators-delhi-high-court": {
-    alt: "Writ petitions against regulators and government in the Delhi High Court: a large official stamp, and the narrow opening the Court looks through.",
+    alt: "Writ petitions against regulators and government in the Delhi High Court: a regulator's order can look final, and the Court's power to look at it is still limited.",
     caption:
-      "The stamp is large. The opening the court looks through is small.",
+      "A regulator's order can look final. The High Court's power to look at it is still limited.",
   },
   "company-and-corporate-disputes-delhi-high-court": {
-    alt: "Company and corporate disputes in the Delhi High Court: one company register, divided between a tribunal and a contract.",
+    alt: "Company and corporate disputes in the Delhi High Court: some fights go to a tribunal, and others stay ordinary contract disputes.",
     caption:
-      "One register, divided. One half is the tribunal. The other half is still a contract.",
+      "Some company fights go to a tribunal. Others stay ordinary contract disputes.",
   },
   "nri-property-and-succession-delhi": {
-    alt: "NRI property and succession matters in Delhi: a key cut for a Delhi lock, and a foreign skyline on the ring that cannot turn it.",
+    alt: "NRI property and succession matters in Delhi: a foreign grant, and a Delhi flat whose title still follows Indian law.",
     caption:
-      "The key is cut for a lock in Delhi. The skyline hanging on the ring does not turn it.",
+      "A foreign grant does not, by itself, change the name on a flat in Delhi.",
   },
   "ip-and-trademark-litigation-delhi-high-court": {
-    alt: "IP and trademark litigation in the Delhi High Court: two near-matching labels, and the narrow gap between them.",
+    alt: "IP and trademark litigation in the Delhi High Court: two near-matching names, and the difference a buyer would notice.",
     caption:
-      "Two labels, almost twins. The narrow space between them is the case.",
+      "Two names can look almost the same. The case is the difference a buyer would notice.",
   },
   "white-collar-bail-delhi-high-court": {
-    alt: "White-collar bail and anticipatory bail in the Delhi High Court: a white collar as a label on the case, and a door latch made from the statute.",
+    alt: "White-collar bail and anticipatory bail in the Delhi High Court: the job title is a label, and anticipatory bail is an instruction written before arrest.",
     caption:
-      "The collar is a name for the case. The latch on the door is the statute.",
+      "The job title is only a label. Anticipatory bail is an instruction written in advance, and the section decides it.",
   },
   "supreme-court-slp-from-delhi-high-court": {
-    alt: "Supreme Court SLPs from Delhi High Court orders: a stair that ends at a shut door, which does not owe anyone a key.",
+    alt: "Supreme Court SLPs from Delhi High Court orders: there is a route from the High Court, and the Supreme Court does not have to let the case in.",
     caption:
-      "The stair up from the High Court is real. The door at the top does not owe anyone a key.",
+      "There is a route from the High Court. Leave is permission, and the Supreme Court does not have to grant it.",
   },
   "how-a-delhi-high-court-case-works": {
     alt: "How a Delhi High Court case works: a diary number held in the hand, and a cause list on the wall that has not called it.",
@@ -52,44 +52,44 @@ const illustrations: Record<string, GuideIllustration> = {
       "The papers are a map of one case. They are not a ranking of names.",
   },
   "fdi-in-india": {
-    alt: "FDI in India: automatic route, government route and 100% FDI sectors, drawn as three gates. One stands open, one asks you to wait, and one was never a gate.",
+    alt: "FDI in India: automatic route, government route and 100% FDI sectors, shown as three outcomes: proceed, wait for approval, or a prohibited activity.",
     caption:
-      "Three gates. One stands open. One asks you to wait. One was never a gate.",
+      "Three outcomes. One may proceed. One waits for approval. One was never open.",
   },
   "press-note-3": {
-    alt: "Press Note 3 explained: a letterhead from one country, and a thread running past it to the person who owns the shares.",
+    alt: "Press Note 3 explained: the letterhead names one country, and the test follows the person who owns the shares.",
     caption:
-      "The letterhead says one country. The thread runs past it, to the person who owns the shares.",
+      "The letterhead names one country. The test follows the person who owns the shares.",
   },
   "joint-venture-in-india": {
-    alt: "Joint ventures in India with a foreign company: two keys, cut differently, turning one Indian lock that neither key can redraw.",
+    alt: "Joint ventures in India with a foreign company: the contract can set house rules, and it cannot rewrite the law that applies to the company.",
     caption:
-      "Two keys, cut differently, turn one Indian lock. Neither key can redraw the door.",
+      "The contract can set the house rules. It cannot rewrite the law that applies to the company.",
   },
   "dpdp-act-compliance": {
-    alt: "DPDP Act compliance for foreign companies: a window facing Delhi that still asks for a name, with no shop on the street behind it.",
+    alt: "DPDP Act compliance for foreign companies: a business with no shop in the city whose checkout still collects a name.",
     caption:
-      "There is no shop on the street. The window still faces Delhi, and it still asks for a name.",
+      "There is no shop in the city. The checkout can still collect a name, and the Act can still apply.",
   },
   "setting-up-foreign-subsidiary-in-india": {
-    alt: "Setting up a foreign subsidiary in India: three desks in a row, of which only the third is a building of its own.",
+    alt: "Setting up a foreign subsidiary in India: a liaison office, a branch office, and a subsidiary, of which only the subsidiary is a company of its own.",
     caption:
-      "Three desks in a row. Only the third is a building of its own.",
+      "Three permissions. Only the subsidiary is a company of its own.",
   },
   "employer-of-record-india": {
-    alt: "Employer of record in India and Indian labour codes: a nameplate that says employer, and other hands directing the day.",
+    alt: "Employer of record in India and Indian labour codes: the contract names one employer, and another company directs the work.",
     caption:
-      "The nameplate says employer. The hands directing the day belong to someone else.",
+      "The contract can name one employer. Another company can still direct the work.",
   },
   "repatriation-of-profits-from-india": {
-    alt: "Repatriation of profits from India: three envelopes leaving one building, the flap of each a different payment.",
+    alt: "Repatriation of profits from India: a dividend, a branch profit, and a sale of shares, three different payments leaving the same building.",
     caption:
-      "Three envelopes leave one building. The flap, not the paper, tells them apart.",
+      "A dividend, a branch profit, and a sale of shares are three different payments, even when they leave the same building.",
   },
   "enforcement-of-foreign-judgments-in-india": {
-    alt: "Enforcement of foreign judgments and arbitral awards in India: a court seal and an arbitrator's signature on one table, opening different doors.",
+    alt: "Enforcement of foreign judgments and arbitral awards in India: a court seal and an arbitrator's signature, enforced under different statutes.",
     caption:
-      "Two papers on one table. A court seal and an arbitrator's signature open different doors.",
+      "A court seal and an arbitrator's signature are different papers. They are enforced under different statutes.",
   },
 };
 

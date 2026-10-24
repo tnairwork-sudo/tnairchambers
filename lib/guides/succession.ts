@@ -25,7 +25,7 @@ export const successionGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The key is cut for a lock in Delhi. The skyline hanging on the ring does not turn it. NRI property and succession matters in Delhi are about that lock: a flat in the city, and the personal law of the people who claim it. A life lived abroad does not export a foreign succession system onto Indian land. The flat is governed by Indian law because it is here. Who inherits still depends on the will and on the personal law of the deceased.",
+            "A foreign probate is a document from another country. It does not, by itself, put a family's name on a flat in Delhi. NRI property and succession matters in Delhi concern that flat, and the personal law of the people who claim it. A life lived abroad does not export a foreign succession system onto Indian land. The flat is governed by Indian law because it is here. Who inherits still depends on the will and on the personal law of the deceased.",
           ],
         },
       ],
@@ -114,7 +114,7 @@ export const successionGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 6 of the Specific Relief Act lets a person who was dispossessed without consent, otherwise than in due course of law, sue to recover possession. The suit must be brought within six months of the dispossession. It does not decide title. Losing it, or never filing it, does not bar a later suit on title. The six months are a short door for possession, not a verdict on ownership. Families sometimes skip it while they argue about the will, and possession settles with the other side while the title case waits.",
+            "Section 6 of the Specific Relief Act lets a person who was dispossessed without consent, otherwise than in due course of law, sue to recover possession. The suit must be brought within six months of the dispossession. It does not decide title. Losing it, or never filing it, does not bar a later suit on title. The six months are a short period for recovering possession, not a verdict on ownership. Families sometimes skip it while they argue about the will, and possession settles with the other side while the title case waits.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const successionGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The skyline on the ring is not the key. Title to a Delhi flat moves under Indian law, and a foreign seal does not do that work alone. Personal law chooses heirs. It does not move the land. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "A foreign probate is not an Indian grant. Title to a Delhi flat moves under Indian law, and a foreign seal does not do that work alone. Personal law chooses heirs. It does not move the land. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

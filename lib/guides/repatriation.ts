@@ -5,7 +5,7 @@ export const repatriationGuide: GuidePage = {
   group: "entry",
   seoTitle: "Repatriation of profits from India",
   description:
-    "Repatriation of profits from India, for a parent that wants to send money home and needs to know why a dividend, a branch profit, and a sale of shares leave in different envelopes. Information only, from New Delhi.",
+    "Repatriation of profits from India, for a parent that wants to send money home and needs to know why a dividend, a branch profit, and a sale of shares are three different payments. Information only, from New Delhi.",
   keywords: [
     "Repatriation of profits from India",
     "dividend",
@@ -16,7 +16,7 @@ export const repatriationGuide: GuidePage = {
   title: "Repatriation of profits from India",
   questionSpan:
     "repatriation of profits from India, from a dividend to a branch profit and a sale of shares",
-  lede: "A parent company wants last year's Indian profit in its own bank, outside India. The finance team has prepared one transfer, and the narration says dividend. The underlying money may be a branch profit or the proceeds of a sale of shares, and those are not the same envelope.",
+  lede: "A parent company wants last year's Indian profit in its own bank, outside India. The finance team has prepared one transfer, and the narration says dividend. The underlying money may be a branch profit or the proceeds of a sale of shares, and those are not the same payment.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
@@ -26,7 +26,7 @@ export const repatriationGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Three envelopes leave one building. The flap, not the paper inside, tells them apart. Repatriation of profits from India is permitted, and the path depends on what the money is. A dividend is a distribution by an Indian company. A branch profit is the parent's own profit, earned through a branch. A sale of shares is a capital-account transfer, not a distribution of profit at all. The foreign-exchange rules, the company law, and the tax law each look at the flap.",
+            "The label on the transfer is not what the money is. Repatriation of profits from India is permitted, and the path depends on the character of the payment. A dividend is a distribution by an Indian company. A branch profit is the parent's own profit, earned through a branch. A sale of shares is a capital-account transfer, not a distribution of profit at all. The foreign-exchange rules, the company law, and the tax law each follow that character, not the word typed in the narration.",
           ],
         },
       ],
@@ -136,7 +136,7 @@ export const repatriationGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The narration is not the law. A branch profit remitted as a dividend, a share sale narrated as a dividend, and a liaison balance narrated as profit are three different errors. Another is claiming a treaty rate for a company that is not the beneficial owner. Another is assuming a Gulf company has a treaty because its neighbour does. The three envelopes still leave one building. The flap is the dividend, the branch profit, or the share sale. Read the flap before the form is filled.",
+            "The narration is not the law. A branch profit remitted as a dividend, a share sale narrated as a dividend, and a liaison balance narrated as profit are three different errors. Another is claiming a treaty rate for a company that is not the beneficial owner. Another is assuming a Gulf company has a treaty because its neighbour does. The three payments are still different. The character is the dividend, the branch profit, or the share sale. Read that character before the form is filled.",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const repatriationGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The flap tells the envelopes apart. Dividend, branch profit, and a sale of shares leave under different rules. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "The character of the payment decides the path. Dividend, branch profit, and a sale of shares leave under different rules. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

@@ -5,7 +5,7 @@ export const enforcementGuide: GuidePage = {
   group: "entry",
   seoTitle: "Enforcement of foreign judgments and arbitral awards in India",
   description:
-    "Enforcement of foreign judgments and arbitral awards in India, for a creditor holding two papers that look alike and open different doors. Information only, from New Delhi.",
+    "Enforcement of foreign judgments and arbitral awards in India, for a creditor holding two papers that look alike and are enforced under different statutes. Information only, from New Delhi.",
   keywords: [
     "Enforcement of foreign judgments and arbitral awards in India",
     "foreign award",
@@ -27,7 +27,7 @@ export const enforcementGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Two papers on one table. A court seal and an arbitrator's signature open different doors. Enforcement of foreign judgments and arbitral awards in India divides along that line. A foreign judgment is tested under the Code of Civil Procedure. A foreign award is tested under the Arbitration and Conciliation Act, 1996. The New York Convention governs the award. It does not govern the judgment. A tax treaty does not govern either. Filing both papers in one petition, because they arise from the same contract, does not merge the doors.",
+            "A judgment and an award are two different papers, and they are enforced under two different statutes. A court seal and an arbitrator's signature do not make them the same. Enforcement of foreign judgments and arbitral awards in India divides along that line. A foreign judgment is tested under the Code of Civil Procedure. A foreign award is tested under the Arbitration and Conciliation Act, 1996. The New York Convention governs the award. It does not govern the judgment. A tax treaty does not govern either. Filing both papers in one petition, because they arise from the same contract, does not merge the two proceedings.",
           ],
         },
       ],
@@ -132,12 +132,12 @@ export const enforcementGuide: GuidePage = {
       ],
     },
     {
-      heading: "What mistakes follow from treating the two papers as the same door?",
+      heading: "What mistakes follow from treating the two papers as the same proceeding?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The seal and the signature open different doors. Executing an American judgment as if the United States were a reciprocating territory, and refusing a Convention award for patent illegality, are the two errors that follow from mixing the lists. Another is treating a filing as an attachment. Another is thinking that a mention of Delhi in the contract confers jurisdiction. There is no second appeal from the order section 50 describes, and a special leave petition is not a right of further appeal. The note [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court) explains that discretion.",
+            "The seal and the signature start different proceedings. Executing an American judgment as if the United States were a reciprocating territory, and refusing a Convention award for patent illegality, are the two errors that follow from mixing the lists. Another is treating a filing as an attachment. Another is thinking that a mention of Delhi in the contract confers jurisdiction. There is no second appeal from the order section 50 describes, and a special leave petition is not a right of further appeal. The note [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court) explains that discretion.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const enforcementGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "A court seal and an arbitrator's signature open different doors. Reciprocating territories and Convention countries are different lists. Filing is not attachment. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "A court seal and an arbitrator's signature start different proceedings. Reciprocating territories and Convention countries are different lists. Filing is not attachment. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

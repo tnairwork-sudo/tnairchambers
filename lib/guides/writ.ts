@@ -28,7 +28,7 @@ export const writGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The stamp on a writ is large. The opening the Court looks through is small. Article 226 lets the Delhi High Court issue writs, including for any other purpose, against government and authorities. The power is discretionary. It is not a second chance to reargue a tender score, a tax computation, or a licence on the merits. Writ petitions against regulators and government in the Delhi High Court are for a decision made without jurisdiction, or in breach of natural justice, or on a provision that is itself under challenge.",
+            "A regulator's order can look final. The High Court's power to look at it is still limited. Article 226 lets the Delhi High Court issue writs, including for any other purpose, against government and authorities. The power is discretionary. It is not a second chance to reargue a tender score, a tax computation, or a licence on the merits. Writ petitions against regulators and government in the Delhi High Court are for a decision made without jurisdiction, or in breach of natural justice, or on a provision that is itself under challenge.",
           ],
         },
       ],
@@ -51,7 +51,7 @@ export const writGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "An income-tax appeal to the High Court lies under section 260A, and only on a substantial question of law. Customs has its appeal under section 130. Goods and services tax sends an appeal to the High Court under section 117 of the Central Goods and Services Tax Act. Each of these is an appeal with its own conditions. None of them is a writ, and this note does not invent a day count for filing them. A writ filed because the statutory appeal looks slow asks the Court to ignore a door Parliament built.",
+            "An income-tax appeal to the High Court lies under section 260A, and only on a substantial question of law. Customs has its appeal under section 130. Goods and services tax sends an appeal to the High Court under section 117 of the Central Goods and Services Tax Act. Each of these is an appeal with its own conditions. None of them is a writ, and this note does not invent a day count for filing them. A writ filed because the statutory appeal looks slow asks the Court to ignore an appeal Parliament already provided.",
           ],
         },
       ],
@@ -151,7 +151,7 @@ export const writGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The stamp is still large, and the opening is still small. Use the appeal the statute built, and keep the writ for the complaint that appeal cannot hear. A lost tender or a blacklist is not, by itself, a reason to skip the statutory door. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "The order can look final, and the Court's look at it is still limited. Use the appeal the statute built, and keep the writ for the complaint that appeal cannot hear. A lost tender or a blacklist is not, by itself, a reason to skip the statutory appeal. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

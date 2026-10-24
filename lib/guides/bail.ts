@@ -27,7 +27,7 @@ export const bailGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "White-collar bail is ordinary speech for an economic accusation: money laundering, company fraud, a Central Bureau of Investigation case, or a corruption prosecution. It is not a heading in the statute. Picture an ordinary door. The collar is only a name for the person standing there, and the latch is the section that decides whether the door opens. A white collar does not turn that latch. Anticipatory bail is made while the person is still at home, and custody bail is made after arrest. The Delhi High Court hears both.",
+            "White-collar bail is ordinary speech for an economic accusation: money laundering, company fraud, a Central Bureau of Investigation case, or a corruption prosecution. It is not a heading in the statute. Anticipatory bail is an instruction written in advance: if the person is later arrested, release follows on the conditions the Court has already set. The job title does not decide the application. The section does. Anticipatory bail is asked for while the person is still at home, and custody bail is asked for after arrest. The Delhi High Court hears both.",
           ],
         },
       ],
@@ -39,7 +39,7 @@ export const bailGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Anticipatory bail directs that arrest for a non-bailable offence be followed by release on conditions. It matches the officer with the summons, who fears arrest and is not in custody. Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023, lets him apply to this Court or the Court of Session. The Court may require that he be available for questioning, that he not interfere with anyone who knows the facts, and that he not leave India without permission. It is not a finding of innocence. It sets the latch before the door closes.",
+            "Anticipatory bail directs that arrest for a non-bailable offence be followed by release on conditions. It matches the officer with the summons, who fears arrest and is not in custody. Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023, lets him apply to this Court or the Court of Session. The Court may require that he be available for questioning, that he not interfere with anyone who knows the facts, and that he not leave India without permission. It is not a finding of innocence. The Court is deciding the conditions of release, not the trial.",
           ],
         },
       ],
@@ -108,7 +108,7 @@ export const bailGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 187(3) limits custody during investigation: ninety days where the offence is punishable with death, imprisonment for life, or imprisonment for ten years or more, and sixty days otherwise. Release follows only if the person furnishes bail. The clock does not open the door by itself. Money-laundering punishment is generally up to seven years, so the shorter period applies, unless a linked drug offence lifts the maximum to ten years. A prosecution for company fraud has its own two conditions in section 212(6), read with section 447. [Company and corporate disputes in the Delhi High Court](/guides/company-and-corporate-disputes-delhi-high-court) takes that up.",
+            "Section 187(3) limits custody during investigation: ninety days where the offence is punishable with death, imprisonment for life, or imprisonment for ten years or more, and sixty days otherwise. Release follows only if the person furnishes bail. The expiry of that period does not release him by itself. Money-laundering punishment is generally up to seven years, so the shorter period applies, unless a linked drug offence lifts the maximum to ten years. A prosecution for company fraud has its own two conditions in section 212(6), read with section 447. [Company and corporate disputes in the Delhi High Court](/guides/company-and-corporate-disputes-delhi-high-court) takes that up.",
           ],
         },
       ],
@@ -153,7 +153,7 @@ export const bailGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "For the officer with the summons, the matching request is section 482, while he is still at home. Arrest moves the same facts to section 483, and money laundering adds the two conditions in section 45. The collar is a name. The latch is the section. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "For the officer with the summons, the matching request is section 482, while he is still at home. Arrest moves the same facts to section 483, and money laundering adds the two conditions in section 45. The job title does not choose the section. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

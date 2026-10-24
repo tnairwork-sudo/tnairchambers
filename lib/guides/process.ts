@@ -103,7 +103,7 @@ export const processGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "A commercial dispute of the specified value is heard by the Commercial Division, by roster. An intellectual property matter is heard by the Intellectual Property Division, again by roster. They are not a separate court in another city. They are assignments inside this Court. The note [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court) describes the commercial door. The note [IP and trademark litigation in the Delhi High Court](/guides/ip-and-trademark-litigation-delhi-high-court) describes the comparison of rights. Neither note changes the diary number, the defects, or the cause list.",
+            "A commercial dispute of the specified value is heard by the Commercial Division, by roster. An intellectual property matter is heard by the Intellectual Property Division, again by roster. They are not a separate court in another city. They are assignments inside this Court. The note [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court) describes the commercial route. The note [IP and trademark litigation in the Delhi High Court](/guides/ip-and-trademark-litigation-delhi-high-court) describes the comparison of rights. Neither note changes the diary number, the defects, or the cause list.",
           ],
         },
       ],

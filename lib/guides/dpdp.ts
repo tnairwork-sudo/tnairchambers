@@ -5,7 +5,7 @@ export const dpdpGuide: GuidePage = {
   group: "entry",
   seoTitle: "DPDP Act compliance for foreign companies",
   description:
-    "DPDP Act compliance for foreign companies, for a business that sells into India without a shop on the street and wants to know when the Act still asks for a name. Information only, from New Delhi.",
+    "DPDP Act compliance for foreign companies, for a business that sells into India without an office and wants to know when the Act still applies. Information only, from New Delhi.",
   keywords: [
     "DPDP Act compliance for foreign companies",
     "Digital Personal Data Protection Act",
@@ -26,7 +26,7 @@ export const dpdpGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "There is no shop on the street. The window still faces Delhi, and it still asks for a name. DPDP Act compliance for foreign companies starts from that window. The Digital Personal Data Protection Act, 2023, applies to processing in India, and to processing outside India if it is in connection with offering goods or services to people in India. No Indian office is required for the Act to apply. The duty is not a full European regulation pasted into a new cover, and this note does not pretend that every operational duty was already in force on 23 October 2026.",
+            "A company can sell into India without a shop in the city. The checkout can still collect a name. DPDP Act compliance for foreign companies starts from that fact. The Digital Personal Data Protection Act, 2023, applies to processing in India, and to processing outside India if it is in connection with offering goods or services to people in India. No Indian office is required for the Act to apply. The duty is not a full European regulation pasted into a new cover, and this note does not pretend that every operational duty was already in force on 23 October 2026.",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const dpdpGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "No shop is required. Offering goods or services to people in India is enough for the Act to look through the window. Not every duty was in force together. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "No shop is required. Offering goods or services to people in India is enough for the Act to apply. Not every duty was in force together. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

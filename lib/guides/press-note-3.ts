@@ -27,7 +27,7 @@ export const pressNoteGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The letterhead says one country. The thread runs past it, to the person who owns the shares. Press Note 3 explained is the April 2020 rule that follows that thread. It is Press Note 3 of 2020. An entity of a country which shares a land border with India, or a beneficial owner who is situated in such a country or is a citizen of it, may invest in India only under the government route. The same approval is required where a later transfer of ownership, direct or indirect, produces that beneficial ownership.",
+            "The company's letterhead is not the test. The test follows the person who beneficially owns the shares. Press Note 3 explained is the April 2020 rule on that point. It is Press Note 3 of 2020. An entity of a country which shares a land border with India, or a beneficial owner who is situated in such a country or is a citizen of it, may invest in India only under the government route. The same approval is required where a later transfer of ownership, direct or indirect, produces that beneficial ownership.",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const pressNoteGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The letterhead is the first line, not the test. The mistakes are stopping there, importing a percentage the press note does not use, treating the rule as a ban, and treating it as a way into a prohibited sector. Another is assuming a later relaxation that this page could not confirm. The thread still runs past the letterhead to the person who owns the shares. If that person is situated in a land-border country, or is a citizen of one, the government route is the route.",
+            "The letterhead is the first line, not the test. The mistakes are stopping there, importing a percentage the press note does not use, treating the rule as a ban, and treating it as a way into a prohibited sector. Another is assuming a later relaxation that this page could not confirm. The test still runs past the letterhead to the person who owns the shares. If that person is situated in a land-border country, or is a citizen of one, the government route is the route.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const pressNoteGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Follow the thread past the letterhead. The 2020 rule moves a qualifying investor to the government route, and this page states that rule because no later text was confirmed. The press note does not name a percentage, and it does not name Hong Kong or Taiwan. Geography supplies the land-border countries. The text does not. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "Look past the letterhead to the owner. The 2020 rule moves a qualifying investor to the government route, and this page states that rule because no later text was confirmed. The press note does not name a percentage, and it does not name Hong Kong or Taiwan. Geography supplies the land-border countries. The text does not. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

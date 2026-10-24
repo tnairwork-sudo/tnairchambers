@@ -14,8 +14,8 @@ export const commercialGuide: GuidePage = {
   eyebrow: "Delhi High Court",
   title: "Commercial disputes and arbitration in the Delhi High Court",
   questionSpan:
-    "commercial disputes and arbitration in the Delhi High Court, from which door a contract opens to how an award is challenged",
-  lede: "A supplier in Delhi is owed money under two contracts, one of which names arbitration and one of which does not. He needs to know which door of the Delhi High Court is open. One is a suit before a judge, and the other is a request about an arbitration the parties already chose.",
+    "commercial disputes and arbitration in the Delhi High Court, from which route a contract takes to how an award is challenged",
+  lede: "A supplier in Delhi is owed money under two contracts, one of which names arbitration and one of which does not. He needs to know which route into the Delhi High Court is open. One is a suit before a judge, and the other is a request about an arbitration the parties already chose.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
@@ -26,7 +26,7 @@ export const commercialGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Two doors share one frame. One opens onto a judge. The other opens onto the private table the contract already chose. Commercial disputes and arbitration in the Delhi High Court are those two doors. A commercial dispute of the specified value goes to the Commercial Division. That value is defined in the Commercial Courts Act, 2015, and in the relevant notification, and this note does not restate it. If the contract has a workable arbitration clause, the Court is usually asked to support the private table, or to examine an award, rather than to try the invoices itself.",
+            "A commercial dispute and an arbitration are two routes into the same Court. One is a suit before a judge. The other is support for the private process the contract already chose. A commercial dispute of the specified value goes to the Commercial Division. That value is defined in the Commercial Courts Act, 2015, and in the relevant notification, and this note does not restate it. If the contract has a workable arbitration clause, the Court is usually asked to support that private process, or to examine an award, rather than to try the invoices itself.",
           ],
         },
       ],
@@ -81,7 +81,7 @@ export const commercialGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 9 lets a party ask the Court for interim measures before the arbitration, during it, or after the award, for example to preserve property or to secure the amount in dispute. Section 9(3) changes the position once the tribunal is constituted. The Court shall not entertain the application unless the remedy before the tribunal, under section 17, would not be efficacious. After the tribunal exists, its own interim order is the first door. Coming to Court from habit, without showing why section 17 will not work, is the application section 9(3) was written to stop. Before the tribunal exists, section 9 is often the only interim door there is.",
+            "Section 9 lets a party ask the Court for interim measures before the arbitration, during it, or after the award, for example to preserve property or to secure the amount in dispute. Section 9(3) changes the position once the tribunal is constituted. The Court shall not entertain the application unless the remedy before the tribunal, under section 17, would not be efficacious. After the tribunal exists, its own interim order is the first place to go. Coming to Court from habit, without showing why section 17 will not work, is the application section 9(3) was written to stop. Before the tribunal exists, section 9 is often the only interim protection there is.",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const commercialGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Bring the contract, the clause if there is one, the seat, the institution if one is named, and a note of what has already been filed. Bring the date of service if a suit is running, and the date the signed award was received if a challenge is being considered. The Commercial Division expects the schedule's discipline. The note [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works) sets out the diary number and the cause list once a filing exists. None of that chooses the door.",
+            "Bring the contract, the clause if there is one, the seat, the institution if one is named, and a note of what has already been filed. Bring the date of service if a suit is running, and the date the signed award was received if a challenge is being considered. The Commercial Division expects the schedule's discipline. The note [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works) sets out the diary number and the cause list once a filing exists. None of that chooses the route.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const commercialGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Read the clause before the invoices. A suit, a section 9 application, a section 11 request, and a section 34 petition are different papers, and filing one does not do the work of another. One door opens onto a judge. The other opens onto the table the contract already chose. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "Read the clause before the invoices. A suit, a section 9 application, a section 11 request, and a section 34 petition are different papers, and filing one does not do the work of another. One route is a suit before a judge. The other is the process the contract already chose. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

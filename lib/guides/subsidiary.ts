@@ -6,7 +6,7 @@ export const subsidiaryGuide: GuidePage = {
   seoTitle:
     "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
   description:
-    "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary, for a foreign company choosing among three desks, only one of which is a company of its own. Information only, from New Delhi.",
+    "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary, for a foreign company choosing among three permissions, only one of which is a company of its own. Information only, from New Delhi.",
   keywords: [
     "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
     "liaison office",
@@ -18,7 +18,7 @@ export const subsidiaryGuide: GuidePage = {
     "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
   questionSpan:
     "setting up a foreign subsidiary in India, from a liaison office and a branch office to a subsidiary that is a company of its own",
-  lede: "A foreign company wants a presence in India and has been offered three names: a liaison office, a branch, and a subsidiary. The names are often said in one breath. They are not three labels for the same desk.",
+  lede: "A foreign company wants a presence in India and has been offered three names: a liaison office, a branch, and a subsidiary. The names are often said in one breath. They are not three labels for the same permission.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
@@ -29,7 +29,7 @@ export const subsidiaryGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Three desks in a row. Only the third is a building of its own. Setting up a foreign subsidiary in India, as against a liaison office or a branch office, is a choice among those desks. A liaison office represents the parent. It does not earn. A branch office can carry on the activities the Reserve Bank permits, and it remains the parent. A subsidiary is an Indian company, a separate person. The work the parent actually wants to do decides which desk is even available.",
+            "A liaison office, a branch office, and a subsidiary are three different permissions. Only the subsidiary is a company of its own. Setting up a foreign subsidiary in India, as against a liaison office or a branch office, is a choice among those three. A liaison office represents the parent. It does not earn. A branch office can carry on the activities the Reserve Bank permits, and it remains the parent. A subsidiary is an Indian company, a separate person. The work the parent actually wants to do decides which of the three is even available.",
           ],
         },
       ],
@@ -128,18 +128,18 @@ export const subsidiaryGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "A liaison office has no profit to remit. On closure it may remit the balance of the inward remittances that funded it, in the manner the Direction describes. A branch may remit profits net of taxes, on the documents the Direction names. A subsidiary distributes profit by dividend, or returns capital by a permitted route, which is a different legal act from a branch remittance. The note [Repatriation of profits from India](/guides/repatriation-of-profits-from-india) separates those envelopes. Using one form's remittance for another form's money is a common confusion.",
+            "A liaison office has no profit to remit. On closure it may remit the balance of the inward remittances that funded it, in the manner the Direction describes. A branch may remit profits net of taxes, on the documents the Direction names. A subsidiary distributes profit by dividend, or returns capital by a permitted route, which is a different legal act from a branch remittance. The note [Repatriation of profits from India](/guides/repatriation-of-profits-from-india) separates those payments. Using one form's remittance for another form's money is a common confusion.",
           ],
         },
       ],
     },
     {
-      heading: "What mistakes follow from treating the three desks as the same?",
+      heading: "What mistakes follow from treating the three permissions as the same?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The mistakes are a liaison office that invoices, a branch that manufactures, and a subsidiary whose shares were issued without asking which route applied. Another is assuming an authorised dealer can approve an application the Reserve Bank has reserved. Another is quoting a net-worth figure from memory rather than from the Direction. Another is calling a joint venture a subsidiary because the parent cares about it. The three desks remain in a row. Only the third is a building of its own.",
+            "The mistakes are a liaison office that invoices, a branch that manufactures, and a subsidiary whose shares were issued without asking which route applied. Another is assuming an authorised dealer can approve an application the Reserve Bank has reserved. Another is quoting a net-worth figure from memory rather than from the Direction. Another is calling a joint venture a subsidiary because the parent cares about it. The three permissions remain different. Only the subsidiary is a company of its own.",
           ],
         },
       ],
@@ -150,7 +150,7 @@ export const subsidiaryGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "A liaison office represents, a branch does the listed work as the parent, and a subsidiary is a separate company. Only the last is its own building. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "A liaison office represents, a branch does the listed work as the parent, and a subsidiary is a separate company. Only the last is a company of its own. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

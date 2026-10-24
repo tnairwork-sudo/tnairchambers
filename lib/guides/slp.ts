@@ -4,7 +4,7 @@ export const slpGuide: GuidePage = {
   slug: "supreme-court-slp-from-delhi-high-court",
   seoTitle: "Supreme Court SLPs from Delhi High Court orders",
   description:
-    "Supreme Court SLPs from Delhi High Court orders, for a company that has lost in New Delhi and wants to know why the stair to the Supreme Court does not come with a key. Information only.",
+    "Supreme Court SLPs from Delhi High Court orders, for a company that has lost in New Delhi and wants to know why special leave is permission, not a right. Information only.",
   keywords: [
     "Supreme Court SLPs from Delhi High Court orders",
     "Article 136",
@@ -15,7 +15,7 @@ export const slpGuide: GuidePage = {
   title: "Supreme Court SLPs from Delhi High Court orders",
   questionSpan:
     "Supreme Court SLPs from Delhi High Court orders, from why leave is not a right to what the petition cannot add",
-  lede: "A company has lost a final hearing in the Delhi High Court and has been told to go to the Supreme Court. The order is painful, and the next building looks like the obvious stair. The stair is real, and it does not come with a key.",
+  lede: "A company has lost a final hearing in the Delhi High Court and has been told to go to the Supreme Court. The order is painful, and the next court looks like the obvious next step. There is a route, but the Supreme Court does not have to let the case in.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
@@ -25,7 +25,7 @@ export const slpGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The stair up from the High Court is real. The door at the top does not owe anyone a key. Supreme Court SLPs from Delhi High Court orders are petitions for special leave under Article 136 of the Constitution. Leave means permission. The Supreme Court may grant it, and it may refuse it, including at the threshold. The article is a discretion, not a further appeal that a losing party can demand because the High Court sat in Delhi. Article 136(2) keeps the power away from a judgment of a court or tribunal constituted under a law relating to the Armed Forces.",
+            "There is a route from the Delhi High Court to the Supreme Court. The Supreme Court does not have to let the case in. Supreme Court SLPs from Delhi High Court orders are petitions for special leave under Article 136 of the Constitution. Leave means permission. The Supreme Court may grant it, and it may refuse it, including at the threshold. The article is a discretion, not a further appeal that a losing party can demand because the High Court sat in Delhi. Article 136(2) keeps the power away from a judgment of a court or tribunal constituted under a law relating to the Armed Forces.",
           ],
         },
       ],
@@ -124,7 +124,7 @@ export const slpGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The paper should contain the order under challenge, the questions on which leave is sought, a short account of the facts as they stood in Delhi, and a statement of any appeal or review. It should be filed by an advocate-on-record, inside the ordinary period, and it should not pretend that filing is a stay. Listing is not a grant of leave. A matter can be listed and dismissed at the threshold, which is called dismissal in limine. Parties who treat the listing as a victory have misunderstood the stair.",
+            "The paper should contain the order under challenge, the questions on which leave is sought, a short account of the facts as they stood in Delhi, and a statement of any appeal or review. It should be filed by an advocate-on-record, inside the ordinary period, and it should not pretend that filing is a stay. Listing is not a grant of leave. A matter can be listed and dismissed at the threshold, which is called dismissal in limine. Parties who treat the listing as a victory have misunderstood what a listing is.",
           ],
         },
       ],
@@ -146,7 +146,7 @@ export const slpGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The stair is real, and the door does not owe a key. Special leave is permission, filing is not a stay, and the Delhi record is the record. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "There is a route, and the Court does not have to let the case in. Special leave is permission, filing is not a stay, and the Delhi record is the record. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

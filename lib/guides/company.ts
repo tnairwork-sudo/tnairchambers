@@ -14,7 +14,7 @@ export const companyGuide: GuidePage = {
   eyebrow: "Delhi High Court",
   title: "Company and corporate disputes in the Delhi High Court",
   questionSpan:
-    "company and corporate disputes in the Delhi High Court, from the tribunal's share of the register to the contract that stays a contract",
+    "company and corporate disputes in the Delhi High Court, from which fights go to the tribunal to the contract that stays a contract",
   lede: "Two shareholders in a Delhi company have stopped speaking. One says the other has shut him out of the board, and their agreement sends disputes to arbitration. He wants to know whether the Delhi High Court is the place to say so, or whether the statute has already chosen a different forum.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
@@ -26,7 +26,7 @@ export const companyGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "One register, divided. One half is the tribunal. The other half is still a contract. Company and corporate disputes in the Delhi High Court begin with that division. Oppression, mismanagement, and much of pure company law go to the National Company Law Tribunal, not to a civil suit here. A shareholders' agreement, a share purchase, or a joint venture that is really a contract can still be a commercial suit, or an arbitration, if the clause is real. The same facts can produce both kinds of paper.",
+            "Some company fights go to a tribunal. Others stay ordinary contract disputes. Company and corporate disputes in the Delhi High Court begin with that division. Oppression, mismanagement, and much of pure company law go to the National Company Law Tribunal, not to a civil suit here. A shareholders' agreement, a share purchase, or a joint venture that is really a contract can still be a commercial suit, or an arbitration, if the clause is real. The same facts can produce both kinds of paper.",
           ],
         },
       ],
@@ -37,7 +37,7 @@ export const companyGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Sections 241 and 242 of the Companies Act, 2013, send oppression and mismanagement to the Tribunal. Members who qualify may complain that the company's affairs are conducted in a manner prejudicial to them, to the public interest, or to the company. The Tribunal has a wide set of orders. It may direct that shares be purchased. This note does not discuss how any such purchase is worked out. What matters here is the forum. A plaint in the Delhi High Court that asks, in substance, for those orders is in the wrong half of the register.",
+            "Sections 241 and 242 of the Companies Act, 2013, send oppression and mismanagement to the Tribunal. Members who qualify may complain that the company's affairs are conducted in a manner prejudicial to them, to the public interest, or to the company. The Tribunal has a wide set of orders. It may direct that shares be purchased. This note does not discuss how any such purchase is worked out. What matters here is the forum. A plaint in the Delhi High Court that asks, in substance, for those orders is in the wrong forum.",
           ],
         },
       ],
@@ -149,7 +149,7 @@ export const companyGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Start with the relief, not with the building. The Tribunal, the Special Court, and this Court do not take one another's work because the company sits in Delhi. One half of the register is the tribunal. The other half is still a contract. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "Start with the relief, not with the building. The Tribunal, the Special Court, and this Court do not take one another's work because the company sits in Delhi. One set of fights belongs in the tribunal. The other set is still a contract. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

@@ -5,7 +5,7 @@ export const jointVentureGuide: GuidePage = {
   group: "entry",
   seoTitle: "Joint ventures in India with a foreign company",
   description:
-    "Joint ventures in India with a foreign company, for two partners who each hold a key and need to know which parts of the venture the contract can settle and which the statute will not move. Information only, from New Delhi.",
+    "Joint ventures in India with a foreign company, for two partners who need to know which parts of the venture the contract can settle and which the statute will not move. Information only, from New Delhi.",
   keywords: [
     "Joint ventures in India with a foreign company",
     "shareholders' agreement",
@@ -26,7 +26,7 @@ export const jointVentureGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Two keys, cut differently, turn one Indian lock. Neither key can redraw the door. Joint ventures in India with a foreign company are, in the usual case, an Indian company in which a foreign investor and an Indian partner both hold shares. The foreign subscription is foreign investment, and it has to fit the route and the cap. The contract between them can arrange voting, information, and exit. It cannot send the company out of the Companies Act, and it cannot redraw the foreign-investment rules.",
+            "A joint venture contract is a set of house rules between the partners. It can say how they vote, what they must be told, and how one of them may leave. It cannot rewrite the law that applies to the company. Joint ventures in India with a foreign company are, in the usual case, an Indian company in which a foreign investor and an Indian partner both hold shares. The foreign subscription is foreign investment, and it has to fit the route and the cap. The contract cannot send the company out of the Companies Act, and it cannot change the foreign-investment rules.",
           ],
         },
       ],
@@ -37,7 +37,7 @@ export const jointVentureGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "An Indian private company is the ordinary vehicle because it can issue shares, adopt articles, and hold assets in its own name. A foreign partner subscribes or buys those shares, subject to the foreign-investment rules. A limited liability partnership is a narrower door for foreign investment. It is generally available only where the Rules allow it. An unincorporated partnership is more confined still. Choosing a vehicle because it looks familiar from the foreign parent's country does not make that vehicle available here.",
+            "An Indian private company is the ordinary vehicle because it can issue shares, adopt articles, and hold assets in its own name. A foreign partner subscribes or buys those shares, subject to the foreign-investment rules. A limited liability partnership is a narrower route for foreign investment. It is generally available only where the Rules allow it. An unincorporated partnership is more confined still. Choosing a vehicle because it looks familiar from the foreign parent's country does not make that vehicle available here.",
           ],
         },
       ],
@@ -70,7 +70,7 @@ export const jointVentureGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "They cannot contract out of the foreign-investment cap or route, including the land-border rule where it applies. The note [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india) and the note [Press Note 3 explained](/guides/press-note-3) are the accounts of those gates. They cannot contract out of the Companies Act, or out of the Competition Act where a combination threshold is met. A clause that says the parties will ignore a cap is a clause the law will not perform.",
+            "They cannot contract out of the foreign-investment cap or route, including the land-border rule where it applies. The note [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india) and the note [Press Note 3 explained](/guides/press-note-3) are the accounts of those rules. They cannot contract out of the Companies Act, or out of the Competition Act where a combination threshold is met. A clause that says the parties will ignore a cap is a clause the law will not perform.",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const jointVentureGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The company stays Indian. The contract can arrange the relationship. It cannot repeal the cap, the route, or the Tribunal's jurisdiction. Neither key redraws the door, and a foreign seat does not export the company. Section 188 is not waived because the partners are content on the day they sign. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "The company stays Indian. The contract can arrange the relationship. It cannot repeal the cap, the route, or the Tribunal's jurisdiction. House rules do not become the Companies Act, and a foreign seat does not export the company. Section 188 is not waived because the partners are content on the day they sign. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

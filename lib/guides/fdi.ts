@@ -29,7 +29,7 @@ export const fdiGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Three gates. One stands open. One asks you to wait. One was never a gate. FDI in India, across the automatic route, the government route, and sectors described as open to 100%, is that choice. The binding text is the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. The Department for Promotion of Industry and Internal Trade makes policy by press note. A press note does not execute itself. It bites when the Rules are amended to carry it. The percentage on a slide is not the gate.",
+            "Foreign investment in a sector has one of three outcomes. It may proceed without prior government approval. It may need that approval first. Or the activity may be prohibited. FDI in India, across the automatic route, the government route, and sectors described as open to 100%, is that choice. The binding text is the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. The Department for Promotion of Industry and Internal Trade makes policy by press note. A press note does not execute itself. It bites when the Rules are amended to carry it. The percentage on a slide is not the rule.",
           ],
         },
       ],
@@ -107,7 +107,7 @@ export const fdiGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "An otherwise automatic sector can still require government approval if the investor is caught by the land-border rule. The approval is about who the investor is, not about the sector being closed. Press Note 3 does not forbid the investment, and it does not open a prohibited sector. It moves a qualifying investor onto the government route. The detail of that test, including what this page can and cannot confirm about later text, is in [Press Note 3 explained](/guides/press-note-3). A company that clears the sectoral cap and ignores the investor test has cleared only one gate.",
+            "An otherwise automatic sector can still require government approval if the investor is caught by the land-border rule. The approval is about who the investor is, not about the sector being closed. Press Note 3 does not forbid the investment, and it does not open a prohibited sector. It moves a qualifying investor onto the government route. The detail of that test, including what this page can and cannot confirm about later text, is in [Press Note 3 explained](/guides/press-note-3). A company that clears the sectoral cap and ignores the investor test has cleared only the sectoral test.",
           ],
         },
       ],
@@ -140,7 +140,7 @@ export const fdiGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The usual mistakes are treating 100% as the absence of conditions, treating a press note as if it had already amended the Rules, and treating a prohibited activity as available because a neighbouring activity is open. Another is ignoring downstream ownership. Another is reporting an investment that needed approval, and calling the report the approval. The three gates are still the right picture. One stands open, with conditions and a form. One asks the investor to wait for the Government.",
+            "The usual mistakes are treating 100% as the absence of conditions, treating a press note as if it had already amended the Rules, and treating a prohibited activity as available because a neighbouring activity is open. Another is ignoring downstream ownership. Another is reporting an investment that needed approval, and calling the report the approval. The three outcomes are still the right picture. One proceeds, with conditions and a form. One asks the investor to wait for the Government. The third is prohibited.",
           ],
         },
       ],

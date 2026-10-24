@@ -26,7 +26,7 @@ export const ipGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Two labels, almost twins. The narrow space between them is the case. IP and trademark litigation in the Delhi High Court is that comparison, heard in the Intellectual Property Division. The Court looks at the marks, the goods, and the way a buyer meets them. It does not decide the case because one owner is larger, or because the other arrived second in a press release. The Division exists so that trademark, copyright, patent, and related rights are heard by benches given that work.",
+            "Two names can look almost the same. The case is the difference a buyer would notice. IP and trademark litigation in the Delhi High Court is that comparison, heard in the Intellectual Property Division. The Court looks at the marks, the goods, and the way a buyer meets them. It does not decide the case because one owner is larger, or because the other arrived second in a press release. The Division exists so that trademark, copyright, patent, and related rights are heard by benches given that work.",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const ipGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The two labels are still almost twins, and the case is still the space between them. Registration, reputation, and the place of business decide which section and which court. A screen that merely loads in Delhi is not, by itself, a place of business. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "The two names can still look almost the same, and the case is still the difference a buyer would notice. Registration, reputation, and the place of business decide which section and which court. A screen that merely loads in Delhi is not, by itself, a place of business. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],

@@ -5,7 +5,7 @@ export const eorGuide: GuidePage = {
   group: "entry",
   seoTitle: "Employer of record in India and Indian labour codes",
   description:
-    "Employer of record in India and Indian labour codes, for a foreign company whose nameplate says one employer while the hands directing the day belong to someone else. Information only, from New Delhi.",
+    "Employer of record in India and Indian labour codes, for a foreign company whose contract names one employer while another company directs the work. Information only, from New Delhi.",
   keywords: [
     "Employer of record in India and Indian labour codes",
     "contract labour",
@@ -16,18 +16,18 @@ export const eorGuide: GuidePage = {
   title: "Employer of record in India and Indian labour codes",
   questionSpan:
     "an employer of record in India and the Indian labour codes, from the name on the contract to who the law treats as responsible",
-  lede: "A foreign company wants people working in India next month and has been offered a contract under which another company is called the employer. The people would take direction from the foreign company every day. The nameplate and the hands are not the same.",
+  lede: "A foreign company wants people working in India next month and has been offered a contract under which another company is called the employer. The people would take direction from the foreign company every day. The name on the contract and the direction of the work are not the same.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
       heading:
-        "What is an employer of record in India, and what do the Indian labour codes look at?",
+        "What does the phrase Employer of record in India and Indian labour codes describe?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The nameplate says employer. The hands directing the day belong to someone else. Employer of record is not a term in an Indian statute. It is a market name for an arrangement in which one company is written down as the employer while another directs the work. Indian labour law looks at who employs, who pays, and who controls. The four labour codes are the current frame, to the extent each provision has been brought into force. This note does not say the arrangement is unlawful, and it does not say it is safe.",
+            "The contract can name one company as the employer while another company directs the work. Think of the name on the contract as a label, not as the test. Employer of record is not a term in an Indian statute. It is a market name for an arrangement in which one company is written down as the employer while another directs the work. Indian labour law looks at who employs, who pays, and who controls. The four labour codes are the current frame, to the extent each provision has been brought into force. This note does not say the arrangement is unlawful, and it does not say it is safe.",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const eorGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "Who directs the day, who pays, and who the contract calls the employer. Whether the arrangement is contract labour under the Act or the code provision that is actually in force. Whether a workplace in India brings the harassment statute with it. Whether a treaty permanent establishment is even a question the contract tried to answer. Whether a liaison office or a branch was being avoided rather than considered. The nameplate can say employer. The hands can belong to someone else.",
+            "Who directs the day, who pays, and who the contract calls the employer. Whether the arrangement is contract labour under the Act or the code provision that is actually in force. Whether a workplace in India brings the harassment statute with it. Whether a treaty permanent establishment is even a question the contract tried to answer. Whether a liaison office or a branch was being avoided rather than considered. The contract can name one employer. The direction of the work can belong to someone else.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const eorGuide: GuidePage = {
         {
           type: "paragraphs",
           paragraphs: [
-            "The nameplate is not the test. Control, pay, and the provision actually in force are. Where a code provision is in force, the repealed Act does not govern that point, and state shops-and-establishments law continues. This note does not call the arrangement safe or unlawful. It is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+            "The name on the contract is not the test. Control, pay, and the provision actually in force are. Where a code provision is in force, the repealed Act does not govern that point, and state shops-and-establishments law continues. This note does not call the arrangement safe or unlawful. It is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
           ],
         },
       ],
