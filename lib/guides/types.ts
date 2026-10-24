@@ -38,11 +38,17 @@ export type GuidePage = {
   keywords: string[];
   eyebrow: string;
   title: string;
+  /**
+   * Completes "This guide answers N questions on …".
+   * The number is counted from the question headings and is not stored here.
+   */
+  questionSpan: string;
   lede: string;
   inLanguage: "en-IN" | "hi-IN";
   dateLabel: string;
   sections: GuideSection[];
-  faqs: GuideFaq[];
+  /** Unused on articles. Questions live in the sections, and the schema is built from them. */
+  faqs?: GuideFaq[];
   alternates?: GuideAlternate[];
   /** Court notes, or the India Entry notes for a foreign company. */
   group?: "court" | "entry";

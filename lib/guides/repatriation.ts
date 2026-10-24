@@ -14,113 +14,143 @@ export const repatriationGuide: GuidePage = {
   ],
   eyebrow: "India Entry",
   title: "Repatriation of profits from India",
-  lede: "A parent in Dubai owns an Indian company that has had a good year, and the board wants to send money home. There are three ordinary envelopes: the company declares a dividend, or the branch remits its profit, or the parent sells the shares. Three envelopes leave one building, and the flap, not the paper, tells them apart, which is the picture this note is built around. Repatriation of profits from India is permitted, and it is not one payment. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, describes the paths and does not compute any remittance.",
+  questionSpan:
+    "repatriation of profits from India, from a dividend to a branch profit and a sale of shares",
+  lede: "A parent company wants last year's Indian profit in its own bank, outside India. The finance team has prepared one transfer, and the narration says dividend. The underlying money may be a branch profit or the proceeds of a sale of shares, and those are not the same envelope.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "Why are there three envelopes?",
+      heading: "What is repatriation of profits from India, and why are there three paths?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "People call all three repatriation. The bank, the company law, and the tax statute do not. Foreign-exchange law asks whether the payment is current or capital. The Income-tax Act asks whether tax is withheld before the money leaves.",
-            "A shareholder in the Gulf is under the same structure as a shareholder in Seoul or New York. The treaty, if there is one, can change the rate of tax. It does not change the structure.",
-            "Which envelope is open depends on what was set up in the first place. A subsidiary, a branch, and a liaison office are compared in [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india). A liaison office has nothing to put in any of the three envelopes, because it does not earn. Choosing the wrong flap does not become the right payment because the parent would like the money this quarter.",
+            "Three envelopes leave one building. The flap, not the paper inside, tells them apart. Repatriation of profits from India is permitted, and the path depends on what the money is. A dividend is a distribution by an Indian company. A branch profit is the parent's own profit, earned through a branch. A sale of shares is a capital-account transfer, not a distribution of profit at all. The foreign-exchange rules, the company law, and the tax law each look at the flap.",
           ],
         },
       ],
     },
     {
-      heading: "How does a dividend leave?",
+      heading: "Why do a dividend, a branch profit, and a share sale leave differently?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A dividend is declared under the Companies Act, 2013. Section 123 allows it out of profits, after depreciation, or out of free reserves in the manner the rules allow. The board recommends a final dividend and the shareholders declare it.",
-            "The board may declare an interim dividend. A shareholder resolution that ignores section 123 does not create a dividend. It creates a payment the company was not free to make.",
-            "For foreign-exchange purposes a dividend is a current-account payment. An Indian company may remit it to a non-resident shareholder through an authorised dealer, and the dealer asks for the documents that show the dividend was properly declared and that the tax, if any, has been withheld. A dividend paid to a non-resident is a sum chargeable to tax, and section 195 requires the payer to withhold at the rate the Act or the applicable treaty provides. The treaty rate is available to a resident of the treaty state who is the beneficial owner, and who furnishes what the Act requires, including a tax residency certificate and the form that accompanies it. This note does not set out a rate for any treaty.",
+            "A dividend is a current-account payment. The company declares it out of profits, and the shareholder receives it. A branch does not declare a dividend to itself. It remits its profit under the Reserve Bank's directions for a branch. A sale of shares moves the shares, and the proceeds are the seller's, subject to the rules on transfer of foreign investment. Tax follows the character as well. Withholding on a dividend is not the tax on a branch, and neither is the tax on a gain.",
           ],
         },
       ],
     },
     {
-      heading: "When is the name on the register not the owner?",
+      heading: "When can an Indian company declare a dividend?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Beneficial ownership is doing real work in that last sentence. A company inserted between the Indian shares and the person who actually enjoys them is not the resident the treaty describes, merely because its name is on the register. The principal purpose test in the multilateral instrument is written for an arrangement whose purpose was to obtain the treaty benefit. India is a party to that instrument. Whether the instrument has modified a given treaty is a question about that treaty, not a slogan.",
-            "The same point appears when the shares were subscribed under the foreign-investment rules. The route on the way in, described in [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india), does not decide the treaty on the way out. It does decide whether the person now asking for a dividend was a person who could hold the shares. The flap says dividend. The treaty still asks who enjoys it.",
+            "Section 123 of the Companies Act allows a dividend out of the profits of the year, or out of profits of earlier years remaining undistributed, after depreciation, or out of free reserves, in the manner the rules allow. The board recommends a final dividend, and the shareholders declare it. An interim dividend may be declared by the board. A dividend declared where section 123 is not satisfied is not repaired by calling it a distribution in the parent's books. Free reserves here is a company-law expression.",
           ],
         },
       ],
     },
     {
-      heading: "What changes if the shareholder is in the Gulf?",
+      heading: "How does withholding work on a payment to a non-resident?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "India has comprehensive double-taxation agreements with the United Arab Emirates, with Saudi Arabia, with Qatar, with Oman, and with Kuwait. A resident of one of those states claims the agreement in the same way as a resident of Korea, Singapore, the United Kingdom, or the United States: residency, beneficial ownership, and the documents. The Gulf agreement does not apply to a Korean or a European shareholder who holds the Indian shares through a Gulf company, unless that company is itself the resident beneficial owner.",
-            "Bahrain is not assumed. A resident of Bahrain confirms whether a comprehensive agreement is in force before relying on one. Domestic law applies where no agreement does. A Gulf holding company is not a shortcut around that confirmation, and it is not the resident beneficial owner merely by holding the shares. The envelope does not change country because the letterhead did.",
+            "Section 195 requires withholding on a sum paid to a non-resident that is chargeable to tax in India. The treaty rate can apply to a resident of the treaty country who is the beneficial owner, with a tax residency certificate and Form 10F where the rules require them. This page does not quote a rate. The domestic rate, the treaty rate, and the question whether the sum is chargeable at all are matters for the payment in hand. Withholding is not a final assessment of the shareholder's tax.",
           ],
         },
       ],
     },
     {
-      heading: "What leaves a branch, and what leaves a liaison office?",
+      heading: "Who counts as the beneficial owner, and what is the principal purpose test?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A branch of a foreign company may remit its profits outside India. The Reserve Bank's directions require the remittance to be of profit, net of taxes, supported by the accounts and by the certificates the directions name, including a certificate that the tax has been paid. The profit of a branch is not a dividend. It is the profit of the foreign company itself, taxable in India to the extent it is attributable to the branch, and remittable when that tax has been dealt with.",
-            "A liaison office has no profit to remit. It does not earn. On closure, the balance of the inward remittances that funded it may be sent back, on the documents the directions require. An office that has in fact earned has left its permission.",
-            "The earning is not regularised by calling the payment a remittance of profit. That envelope was never a dividend, and it was never a branch profit. It was a return of what was sent.",
+            "The treaty rate is for the beneficial owner, not for whichever company is written on the share certificate if that company is only a conduit. India is a party to the Multilateral Instrument, and the principal purpose test can deny a treaty benefit where obtaining that benefit was a principal purpose of the arrangement, subject to the way the particular treaty is modified. Whether a given treaty is modified is a question about that treaty, not a universal yes. A holding company in a treaty country is not the beneficial owner merely because it holds the shares.",
           ],
         },
       ],
     },
     {
-      heading: "What if the parent sells, buys back, or reduces?",
+      heading: "Which Gulf countries have a comprehensive tax treaty with India?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A sale of shares by a non-resident is a capital-account transaction. The Non-debt Instruments Rules permit the transfer and the repatriation of the proceeds, subject to the conditions those Rules attach and subject to the report, commonly FC-TRS. A transfer that does not meet the conditions is not cured by the buyer's willingness to complete. A buyback under section 68 of the Companies Act, and a reduction of capital confirmed by the Tribunal under section 66, are Indian corporate procedures. Each can put money in a non-resident shareholder's hands, and each is taxed under the provision that applies to that payment, which is not necessarily the provision that applies to a dividend.",
-            "The tax treatment of a buyback has changed before. This note does not freeze it. The provision is read as at the date of the payment. Before the authorised dealer remits a sum chargeable to tax, the rules generally require the payer's undertaking in Form 15CA and, where the rules so require, a chartered accountant's certificate in Form 15CB. Some remittances are excepted.",
-            "The exception is the one in the rules, not a practice of the bank. This note does not state a threshold for the certificate. The certificate is a condition of the remittance.",
-            "It is not an advice that amends the treaty. Three envelopes can leave the building. The flap still tells them apart. A reader who picks the flap by the parent's preference, rather than by what the payment actually is, will withhold on the wrong footing. The authorised dealer looks at that flap before it looks at the parent's letter.",
+            "India has comprehensive tax treaties with the United Arab Emirates, Saudi Arabia, Qatar, Oman, and Kuwait. This page does not assume a comprehensive treaty with Bahrain, and it does not treat membership of the Gulf Cooperation Council as a treaty. A Gulf holding company is not the resident beneficial owner merely by holding the shares. Residence, beneficial ownership, and the principal purpose test still have to be met for the treaty that is actually being claimed. A group chart that places a company in Dubai, and stops, has not done that work.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question: "Is repatriation of profits from India permitted?",
-      answer:
-        "Repatriation of profits from India is permitted for a dividend properly declared, for the taxed profit of a branch, and for the proceeds of a share transfer that meets the Non-debt Instruments Rules. They are three paths, not a single form. Tax is withheld where the sum is chargeable. A treaty may change the rate for a resident beneficial owner. It does not remove the remittance.",
+      heading: "How does a branch remit profit, and what can a liaison office remit?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A branch may remit its profit, net of Indian taxes, on the documents and certificates the Reserve Bank Direction names, including audited accounts and a certificate that tax has been paid. The remittance is of the branch's profit, not a dividend. A liaison office has no profit. It does not earn. On closure it may remit the balance of the inward remittances that funded it. Trying to remit a trading profit through a liaison office admits that the office was trading. The note [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india) separates the desks.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does a shareholder in the Gulf use a different route?",
-      answer:
-        "No. The United Arab Emirates, Saudi Arabia, Qatar, Oman, and Kuwait have comprehensive agreements, and the shareholder claims the agreement as a resident beneficial owner. Bahrain is confirmed separately. A Gulf company that merely holds shares for someone else is not the resident the agreement describes.",
+      heading: "What applies when the parent sells the shares?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A sale of shares is on capital account. The transfer has to be permitted under the Non-debt Instruments Rules, and it is reported on Form FC-TRS where that form applies. This note does not set out the guidelines that speak to consideration. The tax is the tax on the gain, which is a different computation from withholding on a dividend. A buyer who cannot hold the shares under the foreign-investment rules cannot complete the transfer, however willing the seller is. The note [FDI in India: automatic route, government route and 100% FDI sectors](/guides/fdi-in-india) is the sectoral side of that limit.",
+          ],
+        },
+      ],
     },
     {
-      question: "Can a liaison office remit profits?",
-      answer:
-        "It has none. A liaison office does not earn. On closure it may remit the balance of the funds it received from its head office, on the documents the directions require.",
+      heading: "How do a buyback and a reduction of capital differ?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A buyback under section 68 of the Companies Act is a purchase by the company of its own shares, inside the conditions of that section. A reduction of capital under section 66 goes through the National Company Law Tribunal. Both can be ways of returning value to a shareholder. They are not dividends, and they are not branch remittances. The tax treatment of a buyback has changed before. This page does not freeze the current tax regime as if it could not change again.",
+          ],
+        },
+      ],
     },
     {
-      question: "Is the sale of shares remitted as if it were a dividend?",
-      answer:
-        "No. A transfer of shares by a non-resident is reported, commonly as FC-TRS, and is subject to the conditions in the Non-debt Instruments Rules. The tax consequence is the consequence of a transfer, or of a buyback under section 68, or of a reduction under section 66, whichever the payment actually is.",
+      heading: "What are Form 15CA and Form 15CB?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Form 15CA is the payer's information about a remittance. Where the rules require it, Form 15CB is a certificate from a chartered accountant. This note does not state the threshold at which the certificate is required. The threshold is in the rules, and it is looked up. The certificate is not advice that amends the treaty. It does not turn a conduit into a beneficial owner, and it does not choose the character of the payment. It certifies the tax position the accountant is prepared to certify.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does the bank decide the treaty?",
-      answer:
-        "The authorised dealer remits when the forms and, where required, the certificate are in order. The right to the treaty is a question of residence and beneficial ownership under the treaty. The certificate records a view. It does not amend the treaty.",
+      heading: "What mistakes follow from treating every outbound payment as a dividend?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The narration is not the law. A branch profit remitted as a dividend, a share sale narrated as a dividend, and a liaison balance narrated as profit are three different errors. Another is claiming a treaty rate for a company that is not the beneficial owner. Another is assuming a Gulf company has a treaty because its neighbour does. The three envelopes still leave one building. The flap is the dividend, the branch profit, or the share sale. Read the flap before the form is filled.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The flap tells the envelopes apart. Dividend, branch profit, and a sale of shares leave under different rules. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };

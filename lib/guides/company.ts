@@ -13,116 +13,146 @@ export const companyGuide: GuidePage = {
   ],
   eyebrow: "Delhi High Court",
   title: "Company and corporate disputes in the Delhi High Court",
-  lede: "Two families own a private company in Delhi, and one morning one of them cannot see the accounts, while a fresh issue of shares to the other family's relatives is already on the table. The instinct is to sue in the High Court, because that is where a serious commercial fight is pictured, but the company's register does not work that way. It is one book, divided. One half of the complaint is for the National Company Law Tribunal, and the other half may still be a contract that can stay in this Court or go to arbitration. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, shows how to tell the halves apart.",
+  questionSpan:
+    "company and corporate disputes in the Delhi High Court, from the tribunal's share of the register to the contract that stays a contract",
+  lede: "Two shareholders in a Delhi company have stopped speaking. One says the other has shut him out of the board, and their agreement sends disputes to arbitration. He wants to know whether the Delhi High Court is the place to say so, or whether the statute has already chosen a different forum.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What belongs to the Tribunal?",
+      heading:
+        "What are company and corporate disputes in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The Companies Act, 2013, is the company's constitution, and it sends some complaints to the Tribunal no matter what the shareholders' agreement prefers. Sections 241 and 242 are oppression and mismanagement. A member who says the affairs are being run in a manner oppressive to members, or prejudicial to the company or the public, petitions the Tribunal.",
-            "The Tribunal may regulate the conduct of the affairs, bring an end to the matters complained of, and make such order as it thinks fit, including an order that one group buy the other's shares. The terms of any purchase are fixed there. They are not fixed in a suit in this Court.",
-            "Section 430 says a civil court, which includes this High Court in its civil jurisdiction, shall not entertain a matter the Tribunal or the Appellate Tribunal is empowered to determine. The caption on the plaint does not decide it. A contract claim dressed as oppression still has to be a contract claim. An oppression claim dressed as an injunction still belongs where sections 241 and 242 put it. A class action lies under section 245.",
-            "A scheme, including a merger, lies under sections 230 to 232. A reduction of capital lies under section 66. Rectification of the register of members lies under section 59.",
+            "One register, divided. One half is the tribunal. The other half is still a contract. Company and corporate disputes in the Delhi High Court begin with that division. Oppression, mismanagement, and much of pure company law go to the National Company Law Tribunal, not to a civil suit here. A shareholders' agreement, a share purchase, or a joint venture that is really a contract can still be a commercial suit, or an arbitration, if the clause is real. The same facts can produce both kinds of paper.",
           ],
         },
       ],
     },
     {
-      heading: "When is insolvency a different door again?",
+      heading: "Where does a claim of oppression or mismanagement go?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Corporate insolvency is the Insolvency and Bankruptcy Code. The adjudicating authority for a corporate person is the Tribunal, under section 60. Section 63 provides that no civil court has jurisdiction over a matter the Tribunal is empowered to decide.",
-            "A petition to put the company into the resolution process is not filed in the High Court. A creditor who wants that outcome files there. A supplier who is owed an invoice, and who is not asking for insolvency, may still have an ordinary claim, until a moratorium changes the picture.",
-            "Once a moratorium is ordered under section 14, suits and proceedings against the corporate debtor are stayed, including proceedings in this Court, subject to the exceptions the Code states. Waiting is not the same as losing the debt, and it is not a reason to start the debt again as a writ. Questions arising out of the resolution belong with the Tribunal.",
-            "An appeal from the Tribunal lies to the National Company Law Appellate Tribunal, and from there to the Supreme Court on a question of law. There is no appeal from the Tribunal to the Delhi High Court. A writ remains only on the narrow ground that the Tribunal acted without jurisdiction, which is the supervision described in [Writ petitions against regulators and government in the Delhi High Court](/guides/writ-petitions-against-regulators-delhi-high-court), and it is not a rehearing of the merits.",
+            "Sections 241 and 242 of the Companies Act, 2013, send oppression and mismanagement to the Tribunal. Members who qualify may complain that the company's affairs are conducted in a manner prejudicial to them, to the public interest, or to the company. The Tribunal has a wide set of orders. It may direct that shares be purchased. This note does not discuss how any such purchase is worked out. What matters here is the forum. A plaint in the Delhi High Court that asks, in substance, for those orders is in the wrong half of the register.",
           ],
         },
       ],
     },
     {
-      heading: "What can still be a case in this Court?",
+      heading: "Can a civil court hear a claim the Tribunal is meant to hear?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A claim that is only a claim in contract can be a suit or an arbitration. A share purchase agreement, a shareholders' agreement, or a joint venture may provide for arbitration, or may support a commercial suit where the dispute is a commercial dispute of the specified value. That work is [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court). How a foreign shareholder and an Indian partner set the company up is [Joint ventures in India with a foreign company](/guides/joint-venture-in-india).",
-            "The line is real. A promise to offer shares to the other family before issuing them to relatives can be a contract. A complaint that the company's affairs are being conducted oppressively is not converted into a contract by quoting that promise.",
-            "An arbitration clause does not, by itself, move a statutory oppression petition out of the Tribunal. Labelling a contractual claim as oppression does not confer a jurisdiction the sections do not give. Intellectual property owned by the company is litigated as intellectual property. The same falling-out can therefore be two cases at once: the books and the new issue in the Tribunal, and the broken offer-right in arbitration. Filing all three in one place because it is tidier does not move the statutory ones.",
+            "Section 430 bars a civil court, including this Court in its ordinary civil jurisdiction, from a matter the Tribunal or the Appellate Tribunal is empowered to determine. The bar is not advice. A claim that is really oppression, dressed as an injunction about board meetings, can still fall on the wrong side of it. The test is the relief, not the title of the document. If the Act appointed the Tribunal, this Court does not sit as a substitute because the registered office is in Delhi. Convenience is not jurisdiction.",
           ],
         },
       ],
     },
     {
-      heading: "What does a criminal fraud allegation change?",
+      heading:
+        "Where do class actions, schemes, reductions, and rectification go?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 447 is the offence of fraud. It is tried by a Special Court under section 435, which is a sessions court designated for the purpose, not a division of this High Court. A civil petition does not become a criminal complaint because it uses the word fraud.",
-            "Where the investigation is by the Serious Fraud Investigation Office, section 212(6) says bail is not granted unless the Public Prosecutor has had a chance to oppose and, where the Prosecutor opposes, the court is satisfied there are reasonable grounds for believing the person is not guilty and is not likely to commit any offence while on bail. A proviso permits release of a person under sixteen, a woman, or a person who is sick or infirm. Those are statutory conditions, applied to that record.",
-            "Bail from the Special Court can still reach the High Court under the statute that governs bail. A fight about the register is not made criminal by anger, and a criminal case is not a substitute for the oppression petition. Each runs on its own record.",
+            "Section 245 is the class action. Sections 230 to 232 cover compromises, arrangements, and schemes. Section 66 is a reduction of share capital, and it passes through the Tribunal. Section 59 is rectification of the register of members. These are Tribunal proceedings. They are not suits in the Commercial Division, and they are not writs against the company. A shareholder who wants a scheme supervised, or a register put right, starts in the Tribunal even if every director lives in Delhi.",
           ],
         },
       ],
     },
     {
-      heading: "What should you prepare?",
+      heading: "What happens to a company case once insolvency begins?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Separate the prayers before you separate the forums. Write down, in ordinary sentences, what you want: the accounts, a stop on the new shares, and damages for a broken contractual promise. The first two ask someone to regulate the company's affairs. The third asks someone to enforce a contract.",
-            "The documents follow that split. The register, the notices of the issue, and the correspondence about exclusion support a Tribunal petition. The shareholders' agreement, the offer clause, and the notice that was never given support the contract claim.",
-            "If a moratorium has been ordered, say so at the start, because section 14 may have stayed the suit you were about to file. If an arbitration clause exists, quote it, and then ask whether the complaint is in substance oppression. The clause does not answer that question, and a chronology of who had the books, who approved the issue, and who was told, is worth more than a label.",
+            "Once insolvency is admitted, section 60 of the Insolvency and Bankruptcy Code places the proceeding in the Tribunal. Section 63 bars a civil court from the matters that Code assigns. A moratorium under section 14 stays suits and proceedings against the corporate debtor, including suits in this Court, subject to the exceptions the Code states. Waiting is not the same as losing the debt, and it is not a reason to start the debt again as a writ. Questions arising from the resolution belong with the Tribunal.",
           ],
         },
       ],
     },
     {
-      heading: "What mistakes send the case to the wrong door?",
+      heading: "Can a Tribunal order be appealed to the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The usual mistake is to sue here for oppression because the High Court feels more familiar. Section 430 is the answer to that instinct. The second mistake is to call every broken promise oppression, so that a claim which could have been arbitrated is forced into a jurisdiction that will not keep it.",
-            "The third is to ignore a moratorium and press a suit against the company as if the Code had not spoken. Each of these treats the register as one undivided book. The statute has already divided it.",
-            "Nothing in this note says which half the two families are holding. It says that the caption does not choose the forum, and that an appeal from the Tribunal does not come to this Court. The useful morning's work is to sort the prayers before the filing, not after a judge has had to do the sorting.",
+            "An appeal from the Tribunal lies to the National Company Law Appellate Tribunal, and from there to the Supreme Court on a question of law. It does not lie to the Delhi High Court. A writ against a Tribunal order is not a disguised appeal on the merits. It is available, if at all, where the Tribunal acted without jurisdiction. Merits, however strongly felt, stay on the path the statutes built. Losing a hearing does not make this Court the next floor of the same building. Orders of this Court are a different subject. The note [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court) deals with those orders, not with a Tribunal appeal under another name.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question: "Where do company and corporate disputes in the Delhi High Court stop?",
-      answer:
-        "Company and corporate disputes in the Delhi High Court stop where the National Company Law Tribunal is empowered to decide. Oppression, class actions, schemes, reduction of capital, rectification, and corporate insolvency go to the Tribunal. A claim that is only a contract may remain a suit or an arbitration here.",
+      heading: "When is a shareholders' fight still a contract case?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A shareholders' agreement, a share purchase, or a joint-venture contract can be enforced as a contract. If it is a commercial dispute of the specified value, the Commercial Division may hear the suit, unless an arbitration clause sends it out. The note [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court) sets out that choice. The specified value is the Act's own threshold, and this page does not restate a figure. What the Court will not do is treat a pure oppression complaint as if it were only a broken promise about board seats.",
+          ],
+        },
+      ],
     },
     {
-      question: "Can oppression be filed as a civil suit?",
-      answer:
-        "No. Sections 241 and 242 confer that jurisdiction on the Tribunal, and section 430 bars the civil court from a matter the Tribunal is empowered to determine. Describing the same facts as a claim for an injunction does not move them.",
+      heading: "Does an arbitration clause move oppression out of the Tribunal?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "An arbitration clause does not lift sections 241 and 242 out of the Tribunal. That jurisdiction is not a contractual option the shareholders can waive. The clause can still govern a claim that is truly contractual, such as an obligation to vote or to complete a transfer of shares. The same quarrel often contains both. They are sorted by the relief, not by whichever document was signed last. Sending the entire quarrel to arbitration, including a prayer only the Tribunal can grant, does not make the Tribunal disappear.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does an appeal from the Tribunal lie to this High Court?",
-      answer:
-        "No. It lies to the National Company Law Appellate Tribunal, and from there to the Supreme Court on a question of law. A writ lies only where the Tribunal has acted without jurisdiction, not as a rehearing of the merits.",
+      heading:
+        "What are the two conditions for bail in a Serious Fraud Investigation Office case?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Section 447 defines fraud. Where a person is accused of that offence after investigation by the Serious Fraud Investigation Office, section 212(6) adds two conditions to bail. The Public Prosecutor must have an opportunity to oppose. If the Prosecutor opposes, the Court must see reasonable grounds for believing the person is not guilty and is not likely to commit any offence while on bail. A proviso covers a person under sixteen, a woman, and a person who is sick or infirm. The note [White-collar bail and anticipatory bail in the Delhi High Court](/guides/white-collar-bail-delhi-high-court) places those conditions beside the Sanhita.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does an arbitration clause move every shareholder fight?",
-      answer:
-        "No. A contractual claim may be arbitrable. A petition whose substance is oppression is made to the Tribunal. The clause does not, by itself, decide which of the two the dispute is.",
+      heading: "Which court tries a company-fraud prosecution?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The prosecution is tried by a Special Court under section 435. That court is not the Delhi High Court. This Court may still be asked for bail, inside the conditions section 212(6) sets, but the trial is not a writ and not a commercial suit. Confusing the three is how papers arrive in a building the statute did not name. The Special Court is a criminal court with a statutory job. The Tribunal remains the company-law forum. Where this Court has a role, it is the role the Sanhita or Article 226 actually gives, not a general supervision of every company fight in the city.",
+          ],
+        },
+      ],
     },
     {
-      question: "What happens to a suit when a moratorium is ordered?",
-      answer:
-        "Section 14 stays the institution and the continuation of proceedings against the corporate debtor, subject to the exceptions the Code states. This Court does not run a parallel insolvency.",
+      heading: "How should the prayers be sorted before anyone files?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "List each prayer and write the forum beside it before a draft begins. A direction about the company's affairs, a rectification, a scheme, or a reduction belongs with the Tribunal. A moratorium belongs with the insolvency proceeding. A promise in a contract belongs in the suit or the arbitration, if the clause is real and the claim is truly contractual. Bail in a fraud prosecution belongs with the bail sections, not in a company petition. A prayer with no forum beside it is the one that will be objected to first.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Start with the relief, not with the building. The Tribunal, the Special Court, and this Court do not take one another's work because the company sits in Delhi. One half of the register is the tribunal. The other half is still a contract. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };

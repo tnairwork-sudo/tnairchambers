@@ -4,8 +4,10 @@ import { bciDisclaimer } from "@/lib/guides/disclaimer";
 import {
   articleSchema,
   breadcrumbSchema,
+  articleQuestions,
   faqSchema,
   getGuides,
+  guideMetaDescription,
   guidePath,
   guidesIndex,
   guidesIndexUrl,
@@ -113,12 +115,16 @@ export default function GuidesIndexPage() {
                       href={guidePath(guide.slug)}
                       className="block py-7 group"
                     >
-                      <span className="label text-gold">{guide.eyebrow}</span>
+                      <span className="label text-gold">
+                        {guide.eyebrow}
+                        <span className="mx-3 text-parchment-dim/40">/</span>
+                        {articleQuestions(guide).length} questions
+                      </span>
                       <span className="mt-3 block font-serif text-3xl font-light text-parchment group-hover:text-gold-light transition-colors duration-200 text-balance">
                         {guide.title}
                       </span>
                       <span className="mt-3 block text-sm md:text-base text-parchment-dim leading-relaxed">
-                        {guide.description}
+                        {guideMetaDescription(guide)}
                       </span>
                     </Link>
                   </li>

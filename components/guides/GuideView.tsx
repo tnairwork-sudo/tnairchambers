@@ -4,8 +4,11 @@ import SetHtmlLang from "@/components/guides/SetHtmlLang";
 import { bciDisclaimer, bciDisclaimerHindi } from "@/lib/guides/disclaimer";
 import { guideArt } from "@/lib/guides/art";
 import {
+  articleQuestions,
   getGuides,
   guidePath,
+  guideQuestionSummary,
+  questionHeadingId,
 } from "@/lib/guides";
 import type { GuideBlock, GuidePage } from "@/lib/guides/types";
 
@@ -129,6 +132,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
     : undefined;
   const art = guideArt(guide.slug);
   const illustration = guide.illustration;
+  const questions = articleQuestions(guide);
 
   return (
     <article
@@ -194,7 +198,27 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             </figure>
           ) : null}
 
-          <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
+          <p className="text-base md:text-lg text-parchment leading-relaxed max-w-3xl">
+            {guideQuestionSummary(guide)}
+          </p>
+          {questions.length > 0 ? (
+            <nav aria-label="Questions in this guide" className="mt-6 max-w-3xl">
+              <ol className="space-y-2 text-sm md:text-base leading-relaxed">
+                {questions.map((item) => (
+                  <li key={item.question}>
+                    <a
+                      href={`#${questionHeadingId(item.question)}`}
+                      className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                    >
+                      {item.question}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          ) : null}
+
+          <p className="mt-8 text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
             <RichText text={guide.lede} />
           </p>
 
@@ -233,7 +257,8 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
           {guide.sections.map((section) => (
             <section key={section.heading}>
               <h2
-                className="heading-section text-3xl md:text-4xl text-parchment mb-6 text-balance"
+                id={questionHeadingId(section.heading)}
+                className="heading-section scroll-mt-24 text-3xl md:text-4xl text-parchment mb-6 text-balance"
                 style={headingStyle}
               >
                 {section.heading}
@@ -241,28 +266,6 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
               <Blocks blocks={section.blocks} />
             </section>
           ))}
-
-          <section>
-            <h2
-              className="heading-section text-3xl md:text-4xl text-parchment mb-8 text-balance"
-              style={headingStyle}
-            >
-              {hindi ? "प्रश्न" : "Questions"}
-            </h2>
-            <div className="space-y-8">
-              {guide.faqs.map((faq) => (
-                <div key={faq.question}>
-                  <h3
-                    className="font-serif text-2xl text-parchment font-light mb-3 text-balance"
-                    style={headingStyle}
-                  >
-                    {faq.question}
-                  </h3>
-                  <p>{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
 
           <section>
             <h2

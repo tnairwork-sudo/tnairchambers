@@ -14,113 +14,143 @@ export const dpdpGuide: GuidePage = {
   ],
   eyebrow: "India Entry",
   title: "DPDP Act compliance for foreign companies",
-  lede: "A clothing site run from Singapore takes orders for delivery in Delhi, and it asks the buyer for a name and an address. There is no shop on the street. The window still faces Delhi, and it still asks for a name, which is the picture this note is built around. DPDP Act compliance for foreign companies does not wait for a lease. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, describes the Digital Personal Data Protection Act, 2023, and does not audit any company.",
+  questionSpan:
+    "DPDP Act compliance for foreign companies, from when the Act applies without an Indian office to which duties were still phased",
+  lede: "A foreign company sells to customers in India from a website hosted somewhere else. It has no shop, no branch, and no employee in the city. The checkout still asks for a name, and someone has asked whether Indian law heard the question.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "When does the Act reach a company with no office here?",
+      heading: "What does DPDP Act compliance for foreign companies actually require?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Section 3 is the territorial rule. The Act applies to a person who processes digital personal data in India, whether or not that person is in India. It also applies to processing outside India, if the processing is in connection with any activity related to offering goods or services to data principals in India. The site is offering goods to people in India and is processing their personal data in order to do it. The absence of a lease is not the test.",
-            "Incorporation here is not required. A subsidiary, a branch, or a liaison office is not required. A company in Seoul, Singapore, Dubai, Frankfurt, or New York can be within the Act with no Indian company at all.",
-            "Incorporation, where it happens, is a different note, [Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary](/guides/setting-up-foreign-subsidiary-in-india). The window does not become a shop by facing the street. It becomes the Act's business by asking for the name.",
+            "There is no shop on the street. The window still faces Delhi, and it still asks for a name. DPDP Act compliance for foreign companies starts from that window. The Digital Personal Data Protection Act, 2023, applies to processing in India, and to processing outside India if it is in connection with offering goods or services to people in India. No Indian office is required for the Act to apply. The duty is not a full European regulation pasted into a new cover, and this note does not pretend that every operational duty was already in force on 23 October 2026.",
           ],
         },
       ],
     },
     {
-      heading: "Who decides the purpose, and who merely holds the file?",
+      heading: "Does the Act apply if the company has no office in India?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The person who determines the purpose and the means of processing is the data fiduciary. A vendor who processes on the fiduciary's instructions is a data processor. The fiduciary remains responsible for the processor. A foreign company that decides why the data are collected is the fiduciary, even if an Indian company hosts the servers. An Indian subsidiary that decides its own purposes is a fiduciary of its own.",
-            "The Act does not apply to personal data processed by an individual for a personal or domestic purpose, or to personal data made publicly available by the data principal, or made public by someone under a legal obligation. A business that collects personal data and then says the data were public has to fit one of those sentences. The heading of a website is not the sentence. A name collected to deliver a parcel is not public merely because the parcel crossed a border.",
+            "Yes, where section 3 is met. Processing in India is covered. Processing outside India is covered if it is in connection with offering goods or services to data principals in India. Offering is the link. A site that can be loaded in Delhi, but does not offer anything to people in India, is not the same fact as a site that sells to them or ships to them. The Act also sets exceptions. Purely personal or domestic use is outside it.",
           ],
         },
       ],
     },
     {
-      heading: "What does consent have to look like?",
+      heading: "Who is the data fiduciary, and who is only a processor?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Personal data are processed for a lawful purpose, either with consent or for a legitimate use the Act specifies. Consent, under section 6, is free, specific, informed, unconditional, and unambiguous, and it is given by a clear affirmative action. A form that asks for an address in order to deliver a parcel does not, by that request, authorise a second use. A bundled acceptance, which the reader cannot decline without losing an unrelated service, is not this consent.",
-            "Consent may be withdrawn, and the withdrawal has to be as easy as the giving. If yes was one tick, no cannot be a letter to a foreign office. The notice that accompanies a request for consent tells the person what data are collected and for what purpose, and how to exercise the rights and how to complain. The Rules notified in November 2025 specify what that notice contains.",
-            "A notice written only for another country's statute is not, for that reason, a notice under this Act. Section 7 lists legitimate uses, including specified uses by the State, a medical emergency, and certain uses for employment. Employment is not a general permission to process the data of customers, and a foreign company with no employees in India does not acquire an employment use by having customers here.",
+            "The data fiduciary is the person who decides the purpose and the means of the processing. A processor who handles the data for that fiduciary does not become the fiduciary by holding the servers. The fiduciary remains responsible for the processor. A foreign company that decides why the name is collected, and what will be done with it, is the fiduciary even if an Indian vendor stores the file. Calling the vendor the fiduciary in the contract does not move the statute. The contract can allocate tasks.",
           ],
         },
       ],
     },
     {
-      heading: "What can the person ask, including where a child is involved?",
+      heading: "What kind of consent does section 6 require?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A data principal may ask for a summary of the personal data being processed and of the processing, for the identities of other fiduciaries with whom the data have been shared, and for correction and erasure. The person may have a grievance heard, and may nominate someone else to exercise these rights if the person dies or is incapacitated. The rights run in the manner the Rules provide. A clothing site that can take the name, and cannot later say what it did with the name, has not met the right.",
-            "A child's personal data are processed only with the verifiable consent of the parent. The Act restricts tracking, behavioural monitoring, and targeted advertising directed at a child. The Rules set out how that parental consent is verified. A site that does not intend to deal with children still has the question on the day a child's data arrives, and intention is not the section.",
+            "Section 6 requires consent that is free, specific, informed, unconditional, and unambiguous, given by a clear affirmative action. A pre-ticked box is not that action. Consent that is bundled with a condition the statute does not allow is not unconditional. Withdrawal has to be as easy as giving the consent. The notice that accompanies the request has to carry the contents the Rules specify. This note does not invent extra contents. The plain idea is that the person knows what is being asked, agrees to that thing, and can take the agreement back without an obstacle course.",
           ],
         },
       ],
     },
     {
-      heading: "Who needs an officer in India, and where may the data go?",
+      heading: "Which uses are allowed without that consent?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The Central Government may notify a data fiduciary, or a class of them, as significant, by reference to the volume and sensitivity of the data and the risk to rights. The company does not elect the label. A significant data fiduciary appoints a data protection officer based in India, has an independent data audit, and undertakes a data protection impact assessment, under section 10. A global privacy officer who sits only in another country does not meet the requirement that the officer be based in India.",
-            "Section 16 permits a transfer of personal data outside India, except where the Central Government has restricted the destination by notification. The Act is a negative list. It does not require the data to remain in India, and a restriction exists only if a notification has made it. This note does not record a list of restricted countries. No such list was confirmed for this page.",
-            "A transfer is checked against the notifications in force on the day of the transfer. Other Indian laws, including a direction aimed at a significant data fiduciary, can still attach a condition. Section 16 is not a repeal of those conditions.",
+            "Section 7 lists legitimate uses. They include specified uses by the State, a medical emergency, and certain uses in employment. Employment use is not a general permission to process customer data. A foreign company with no employees in India does not acquire an employment use by employing people somewhere else. The list is a list. It is not a mood called legitimate interest, borrowed from another statute. If the processing is of customers in India, and no item on the list applies, the path is consent under section 6.",
           ],
         },
       ],
     },
     {
-      heading: "What should you prepare, and what is easy to get wrong?",
+      heading: "What rights does a person in India have over the data?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A personal data breach is intimated to the Data Protection Board of India and to each affected person, in the form and within the time the Rules specify. This note does not invent that time. A period copied from another country's regulation is not the period in these Rules.",
-            "The consequence under the Act is a civil penalty, adjudicated by the Board, within the maxima the Schedule sets. The highest maximum attaches to a failure to keep reasonable security safeguards. This note does not restate the figures, and on these breaches the Act is not a criminal statute.",
-            "The Rules were notified in November 2025, and the provisions that establish the Board were brought into force in November 2025. The Rules phase the remaining operational duties, so notification of the Rules is not the same fact as every duty already applying to every fiduciary. As at the date of this note, it is not asserted that every fiduciary duty is already in force. Which duty applies on a given day is read from the commencement provision. The usual mistake is to wait for a shop, or to paste a notice written for another statute and call the window compliant.",
-            "The window still faces Delhi. It still asks for a name. Nothing here is an audit.",
+            "A data principal can ask for a summary of the personal data being processed and of the processing, and for the identities of the other fiduciaries with whom it has been shared. The person can ask for correction and for erasure, can use the grievance route, and can nominate someone to exercise rights if the person dies or is incapacitated. These are not optional courtesies in a privacy policy. They are rights the Act confers, and the fiduciary has to be able to meet them when the relevant duty is in force.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question: "When does DPDP Act compliance for foreign companies begin?",
-      answer:
-        "DPDP Act compliance for foreign companies begins when digital personal data are processed in India, or outside India in connection with offering goods or services to people in India. An Indian office is not required. A site that delivers into Delhi and asks for a name is already inside the question.",
+      heading: "What extra duties apply when the person is a child?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Processing the personal data of a child requires verifiable consent of the parent or lawful guardian. The Act also restricts tracking of children, behavioural monitoring, and targeted advertising directed at them. A foreign site that is happy to sign up a teenager in India is in that regime, office or no office. Verifiable is the word that does the work. A tick box that says the user is over a certain age, with nothing behind it, is not by itself verification. The Rules develop what verification requires.",
+          ],
+        },
+      ],
     },
     {
-      question: "Is the foreign parent the data fiduciary if an Indian vendor hosts the data?",
-      answer:
-        "If the foreign company decides the purpose and the means, it is the fiduciary, and it remains responsible for the processor. The host does not become the fiduciary merely by storing the data.",
+      heading: "What is a significant data fiduciary?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A significant data fiduciary is a fiduciary the Central Government notifies, having regard to the factors in section 10. It is not every foreign company that sells into India, and it is not a status the company confers on itself. Once notified, the duties include a data protection officer based in India, an independent data audit, and a data protection impact assessment. The officer based in India is a statutory requirement of that status, not a preference. A company that has not been notified does not volunteer its way into the label, and a company that has been notified does not avoid the officer by pointing to a privacy team abroad.",
+          ],
+        },
+      ],
     },
     {
-      question: "May personal data of people in India be sent to the parent company abroad?",
-      answer:
-        "Section 16 permits a transfer unless the Central Government has restricted the destination by notification. This note does not record such a list. The transfer is checked against the notification in force on that day, and other Indian conditions can still attach.",
+      heading: "Can personal data be sent out of India?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Section 16 is a negative list. Transfer is allowed unless the Central Government restricts the destination by notification. This page cannot confirm a list of restricted countries, and it does not invent one. A company that assumes every transfer is forbidden is over-reading the section. A company that assumes no restriction will ever be notified is ignoring the power the section gives. The practical step is to know where the data actually goes, so that a notification, if one is made, can be applied to a real flow rather than to a diagram.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does a global privacy officer satisfy the Act for a significant data fiduciary?",
-      answer:
-        "A significant data fiduciary must appoint a data protection officer based in India, and must have an independent audit and a data protection impact assessment. An officer who is not based in India does not meet that requirement. The Government decides who is significant. The company does not elect it.",
+      heading: "How soon must a breach be reported, and what should this page not invent?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The Rules specify the time and the manner of reporting a personal-data breach. This page does not state a number of hours, and it does not borrow the figure used in another jurisdiction and attribute it to this Act. Inventing the number would be more precise than the confirmation allows. What can be said is that a breach is not a private incident to be mentioned if convenient. The fiduciary reports as the Rules require, to the Board and to the affected people, once that duty applies.",
+          ],
+        },
+      ],
     },
     {
-      question: "Are all the duties already in force because the Rules were notified?",
-      answer:
-        "No. The Rules were notified in November 2025, and the Board's provisions were brought into force then. Other duties are phased. The commencement provision is the timetable. This note does not treat every duty as already applying.",
+      heading: "What changed in November 2025, and what was still phased?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The Rules were notified in November 2025, and provisions establishing the Data Protection Board were brought into force in November 2025. This page does not state a particular day. The remaining operational duties are phased. Notification of the Rules is not the same as every fiduciary duty already applying. As of 23 October 2026, this note does not assert that every duty is in force. A company that built a programme on the assumption that nothing applies is wrong, because the Act's reach and the Board are not nothing.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "No shop is required. Offering goods or services to people in India is enough for the Act to look through the window. Not every duty was in force together. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };

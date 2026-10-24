@@ -3,11 +3,13 @@ import { notFound } from "next/navigation";
 import { Noto_Sans_Devanagari, Noto_Serif_Devanagari } from "next/font/google";
 import GuideView from "@/components/guides/GuideView";
 import {
+  articleQuestions,
   articleSchema,
   breadcrumbSchema,
   faqSchema,
   getGuide,
   getGuides,
+  guideMetaDescription,
   guideUrl,
   guidesIndexUrl,
   languageAlternates,
@@ -50,6 +52,7 @@ export async function generateMetadata({
   }
 
   const url = guideUrl(guide.slug);
+  const description = guideMetaDescription(guide);
   const languages = languageAlternates(guide);
   const art = guideArt(guide.slug);
   const alt = guide.illustration?.alt ?? guide.title;
@@ -62,7 +65,7 @@ export async function generateMetadata({
 
   return {
     title: guide.seoTitle,
-    description: guide.description,
+    description,
     keywords: guide.keywords,
     alternates: {
       canonical: url,
@@ -72,7 +75,7 @@ export async function generateMetadata({
       type: "article",
       siteName: "Nair & Co",
       title: `${guide.seoTitle} | Nair & Co`,
-      description: guide.description,
+      description,
       url,
       locale: guide.inLanguage === "hi-IN" ? "hi_IN" : "en_IN",
       images: [ogImage],
@@ -80,7 +83,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title: `${guide.seoTitle} | Nair & Co`,
-      description: guide.description,
+      description,
       images: [ogImage],
     },
   };
@@ -101,7 +104,7 @@ export default async function GuideArticlePage({ params }: GuidePageProps) {
   const schemas = [
     articleSchema({
       headline: guide.title,
-      description: guide.description,
+      description: guideMetaDescription(guide),
       url,
       inLanguage: guide.inLanguage,
       image: [art.hero, art.square].map((slot) => ({
@@ -112,7 +115,7 @@ export default async function GuideArticlePage({ params }: GuidePageProps) {
         description: illustration?.alt ?? guide.title,
       })),
     }),
-    faqSchema(guide.faqs, url),
+    faqSchema(articleQuestions(guide), url),
     breadcrumbSchema([
       { name: "Home", url: siteUrl },
       { name: "Guides", url: guidesIndexUrl },

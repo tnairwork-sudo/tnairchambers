@@ -13,117 +13,145 @@ export const successionGuide: GuidePage = {
   ],
   eyebrow: "Delhi High Court",
   title: "NRI property and succession matters in Delhi",
-  lede: "A family lives in Dubai, and the flat is in south Delhi. The person who owned it has died, leaving a will that a court abroad has proved, or so the family believes, and they hold that foreign grant the way one holds a key ring. The skyline on the ring is real, but the key that turns the lock is cut for Delhi, and a grant from another country does not, by itself, turn it. NRI property and succession matters in Delhi are, for the house itself, governed by Indian law. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, describes probate, letters of administration, partition, and title, and it does not say who owns any flat.",
+  questionSpan:
+    "NRI property and succession matters in Delhi, from which law governs a flat to how a foreign grant is used",
+  lede: "A family living abroad holds a foreign probate for a flat in Delhi. A relative in the flat says that grant is enough to put the property in the family's names. They need to know what an Indian court actually requires before title to that flat moves.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "Why does the flat stay under Indian law?",
+      heading: "What are NRI property and succession matters in Delhi?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Immovable property in Delhi devolves and is recovered under Indian law, whoever lived abroad and wherever the will was signed. Residence does not export the flat. A dispute about that flat is a dispute about land situated here, and the court that can declare rights in it is an Indian court.",
-            "For a Hindu, Buddhist, Sikh, or Jain, the Hindu Succession Act, 1956, states the heirs. For a Christian, the Indian Succession Act, 1925, states them. For a Muslim, personal law states them, and a Muslim may not by will dispose of more than one third of the estate without the heirs' consent.",
-            "A will is proved according to the law of its execution, and it operates on the Delhi flat only so far as Indian law allows. Two systems can appear in one estate. They do not cancel the law of the place where the house stands.",
+            "The key is cut for a lock in Delhi. The skyline hanging on the ring does not turn it. NRI property and succession matters in Delhi are about that lock: a flat in the city, and the personal law of the people who claim it. A life lived abroad does not export a foreign succession system onto Indian land. The flat is governed by Indian law because it is here. Who inherits still depends on the will and on the personal law of the deceased.",
           ],
         },
       ],
     },
     {
-      heading: "What is a grant of probate, and when is it required?",
+      heading: "Which law governs a flat in Delhi when the family lives abroad?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Probate is the court's grant proving a will and authorising the executor. Letters of administration are the grant where no executor can act, including administration with the will annexed, and administration where there is no will. People use the word probate for all of these.",
-            "The Act does not. A grant is the key the registry, the buyer, and the bank can recognise. It is not the will itself, and it is not a foreign court's word that the will was genuine there.",
-            "Probate is not compulsory for every will of Delhi property. Section 213 withholds a right as executor or legatee until a grant, but section 213(2) takes a Hindu, Buddhist, Sikh, or Jain will outside that rule except for the wills described in section 57, which are wills connected with the old presidency towns. Delhi is not among them. A Hindu will of immovable property here can be set up without a compulsory probate. Institutions and buyers nevertheless often insist on a grant, because a grant is the court's proof.",
-            "Section 213 does not require probate of a Muslim will. Where a will has already been proved in a competent court outside the state, including outside India, section 228 permits an Indian grant with an authenticated copy annexed. The foreign court proved the will. The Indian court makes the grant used here.",
+            "Immovable property follows the law of the place where it sits. A flat in Delhi is Indian immovable property, so Indian law decides how it passes on death. Which Indian law depends on the deceased. Hindus, Buddhists, Sikhs, and Jains fall under the Hindu Succession Act. Christians fall under the Indian Succession Act. Muslim personal law governs Muslims, and a Muslim's bequest is limited to one third unless the heirs consent. None of this is displaced because the family meeting was held in another country. The meeting can be anywhere.",
           ],
         },
       ],
     },
     {
-      heading: "Which court, and what does the petition say?",
+      heading: "Does a foreign probate pass title to a Delhi flat?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The High Court has concurrent jurisdiction with the District Judge in testamentary matters. In practice the petition or the suit is instituted here when it falls within the Court's ordinary original civil jurisdiction, and in the District Court when it does not. The line is the pecuniary limit fixed for that jurisdiction. This note does not restate the notified figure.",
-            "A petition for probate states the death, that the writing is the last will, that the petitioner is the executor, and that property was left within the jurisdiction. The will is brought in. Caveats follow the original-side rules where the petition is in this Court.",
-            "A grant is a judgment as to the will. It remains open to revocation on the grounds the Act provides. How a filing moves from diary number to the list is in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works).",
-            "A power of attorney signed outside India, for a Delhi case or a Delhi conveyance, is authenticated as the law of that place and Indian law require. Where the Hague Convention applies, that is commonly an apostille. A special power, naming the property and the proceeding, is what a registry can act on, and a general power that names neither is a frequent reason a filing comes back.",
+            "A foreign probate does not, by itself, transmit title to a flat in Delhi. It shows what a foreign court did with the estate that court could reach. Land here is not passed by a foreign seal alone. Section 228 of the Indian Succession Act allows an ancillary grant, so that an Indian court may issue its own grant on the strength of the foreign probate where the conditions are met. Banks, societies, and buyers in the city usually want that Indian grant, or some other Indian order.",
           ],
         },
       ],
     },
     {
-      heading: "What if the heirs cannot agree on the house?",
+      heading: "Is probate compulsory for a Hindu will of property in Delhi?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Co-owners, including heirs who have succeeded to an undivided house, may sue for partition and separate possession. A preliminary decree declares the shares. A final decree divides by metes and bounds. Where a physical division is not reasonably practicable, the Partition Act, 1893, permits a sale on the conditions that Act states.",
-            "One heir in possession, collecting the rent, can be asked for an account. Exclusion of a co-owner can also found a claim for mesne profits. Both depend on possession, not on which country the heir lives in.",
-            "Where a stranger, to whom a share in a family dwelling has been transferred, sues for partition, section 4 of the Partition Act lets a member of the family undertake to buy that share. It is a right to buy the stranger out of that suit. It is not a general right to force a sale on every co-owner.",
+            "Sections 57 and 213 make probate compulsory only in the cases they describe. A Hindu will of immovable property in Delhi is not in that compulsory class. The compulsory cases are tied to the old presidency towns, and Delhi is not one of them. Counters sometimes say the opposite. The statute is the better source. Even where probate is not compulsory, a bank, a society, or a buyer may still refuse to act without a grant. That is their practice, and it is not the same sentence as the Act.",
           ],
         },
       ],
     },
     {
-      heading: "What should you gather before anyone asserts title?",
+      heading:
+        "What is the difference between probate and letters of administration?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Title flows from a conveyance, a gift, a decree, or a succession. An entry in a municipal record, a mutation, shows who is treated as in possession or who is billed. It does not create ownership, and a mutation in a relative's name is not a gift. Gather the sale deed, the will, the death certificate, and the foreign grant if there is one, and then ask whether an Indian grant under section 228 is what the buyer or the society will actually accept.",
-            "A person out of possession sues for possession. Section 6 of the Specific Relief Act, 1963, lets a person dispossessed otherwise than in due course of law sue on prior possession, within six months, without proving title. That suit does not bar a regular suit on title.",
-            "A bare injunction, with no prayer for possession, is the wrong proceeding for someone who is not in the house. A plea that the recorded owner holds for someone else is constrained by the benami law, except in the cases that Act itself excepts. Foreign-exchange rules treat acquisition separately from inheritance.",
-            "A non-resident Indian or an overseas citizen of India may acquire residential and commercial property, and may not acquire agricultural land, a farmhouse, or a plantation, other than by inheritance. A person who is neither is under a stricter rule. Inheritance of property already here is not the same transaction as a purchase.",
+            "Probate is the Court's approval of a will, issued to the executor the will names. Letters of administration are the grant when no executor can act: there is no will, or the will names nobody willing and able, or administration is granted with the will annexed. Both are orders of an Indian court. Neither is a letter from the housing society. The grant says who may deal with the estate. It does not, by itself, silence a person who claims under a different document. That person can still be heard.",
           ],
         },
       ],
     },
     {
-      heading: "What mistakes keep the key from turning?",
+      heading: "Which court in Delhi hears the succession case?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The usual mistake is to treat the foreign probate as if it had conveyed the flat. It may prove the will where it was made. It does not replace the Indian grant the buyer and the registry are asking for.",
-            "The second mistake is to treat a mutation, or a decade of maintenance payments, as title. The third is to file in the wrong court because the family assumes the High Court hears every estate, when the pecuniary line decides. A general power of attorney that does not name the flat is a fourth, smaller, and very common reason the papers come back.",
-            "Nothing here identifies an owner. The useful question is practical. Which law fixes the shares, which document is actually title, and which grant will a person in Delhi act on? The skyline on the key ring explains where the family lives. It does not open the door.",
+            "The High Court has concurrent jurisdiction with the District Judge. Which of them hears the petition depends on the pecuniary limits of the original side. Those limits live in the Court's rules and notifications, and this note does not state a figure. A petition filed on a remembered number, rather than the current limit, is a petition that has to be moved. The flat being in Delhi decides the territory. Value and the current limit decide the building. Once the matter is filed, the note [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works) sets out the diary number and the list.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question: "What do NRI property and succession matters in Delhi cover?",
-      answer:
-        "NRI property and succession matters in Delhi cover wills, grants, partition, and title where the property is in Delhi. Indian law governs the flat. A foreign probate does not, by itself, transmit title, though it can support an Indian grant under section 228.",
+      heading: "What if a stranger sues to partition a family house?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Where a stranger has taken a share in a family dwelling and sues for partition, section 4 of the Partition Act lets a member of the family undertake to buy that share. The section is about keeping a stranger out of an undivided family house. It is not a rule for a fight among the heirs themselves, and it is not a general right over every family property. The conditions are specific: a dwelling house, an undivided family, a transfer to an outsider, and a partition suit by that outsider.",
+          ],
+        },
+      ],
     },
     {
-      question: "Is probate compulsory for a Hindu will of property in Delhi?",
-      answer:
-        "No. Sections 57 and 213 do not impose compulsory probate on a Hindu will of immovable property in Delhi. A grant from this Court is still the proof that institutions and buyers often require.",
+      heading: "Does a mutation entry prove who owns the flat?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Mutation in a municipal or revenue book is an entry for that authority. It is not title. The name in the book can be wrong, and the real owner can be missing from it for years. Buyers and banks ask for the entry because it is useful, not because it concludes the question. In a dispute the Court looks at the conveyance, the will, or the grant, and at possession. A mutation letter is not a title document. Families find out too late when they try to sell on the strength of the letter alone. The entry is supposed to follow title. It does not create it, and correcting it is not a substitute for the grant or the deed that should have come first.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does a mutation prove ownership?",
-      answer:
-        "No. A mutation records possession or who is billed. Title flows from a conveyance, a gift, a decree, or a succession. Paying the society charges from abroad does not, by itself, transfer the flat.",
+      heading: "Can someone who was put out of the flat get back in quickly?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Section 6 of the Specific Relief Act lets a person who was dispossessed without consent, otherwise than in due course of law, sue to recover possession. The suit must be brought within six months of the dispossession. It does not decide title. Losing it, or never filing it, does not bar a later suit on title. The six months are a short door for possession, not a verdict on ownership. Families sometimes skip it while they argue about the will, and possession settles with the other side while the title case waits.",
+          ],
+        },
+      ],
     },
     {
-      question: "Can a non-resident acquire any immovable property?",
-      answer:
-        "A non-resident Indian or an overseas citizen of India may acquire residential and commercial property. Agricultural land, a farmhouse, and a plantation are excluded, other than by inheritance. Other persons are under a stricter rule.",
+      heading: "What does the benami law stop a family from claiming?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The Prohibition of Benami Property Transactions Act bars a claim that the real owner is someone other than the person named, except where the Act itself creates an exception. A family story that the flat was bought in a relative's name, and is really the parents', is often the claim the Act stops. Exceptions exist. They are statutory, not sentimental, and this note does not invent extras. A case that depends on a benami story, without fitting an exception, fails even if every cousin agrees. Agreement at the table is not an exception.",
+          ],
+        },
+      ],
     },
     {
-      question: "Which court hears the petition?",
-      answer:
-        "The High Court, when the matter is within its ordinary original civil jurisdiction, and the District Court when it is not. The line is the pecuniary limit fixed for that jurisdiction.",
+      heading:
+        "Which property may an NRI or an OCI acquire, and how is a foreign power used?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Under the non-debt instrument rules, a non-resident Indian or an overseas citizen of India may acquire residential and commercial property. Agricultural land, a farmhouse, and a plantation are closed, except where the acquisition is by inheritance. This note does not add a list of nationalities beyond that rule. A power of attorney signed abroad should be a special power, naming the flat and the proceeding, and it should carry an apostille where the Hague Convention applies, or the legalisation that country's practice requires.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The skyline on the ring is not the key. Title to a Delhi flat moves under Indian law, and a foreign seal does not do that work alone. Personal law chooses heirs. It does not move the land. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };

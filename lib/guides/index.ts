@@ -215,6 +215,54 @@ export function articleSchema(input: {
   };
 }
 
+/** Questions a reader sees as headings. The closing summary is not one of them. */
+export function articleQuestions(guide: GuidePage) {
+  return guide.sections
+    .filter((section) => section.heading.trim().endsWith("?"))
+    .map((section) => {
+      const text = section.blocks
+        .flatMap((block) =>
+          block.type === "paragraphs"
+            ? block.paragraphs
+            : block.type === "list"
+              ? block.items
+              : []
+        )
+        .join(" ");
+      return {
+        question: section.heading,
+        answer: text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1"),
+      };
+    });
+}
+
+export function guideQuestionCount(guide: GuidePage) {
+  return articleQuestions(guide).length;
+}
+
+/** Opening line. The count is the number of question headings, not a stored figure. */
+export function guideQuestionSummary(guide: GuidePage) {
+  const count = guideQuestionCount(guide);
+  const label = count === 1 ? "question" : "questions";
+  return `This guide answers ${count} ${label} on ${guide.questionSpan}.`;
+}
+
+export function guideMetaDescription(guide: GuidePage) {
+  const count = guideQuestionCount(guide);
+  const label = count === 1 ? "question" : "questions";
+  const lead = `Answers ${count} ${label}.`;
+  if (guide.description.startsWith(lead)) return guide.description;
+  return `${lead} ${guide.description}`;
+}
+
+export function questionHeadingId(heading: string) {
+  return heading
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export function faqSchema(
   faqs: { question: string; answer: string }[],
   url: string

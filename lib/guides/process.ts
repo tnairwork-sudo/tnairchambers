@@ -14,118 +14,143 @@ export const processGuide: GuidePage = {
   ],
   eyebrow: "Delhi High Court",
   title: "How a Delhi High Court case works",
-  lede: "A finance director in Delhi is handed a diary number on a Monday and told the case will be in court on Wednesday. She opens the court's site that evening, cannot find the matter on any list, and assumes something has gone wrong. The paper in her hand is a diary number, and the board on the wall has not called it, which is the picture this note is built around. How a Delhi High Court case works is easier to see if you follow that one file, from lodging to a signed order. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, describes the path and does not predict whether any item will be reached.",
+  questionSpan:
+    "how a Delhi High Court case works, from the diary number in hand to the signed order on the file",
+  lede: "Someone in a Delhi office is holding a printout with a long number and has been told the case is filed. The hearing, they have heard, is tomorrow. They cannot tell whether the number is the case, whether the board will call it, or whether an order already exists.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What are you actually holding?",
+      heading: "What should a reader understand about how a Delhi High Court case works?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The High Court of Delhi sits at New Delhi. It hears writs, commercial suits, intellectual property, arbitration petitions, bail, appeals, and the original civil and testamentary work the law assigns to it. The Chief Justice allocates classes of work to benches by roster, and a matter is listed before the bench that has that class.",
-            "A commercial dispute the statute assigns to the Commercial Division is listed there. Intellectual property is listed in the Intellectual Property Division. The parties do not choose the bench by preferring one courtroom to another.",
-            "The path below is the ordinary path of a contested matter. A case disposed of at the first call is shorter, and the path is not a promise that every case will pass every step. Think of the diary number as a token taken at a counter.",
-            "Taking the token is not the same as being called, and being called is not the same as getting what you asked for. The board on the wall is the cause list. Until the matter is on it, the token is only proof that a bundle was lodged.",
+            "The paper in the hand is a diary number. The board on the wall has not called it. How a Delhi High Court case works is the distance between those two facts. Lodging a petition gives the registry something to scrutinise. It does not give the party a hearing, a bench, or an order. The case becomes a case when defects, if any, are cleared and a case number is assigned, and it is heard when a bench reaches it on a list.",
           ],
         },
       ],
     },
     {
-      heading: "How does a filing become a case?",
+      heading: "What is the difference between a diary number and a case number?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A new petition or application is lodged through the court's e-filing facility. The filer signs in, enters the case type and the parties, and uploads the petition, the affidavit, and the annexures. Where an advocate files, a vakalatnama is uploaded with them. Paper filing remains only where the current practice still permits it. The lodging then receives a diary number, which identifies the bundle before anyone has accepted it as a case.",
-            "That number is not a case number, and it does not mean the matter is registered. The registry scrutinises the papers. A missing affidavit, an annexure that cannot be read, or an index that does not match the pleading is notified as a defect, and defects are removed within the time the registry indicates. This note does not invent that period.",
-            "A filing that is not cured is not registered. When the filing is in order it receives a case number, which means the matter is on the file of the court. It does not mean the matter has been argued, and it does not mean any interim order has been made.",
+            "A diary number is the number the registry gives a fresh lodging, so that the bundle can be tracked while it is checked. A case number is the number of a matter that has been registered and can be listed. They are not aliases. Quoting the diary number to the other side as if the suit were already numbered overstates what has happened. The diary number is useful. It is how defects are cured and how the lodging is found.",
           ],
         },
       ],
     },
     {
-      heading: "What is the difference between case status and the cause list?",
+      heading: "What happens if the registry marks defects?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Case status is the record of a single matter. It shows the parties, the advocates on record, the dates, the orders that have been uploaded, and the next date if one has been given. It answers what has happened to that file. It does not say what will happen the next time the matter is listed, and a finance director who refreshes it on Monday night will not find Wednesday's item number there.",
-            "The cause list is published for a sitting, usually the day before. It names the court, the item number, and the case. The main list is the list first issued, and a supplementary list adds matters afterwards. An item that is not reached has not been called. Not reached is not a dismissal, and it is not an order.",
-            "It means the queue stopped before that token. A supplementary list is part of the same day. It is not a second chance to treat an unlisted matter as if it had been on the main list from the morning.",
+            "Electronic filing, in outline, is a sign-in, a choice of case type, the names of the parties, and an upload of the petition, the affidavit, and the annexures, with a vakalatnama where an advocate is acting. The registry then scrutinises the bundle. Defects are notified, and they are cured in the time the registry indicates. This note does not invent a number of days for that cure. Paper filing remains only where the current practice of the Court still permits it.",
           ],
         },
       ],
     },
     {
-      heading: "What does the Court look at on the day?",
+      heading: "How is case status different from the cause list?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The display board shows the item a court is on. It is a live indication of progress through that day's list, and it is not an order. A matter that has scrolled past is confirmed from the signed order, not from a memory of the board.",
-            "Once the order is signed and uploaded, that text governs. What was said in court, if it differs from the signed order, does not prevail. The director who heard a sentence in the courtroom and cannot find it in the upload is looking at the wrong record.",
-            "If the court issues notice, the other parties are served in the way the order and the rules require. A respondent files a reply, often called a counter affidavit in a writ, and the petitioner may file a rejoinder. In a commercial suit the written statement runs on the tighter clock described in [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court).",
-            "The court may pass an interim order before the final hearing. An interim order holds the position, and it is not the end. Where a writ interim order is made without a hearing, Article 226(3) has a consequence, described in [Writ petitions against regulators and government in the Delhi High Court](/guides/writ-petitions-against-regulators-delhi-high-court).",
+            "Case status is the record of what the file has done: filing, defects, registration, orders already passed. The cause list is the board for a particular day, showing what a bench is supposed to call. A matter can have a healthy case status and still not be on tomorrow's list. A matter can be on the list and still not be reached. Reading status as if it were the list, or the list as if it were a judgment, mixes two documents. The status answers where the file is.",
           ],
         },
       ],
     },
     {
-      heading: "What should you check before you go to court?",
+      heading: "What does it mean if the matter is not reached?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Check four things, in this order. Whether defects were notified, and whether they were cured, because a diary number with open defects is not a case. Whether a case number exists.",
-            "Whether the cause list for that day, including any supplementary list, actually names the matter, and before which bench. And whether the order you are relying on is the signed text on the file, rather than a note of what someone remembers being said. The roster, not the parties, chooses the bench.",
-            "On the day, the matter is called by its item number, if it is reached. Counsel, or a party in person, addresses the court on the record. The court may adjourn, decide part of the controversy, or reserve judgment and pronounce it later. Who may address the court is described in [Delhi High Court lawyer: choosing and working with counsel](/guides/delhi-high-court-lawyer).",
-            "A next date means the matter is in the queue. It may be adjourned, or not reached, or decided in part. It does not mean the case will be finished that afternoon.",
+            "Not reached means the bench did not call the matter that day. It does not mean the case was dismissed, and it does not mean the other side won. The matter is ordinarily put to another date. A supplementary list can add matters after the main list is published, so a reader who looked only in the morning can miss a later addition. Assuming that absence from the first list is the end of the day is unsafe. Assuming that not reached is a judgment is worse.",
           ],
         },
       ],
     },
     {
-      heading: "What mistakes waste the morning?",
+      heading: "Is the display board the same thing as an order?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The first is treating the diary number as the case. Until defects are cured and a case number exists, there is nothing to list. The second is reading the display board as the order. The board says which item is being called. The order is the text uploaded afterwards.",
-            "The third is assuming that a date in a letter from the other side is the same thing as a listing. The cause list is the court's list. A letter is not.",
-            "The path is common, and the proceeding is not. A commercial suit, a section 9 application, a writ, a bail application, and a probate petition are different filings on the same sequence of lodging and listing, and each has its own note. A petition for special leave is not a further step inside this Court. It is filed in the Supreme Court, and filing it does not, by itself, stay the order made here, which is [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court).",
-            "None of these notes promises a result. This one only says what the paper in the hand is, and what the board has not yet done. The token and the board are different things.",
+            "The display board shows which item a court is on. It is a convenience for people in the corridor and people watching from an office. It is not an order. An order is the text a judge signs, which is then uploaded. What a lawyer remembers from the board, or what a client was told by telephone from the courtroom door, can be wrong in detail. The signed, uploaded order governs. Until that text is available, there is nothing to comply with and nothing to challenge, except whatever the Court pronounced and later reduced to writing.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question: "How a Delhi High Court case works, from lodging to order?",
-      answer:
-        "How a Delhi High Court case works is a sequence. The papers are lodged, scrutinised, and cured of defects. The matter is then registered, listed on the roster, and called if the day reaches it. Case status records what has happened to that one file. The cause list is the day's queue. The signed order, once uploaded, is the decision.",
+      heading: "How does the roster decide which bench hears the case?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The Chief Justice determines the roster. Benches hear the categories assigned to them, and a matter is listed before the bench that has the relevant category, not before whichever courtroom a party prefers. The roster changes. A case that was before one bench can move when the assignment moves. Parties do not choose the judge by addressing the petition to a name. They file in the Court, and the roster does the rest. Asking why a particular judge has the file is usually answered by the current roster, not by a theory about the dispute.",
+          ],
+        },
+      ],
     },
     {
-      question: "What is the difference between a diary number and a case number?",
-      answer:
-        "A diary number identifies the lodging, before scrutiny is complete. A case number is given when the filing is registered. Registration means the matter is on the file. It is not a hearing, and it is not an order.",
+      heading: "Where do commercial cases and intellectual property cases sit?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A commercial dispute of the specified value is heard by the Commercial Division, by roster. An intellectual property matter is heard by the Intellectual Property Division, again by roster. They are not a separate court in another city. They are assignments inside this Court. The note [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court) describes the commercial door. The note [IP and trademark litigation in the Delhi High Court](/guides/ip-and-trademark-litigation-delhi-high-court) describes the comparison of rights. Neither note changes the diary number, the defects, or the cause list.",
+          ],
+        },
+      ],
     },
     {
-      question: "What is the difference between case status and the cause list?",
-      answer:
-        "Case status is the record of one matter: the parties, the dates, and the orders that have been uploaded. The cause list is the list of matters a court will take on a given day. A supplementary list adds matters later. An item that is not reached has not been decided.",
+      heading: "What is the ordinary path of a notice and a reply?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Once a matter is before a bench, the ordinary path is notice to the other side, time to answer, and then a hearing. Interim relief can be asked for along the way, and it can be refused. The time to answer is the time the Court gives or the rules state. This note does not invent a universal number of days for every kind of case. A commercial suit has its own outer limit for a written statement, described in the commercial note. A writ has its own urgency.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does the display board record the order?",
-      answer:
-        "No. It shows which item a court is on during the day. The order is the signed text. Once that text is uploaded, it governs, even if someone remembers the hearing differently.",
+      heading: "Does an interim order decide the case?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "An interim order holds a position until the case is decided. It is not the decision. An injunction, a stay, or a direction to file a reply does not declare who is right on the merits, even if it feels that way to the party who obtained it or to the party who suffered it. The final judgment is a different order, made after the pleadings and, where the kind of case requires it, the evidence. Treating the interim order as the end of the dispute leads people to stop preparing the case they have not yet won or lost.",
+          ],
+        },
+      ],
     },
     {
-      question: "Who decides which bench hears the case?",
-      answer:
-        "The Chief Justice allocates classes of work by roster. A matter is listed before the bench for that class, including the Commercial Division and the Intellectual Property Division. The parties do not choose the courtroom.",
+      heading: "What should be checked the day before a hearing?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Check the case number, not only the diary number. Check the cause list for that date, and check again for a supplementary list. Check which bench the roster has assigned, and check whether an earlier order uploaded something the memory of the last hearing has blurred. Check that defects, if they were marked, were actually removed. Arrive at the courtroom the list names, not the courtroom that heard the case last year. The paper in the hand is still only a diary number if that is all it is.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A diary number is not a hearing, a display board is not an order, and not reached is not a dismissal. The signed order is the case. This note is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };

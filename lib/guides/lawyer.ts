@@ -13,116 +13,144 @@ export const lawyerGuide: GuidePage = {
   ],
   eyebrow: "Delhi High Court",
   title: "Delhi High Court lawyer: choosing and working with counsel",
-  lede: "A board in Delhi has lost a tender, or a family has a house in dispute, and someone arrives with a stack of names and a suggestion that the stack itself is a form of advice. The papers of the case are a map of one dispute, not a ranking of names, which is the picture this note is built around. Delhi High Court lawyer: choosing and working with counsel describes that map, and the professional relationship that puts a case on it. This note, published by [Nair & Co, Advocates & Consultants](/) in New Delhi, explains the questions that can actually be answered. It recommends no one, and it does not invite anyone to engage this firm or any other.",
+  questionSpan:
+    "a Delhi High Court lawyer and the work of choosing and working with counsel, from who may act in a case to what this note will not recommend",
+  lede: "A company in Delhi has a petition to file and a folder of names passed along by friends. The folder reads like a ranking, and it is not one. The only map that matters is the map of this case: who may act, what they are authorised to do, and what the paper actually asks.",
   inLanguage: "en-IN",
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "Who is allowed to act and plead?",
+      heading:
+        "What does the phrase Delhi High Court lawyer: choosing and working with counsel actually describe?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "In the only sense the statute uses, the person who acts and pleads is an advocate. The Advocates Act, 1961, recognises advocates as the class of persons entitled to practise law. An advocate is enrolled with a State Bar Council and, subject to the rules of the court, may act and plead in the High Court of Delhi, which sits at New Delhi.",
-            "The Supreme Court has a further rule of its own. A petition there is filed by an advocate-on-record, and that is not the rule of this High Court. The distinction matters on the day a matter moves from one court to the other, which is why [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court) treats the two roles separately.",
-            "A senior advocate is an advocate designated under section 16 of the Advocates Act. The designation is a matter of record. A senior advocate does not file the vakalatnama and does not act. An instructing advocate does, and this page compares no one with anyone else.",
+            "The papers are a map of one case. They are not a ranking of names. A Delhi High Court lawyer, and the work of choosing and working with counsel, means fitting an advocate to that map. The phrase Delhi High Court lawyer: choosing and working with counsel is a description of a working relationship, not a list and not a prize. This note does not name an advocate, does not grade anyone, and does not invite an engagement. The Advocates Act, 1961, is the statute that governs who may practise.",
           ],
         },
       ],
     },
     {
-      heading: "When do you need counsel, and what does the paper do?",
+      heading: "Who is permitted to practise in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "An individual may appear in person. Appearing in person does not soften the procedure, and the same papers, the same list, and the same record apply. A company appears through an officer who can speak to the facts, authorised by a resolution or a letter, and through counsel where counsel is engaged.",
-            "The vakalatnama is the document by which a party authorises an advocate to act and plead in that matter. Once it is on the file, that advocate is the advocate on record for what it covers, and the court corresponds, in the ordinary course, with the advocate on record. The authority is for that case. It is not a general power over every future dispute of the company or the family. The scope can be written down, as to what is to be drafted, who is to appear, and whether a senior advocate is to be instructed.",
-            "That writing is between the person and the advocate. Nothing on this page is such a writing, and the rules of the Bar Council of India prohibit an advocate from soliciting work. This note follows that rule.",
+            "An advocate enrolled under the Advocates Act, 1961, and entitled to practise, may appear in the Delhi High Court, subject to the Court's own rules on dress, filing, and conduct. Enrolment is with a State Bar Council. The right to practise is not a private title a firm invents. A person who is not an advocate does not become one by familiarity with the case or by employment in the company's legal department. The company can instruct. It cannot, through an employee who is not an advocate, conduct the hearing as counsel.",
           ],
         },
       ],
     },
     {
-      heading: "How do you tell whether the map matches the case?",
+      heading: "Can a party appear in person?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The questions that can be answered, from the public record and from a conversation, are ordinary ones. Does the advocate appear in this High Court. Is the work a commercial suit, an arbitration petition, a writ, a trademark suit, a testamentary petition, or a bail application, because those are not the same proceeding and a company petition may belong in the tribunal rather than here. Who will draft, and who will stand up when the item is called.",
-            "If the matter may reach the Supreme Court, who is the advocate-on-record there. Can the company give a complete chronology, including the documents that hurt. Is there a conflict, seen at the start from the parties and the related companies, because an advocate does not act against an existing client in the same matter.",
-            "None of these questions produces an order of merit. An advocate is not described here as better or worse than another, and the Bar Council rules would not permit that description on this site. The case has a forum, a type of proceeding, a record, and a person authorised to speak. Those four things are the map. The names are how a party chooses who will read it.",
+            "A party may ask to appear in person. The High Court's rules govern when that is permitted, and a corporation does not appear in person in the way an individual can. A company acts through an authorised representative only to the extent the rules and the Court allow, and the hearing itself is ordinarily conducted by an advocate. Appearing in person is not a way to avoid the discipline of the record. The party still files what the registry requires, still meets deadlines, and still is bound by what is said to the Court.",
           ],
         },
       ],
     },
     {
-      heading: "What does the Court expect from the instructions?",
+      heading: "What does a vakalatnama authorise?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Counsel works from instructions and from the record. The useful bundle is a chronology with the documents in the same order: the agreement or the order complained of, the earlier papers, and the dates. A fact that hurts belongs in that bundle. An advocate cannot put a case the record does not support, and cannot invent a fact that was held back until the morning of the hearing. In a writ, a commercial suit, or a petition to set aside an award, the inconvenient document is often the one the other side will produce on the first date.",
-            "Sending it late does not make it disappear. It makes the reply worse. The duty to the court stands beside the duty to the person who gave the instructions, and it is not suspended because the instructions ask for something the record will not bear.",
-            "Hearings are fixed by the court. Counsel does not choose the day, and does not decide whether the item will be reached. How that day is read is in [How a Delhi High Court case works](/guides/how-a-delhi-high-court-case-works).",
+            "A vakalatnama is the writing by which a party authorises an advocate to act in that case. It is not a general retainer for every future dispute, and it is not a power over the company's affairs outside the proceeding named on it. The advocate named can file, appear, and take the steps the authority and the Court's rules allow. Someone who is not named does not acquire that authority by sitting in the row behind. A fresh case needs a fresh authority.",
           ],
         },
       ],
     },
     {
-      heading: "What should you prepare, including if counsel changes?",
+      heading: "Is an advocate-on-record a role in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Prepare the bundle that matches the proceeding, not a bundle that matches the anxiety. A board that has lost a tender needs the published conditions, the evaluation, and the order. A shareholder in a fight with a co-promoter needs the agreement and the company's registers. A family dealing with a house in Delhi needs the title and the will.",
-            "Sending the wrong bundle produces a draft that cannot be filed, because the proceeding was misnamed at the start. Naming it correctly is the first instruction. Everything else in the chronology hangs on it.",
-            "Where an advocate is already on the file, a change follows the High Court's practice. Ordinarily the advocate on record gives a no objection, and a fresh vakalatnama is filed. Where that is not done, the court's leave is sought, and the current rules control the form. This note does not invent a form number.",
-            "A change of advocate does not change the record. The chronology, the inconvenient letter, and the earlier order remain, and new counsel inherits them. The map does not reset because a different person is now holding it.",
+            "An advocate-on-record is a Supreme Court role. It is the advocate who can file a matter in that Court. It is not a grade of Delhi High Court practice, and it is not required for a petition, a suit, or a bail application filed here. A case that later goes to the Supreme Court needs an advocate-on-record at that stage, which the note [Supreme Court SLPs from Delhi High Court orders](/guides/supreme-court-slp-from-delhi-high-court) describes. Until then, the Delhi file needs an advocate authorised by vakalatnama.",
           ],
         },
       ],
     },
     {
-      heading: "What mistakes turn the choice into a ranking?",
+      heading: "Does a senior advocate file the vakalatnama?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The usual mistake is to ask which name is the right name, as if the Court published an order of advocates and this page had omitted it. There is no such order here, and this page will not construct one. The second mistake is to instruct on a version of the facts that leaves out the letter, the delay, or the clause that hurts, and then to be surprised when the other side produces it. The third is to assume that authority to appear in this High Court is authority to file in the Supreme Court. It is not.",
-            "The proceedings themselves are different notes. A commercial suit and an arbitration petition are in [Commercial disputes and arbitration in the Delhi High Court](/guides/commercial-disputes-and-arbitration-delhi-high-court). A challenge to a regulator is in [Writ petitions against regulators and government in the Delhi High Court](/guides/writ-petitions-against-regulators-delhi-high-court). Bail in an economic offence is a criminal application, not a writ.",
-            "Reading any of them creates no relationship with any advocate. The papers remain a map of one case. They are not a ranking of names.",
+            "Section 16 of the Advocates Act distinguishes a senior advocate. A senior advocate does not file the vakalatnama and does not do the ordinary drafting and filing that an instructing advocate does. A senior advocate appears, briefed by another advocate, who remains on the record. Instructing a senior advocate is not a substitute for having an advocate who will file, correspond, and hold the papers. Parties sometimes believe the senior advocate's name replaces the vakalatnama. It does not. The brief to a senior advocate is an addition, for the hearing where that assistance is used.",
           ],
         },
       ],
     },
-  ],
-  faqs: [
     {
-      question:
-        "What is Delhi High Court lawyer: choosing and working with counsel?",
-      answer:
-        "Delhi High Court lawyer: choosing and working with counsel describes who may act and plead in this Court, what a vakalatnama authorises, and which questions can be answered before a case is filed. An advocate enrolled with a State Bar Council may act and plead when the court rules allow it. The note ranks no one, names no advocate, and invites no engagement.",
+      heading: "What can actually be answered from the papers of one case?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The papers of one case can support questions about that case. Which court has the file. What the last order said. What the limitation or the statutory appeal appears to be. What is still missing from the record. They cannot support a ranking of advocates, a prediction dressed up as a promise, or a comparison with someone else's litigation. A useful conference starts from the order, the contract, or the statute, and stays there. A conference that starts from reputations does not become more accurate by lasting longer.",
+          ],
+        },
+      ],
     },
     {
-      question: "Must a company or a person engage an advocate?",
-      answer:
-        "An individual may appear in person, and the procedure does not soften for that reason. A company appears through an authorised officer. An advocate may act and plead, subject to the rules of the court, when authorised by a vakalatnama for that case.",
+      heading: "What instructions does counsel need before a hearing?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "Counsel needs the record, not a summary that omits the awkward page. The contract, the order under challenge, the correspondence that changes the dates, and the name of the person who can take a decision if the Court asks for instructions that day. Authority to settle, if it exists, should be express. A representative who must telephone someone else for every answer is a fact the Court will notice. Instructions are not a mood. They are documents and a decision-maker.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does an advocate who appears here file in the Supreme Court?",
-      answer:
-        "Not by that fact. A petition in the Supreme Court is filed by an advocate-on-record. A senior advocate, designated under section 16 of the Advocates Act, is instructed by another advocate and does not file the vakalatnama.",
+      heading: "How does a party change the advocate on the record?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "A change of advocate is done by a no-objection from the advocate on record, or by leave of the Court where that no-objection is not given. This note does not invent a form number for the application. The new advocate files a fresh vakalatnama. Until the change is properly on the file, the earlier advocate remains the advocate the Court will recognise. Parties who simply stop answering the first advocate, and send a second one to mention the matter, have not changed the record.",
+          ],
+        },
+      ],
     },
     {
-      question: "What should instructions contain?",
-      answer:
-        "A chronology, the agreement or the order complained of, the earlier papers, and the facts that hurt as well as the facts that help. Counsel addresses the court on that record, and cannot invent a fact that was held back.",
+      heading: "Does this note recommend an advocate?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "No. It names none, ranks none, and invites no engagement. The Bar Council of India rules prohibit an advocate from soliciting work, and this page is not an advertisement. Reading it does not create an advocate-client relationship with anyone, including the firm that publishes it. A reader who wants those limits set out in full will find them in the note at the foot of this page. The useful work is elsewhere: the vakalatnama, the roll, the difference between a senior advocate and the advocate who files, and the difference between this Court and an advocate-on-record.",
+          ],
+        },
+      ],
     },
     {
-      question: "Does this page name an advocate to engage?",
-      answer:
-        "No. It sets out questions about the forum, the type of proceeding, and the record. It does not answer them with a name, and it does not suggest that any advocate, including anyone at this firm, be engaged. Reading it creates no relationship.",
+      heading: "What should the file show about who is authorised to act?",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The file should show a vakalatnama for this case, naming the advocate who will act, and it should show any later change made by no-objection or by the Court's leave. If a senior advocate is to appear, the instructing advocate should still be on the record. If the matter may go to the Supreme Court, an advocate-on-record is a later and separate question. The company's internal approval, if one is required, should match the authority the Court sees. None of that is a ranking, and none of it is a reason for this note to offer a name.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "In short",
+      blocks: [
+        {
+          type: "paragraphs",
+          paragraphs: [
+            "The papers are a map of one case, not a ranking of names. Authority is the vakalatnama. This note recommends no one. It is published by [Nair & Co, Advocates & Consultants](/) in New Delhi, as information only.",
+          ],
+        },
+      ],
     },
   ],
 };
