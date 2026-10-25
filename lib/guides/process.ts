@@ -4,7 +4,7 @@ export const processGuide: GuidePage = {
   slug: "how-a-delhi-high-court-case-works",
   seoTitle: "How a Delhi High Court case works",
   description:
-    "How a Delhi High Court case works, from the morning a bundle is lodged to the day a signed order is uploaded, for a reader who has a diary number and is not sure what it means. Information only, from New Delhi.",
+    "A Delhi High Court case in 11 questions: from the diary number a party holds to the signed order that actually governs the file. Information only.",
   keywords: [
     "How a Delhi High Court case works",
     "cause list",
@@ -21,7 +21,7 @@ export const processGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What should a reader understand about how a Delhi High Court case works?",
+      heading: "How does a Delhi High Court case work?",
       blocks: [
         {
           type: "paragraphs",

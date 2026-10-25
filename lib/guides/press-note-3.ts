@@ -3,9 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const pressNoteGuide: GuidePage = {
   slug: "press-note-3",
   group: "entry",
-  seoTitle: "Press Note 3 explained",
+  seoTitle: "Press Note 3: FDI from Land-Border Countries",
   description:
-    "Press Note 3 explained: the April 2020 rule that follows beneficial ownership past the letterhead, and why this page states that rule because no later amending text was confirmed. Information only, from New Delhi.",
+    "Press Note 3 in 11 questions: the April 2020 land-border test for FDI, and why this page states that text rather than a later one. Information only.",
   keywords: [
     "Press Note 3 explained",
     "land-border investment",
@@ -22,12 +22,12 @@ export const pressNoteGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What does Press Note 3 explained actually mean?",
+      heading: "What is Press Note 3?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "The company's letterhead is not the test. The test follows the person who beneficially owns the shares. Press Note 3 explained is the April 2020 rule on that point. It is Press Note 3 of 2020. An entity of a country which shares a land border with India, or a beneficial owner who is situated in such a country or is a citizen of it, may invest in India only under the government route. The same approval is required where a later transfer of ownership, direct or indirect, produces that beneficial ownership.",
+            "The company's letterhead is not the test. The test follows the person who beneficially owns the shares. Press Note 3 explained is the April 2020 rule on that point. It sits on the sector rules described in [FDI in India](/guides/fdi-in-india). It is Press Note 3 of 2020. An entity of a country which shares a land border with India, or a beneficial owner who is situated in such a country or is a citizen of it, may invest in India only under the government route. The same approval is required where a later transfer of ownership, direct or indirect, produces that beneficial ownership.",
           ],
         },
       ],

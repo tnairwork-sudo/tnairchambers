@@ -5,7 +5,7 @@ export const dpdpGuide: GuidePage = {
   group: "entry",
   seoTitle: "DPDP Act compliance for foreign companies",
   description:
-    "DPDP Act compliance for foreign companies, for a business that sells into India without an office and wants to know when the Act still applies. Information only, from New Delhi.",
+    "DPDP Act compliance in 11 questions: when the Act applies to a foreign company that offers goods or services in India without an office. Information only.",
   keywords: [
     "DPDP Act compliance for foreign companies",
     "Digital Personal Data Protection Act",
@@ -21,7 +21,7 @@ export const dpdpGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What does DPDP Act compliance for foreign companies actually require?",
+      heading: "What is DPDP Act compliance for a foreign company?",
       blocks: [
         {
           type: "paragraphs",

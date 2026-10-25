@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const bailGuide: GuidePage = {
   slug: "white-collar-bail-delhi-high-court",
-  seoTitle: "White-collar bail and anticipatory bail in the Delhi High Court",
+  seoTitle: "Anticipatory Bail in White-Collar Cases, Delhi HC",
   description:
-    "White-collar bail and anticipatory bail in the Delhi High Court, for a person summoned in an economic case who wants to know what the Court actually considers before and after arrest. Information only, from New Delhi.",
+    "Anticipatory bail in 11 questions: what the Delhi High Court weighs in a white-collar case, both before an arrest and after it. Information only.",
   keywords: [
     "White-collar bail and anticipatory bail in the Delhi High Court",
     "anticipatory bail",
@@ -22,7 +22,7 @@ export const bailGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What is white-collar bail and anticipatory bail in the Delhi High Court?",
+        "What is anticipatory bail in a white-collar case?",
       blocks: [
         {
           type: "paragraphs",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -31,6 +32,7 @@ export interface LandingPageClientProps {
   ctaSubtext: string;
   gradientStyle?: React.CSSProperties;
   schemaJson: string;
+  relatedNotes?: { href: string; label: string }[];
 }
 
 export default function LandingPageClient({
@@ -49,6 +51,7 @@ export default function LandingPageClient({
   ctaSubtext,
   gradientStyle,
   schemaJson,
+  relatedNotes,
 }: LandingPageClientProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -264,6 +267,30 @@ export default function LandingPageClient({
             ))}
           </div>
         </section>
+
+        {relatedNotes && relatedNotes.length > 0 ? (
+          <section className="container-site pb-24 md:pb-32">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="gold-rule" />
+              <span className="label">India Entry notes</span>
+            </div>
+            <p className="text-base text-parchment-dim leading-relaxed max-w-3xl mb-8">
+              Informational notes on India entry sit with this page. They are not advice, and they do not invite an engagement.
+            </p>
+            <ul className="max-w-3xl space-y-3">
+              {relatedNotes.map((note) => (
+                <li key={note.href}>
+                  <Link
+                    href={note.href}
+                    className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                  >
+                    {note.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         {/* ── Pull quote ───────────────────────────────────────────── */}
         <section className="pull-quote-section bg-surface-2 border-y border-border">

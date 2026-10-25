@@ -3,10 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const fdiGuide: GuidePage = {
   slug: "fdi-in-india",
   group: "entry",
-  seoTitle:
-    "FDI in India: automatic route, government route and 100% FDI sectors",
+  seoTitle: "FDI in India: Automatic vs Government Route",
   description:
-    "FDI in India: automatic route, government route and 100% FDI sectors, for a foreign company that wants to know which investments can proceed now and which must wait for the Government. Information only, from New Delhi.",
+    "FDI in India in 11 questions: how the automatic route differs from the government route, and what a 100% sector still requires. Information only.",
   keywords: [
     "FDI in India: automatic route, government route and 100% FDI sectors",
     "Non-debt Instruments Rules",
@@ -24,12 +23,12 @@ export const fdiGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What is FDI in India: automatic route, government route and 100% FDI sectors?",
+        "What is FDI in India and how does it work?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "Foreign investment in a sector has one of three outcomes. It may proceed without prior government approval. It may need that approval first. Or the activity may be prohibited. FDI in India, across the automatic route, the government route, and sectors described as open to 100%, is that choice. The binding text is the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. The Department for Promotion of Industry and Internal Trade makes policy by press note. A press note does not execute itself. It bites when the Rules are amended to carry it. The percentage on a slide is not the rule.",
+            "Foreign investment in a sector has one of three outcomes. It may proceed without prior government approval. It may need that approval first. Or the activity may be prohibited. FDI in India, across the automatic route, the government route, and sectors described as open to 100%, is that choice. The binding text is the Foreign Exchange Management (Non-debt Instruments) Rules, 2019. The Department for Promotion of Industry and Internal Trade makes policy by press note. [Press Note 3](/guides/press-note-3) is one of those notes, and a press note does not execute itself. It bites when the Rules are amended to carry it. The percentage on a slide is not the rule.",
           ],
         },
       ],

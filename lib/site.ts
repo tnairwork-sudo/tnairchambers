@@ -2,6 +2,7 @@ export const siteUrl = "https://nairandco.in";
 
 export const personId = `${siteUrl}/#tushar-nair`;
 export const organizationId = `${siteUrl}/#nair-and-co`;
+export const legalServiceId = `${siteUrl}/#legal-service`;
 export const websiteId = `${siteUrl}/#website`;
 
 export const brandName = "Nair & Co, Advocates & Consultants";
@@ -35,6 +36,24 @@ export const homepageTitle =
 
 export const homepageDescription =
   "Tushar Nair, Supreme Court of India advocate and founder of Nair & Co, leads advocates and consultants in New Delhi. The firm was formerly T Nair Chambers.";
+
+/** One sitewide legal-service node. No street, telephone, fee, or rating. */
+export const legalServiceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": legalServiceId,
+  name: "Nair & Co, Advocates & Consultants",
+  url: siteUrl,
+  logo: {
+    "@type": "ImageObject",
+    url: `${siteUrl}/wordmark.svg`,
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "New Delhi",
+    addressCountry: "IN",
+  },
+};
 
 export const siteJsonLd = {
   "@context": "https://schema.org",

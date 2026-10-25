@@ -3,9 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const enforcementGuide: GuidePage = {
   slug: "enforcement-of-foreign-judgments-in-india",
   group: "entry",
-  seoTitle: "Enforcement of foreign judgments and arbitral awards in India",
+  seoTitle: "Enforcing Foreign Judgments and Awards in India",
   description:
-    "Enforcement of foreign judgments and arbitral awards in India, for a creditor holding two papers that look alike and are enforced under different statutes. Information only, from New Delhi.",
+    "Foreign judgments and awards in 11 questions: how a foreign decree and a New York Convention award are enforced before an Indian court. Information only.",
   keywords: [
     "Enforcement of foreign judgments and arbitral awards in India",
     "foreign award",
@@ -22,7 +22,7 @@ export const enforcementGuide: GuidePage = {
   sections: [
     {
       heading:
-        "How does enforcement of foreign judgments and arbitral awards in India divide?",
+        "How are foreign judgments and arbitral awards enforced in India?",
       blocks: [
         {
           type: "paragraphs",

@@ -5,7 +5,7 @@ export const jointVentureGuide: GuidePage = {
   group: "entry",
   seoTitle: "Joint ventures in India with a foreign company",
   description:
-    "Joint ventures in India with a foreign company, for two partners who need to know which parts of the venture the contract can settle and which the statute will not move. Information only, from New Delhi.",
+    "Joint ventures in India in 11 questions: the Indian company a foreign partner forms here, and the rules a contract cannot rewrite. Information only.",
   keywords: [
     "Joint ventures in India with a foreign company",
     "shareholders' agreement",
@@ -21,12 +21,12 @@ export const jointVentureGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What are joint ventures in India with a foreign company?",
+      heading: "What is a joint venture in India with a foreign company?",
       blocks: [
         {
           type: "paragraphs",
           paragraphs: [
-            "A joint venture contract is a set of house rules between the partners. It can say how they vote, what they must be told, and how one of them may leave. It cannot rewrite the law that applies to the company. Joint ventures in India with a foreign company are, in the usual case, an Indian company in which a foreign investor and an Indian partner both hold shares. The foreign subscription is foreign investment, and it has to fit the route and the cap. The contract cannot send the company out of the Companies Act, and it cannot change the foreign-investment rules.",
+            "A joint venture contract is a set of house rules between the partners. It can say how they vote, what they must be told, and how one of them may leave. It cannot rewrite the law that applies to the company. Joint ventures in India with a foreign company are, in the usual case, an Indian company in which a foreign investor and an Indian partner both hold shares. The foreign subscription is foreign investment, and it has to fit the route and the cap. The contract cannot send the company out of the Companies Act, and it cannot change the foreign-investment rules. Where the claim is oppression, [Company and corporate disputes in the Delhi High Court](/guides/company-and-corporate-disputes-delhi-high-court) draws that line.",
           ],
         },
       ],

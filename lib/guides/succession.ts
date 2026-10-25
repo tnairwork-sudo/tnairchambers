@@ -4,7 +4,7 @@ export const successionGuide: GuidePage = {
   slug: "nri-property-and-succession-delhi",
   seoTitle: "NRI property and succession matters in Delhi",
   description:
-    "NRI property and succession matters in Delhi: why a flat in the city follows Indian law, what a probate grant does, and why a foreign probate does not by itself pass title. Information only, from New Delhi.",
+    "NRI property and succession in 11 questions: which law governs a flat in Delhi, and why a foreign probate does not itself pass title. Information only.",
   keywords: [
     "NRI property and succession matters in Delhi",
     "probate",
@@ -20,7 +20,7 @@ export const successionGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What are NRI property and succession matters in Delhi?",
+      heading: "How does succession to NRI property in Delhi work?",
       blocks: [
         {
           type: "paragraphs",

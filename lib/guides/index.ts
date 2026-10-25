@@ -17,7 +17,7 @@ import { successionGuide } from "@/lib/guides/succession";
 import { illustrationFor } from "@/lib/guides/illustrations";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
 import { writGuide } from "@/lib/guides/writ";
-import { organizationId, siteUrl } from "@/lib/site";
+import { legalServiceId, siteUrl } from "@/lib/site";
 
 export const guidesPublishedOn = "2026-10-23";
 
@@ -150,24 +150,6 @@ export function languageAlternates(
   return languages;
 }
 
-function publisher() {
-  return {
-    "@type": "Organization",
-    "@id": organizationId,
-    name: "Nair & Co, Advocates & Consultants",
-    url: siteUrl,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "New Delhi",
-      addressCountry: "IN",
-    },
-    logo: {
-      "@type": "ImageObject",
-      url: `${siteUrl}/wordmark.svg`,
-    },
-  };
-}
-
 export function articleSchema(input: {
   headline: string;
   description: string;
@@ -206,7 +188,7 @@ export function articleSchema(input: {
       name: "Nair & Co, Advocates & Consultants",
       url: siteUrl,
     },
-    publisher: publisher(),
+    publisher: { "@id": legalServiceId },
     mainEntityOfPage: input.url,
     contentLocation: {
       "@type": "Place",
@@ -247,12 +229,9 @@ export function guideQuestionSummary(guide: GuidePage) {
   return `This guide answers ${count} ${label} on ${guide.questionSpan}.`;
 }
 
+/** The stored description is the meta description. Do not prefix it. */
 export function guideMetaDescription(guide: GuidePage) {
-  const count = guideQuestionCount(guide);
-  const label = count === 1 ? "question" : "questions";
-  const lead = `Answers ${count} ${label}.`;
-  if (guide.description.startsWith(lead)) return guide.description;
-  return `${lead} ${guide.description}`;
+  return guide.description;
 }
 
 export function questionHeadingId(heading: string) {

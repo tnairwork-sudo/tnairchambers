@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const companyGuide: GuidePage = {
   slug: "company-and-corporate-disputes-delhi-high-court",
-  seoTitle: "Company and corporate disputes in the Delhi High Court",
+  seoTitle: "Company and Corporate Disputes, Delhi HC",
   description:
-    "Company and corporate disputes in the Delhi High Court: which shareholder fights belong in the National Company Law Tribunal, and which remain a contract case in this Court. Information only, from New Delhi.",
+    "Company and corporate disputes in 11 questions: which shareholder fights go to the tribunal, and which stay a contract in Delhi. Information only.",
   keywords: [
     "Company and corporate disputes in the Delhi High Court",
     "NCLT",
@@ -21,7 +21,7 @@ export const companyGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What are company and corporate disputes in the Delhi High Court?",
+        "What is a company dispute in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",

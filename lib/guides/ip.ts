@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const ipGuide: GuidePage = {
   slug: "ip-and-trademark-litigation-delhi-high-court",
-  seoTitle: "IP and trademark litigation in the Delhi High Court",
+  seoTitle: "IP and Trademark Litigation, Delhi HC",
   description:
-    "IP and trademark litigation in the Delhi High Court, for a brand owner who has found a near-twin of a name on goods in the city and wants to know what the Court actually compares. Information only, from New Delhi.",
+    "IP and trademark litigation in 11 questions: what the Delhi High Court compares, and where a trade mark registration is challenged. Information only.",
   keywords: [
     "IP and trademark litigation in the Delhi High Court",
     "Intellectual Property Division",
@@ -21,7 +21,7 @@ export const ipGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What is IP and trademark litigation in the Delhi High Court?",
+      heading: "What is trademark litigation in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",

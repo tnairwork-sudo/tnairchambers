@@ -3,9 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const writGuide: GuidePage = {
   slug: "writ-petitions-against-regulators-delhi-high-court",
   seoTitle:
-    "Writ petitions against regulators and government in the Delhi High Court",
+    "Writ Petitions Against Regulators, Delhi HC",
   description:
-    "Writ petitions against regulators and government in the Delhi High Court: when Article 226 is a narrow look at a public decision, and when the statute already gave a different appeal. Information only, from New Delhi.",
+    "Writ petitions against regulators in 11 questions: when Article 226 is the right petition in the Delhi High Court, and when it is not. Information only.",
   keywords: [
     "Writ petitions against regulators and government in the Delhi High Court",
     "Article 226",
@@ -23,7 +23,7 @@ export const writGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What are writ petitions against regulators and government in the Delhi High Court?",
+        "What is a writ petition against a regulator in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",
