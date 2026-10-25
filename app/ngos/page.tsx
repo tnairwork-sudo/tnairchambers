@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import SiteJsonLd from "@/components/SiteJsonLd";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -78,6 +79,8 @@ const schema = {
 
 export default function NGOsPage() {
   return (
+    <>
+    <SiteJsonLd />
     <LandingPageClient
       eyebrow="International NGOs · 03"
       heroLine1="Foreign contributions,"
@@ -95,5 +98,6 @@ export default function NGOsPage() {
       ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
+    </>
   );
 }

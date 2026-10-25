@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import SiteJsonLd from "@/components/SiteJsonLd";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -85,6 +86,8 @@ const schema = {
 
 export default function EnergyPage() {
   return (
+    <>
+    <SiteJsonLd />
     <LandingPageClient
       eyebrow="Energy & Power · 01"
       heroLine1="Electricity law, regulation, and arbitration."
@@ -102,5 +105,6 @@ export default function EnergyPage() {
       ctaSubtext="The practice is in New Delhi, India."
       schemaJson={JSON.stringify(schema)}
     />
+    </>
   );
 }

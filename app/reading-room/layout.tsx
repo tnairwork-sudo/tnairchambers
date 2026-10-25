@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SiteJsonLd from "@/components/SiteJsonLd";
 import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export default function ReadingRoomLayout({
 }) {
   return (
     <section className="bg-ink text-parchment min-h-screen">
+      <SiteJsonLd />
       {children}
     </section>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
+import SiteJsonLd from "@/components/SiteJsonLd";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -78,6 +79,8 @@ const schema = {
 
 export default function EmployersPage() {
   return (
+    <>
+    <SiteJsonLd />
     <LandingPageClient
       eyebrow="International Employers · 04"
       heroLine1="Employing people in India"
@@ -96,5 +99,6 @@ export default function EmployersPage() {
       ctaSubtext="A 30-minute call. We'll ask about your headcount, your states of operation, your contractor arrangements, and your current contracts. You'll leave with a clear picture of what needs attention."
       schemaJson={JSON.stringify(schema)}
     />
+    </>
   );
 }
