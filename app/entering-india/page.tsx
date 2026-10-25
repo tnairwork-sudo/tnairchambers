@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import LandingPageClient from "@/components/LandingPageClient";
 import SiteJsonLd from "@/components/SiteJsonLd";
+import { getGuides, guidePath } from "@/lib/guides";
 import { ogImage, organizationId, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -89,10 +90,15 @@ const schema = {
 };
 
 export default function EnteringIndiaPage() {
+  const relatedNotes = getGuides()
+    .filter((guide) => guide.group === "entry")
+    .map((guide) => ({ href: guidePath(guide.slug), label: guide.title }));
+
   return (
     <>
     <SiteJsonLd />
     <LandingPageClient
+      relatedNotes={relatedNotes}
       eyebrow="India Market Entry · 02"
       heroLine1="Market entry in India,"
       heroEmphasis="and across Oman and the GCC."

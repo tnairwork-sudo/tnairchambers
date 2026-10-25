@@ -4,7 +4,7 @@ export const slpGuide: GuidePage = {
   slug: "supreme-court-slp-from-delhi-high-court",
   seoTitle: "Supreme Court SLPs from Delhi High Court orders",
   description:
-    "Supreme Court SLPs from Delhi High Court orders, for a company that has lost in New Delhi and wants to know why special leave is permission, not a right. Information only.",
+    "Supreme Court special leave in 11 questions: why a petition against a Delhi High Court order is permission, not a right of appeal. Information only.",
   keywords: [
     "Supreme Court SLPs from Delhi High Court orders",
     "Article 136",
@@ -20,7 +20,7 @@ export const slpGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What are Supreme Court SLPs from Delhi High Court orders?",
+      heading: "What is a special leave petition from a Delhi High Court order?",
       blocks: [
         {
           type: "paragraphs",

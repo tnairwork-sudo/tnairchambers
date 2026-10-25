@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import {
   homepageDescription,
   homepageTitle,
+  legalServiceJsonLd,
   ogImage,
   siteUrl,
 } from "@/lib/site";
@@ -119,6 +120,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <body className="antialiased min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(legalServiceJsonLd),
+          }}
+        />
         <Disclaimer />
         <SmoothScroll>
           {children}

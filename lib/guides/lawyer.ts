@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const lawyerGuide: GuidePage = {
   slug: "delhi-high-court-lawyer",
-  seoTitle: "Delhi High Court lawyer: choosing and working with counsel",
+  seoTitle: "Delhi High Court Lawyer: Choosing Counsel",
   description:
-    "Delhi High Court lawyer: choosing and working with counsel, as a map of one case rather than a ranking of names. What a vakalatnama authorises, and what this page will not recommend. Information only, from New Delhi.",
+    "Choosing a Delhi High Court lawyer in 11 questions: who may act in one case, and what this note will not name, rank, or recommend. Information only.",
   keywords: [
     "Delhi High Court lawyer: choosing and working with counsel",
     "vakalatnama",
@@ -21,7 +21,7 @@ export const lawyerGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What does the phrase Delhi High Court lawyer: choosing and working with counsel actually describe?",
+        "How do you choose a lawyer for the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",

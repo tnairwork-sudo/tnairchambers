@@ -3,10 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const subsidiaryGuide: GuidePage = {
   slug: "setting-up-foreign-subsidiary-in-india",
   group: "entry",
-  seoTitle:
-    "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
+  seoTitle: "Foreign Subsidiary, Liaison or Branch in India",
   description:
-    "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary, for a foreign company choosing among three permissions, only one of which is a company of its own. Information only, from New Delhi.",
+    "A foreign subsidiary in India in 11 questions: how a liaison office, a branch office, and a subsidiary differ in what each may do. Information only.",
   keywords: [
     "Setting up a foreign subsidiary in India: liaison office, branch office or subsidiary",
     "liaison office",
@@ -24,7 +23,7 @@ export const subsidiaryGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What should a foreign company compare when setting up a foreign subsidiary in India: liaison office, branch office or subsidiary?",
+        "What is the difference between a liaison office, a branch office, and a subsidiary in India?",
       blocks: [
         {
           type: "paragraphs",

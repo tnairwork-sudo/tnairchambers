@@ -2,9 +2,9 @@ import type { GuidePage } from "@/lib/guides/types";
 
 export const commercialGuide: GuidePage = {
   slug: "commercial-disputes-and-arbitration-delhi-high-court",
-  seoTitle: "Commercial disputes and arbitration in the Delhi High Court",
+  seoTitle: "Commercial Disputes and Arbitration, Delhi HC",
   description:
-    "Commercial disputes and arbitration in the Delhi High Court: when a contract fight is a suit before a judge, and when it is a request about an arbitration the parties already chose. Information only, from New Delhi.",
+    "Commercial disputes and arbitration in 11 questions: when a Delhi High Court contract fight is a suit, and when it is an arbitration. Information only.",
   keywords: [
     "Commercial disputes and arbitration in the Delhi High Court",
     "Commercial Division",
@@ -21,7 +21,7 @@ export const commercialGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What are commercial disputes and arbitration in the Delhi High Court?",
+        "How do commercial disputes and arbitration work in the Delhi High Court?",
       blocks: [
         {
           type: "paragraphs",

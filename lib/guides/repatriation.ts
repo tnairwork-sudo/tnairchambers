@@ -5,7 +5,7 @@ export const repatriationGuide: GuidePage = {
   group: "entry",
   seoTitle: "Repatriation of profits from India",
   description:
-    "Repatriation of profits from India, for a parent that wants to send money home and needs to know why a dividend, a branch profit, and a sale of shares are three different payments. Information only, from New Delhi.",
+    "Repatriation of profits in 11 questions: why a dividend, a branch profit, and a sale of shares each leave India on different paths. Information only.",
   keywords: [
     "Repatriation of profits from India",
     "dividend",
@@ -21,7 +21,7 @@ export const repatriationGuide: GuidePage = {
   dateLabel: "23 October 2026",
   sections: [
     {
-      heading: "What is repatriation of profits from India, and why are there three paths?",
+      heading: "What is repatriation of profits from India?",
       blocks: [
         {
           type: "paragraphs",

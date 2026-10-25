@@ -3,9 +3,9 @@ import type { GuidePage } from "@/lib/guides/types";
 export const eorGuide: GuidePage = {
   slug: "employer-of-record-india",
   group: "entry",
-  seoTitle: "Employer of record in India and Indian labour codes",
+  seoTitle: "Employer of Record in India: Labour Codes",
   description:
-    "Employer of record in India and Indian labour codes, for a foreign company whose contract names one employer while another company directs the work. Information only, from New Delhi.",
+    "Employer of record in India in 11 questions: why the name on the contract is not who the Indian labour codes treat as responsible. Information only.",
   keywords: [
     "Employer of record in India and Indian labour codes",
     "contract labour",
@@ -22,7 +22,7 @@ export const eorGuide: GuidePage = {
   sections: [
     {
       heading:
-        "What does the phrase Employer of record in India and Indian labour codes describe?",
+        "What is an employer of record in India?",
       blocks: [
         {
           type: "paragraphs",

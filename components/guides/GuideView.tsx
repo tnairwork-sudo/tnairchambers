@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import SetHtmlLang from "@/components/guides/SetHtmlLang";
 import { bciDisclaimer, bciDisclaimerHindi } from "@/lib/guides/disclaimer";
@@ -174,13 +175,16 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
           {illustration ? (
             <figure className="mb-10">
               {art.hero.ready ? (
-                <img
-                  src={art.hero.src}
-                  alt={illustration.alt}
-                  width={art.hero.width}
-                  height={art.hero.height}
-                  className="aspect-video w-full border border-border object-cover"
-                />
+                <div className="relative aspect-video w-full border border-border">
+                  <Image
+                    src={art.hero.src}
+                    alt={illustration.alt}
+                    fill
+                    sizes="(min-width: 1200px) 1072px, 100vw"
+                    priority
+                    className="object-cover"
+                  />
+                </div>
               ) : (
                 <div
                   className="aspect-video w-full border border-border bg-surface"
