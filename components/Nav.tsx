@@ -10,6 +10,7 @@ const links = [
   { href: "/about", label: "Tushaar Nair" },
   { href: "/energy", label: "Energy & Power" },
   { href: "/entering-india", label: "Entering India" },
+  { href: "/guides", label: "Guides" },
   { href: "/ngos", label: "NGOs" },
   { href: "/employers", label: "Employers" },
   { href: "/opportunity-atlas", label: "Opportunity Atlas" },
