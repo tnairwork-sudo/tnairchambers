@@ -69,6 +69,14 @@ export default function Footer() {
                   Guides
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/off-the-brief"
+                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                >
+                  Off the Brief
+                </Link>
+              </li>
             </ul>
           </div>
 
