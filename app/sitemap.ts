@@ -46,6 +46,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.85,
     },
+    {
+      url: `${siteUrl}/off-the-brief`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
   ];
 
   const articleRoutes: MetadataRoute.Sitemap = getAllOpportunityAtlasArticles().map(
