@@ -2,9 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageLayout from "@/components/PageLayout";
 import {
-  offTheBriefBooks,
+  offTheBriefIndexLabel,
+  offTheBriefPaperLine,
+  offTheBriefSessionHeading,
   offTheBriefSessionId,
-  offTheBriefSessionLabel,
+  publishedOffTheBriefBooks,
+  publishedOffTheBriefPaperGroups,
+  type OffTheBriefQa,
 } from "@/lib/off-the-brief";
 import { legalServiceId, siteUrl } from "@/lib/site";
 
@@ -50,7 +54,27 @@ const articleSchema = {
 const linkClass =
   "text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200";
 
+function QaList({ items }: { items: OffTheBriefQa[] }) {
+  return (
+    <div className="mt-6 space-y-8">
+      {items.map((item) => (
+        <div key={item.q}>
+          <h4 className="font-serif text-xl font-light leading-snug text-parchment">
+            {item.q}
+          </h4>
+          <p className="mt-3 text-base leading-relaxed text-parchment-dim md:text-lg">
+            {item.a}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function OffTheBriefPage() {
+  const books = publishedOffTheBriefBooks();
+  const paperGroups = publishedOffTheBriefPaperGroups();
+
   return (
     <PageLayout>
       <script
@@ -83,10 +107,10 @@ export default function OffTheBriefPage() {
           <div className="max-w-3xl">
             <nav aria-label="Contents">
               <h2 className="heading-section mb-6 text-3xl text-parchment md:text-4xl">
-                Contents
+                Books
               </h2>
               <ol className="space-y-5 text-base leading-relaxed md:text-lg">
-                {offTheBriefBooks.map((book) => (
+                {books.map((book) => (
                   <li key={book.slug}>
                     <a href={`#${book.slug}`} className={linkClass}>
                       {book.title}
@@ -98,7 +122,7 @@ export default function OffTheBriefPage() {
                           return (
                             <li key={id}>
                               <a href={`#${id}`} className={linkClass}>
-                                {offTheBriefSessionLabel(session)}
+                                {offTheBriefIndexLabel(session)}
                               </a>
                             </li>
                           );
@@ -108,10 +132,41 @@ export default function OffTheBriefPage() {
                   </li>
                 ))}
               </ol>
+
+              <h2 className="heading-section mb-6 mt-16 text-3xl text-parchment md:mt-20 md:text-4xl">
+                Scientific Papers
+              </h2>
+              {paperGroups.length === 0 ? (
+                <p className="text-base italic text-parchment-dim md:text-lg">
+                  Reports begin soon.
+                </p>
+              ) : (
+                <div className="space-y-8">
+                  {paperGroups.map((group) => (
+                    <div key={group.id}>
+                      <a
+                        href={`#${group.id}`}
+                        className="text-sm text-parchment-dim underline decoration-gold/70 underline-offset-4 hover:text-gold md:text-base"
+                      >
+                        {group.subject}
+                      </a>
+                      <ol className="mt-3 space-y-2 pl-5 text-sm leading-relaxed md:text-base">
+                        {group.papers.map((paper) => (
+                          <li key={paper.slug}>
+                            <a href={`#${paper.slug}`} className={linkClass}>
+                              {paper.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  ))}
+                </div>
+              )}
             </nav>
 
             <div className="mt-16 space-y-16 md:mt-20 md:space-y-20">
-              {offTheBriefBooks.map((book) => (
+              {books.map((book) => (
                 <section key={book.slug} id={book.slug} className="scroll-mt-24">
                   <h2 className="heading-section text-balance text-3xl text-parchment md:text-4xl">
                     {book.title}
@@ -135,20 +190,9 @@ export default function OffTheBriefPage() {
                         return (
                           <section key={id} id={id} className="scroll-mt-24">
                             <h3 className="heading-section text-2xl text-parchment md:text-3xl">
-                              {offTheBriefSessionLabel(session)}
+                              {offTheBriefSessionHeading(session)}
                             </h3>
-                            <div className="mt-6 space-y-8">
-                              {session.qa.map((item) => (
-                                <div key={item.q}>
-                                  <h4 className="font-serif text-xl font-light leading-snug text-parchment">
-                                    {item.q}
-                                  </h4>
-                                  <p className="mt-3 text-base leading-relaxed text-parchment-dim md:text-lg">
-                                    {item.a}
-                                  </p>
-                                </div>
-                              ))}
-                            </div>
+                            <QaList items={session.qa} />
                           </section>
                         );
                       })}
@@ -156,6 +200,50 @@ export default function OffTheBriefPage() {
                   )}
                 </section>
               ))}
+
+              {paperGroups.length > 0 ? (
+                <section id="scientific-papers" className="scroll-mt-24">
+                  <h2 className="heading-section text-3xl text-parchment md:text-4xl">
+                    Scientific Papers
+                  </h2>
+                  <div className="mt-10 space-y-16">
+                    {paperGroups.map((group) => (
+                      <div key={group.id} id={group.id} className="scroll-mt-24">
+                        <p className="text-sm leading-relaxed text-gold-light md:text-base">
+                          {group.subject}
+                        </p>
+                        <div className="mt-8 space-y-16">
+                          {group.papers.map((paper) => {
+                            const line = offTheBriefPaperLine(paper);
+                            return (
+                              <article
+                                key={paper.slug}
+                                id={paper.slug}
+                                className="scroll-mt-24"
+                              >
+                                <h3 className="heading-section text-balance text-2xl text-parchment md:text-3xl">
+                                  {paper.title}
+                                </h3>
+                                {paper.authors ? (
+                                  <p className="mt-3 text-base text-parchment-dim md:text-lg">
+                                    {paper.authors}
+                                  </p>
+                                ) : null}
+                                {line ? (
+                                  <p className="mt-2 text-sm leading-relaxed text-parchment-dim md:text-base">
+                                    {line}
+                                  </p>
+                                ) : null}
+                                <QaList items={paper.qa} />
+                              </article>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
             </div>
           </div>
         </div>
