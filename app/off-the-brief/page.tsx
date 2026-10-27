@@ -119,6 +119,11 @@ export default function OffTheBriefPage() {
                   <p className="mt-3 text-base text-parchment-dim md:text-lg">
                     {book.author}
                   </p>
+                  {book.intro ? (
+                    <p className="mt-4 max-w-2xl text-base leading-relaxed text-parchment-dim md:text-lg">
+                      {book.intro}
+                    </p>
+                  ) : null}
                   {book.sessions.length === 0 ? (
                     <p className="mt-8 text-base italic text-parchment-dim md:text-lg">
                       Notes begin soon.
