@@ -20,6 +20,13 @@ export type OffTheBriefBook = {
   sessions: OffTheBriefSession[];
 };
 
+export type OffTheBriefRelatedWork = {
+  authors: string;
+  title: string;
+  year: number;
+  citation: string;
+};
+
 export type OffTheBriefPaper = {
   subject: string;
   title: string;
@@ -28,6 +35,7 @@ export type OffTheBriefPaper = {
   citation?: string;
   slug: string;
   published: boolean;
+  relatedWork?: OffTheBriefRelatedWork[];
   qa: OffTheBriefQa[];
 };
 
@@ -202,6 +210,61 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       {
         q: "What is the practical takeaway?",
         a: "Pace sets arousal. Faster music focuses attention, slower music calms, and a well-placed silence calms most of all.",
+      },
+    ],
+  },
+  {
+    subject: "Behavioural science, memory and the evaluation of experience",
+    title: "When More Pain Is Preferred to Less: Adding a Better End",
+    authors:
+      "Daniel Kahneman, Barbara L. Fredrickson, Charles A. Schreiber, Donald A. Redelmeier",
+    year: 1993,
+    citation:
+      "Psychological Science, 4(6), 401 to 405; doi:10.1111/j.1467-9280.1993.tb00589.x",
+    slug: "adding-a-better-end",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Barbara L. Fredrickson and Daniel Kahneman",
+        title:
+          "Duration neglect in retrospective evaluations of affective episodes",
+        year: 1993,
+        citation:
+          "Journal of Personality and Social Psychology, 65(1), 45 to 55; doi:10.1037/0022-3514.65.1.45",
+      },
+      {
+        authors: "Donald A. Redelmeier and Daniel Kahneman",
+        title:
+          "Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures",
+        year: 1996,
+        citation:
+          "Pain, 66(1), 3 to 8; doi:10.1016/0304-3959(96)02994-6",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the researchers ask?",
+        a: "When people look back on an experience, do they remember it as the sum of every moment, or do some moments count far more than others?",
+      },
+      {
+        q: "How was it tested?",
+        a: "Volunteers held a hand in uncomfortably cold water twice. One trial lasted 60 seconds. The other lasted the same 60 seconds and then continued for another 30 seconds while the water was warmed slightly, still unpleasant but less so. Asked which trial they would rather repeat, most chose the longer one, even though it contained strictly more discomfort.",
+      },
+      {
+        q: "What explains that choice?",
+        a: "Memory does not keep a running total. Remembered experience is shaped largely by its most intense moment, the peak, and by how it ends. The researchers called this the peak-end rule. A companion study by Fredrickson and Kahneman, using short film clips, found the matching pattern of duration neglect: how long an experience lasted had surprisingly little effect on how it was later judged.",
+      },
+      {
+        q: "Does it hold outside the laboratory?",
+        a: "Redelmeier and Kahneman recorded patients' discomfort minute by minute during colonoscopy and kidney stone treatment. Patients' later ratings tracked the worst moment and the final few minutes far more closely than the length of the procedure. A later randomised trial found that ending a colonoscopy more gently improved how patients remembered it.",
+      },
+      {
+        q: "Has the finding been questioned?",
+        a: "It has been qualified rather than overturned. Later reviews find that peaks and endings do carry extra weight, but that the overall average of an experience matters too, and that duration is not always ignored. The effect is strongest for brief, single episodes with a clear shape and weaker for long or complex ones. Some researchers also note that what people remember and what they actually felt at the time are different measures, and the rule describes only the first.",
+      },
+      {
+        q: "What is the practical takeaway?",
+        a: "How something ends, and its single strongest moment, will largely decide how it is remembered. Attention spent on a good close is rarely wasted.",
       },
     ],
   },

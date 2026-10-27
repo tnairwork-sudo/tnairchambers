@@ -234,6 +234,24 @@ export default function OffTheBriefPage() {
                                     {line}
                                   </p>
                                 ) : null}
+                                {paper.relatedWork && paper.relatedWork.length > 0 ? (
+                                  <div className="mt-4">
+                                    <p className="text-xs tracking-wide text-parchment-dim/80">
+                                      Related work
+                                    </p>
+                                    <ul className="mt-2 space-y-2">
+                                      {paper.relatedWork.map((item) => (
+                                        <li
+                                          key={item.title}
+                                          className="text-sm leading-relaxed text-parchment-dim"
+                                        >
+                                          {item.authors}, {item.title}, {item.year} (
+                                          {item.citation}).
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                ) : null}
                                 <QaList items={paper.qa} />
                               </article>
                             );
