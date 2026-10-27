@@ -52,7 +52,98 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
     title: "Behave",
     author: "Robert M. Sapolsky",
     published: true,
-    sessions: [],
+    sessions: [
+      {
+        pagesFrom: 1,
+        pagesTo: 15,
+        label: "Pages 1-15",
+        qa: [
+          {
+            q: "How does Sapolsky open the book, and why?",
+            a: "With a confession: a recurring fantasy of capturing Hitler and making him suffer. Even imagining it, his heart rate rises, he flushes and his fists clench. The point is that even a gentle academic has a real appetite for violence he considers deserved.",
+          },
+          {
+            q: "What contradiction does he admit straight away?",
+            a: "He doesn't believe in souls or evil and doubts that punishment belongs in criminal justice, yet he feels some people deserve to die while opposing the death penalty. He enjoys violent films while backing strict gun control. His feelings about violence are confused, \"just like most humans.\"",
+          },
+          {
+            q: "What is the book's central point about violence?",
+            a: "\"We don't hate violence. We hate and fear the wrong kind of violence, violence in the wrong context.\" Unlike a disease, violence can't simply be put on a list to wipe out, because in the right context we love it.",
+          },
+          {
+            q: "How do we celebrate the \"right\" kind of violence?",
+            a: "We pay to watch it in stadiums, teach children to stand up for themselves, use military metaphors (\"rally the troops\", ideas getting \"shot down\") and name sports teams Warriors, Vikings and Lions. Even chess gets described as a \"murderous attack.\" We also build belief systems around violence and elect leaders who are good at it.",
+          },
+          {
+            q: "Why is violence so hard to understand?",
+            a: "Because the same act can mean opposite things: pulling a trigger can be hideous aggression or a self-sacrificing act of love. So the book covers both sides of behaviour: aggression and competition, but also cooperation, empathy, reconciliation and altruism.",
+          },
+          {
+            q: "What are the book's two personal roots?",
+            a: "First, violence frightens him, and he has a professor's hopeful belief that enough explaining will make it go away. Second, he is a pessimist by nature. Studying the subject gave him a surprising reason for optimism: humans harming each other is \"neither universal nor inevitable.\"",
+          },
+          {
+            q: "What three points come from his work as a neurobiologist and primatologist?",
+            a: "You can't understand aggression, cooperation or empathy without biology. You're equally stuck if you rely only on biology. And separating the \"biological\" from the \"psychological\" or \"cultural\" makes no sense, because they are completely intertwined.",
+          },
+          {
+            q: "What does the chicken crossing the road illustrate?",
+            a: "How each science explains behaviour from inside its own \"bucket.\" A hormone researcher says estrogen acted on the hen's brain, an engineer talks about leg bones and pelvis mechanics, and an evolutionary biologist says hens that responded this way left more descendants. Each answer is true but partial.",
+          },
+          {
+            q: "What does the colour study show about thinking in categories?",
+            a: "Languages divide the continuous colour spectrum at arbitrary points. When two similar colours fall on either side of a language's colour boundary, speakers overestimate the difference; when both fall inside one category, they underestimate it. Categories help memory, but they distort what we see.",
+          },
+          {
+            q: "What method does the book use instead of buckets?",
+            a: "A timeline. Start with what happened in the brain one second before a behaviour, then the sights, sounds and smells that triggered it seconds to minutes before, then the hormones of hours to days before. Then widen out: how experience reshaped the brain over months and years, childhood, life in the womb, genes, culture, the ecology that shaped that culture, and finally evolution.",
+          },
+          {
+            q: "What does he call the most important idea in the book?",
+            a: "Explaining a behaviour with any single discipline quietly involves all the others, because each step is the product of everything before it. A behaviour is never caused by \"a gene\" or \"a hormone\"; those labels are shorthand for a long chain of causes.",
+          },
+          {
+            q: "Which famous scientists show the danger of one-bucket thinking?",
+            a: "John Watson, the founder of behaviourism, who claimed he could train any infant into any kind of specialist. Egas Moniz, who won a Nobel Prize in 1949 for the brain operations that became lobotomies. And Konrad Lorenz, the Nobel-winning animal behaviourist who served Nazi race policy. Each was trapped in one narrow view, and the consequences were destroyed brains and \"final solutions for problems that didn't exist.\"",
+          },
+        ],
+      },
+      {
+        pagesFrom: 15,
+        pagesTo: 30,
+        label: "Pages 15-30",
+        qa: [
+          {
+            q: "In what ways are humans just like other animals?",
+            a: "A frightened person releases the same stress hormone as a bullied fish. Pleasure runs on the same brain chemicals as in a capybara, and our neurons work like those of brine shrimp. And we can be as violent as other apes, hitting, throwing stones and killing with our bare hands.",
+          },
+          {
+            q: "How do humans use the same biology in uniquely human ways?",
+            a: "We set off our alarm systems watching a horror film, trigger a stress response just by thinking about death, and release bonding hormones looking at a baby panda. We can harm someone over an idea, pass beliefs down for thousands of years, and hurt people without touching them: by nodding consent, looking away or damning with faint praise.",
+          },
+          {
+            q: "What are his two examples of uniquely human harming and caring?",
+            a: "The grape lollipop: after a driver cut off his family and made a rude gesture, his wife caught up with the man at a red light and threw a lollipop into his car, saying that anyone that mean probably needed it. The driver crept away, ashamed. The second is darker: during the mass killings in Indonesia in the mid-1960s, death squads brought gamelan orchestras to village massacres, and a veteran explained it was \"to make it more beautiful.\"",
+          },
+          {
+            q: "Why are words like aggression and empathy so hard to define?",
+            a: "They are loaded with values and fought over. \"Competition\" can mean racing a rival lab to a discovery, a pickup football game, a raffle, or \"whose god is more worth killing for.\" And each discipline splits these behaviours differently: some see two types, others seventeen.",
+          },
+          {
+            q: "How do different fields divide aggression?",
+            a: "Animal behaviourists separate an intruder's attack from a resident's defence. Criminologists separate impulsive from planned aggression. Anthropologists separate warfare, clan feuds and murder. Others distinguish hot-blooded reactive aggression from cold-blooded instrumental aggression (\"this isn't personal\").",
+          },
+          {
+            q: "What is displacement aggression, and what is the uncomfortable finding about it?",
+            a: "It means lashing out at a weaker bystander when you're frustrated or in pain: a shocked rat bites a smaller rat, a baboon who loses to the alpha chases a lower-ranking one, and domestic violence rises with unemployment. Disturbingly, taking it out on someone else can lower the aggressor's own stress hormones. Beyond reactive and instrumental aggression, there is also aggression done purely for pleasure.",
+          },
+          {
+            q: "What is the takeaway so far?",
+            a: "No behaviour has a single cause. Biological, psychological and cultural explanations are slices of one continuous chain that runs from the last second back through evolution, and violence is hard to understand because what we hate is only its wrong-context version.",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "troublemaker",
@@ -62,37 +153,135 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
     published: false,
     sessions: [
       {
-        day: 1,
         pagesFrom: 1,
         pagesTo: 15,
+        label: "Pages 1-15",
         qa: [
           {
-            q: "What do the opening pages cover?",
-            a: "Front matter, then an introduction. Remini calls herself an apostate and lists her own flaws before the story starts. From there she turns to a Brooklyn childhood, taken as far as her first visit to the New York centre in Times Square.",
+            q: "What is in the opening pages?",
+            a: "Pages 1 to 5 are the cover, title, copyright, contents (an introduction and 19 chapters) and an epigraph: \"In a time of universal deceit, telling the truth is a revolutionary act.\" The introduction runs from page 6 to 9, and the story begins on page 10.",
           },
           {
-            q: "Why does she confess her own flaws first?",
-            a: "To leave an opponent nothing new to expose. Remini puts the admissions on the page herself, ahead of any attack. She treats that candour as counter-propaganda.",
+            q: "How does Remini begin her introduction?",
+            a: "She calls herself an \"apostate\" and lists her own and her family's flaws up front. By confessing first, she takes away the ammunition she expects the church to use against her.",
           },
           {
-            q: "How is the movement first presented to people?",
-            a: "As self-improvement, not as religion. Remini, writing about Scientology, says the first offer was a path described as scientific and testable, a way toward a person's potential.",
+            q: "How, in her account, is Scientology sold to newcomers?",
+            a: "Not as a religion but as self-improvement: a clear, \"scientific\" path to your full potential that you can test for yourself (\"use it and see for yourself\").",
           },
           {
-            q: "What comes first, belief or belonging?",
-            a: "Belonging. What Remini describes arriving first is respect, the experience of being listened to, and someone taking her side. On page 8 she writes: \"This person understands me. He or she is my ally. This group believes in me.\"",
+            q: "Why does belonging come before belief?",
+            a: "New members find a beautiful building, welcoming people, food and someone who listens and takes their side. She writes: \"You feel vindicated. This person understands me. He or she is my ally. This group believes in me. In the real world you may feel like you are nothing, but here you are treated with respect.\"",
           },
           {
-            q: "How does the book describe recognition for donors?",
-            a: "Remini describes donors applauded onstage, or given a framed certificate. In her account, that recognition turns the money into status, and the status into identity, and the cost rises step by step. She estimates about $2 million spent on services and about $3 million donated.",
+            q: "What role does public recognition play?",
+            a: "Donors are cheered on stage or given framed certificates at every level of giving. She estimates she spent about $2 million on services and donated about $3 million more.",
           },
           {
-            q: "What keeps people in?",
-            a: "On Remini's account, a total claim on time, an insular world, and disconnection from anyone declared a Suppressive Person. She also describes control over what members may read.",
+            q: "Why is leaving so hard?",
+            a: "Members give at least two and a half hours a day, every day, and for those raised inside, everyone they know is a member. That creates an \"us against them\" world. Anyone \"declared\" a Suppressive Person must be cut off by everyone else, so leaving means losing everything.",
           },
           {
-            q: "How does the book set two kinds of attention side by side?",
-            a: "The pages place two treatments next to each other. In one, trust follows candour and restraint. In the other, applause is staged when money is given. Remini presents the first as the honest form and the second as the dark one.",
+            q: "Who, according to her, makes the most likely recruits?",
+            a: "People with the very qualities that get them punished elsewhere: \"defying, questioning, thinking independently\" are, she says, the same qualities that made her generation prime candidates.",
+          },
+          {
+            q: "What happens in the first pages of Chapter One?",
+            a: "Her Brooklyn childhood: a born performer, a frightening father and a loving, unconventional mother. Her mother's new partner, Dennis, is a Scientologist, and her mother joins. When Leah confesses a small money-making scheme, she is praised rather than punished. She and her sister then take the subway to the Scientology centre in Times Square.",
+          },
+          {
+            q: "How did that first contact make her feel?",
+            a: "Respected and grown up: \"I suddenly felt like I went from being a kid to being someone capable of making my own decisions. The sense of power and superiority was exciting.\"",
+          },
+        ],
+      },
+      {
+        pagesFrom: 15,
+        pagesTo: 30,
+        label: "Pages 15-30",
+        qa: [
+          {
+            q: "What were the first courses like?",
+            a: "Leah and her sister do communication drills, including \"Bullbait,\" in which you must hold still and show no reaction to any provocation. They are sold as a way to communicate better, but in practice they train people not to react to whatever is done to them.",
+          },
+          {
+            q: "What made a child feel chosen?",
+            a: "She wrote to L. Ron Hubbard and received a typed letter signed \"Love Ron,\" with a real signature rather than a stamp. \"This was proof; I was special.\" One personal gesture from the top bound her more strongly than any general message could.",
+          },
+          {
+            q: "How did her father's mockery affect her?",
+            a: "It pushed her further in. \"Little did he know that by attacking Scientology, he ended up simply pushing me back into its arms. Them against us.\" Ridicule from outside confirmed the group's story that outsiders don't understand.",
+          },
+          {
+            q: "How was her family recruited into the Sea Org?",
+            a: "Recruiters framed it as a moral duty: \"The planet is going downhill, your help is needed, and in the end what will be your answer to this question: 'Did you help?'\" She was told she was now part of \"an elite and important group who were the only ones doing anything about the planet.\"",
+          },
+          {
+            q: "What did they find on arriving at the Flag base in Clearwater, Florida?",
+            a: "Nothing like the promise. They arrived at 2 a.m. with no one to meet them and were put in a run-down motel dormitory. She signed a billion-year contract and did boot camp: 12 hours of hard labour plus study, where every question was answered with \"What does LRH say?\"",
+          },
+          {
+            q: "What happened when she tried to lead?",
+            a: "At 13 she was put in charge of a cleaning crew and rewarded them with time at the pool. For that she was thrown overboard. Her pay was $15 a week.",
+          },
+          {
+            q: "Why did staying stop being a choice?",
+            a: "Dennis left the family, and with no home, money or schooling to fall back on, there was nowhere else to go. A grand mission followed by sunk cost and no alternatives kept them in.",
+          },
+          {
+            q: "What did daily life look like at the start of Chapter Three?",
+            a: "Fourteen-hour days and no real school. Staff ate rice and beans while paying guests ate steak and lobster. Members filed \"Knowledge Reports\" on one another, and the sisters faced an ethics investigation.",
+          },
+          {
+            q: "Why did she suddenly want to become a \"Messenger\"?",
+            a: "She learned that Messengers speak for Hubbard and must be addressed as \"Sir.\" Visible rank, uniforms and titles made status something she could see and want, and a moment of punishment turned into ambition.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "People are won over by how they are treated long before they accept a doctrine. Personal recognition, visible ranks and guilt-framed missions bind people in, and outside mockery only strengthens their loyalty. The weak point is the gap between promise and reality, which the system covers with reframing and control rather than by delivering what it promised.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 16,
+        pagesTo: 30,
+        label: "Pages 16-30",
+        qa: [
+          {
+            q: "What do the communication drills train, on her account?",
+            a: "Leah and her sister go on course. The drills, including one called Bullbait, ask a person to hold still and show no reaction to any provocation. They are offered as a way to speak to people better. In practice, she writes, they train a person not to react, and to accept whatever is done.",
+          },
+          {
+            q: "What did the letter signed Love Ron do?",
+            a: "She wrote to L. Ron Hubbard. The reply, in her words, \"was typed out on a clean white piece of paper, folded perfectly, and at the bottom it said, 'Love Ron,' not a stamp but his actual signature. This was proof; I was special.\" One personal gesture from the top bound her more tightly than a general message.",
+          },
+          {
+            q: "How did mockery from her father land?",
+            a: "It pushed her further in. She writes: \"Little did he know that by attacking Scientology, he ended up simply pushing me back into its arms. Them against us.\" Ridicule from outside seemed to prove the group's claim that others did not understand.",
+          },
+          {
+            q: "How was the Sea Org put to the family?",
+            a: "Recruiters framed joining as a duty. She records the question: \"The planet is going downhill, your help is needed, and in the end what will be your answer to this question: 'Did you help?'\" She was told that she \"was now a part of an elite and important group who were the only ones doing anything about the planet.\"",
+          },
+          {
+            q: "What did arrival fail to match?",
+            a: "She had pictured a welcome. They reached the Flag base in Clearwater at 2 a.m., with no one to meet them, and were put in a run-down dormitory. She signed a billion-year contract. In the boot camp that followed, \"Any question we asked was answered with 'What does LRH say?'\"",
+          },
+          {
+            q: "What happened when she rewarded the cleaning crew?",
+            a: "At 13 she was put in charge and gave them time at the pool. For that she was thrown overboard. Her pay was $15 a week. Her father's mockery of that pay pushed her back in, rather than out.",
+          },
+          {
+            q: "Why did staying stop being a choice?",
+            a: "Dennis left the family. With no home, money or schooling to return to, there was nowhere else to go. A grand mission came first. After the alternatives disappeared, staying was no longer a choice.",
+          },
+          {
+            q: "What does the opening of the next chapter show?",
+            a: "Fourteen-hour days, and no real school. Staff ate rice and beans, while paying guests ate steak and lobster. Members filed reports on one another, and the sisters faced an ethics investigation. She learned that a Messenger speaks for Hubbard and must be addressed as \"Sir,\" and she wanted that at once.",
+          },
+          {
+            q: "What do these pages say about how people are bound in?",
+            a: "A personal gesture from the top binds more tightly than a general message. Mockery from outside hardens loyalty, because it seems to confirm the group's prediction. Rank is made visible, in uniform and in a form of address, so it becomes something to want. A mission framed as duty, followed by the loss of every alternative, keeps people in. The weak point is the gap between the promise and the arrival, which these pages show being covered by reframing rather than by what was promised.",
           },
         ],
       },
