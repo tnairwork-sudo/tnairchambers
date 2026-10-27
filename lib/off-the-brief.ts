@@ -134,6 +134,35 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        label: "Part 2: Trump Cards and Growing Up (chapters 2 and 3)",
+        qa: [
+          {
+            q: "What are chapters 2 and 3 about?",
+            a: "Chapter 2 is Trump's rulebook in eleven short rules, from \"think big\" to \"have fun\". Chapter 3 is where they came from: his father Fred, who started out building $50 garages at 16, went on to put up thousands of Queens and Brooklyn apartments, and haggled as hard over mops as over the main contract. Then come military school, Wharton, and Donald's decision to leave the low-margin brick business for Manhattan.",
+          },
+          {
+            q: "Why should you never look desperate in a deal?",
+            a: "\"The worst thing you can possibly do in a deal is seem desperate to make it.\" Leverage is what the other side wants, then needs, then \"simply can't do without\". Often you have to build it, as he did when he had the Commodore's owners announce they were closing the hotel.",
+          },
+          {
+            q: "What does planning for the worst look like?",
+            a: "Each Boardwalk parcel deal only took effect if he got the whole site, and he waited for the gaming licence before building. Holiday Inns then repaid his money, paid for construction and covered his losses for five years in return for half the profits. Barron Hilton built first, was refused a licence, and had to sell to Trump.",
+          },
+          {
+            q: "Why does knowing the true cost matter?",
+            a: "Fred knew a plumbing job cost the contractor $400,000, so he never pushed for $300,000 and never accepted $600,000. He won contractors over with reliability: \"with me you get paid, and you get paid on time.\"",
+          },
+          {
+            q: "How do you deal with someone powerful?",
+            a: "Show respect without fear. At military school, Trump handled the tough drill sergeant Dobias by showing \"I respected his authority, but that he didn't intimidate me.\" Strong people go for weakness and respect strength.",
+          },
+          {
+            q: "What is the takeaway for any reader?",
+            a: "Never appear to need the deal, protect your downside before you commit, know what things really cost, and earn loyalty by being reliable, above all by paying on time.",
+          },
+        ],
+      },
     ],
   },
 ];
