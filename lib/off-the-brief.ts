@@ -20,14 +20,23 @@ export type OffTheBriefBook = {
   sessions: OffTheBriefSession[];
 };
 
+export type OffTheBriefRelatedWork = {
+  authors: string;
+  title: string;
+  year: number;
+  citation: string;
+};
+
 export type OffTheBriefPaper = {
   subject: string;
   title: string;
   authors?: string;
   year?: number;
   citation?: string;
+  link?: string;
   slug: string;
   published: boolean;
+  relatedWork?: OffTheBriefRelatedWork[];
   qa: OffTheBriefQa[];
 };
 
@@ -125,6 +134,35 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        label: "Part 2: Trump Cards and Growing Up (chapters 2 and 3)",
+        qa: [
+          {
+            q: "What are chapters 2 and 3 about?",
+            a: "Chapter 2 is Trump's rulebook in eleven short rules, from \"think big\" to \"have fun\". Chapter 3 is where they came from: his father Fred, who started out building $50 garages at 16, went on to put up thousands of Queens and Brooklyn apartments, and haggled as hard over mops as over the main contract. Then come military school, Wharton, and Donald's decision to leave the low-margin brick business for Manhattan.",
+          },
+          {
+            q: "Why should you never look desperate in a deal?",
+            a: "\"The worst thing you can possibly do in a deal is seem desperate to make it.\" Leverage is what the other side wants, then needs, then \"simply can't do without\". Often you have to build it, as he did when he had the Commodore's owners announce they were closing the hotel.",
+          },
+          {
+            q: "What does planning for the worst look like?",
+            a: "Each Boardwalk parcel deal only took effect if he got the whole site, and he waited for the gaming licence before building. Holiday Inns then repaid his money, paid for construction and covered his losses for five years in return for half the profits. Barron Hilton built first, was refused a licence, and had to sell to Trump.",
+          },
+          {
+            q: "Why does knowing the true cost matter?",
+            a: "Fred knew a plumbing job cost the contractor $400,000, so he never pushed for $300,000 and never accepted $600,000. He won contractors over with reliability: \"with me you get paid, and you get paid on time.\"",
+          },
+          {
+            q: "How do you deal with someone powerful?",
+            a: "Show respect without fear. At military school, Trump handled the tough drill sergeant Dobias by showing \"I respected his authority, but that he didn't intimidate me.\" Strong people go for weakness and respect strength.",
+          },
+          {
+            q: "What is the takeaway for any reader?",
+            a: "Never appear to need the deal, protect your downside before you commit, know what things really cost, and earn loyalty by being reliable, above all by paying on time.",
+          },
+        ],
+      },
     ],
   },
 ];
@@ -202,6 +240,95 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       {
         q: "What is the practical takeaway?",
         a: "Pace sets arousal. Faster music focuses attention, slower music calms, and a well-placed silence calms most of all.",
+      },
+    ],
+  },
+  {
+    subject: "Behavioural science, memory and the evaluation of experience",
+    title: "When More Pain Is Preferred to Less: Adding a Better End",
+    authors:
+      "Daniel Kahneman, Barbara L. Fredrickson, Charles A. Schreiber, Donald A. Redelmeier",
+    year: 1993,
+    citation:
+      "Psychological Science, 4(6), 401 to 405; doi:10.1111/j.1467-9280.1993.tb00589.x",
+    slug: "adding-a-better-end",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Barbara L. Fredrickson and Daniel Kahneman",
+        title:
+          "Duration neglect in retrospective evaluations of affective episodes",
+        year: 1993,
+        citation:
+          "Journal of Personality and Social Psychology, 65(1), 45 to 55; doi:10.1037/0022-3514.65.1.45",
+      },
+      {
+        authors: "Donald A. Redelmeier and Daniel Kahneman",
+        title:
+          "Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures",
+        year: 1996,
+        citation:
+          "Pain, 66(1), 3 to 8; doi:10.1016/0304-3959(96)02994-6",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the researchers ask?",
+        a: "When people look back on an experience, do they remember it as the sum of every moment, or do some moments count far more than others?",
+      },
+      {
+        q: "How was it tested?",
+        a: "Volunteers held a hand in uncomfortably cold water twice. One trial lasted 60 seconds. The other lasted the same 60 seconds and then continued for another 30 seconds while the water was warmed slightly, still unpleasant but less so. Asked which trial they would rather repeat, most chose the longer one, even though it contained strictly more discomfort.",
+      },
+      {
+        q: "What explains that choice?",
+        a: "Memory does not keep a running total. Remembered experience is shaped largely by its most intense moment, the peak, and by how it ends. The researchers called this the peak-end rule. A companion study by Fredrickson and Kahneman, using short film clips, found the matching pattern of duration neglect: how long an experience lasted had surprisingly little effect on how it was later judged.",
+      },
+      {
+        q: "Does it hold outside the laboratory?",
+        a: "Redelmeier and Kahneman recorded patients' discomfort minute by minute during colonoscopy and kidney stone treatment. Patients' later ratings tracked the worst moment and the final few minutes far more closely than the length of the procedure. A later randomised trial found that ending a colonoscopy more gently improved how patients remembered it.",
+      },
+      {
+        q: "Has the finding been questioned?",
+        a: "It has been qualified rather than overturned. Later reviews find that peaks and endings do carry extra weight, but that the overall average of an experience matters too, and that duration is not always ignored. The effect is strongest for brief, single episodes with a clear shape and weaker for long or complex ones. Some researchers also note that what people remember and what they actually felt at the time are different measures, and the rule describes only the first.",
+      },
+      {
+        q: "What is the practical takeaway?",
+        a: "How something ends, and its single strongest moment, will largely decide how it is remembered. Attention spent on a good close is rarely wasted.",
+      },
+    ],
+  },
+  {
+    subject: "Affective science / Social psychology (facial expression and emotion)",
+    title:
+      "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration",
+    authors:
+      "Nicholas A. Coles, David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen and colleagues (49 authors, the Many Smiles Collaboration)",
+    year: 2022,
+    citation: "Nature Human Behaviour, 6, 1731 to 1742",
+    link: "https://www.nature.com/articles/s41562-022-01458-9",
+    slug: "many-smiles-collaboration",
+    published: true,
+    qa: [
+      {
+        q: "What question did the paper ask?",
+        a: "Whether our facial expressions can shape how we feel. The facial feedback hypothesis holds that smiling can make a person feel happier. Earlier research had produced mixed results, including a widely discussed failed replication.",
+      },
+      {
+        q: "How was the study carried out?",
+        a: "Researchers who supported the hypothesis, researchers who doubted it and researchers with no settled view agreed on a design in advance and preregistered it. Data were collected from 3,878 participants across 19 countries. Participants made happy or neutral expressions in one of three ways: copying photographs of smiling actors, moving particular facial muscles on instruction, or holding a pen in the mouth. Half viewed pleasant images while doing so.",
+      },
+      {
+        q: "What did they find?",
+        a: "Participants reported feeling happier after making happy expressions than after making neutral ones. This held for the mimicry task and the voluntary muscle task, and it appeared both when people were viewing pleasant images and when they were not. This suggests expressions can strengthen an existing feeling and can also start one.",
+      },
+      {
+        q: "Where was the evidence weaker?",
+        a: "The pen-in-mouth method did not show a clear effect in the main analysis. The overall effect was also modest in size, about five per cent of the rating scale. Because of the pandemic, all data were collected online.",
+      },
+      {
+        q: "Why does it matter?",
+        a: "It offers one of the most careful answers to a long-running debate. Our faces do appear to influence our feelings, but gently rather than dramatically. The finding is also a useful model of how a contested question can be settled: rivals agreeing on the test before seeing the data.",
       },
     ],
   },
