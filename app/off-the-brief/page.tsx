@@ -234,6 +234,13 @@ export default function OffTheBriefPage() {
                                     {line}
                                   </p>
                                 ) : null}
+                                {paper.link ? (
+                                  <p className="mt-2 text-sm leading-relaxed break-words">
+                                    <a href={paper.link} className={linkClass}>
+                                      {paper.link}
+                                    </a>
+                                  </p>
+                                ) : null}
                                 {paper.relatedWork && paper.relatedWork.length > 0 ? (
                                   <div className="mt-4">
                                     <p className="text-xs tracking-wide text-parchment-dim/80">

@@ -33,6 +33,7 @@ export type OffTheBriefPaper = {
   authors?: string;
   year?: number;
   citation?: string;
+  link?: string;
   slug: string;
   published: boolean;
   relatedWork?: OffTheBriefRelatedWork[];
@@ -265,6 +266,40 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       {
         q: "What is the practical takeaway?",
         a: "How something ends, and its single strongest moment, will largely decide how it is remembered. Attention spent on a good close is rarely wasted.",
+      },
+    ],
+  },
+  {
+    subject: "Affective science / Social psychology (facial expression and emotion)",
+    title:
+      "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration",
+    authors:
+      "Nicholas A. Coles, David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen and colleagues (49 authors, the Many Smiles Collaboration)",
+    year: 2022,
+    citation: "Nature Human Behaviour, 6, 1731 to 1742",
+    link: "https://www.nature.com/articles/s41562-022-01458-9",
+    slug: "many-smiles-collaboration",
+    published: true,
+    qa: [
+      {
+        q: "What question did the paper ask?",
+        a: "Whether our facial expressions can shape how we feel. The facial feedback hypothesis holds that smiling can make a person feel happier. Earlier research had produced mixed results, including a widely discussed failed replication.",
+      },
+      {
+        q: "How was the study carried out?",
+        a: "Researchers who supported the hypothesis, researchers who doubted it and researchers with no settled view agreed on a design in advance and preregistered it. Data were collected from 3,878 participants across 19 countries. Participants made happy or neutral expressions in one of three ways: copying photographs of smiling actors, moving particular facial muscles on instruction, or holding a pen in the mouth. Half viewed pleasant images while doing so.",
+      },
+      {
+        q: "What did they find?",
+        a: "Participants reported feeling happier after making happy expressions than after making neutral ones. This held for the mimicry task and the voluntary muscle task, and it appeared both when people were viewing pleasant images and when they were not. This suggests expressions can strengthen an existing feeling and can also start one.",
+      },
+      {
+        q: "Where was the evidence weaker?",
+        a: "The pen-in-mouth method did not show a clear effect in the main analysis. The overall effect was also modest in size, about five per cent of the rating scale. Because of the pandemic, all data were collected online.",
+      },
+      {
+        q: "Why does it matter?",
+        a: "It offers one of the most careful answers to a long-running debate. Our faces do appear to influence our feelings, but gently rather than dramatically. The finding is also a useful model of how a contested question can be settled: rivals agreeing on the test before seeing the data.",
       },
     ],
   },
