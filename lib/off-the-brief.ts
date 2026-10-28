@@ -233,7 +233,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
     title: "Troublemaker",
     author: "Leah Remini",
     intro: "Read as a study of persuasion, belonging and propaganda.",
-    published: false,
+    published: true,
     sessions: [
       {
         pagesFrom: 1,
@@ -326,45 +326,37 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
         ],
       },
       {
-        pagesFrom: 16,
-        pagesTo: 30,
-        label: "Pages 16-30",
+        pagesFrom: 30,
+        pagesTo: 45,
+        label: "Pages 30-45",
         qa: [
           {
-            q: "What do the communication drills train, on her account?",
-            a: "Leah and her sister go on course. The drills, including one called Bullbait, ask a person to hold still and show no reaction to any provocation. They are offered as a way to speak to people better. In practice, she writes, they train a person not to react, and to accept whatever is done.",
+            q: "How did her time in the Sea Org end?",
+            a: "The Ethics Officer wanted to send Leah and her sister to the Rehabilitation Project Force: all-black clothes, heavy labour, running everywhere and calling everyone \"Sir,\" treated as barely a person. Her mother refused and asked for a fitness board, which was the way out. As one officer told her, \"You're more trouble than you're worth.\"",
           },
           {
-            q: "What did the letter signed Love Ron do?",
-            a: "She wrote to L. Ron Hubbard. The reply, in her words, \"was typed out on a clean white piece of paper, folded perfectly, and at the bottom it said, 'Love Ron,' not a stamp but his actual signature. This was proof; I was special.\" One personal gesture from the top bound her more tightly than a general message.",
+            q: "Why did the family stay in Scientology after leaving the Sea Org?",
+            a: "They drove to Los Angeles still believers, looking for \"the security of this larger group, a real community.\" The group identity outlasted the bad experience, and they were even handed a \"freeloader's debt\" for the courses that had been free.",
           },
           {
-            q: "How did mockery from her father land?",
-            a: "It pushed her further in. She writes: \"Little did he know that by attacking Scientology, he ended up simply pushing me back into its arms. Them against us.\" Ridicule from outside seemed to prove the group's claim that others did not understand.",
+            q: "What did her first jobs teach her?",
+            a: "At a solar company she cold-called people with a scripted \"free trip\" pitch, with a board of little suns tracking each booking, and was fired for shouting at a man who hung up. At a print shop she learned to collect debts, in her words \"using church tactics to find their weaknesses and prey on them.\" As she puts it, \"There simply is no 'no' in Scientology.\"",
           },
           {
-            q: "How was the Sea Org put to the family?",
-            a: "Recruiters framed joining as a duty. She records the question: \"The planet is going downhill, your help is needed, and in the end what will be your answer to this question: 'Did you help?'\" She was told that she \"was now a part of an elite and important group who were the only ones doing anything about the planet.\"",
+            q: "How was she persuaded to inform on her friends?",
+            a: "Her mother filed a report on her, and an Ethics officer questioned her calmly and warmly. He framed it as care, not betrayal: \"It's not about tattling, Leah... You're not narcing on them; you're helping them.\" She named everyone and left feeling virtuous rather than guilty, vowing, \"I didn't want to be average... I am more than this.\"",
           },
           {
-            q: "What did arrival fail to match?",
-            a: "She had pictured a welcome. They reached the Flag base in Clearwater at 2 a.m., with no one to meet them, and were put in a run-down dormitory. She signed a billion-year contract. In the boot camp that followed, \"Any question we asked was answered with 'What does LRH say?'\"",
+            q: "How did she break into acting?",
+            a: "She wanted to become an \"Opinion Leader\" to win back respect. After failed auditions, she charmed the casting director John Levey, froze on the reading, then called him from a Taco Bell pay phone. He backed her: \"you had the balls to call me. And I'm telling you now, I don't want you to change, Leah.\"",
           },
           {
-            q: "What happened when she rewarded the cleaning crew?",
-            a: "At 13 she was put in charge and gave them time at the pool. For that she was thrown overboard. Her pay was $15 a week. Her father's mockery of that pay pushed her back in, rather than out.",
+            q: "How did she explain her failures to herself?",
+            a: "Rejection followed rejection and her car was repossessed, but she saw each failure as \"100 percent my fault\" for not applying Scientology's methods well enough. A system that blames every failure on the believer never has to deliver. Her first line on Head of the Class nearly cost her the part because she kept adding a wink. Chapter Six opens on her audition for Living Dolls.",
           },
           {
-            q: "Why did staying stop being a choice?",
-            a: "Dennis left the family. With no home, money or schooling to return to, there was nowhere else to go. A grand mission came first. After the alternatives disappeared, staying was no longer a choice.",
-          },
-          {
-            q: "What does the opening of the next chapter show?",
-            a: "Fourteen-hour days, and no real school. Staff ate rice and beans, while paying guests ate steak and lobster. Members filed reports on one another, and the sisters faced an ethics investigation. She learned that a Messenger speaks for Hubbard and must be addressed as \"Sir,\" and she wanted that at once.",
-          },
-          {
-            q: "What do these pages say about how people are bound in?",
-            a: "A personal gesture from the top binds more tightly than a general message. Mockery from outside hardens loyalty, because it seems to confirm the group's prediction. Rank is made visible, in uniform and in a form of address, so it becomes something to want. A mission framed as duty, followed by the loss of every alternative, keeps people in. The weak point is the gap between the promise and the arrival, which these pages show being covered by reframing rather than by what was promised.",
+            q: "What are the key ideas of these pages?",
+            a: "Punishment by loss of status keeps everyone else in line. A debt created after the fact turns a gift into control. Calm, warm questioning and a moral reframe extract more than hostility does. And scripts and \"free\" offers make people ask \"What's the catch?\", while the one person who truly helped her did it by being honest and accepting her as she was.",
           },
         ],
       },
