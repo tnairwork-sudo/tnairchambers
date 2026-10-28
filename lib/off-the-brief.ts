@@ -521,6 +521,58 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Narrative psychology and persuasion",
+    title:
+      "The Extended Transportation-Imagery Model: A Meta-Analysis of the Antecedents and Consequences of Consumers' Narrative Transportation",
+    authors:
+      "Tom van Laer, Ko de Ruyter, Luca M. Visconti, Martin Wetzels",
+    year: 2014,
+    citation:
+      "Journal of Consumer Research, 40(5), 797-817; doi 10.1086/673383",
+    link: "https://openaccess.city.ac.uk/6755/",
+    slug: "narrative-transportation",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Melanie C. Green and Timothy C. Brock",
+        title:
+          "The role of transportation in the persuasiveness of public narratives",
+        year: 2000,
+        citation: "Journal of Personality and Social Psychology",
+      },
+    ],
+    qa: [
+      {
+        q: "What is narrative transportation?",
+        a: "It is the experience of being mentally carried into the world a story creates, so that attention, imagery and feeling are all absorbed by it.",
+      },
+      {
+        q: "What did the original work show?",
+        a: "Green and Brock found that readers who were more absorbed in a story later held beliefs more consistent with it, and noticed fewer details that struck them as false or out of place.",
+      },
+      {
+        q: "What did this paper add?",
+        a: "The authors brought together two decades of research from psychology, communication, marketing and literary studies into a single model, then tested it with a meta-analysis of 132 effect sizes from 76 published and unpublished studies.",
+      },
+      {
+        q: "What makes a story transporting?",
+        a: "Features of the story, chiefly an identifiable character, a plot the audience can imagine, and a sense that it could be true. Features of the audience also matter, including familiarity with the subject, attention, and a personal tendency to become absorbed in stories.",
+      },
+      {
+        q: "What follows from it?",
+        a: "Greater transportation was associated with stronger emotional responses and more story-consistent beliefs, attitudes and intentions, together with less critical thought about the message.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "The pattern is consistent across many studies, which gives it weight. Much of the research relies on self-reported absorption and controlled settings, so the size of the effect in everyday life should be read with some care.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "It suggests that a well-told account, with a real person at its centre and details that ring true, can shape understanding in ways a list of facts often cannot. It also suggests that one false note can undo the effect.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
