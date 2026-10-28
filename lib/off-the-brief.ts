@@ -138,8 +138,91 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "It means lashing out at a weaker bystander when you're frustrated or in pain: a shocked rat bites a smaller rat, a baboon who loses to the alpha chases a lower-ranking one, and domestic violence rises with unemployment. Disturbingly, taking it out on someone else can lower the aggressor's own stress hormones. Beyond reactive and instrumental aggression, there is also aggression done purely for pleasure.",
           },
           {
+            q: "What other kinds of aggression does he name?",
+            a: "Maternal aggression, which has its own distinctive hormone profile. He also separates real aggression from ritual threats of it: many primates bare their canines far more often than they actually fight, and aggression in Siamese fighting fish is mostly ritual.",
+          },
+          {
+            q: "What is \"pathological altruism\"?",
+            a: "To a psychologist it can mean the codependency of enabling a partner's drug use. To a neuroscientist it is the result of a kind of frontal cortex damage. In economic games, people with that damage keep playing generously while the other player betrays them again and again, even though they can describe the other player's strategy out loud.",
+          },
+          {
+            q: "Does pure altruism exist?",
+            a: "That is the big open question: is doing good always mixed with hope of reciprocity, praise, self-esteem or paradise? He points to a 2009 New Yorker piece, \"The Kindest Cut,\" about people who give a kidney to a total stranger. Instead of admiration, they unsettle everyone, who wonder if they are secretly paid or desperate for attention. They unnerve people because the act is so detached and unemotional.",
+          },
+          {
+            q: "Why do \"hot-blooded\" and \"cold-blooded\" acts feel so different to us?",
+            a: "We understand hot-blooded violence and see mitigating factors, like a grieving, raging father who kills his child's killer. Affectless violence, like a contract killer or a fictional villain whose heart rate never rises, horrifies us. In the same way, we expect our best acts to be warmhearted, so cold-blooded goodness feels like a contradiction.",
+          },
+          {
+            q: "What did the meditating monk say about his knees?",
+            a: "At a meeting of neuroscientists and Buddhist meditators, a monk was asked whether he ever stops meditating because his knees hurt. He said he sometimes stops early, not because of pain (he doesn't notice it), but \"as an act of kindness to my knees.\" Sapolsky found that admirable but \"from another planet,\" and notes that dispassionate kindness often has a lot to recommend it.",
+          },
+          {
+            q: "What does the shoot-or-bandage brain-scan study show?",
+            a: "Elie Wiesel said, \"The opposite of love is not hate; its opposite is indifference,\" and the biology of strong love and strong hate is similar in many ways. In one study, people in a scanner were placed in a virtual room with either an injured person or a menacing alien, and could bandage or shoot. Bandaging the person and shooting the alien are opposite actions, but both are the \"right\" thing, and both activated the same circuitry in the prefrontal cortex. Meaning matters more than which muscles move.",
+          },
+          {
+            q: "How does he finally frame the book's subject?",
+            a: "Because the key words depend so much on context, he rejects \"pro- and antisocial\" as too cold and \"good and evil\" as too hot. The book is about \"the biology of our best and worst behaviors.\"",
+          },
+          {
+            q: "What question does Chapter Two ask, and why is the brain \"the final common pathway\"?",
+            a: "What happened in the brain one second before a behaviour: nerve signals, brain chemicals and circuits in particular regions. Every more distant factor, from hormones an hour before to childhood a decade before to evolution a million years before, works by changing the brain, so the brain is the channel for all of them.",
+          },
+          {
+            q: "What is the \"triune brain\" model?",
+            a: "Paul MacLean's 1960s model divides the brain into three layers. Layer 1 is an ancient base, shared from humans to geckos, that runs automatic regulation such as shivering when cold or feeling hungry when blood sugar drops. Layer 2, expanded in mammals, is about emotion. Layer 3, the neocortex on top, handles thought, memory and abstraction. A sad scene in a film about beings who aren't even real can pull layers 2 and 1 along, producing the same stress response as fleeing a lion.",
+          },
+          {
+            q: "What is wrong with the triune model?",
+            a: "MacLean himself stressed four flaws. The layers overlap physically. Information doesn't only flow from the top down: holding a cold drink makes people judge a stranger as having a colder personality. Automatic responses, emotion and thought can't really be separated. And it wrongly suggests evolution added new layers without changing the old ones. It is still a useful way to organise the subject.",
+          },
+          {
+            q: "Why was the emotional layer first called the \"nose brain\"?",
+            a: "In a rat, the huge smell centres at the front of the brain send their first connections to layer 2, so early researchers named it the \"nose brain.\" Later work showed that destroying it caused abnormal social, sexual and aggressive behaviour, so it was renamed the limbic system and linked to emotion. The argument ended when someone pointed out that for a rat, emotion and smell are nearly the same thing. In primates, the limbic system relies more on vision.",
+          },
+          {
             q: "What is the takeaway so far?",
             a: "No behaviour has a single cause. Biological, psychological and cultural explanations are slices of one continuous chain that runs from the last second back through evolution, and violence is hard to understand because what we hate is only its wrong-context version.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 30,
+        pagesTo: 45,
+        label: "Pages 30-45 (read to p. 37 so far)",
+        qa: [
+          {
+            q: "Are there \"centers\" in the brain for particular behaviours?",
+            a: "Not really. The limbic system includes the amygdala, hippocampus, septum, habenula and mammillary bodies. One tiny patch of motor cortex comes close to a \"center\" for bending your left little finger, and some regions are almost centres for breathing or temperature. But there is no centre for feeling irritable or amorous, for bittersweet nostalgia, or for love. Limbic circuitry is immensely complex.",
+          },
+          {
+            q: "What does the hypothalamus do?",
+            a: "It is the link between layers 1 and 2. Every limbic structure tries to influence it, and it passes their signals down to the brain stem regions that run the body automatically: raising heart rate when muscles work, widening gut blood vessels after a big meal, sending blood to the skin when you're too warm. Together these form the autonomic nervous system. This is how a terrifying sight can make you need the bathroom just as a full bladder does, and how emotions change the body.",
+          },
+          {
+            q: "What is the difference between the sympathetic and parasympathetic systems?",
+            a: "The sympathetic system handles arousal, \"fight or flight,\" which medical students joke covers \"the four Fs: fear, fight, flight, and sex.\" It releases adrenaline and noradrenaline and shuts down digestion, because if you're running from becoming someone's lunch, there's no point spending energy on breakfast. The parasympathetic system handles calm: it slows the heart and promotes digestion. These body states feed back to the brain and shape behaviour, usually without our noticing.",
+          },
+          {
+            q: "Why is the split between thought and emotion wrong?",
+            a: "The cortex handles senses, movement, language, memory, maths and decisions, but it is not separate from emotion. The temperature of a cup changes how we judge someone's personality, and emotions filter what we remember and how accurately. Some stroke patients who lose the ability to speak can still sing what they want to say, routing language through emotional pathways. Signals run both ways between the cortex and the limbic system. The neuroscientist Antonio Damasio makes this case in his book Descartes' Error.",
+          },
+          {
+            q: "What did Walle Nauta discover about the frontal cortex?",
+            a: "In the 1960s, Nauta mapped the connections of the frontal cortex and found it deeply wired, in both directions, to the limbic system. He proposed that it was practically a member of the limbic system. Colleagues thought him daft, as if the highbrow frontal cortex would only visit to preach good manners. He was right: the frontal cortex and limbic system excite, restrain, cooperate and argue, and that interplay is at the core of the book.",
+          },
+          {
+            q: "What about lobes and \"left brain, right brain\"?",
+            a: "The folded cortex forms four lobes: temporal, parietal, occipital and frontal. Most brain regions come in left and right pairs with somewhat different roles, the left more analytical and the right more intuitive. Popular culture exaggerates this absurdly, and the real differences are subtle, so he mostly sets it aside. The three regions he will focus on are the amygdala, the frontal cortex and the dopamine reward system.",
+          },
+          {
+            q: "What is the evidence that the amygdala drives aggression?",
+            a: "In animals, amygdala neurons fire during aggression, and it uses more energy then than almost any other region. Destroying or temporarily silencing it lowers aggression, and stimulating it triggers aggression. In humans, anger-provoking pictures activate it, and stimulating it during certain brain surgery can produce rage. Most convincing are rare people with damage only to the amygdala: they struggle to recognise angry faces but read other emotions normally.",
+          },
+          {
+            q: "What is the takeaway so far?",
+            a: "Behaviour is defined by its meaning, not its movements. The brain behind it is a two-way web: the body's state shapes thought, the \"rational\" frontal cortex is an honorary member of the emotional limbic system, and the amygdala sits at the heart of our worst behaviour.",
           },
         ],
       },
