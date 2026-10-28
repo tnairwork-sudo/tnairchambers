@@ -352,6 +352,51 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        label: "Part 3: The Cincinnati Kid and The Move to Manhattan (chapters 4 and 5)",
+        qa: [
+          {
+            q: "How did he buy Swifton Village?",
+            a: "The book describes 1,200 units in Cincinnati, 800 of them vacant, in a government foreclosure, with \"no one else was even bidding.\" He bought it for under $6 million. It had cost twice that to build two years earlier. The mortgage covered the price plus about $100,000, so he put no money down. A large job, on this account, takes nearly the same energy as a small one, with far more upside.",
+          },
+          {
+            q: "What did the visible repairs do?",
+            a: "White shutters, colonial doors, clean halls, landscaping and advertisements took Swifton to fully let within a year. He writes: \"I can always tell a loser when I see someone with a car for sale that is filthy dirty.\"",
+          },
+          {
+            q: "Why did he sell, and how did he check the advice?",
+            a: "A tenant who had survived a concentration camp told him to \"sell this job.\" He spent two more days driving the area, saw what the tenant had seen, and sold for $12 million, about $6 million over what he had in it. A trusted voice came first. Then he went and looked.",
+          },
+          {
+            q: "How was the sale contract drawn?",
+            a: "He gave representations as of signing, not as of closing, and he required the buyer to guarantee the closing or pay a large penalty, rather than merely forfeit a 10 percent deposit. The buyer's inspector, the book says, spent three hours at lunch and asked almost nothing.",
+          },
+          {
+            q: "How did he reach the person who could say yes?",
+            a: "Le Club laughed at him. He called back three times until he reached the president, then met him twice. For the Penn Central yards he began, \"Hello, my name is Donald Trump, and I'd like to buy the Sixtieth Street yards.\" The book says the simplest approach is often the most effective.",
+          },
+          {
+            q: "How did he deal with Penn Central?",
+            a: "Working closely with Victor Palmieri, he obtained exclusive options, subject to every approval and with no money down, while Penn Central paid his development costs. He had no record to point to. What he offered was energy, as someone working the seller's problem rather than as one more bidder.",
+          },
+          {
+            q: "What happened when the housing subsidies collapsed?",
+            a: "In 1975 the subsidies ended, and the 34th Street yards were recast as a convention-centre site. He hired Lindenbaum, a zoning lawyer who had worked on a rival site, and Louise Sunshine. He held a press conference under the name \"Miracle on 34th Street,\" and argued cost and access. The book says he \"won by wearing everyone else down,\" and that advertising matters most when people are not buying.",
+          },
+          {
+            q: "What does the book admit about how he presented himself?",
+            a: "He inflated \"the Trump Organization,\" which these pages place in two small offices on Avenue Z, and he says he probably oversold himself. A rival asked where the bricks and mortar were. He also spoke down the competing bids. The account records the boast, and the question it drew.",
+          },
+          {
+            q: "What does he value in Roy Cohn, and what did he still check?",
+            a: "He wanted a lawyer who would fight and stand with him. He also checked, before each court date, whether Cohn was prepared, and he pressed for a postponement when he was not.",
+          },
+          {
+            q: "What did the convention-centre work return?",
+            a: "About $833,000, after years of it. He offered to give up the fee if the centre carried his father's name, and he was still barred from building it. The city's version, the book says, ran four years late and about $700 million over.",
+          },
+        ],
+      },
     ],
   },
 ];
