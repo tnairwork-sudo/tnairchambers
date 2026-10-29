@@ -25,6 +25,7 @@ export type OffTheBriefRelatedWork = {
   title: string;
   year: number;
   citation: string;
+  link?: string;
 };
 
 export type OffTheBriefPaper = {
@@ -690,6 +691,49 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       {
         q: "Why does it matter more generally?",
         a: "It suggests that a well-told account, with a real person at its centre and details that ring true, can shape understanding in ways a list of facts often cannot. It also suggests that one false note can undo the effect.",
+      },
+    ],
+  },
+  {
+    subject: "Social psychology",
+    title:
+      "Beautiful mess effect: Self\u2013other differences in evaluation of showing vulnerability",
+    authors: "Anna Bruk, Sabine G. Scholl, Herbert Bless",
+    year: 2018,
+    citation: "Journal of Personality and Social Psychology",
+    link: "https://doi.org/10.1037/pspa0000120",
+    slug: "beautiful-mess-effect",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Anna Bruk, Sabine G. Scholl, Herbert Bless",
+        title:
+          "You and I Both: Self-Compassion Reduces Self\u2013Other Differences in Evaluation of Showing Vulnerability",
+        year: 2022,
+        citation: "Personality and Social Psychology Bulletin",
+        link: "https://journals.sagepub.com/doi/10.1177/01461672211031080",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the researchers ask?",
+        a: "Whether people judge the act of showing vulnerability differently when they picture themselves doing it than when they picture someone else doing it. Examples include confessing romantic feelings, asking for help, revealing a physical imperfection or taking responsibility for a mistake.",
+      },
+      {
+        q: "What did they find?",
+        a: "Across seven studies, people rated their own displays of vulnerability more negatively than the same behaviour in others. In themselves it looked like weakness. In others it looked more like courage and authenticity. The authors call this the beautiful mess effect, and they report evidence that it holds in a real-life situation as well as in imagined scenarios.",
+      },
+      {
+        q: "Why does it happen?",
+        a: "The authors draw on construal level theory. When we are the one exposed, we think about the situation concretely and focus on what could go wrong. When we watch someone else, we think about it more abstractly and notice the positive side of being open. Their studies found that the level of construal plays a central part in producing the difference.",
+      },
+      {
+        q: "Has the finding been repeated?",
+        a: "The same research team replicated the effect in a later set of four studies (2022). They also found that people high in self-compassion show a smaller gap, mainly because they judge their own vulnerability more kindly. Nearly all of the evidence so far comes from this one group, so independent replication would strengthen the case.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "People often stay silent, avoid asking for help or hide mistakes because they expect to be judged harshly. This research suggests those fears are often overstated: observers tend to view such openness more favourably than the person showing it expects. That is useful in workplaces, client relationships and leadership, where candour is often undervalued by the person offering it.",
       },
     ],
   },
