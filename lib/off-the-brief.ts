@@ -360,6 +360,45 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 45,
+        pagesTo: 60,
+        label: "Pages 45-60",
+        qa: [
+          {
+            q: "What happened before the Living Dolls audition?",
+            a: "Her mother brought home a group of members. One of them drilled her for two hours on the Tone Scale, marking her \"Flunk\" and \"Not enough intention.\" She got the part, her first series, at eighteen. She writes, \"Please work, Scientology!\" In her telling, the win was credited to the church's technology and to the members who had gathered round.",
+          },
+          {
+            q: "What did the short job on another set show her?",
+            a: "Two weeks on Who's the Boss? Tony Danza told her the people waiting came first: \"There are two hundred and fifty people waiting out there. This isn't about you. You have to think about the audience. You've got to run.\" He also asked, \"Why not be nice and courteous?\" The course hours did not stop. Long days on set were followed by two and a half hours at the centre. Success did not release her from the group.",
+          },
+          {
+            q: "What followed when the series ended?",
+            a: "Living Dolls was cancelled after twelve episodes, and she asked, \"What had I done?\" A run of cancelled shows and pilots followed. She lost the role of Monica on Friends and cried for days. The earlier win had been given to the system. The loss, as she tells it, stayed hers. She moved the family by pointing to Hubbard's own comforts: \"LRH had very nice things, Mom. We need to live better.\" When her sister drifted out of the church, her mother blamed ordinary troubles on that departure.",
+          },
+          {
+            q: "How did the course treat her once she was working?",
+            a: "Missed hours still had to be made up. She was sent onto Hollywood Boulevard with a pretend survey, to practise reading strangers. A supervisor said, \"John Travolta did it. You're going to do it.\" There was a separate entrance for celebrities, which she had not been allowed to use. She writes, \"I didn't get that role on Friends, so I wasn't 'there' yet.\" She sat still in the course room so a supervisor would not mark a study problem, and a failed checkout could send her back ten pages.",
+          },
+          {
+            q: "How does she describe auditing?",
+            a: "An E-Meter, and talk only about what the needle reads. Criticism of another person was turned back on the speaker. Hubbard defined critical thought as \"a symptom of an overt act having been committed\" or \"a withhold from an auditor.\" The auditor named the problem and repeated the question until she gave way and the needle floated.",
+          },
+          {
+            q: "Where did that relief exist?",
+            a: "Among people who already believed. She writes: \"It really existed only when I was in the presence of other Scientologists, who completely bought into it.\" Once she left the building, it was gone.",
+          },
+          {
+            q: "How did the church answer trouble in her own life?",
+            a: "She dated outside the church, a small part of ordinary life she kept for herself. Her mother's reply to whatever came up was, \"You'll handle that in session.\" She met Angelo Pagan, who was married, and sent him to a course. His confessions were read as progress. Her mother's disgust pulled her up short. The remedy on offer was that she pay for Angelo and his wife's marriage counselling.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Wins are booked to the system, and losses to the member, so the system can look as if it never fails. Demands that ignore a person's success keep them from outgrowing the group. A door she was not allowed to use makes rank the next thing to want. If a complaint is defined as proof of the speaker's own fault, honest objection becomes dangerous. Hearing a complaint as information, rather than as a confession, is the opposite of that move. A feeling that appears only among believers pulls people back in order to feel it again. That is dependence. Belonging would still be there after they left.",
+          },
+        ],
+      },
     ],
   },
   {
