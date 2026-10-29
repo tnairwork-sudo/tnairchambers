@@ -190,7 +190,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 30,
         pagesTo: 45,
-        label: "Pages 30-45 (read to p. 37 so far)",
+        label: "Pages 30-45",
         qa: [
           {
             q: "Are there \"centers\" in the brain for particular behaviours?",
@@ -221,8 +221,96 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "In animals, amygdala neurons fire during aggression, and it uses more energy then than almost any other region. Destroying or temporarily silencing it lowers aggression, and stimulating it triggers aggression. In humans, anger-provoking pictures activate it, and stimulating it during certain brain surgery can produce rage. Most convincing are rare people with damage only to the amygdala: they struggle to recognise angry faces but read other emotions normally.",
           },
           {
+            q: "What did surgery to destroy the amygdala show about human aggression?",
+            a: "In the 1970s, some surgeons destroyed the amygdala to control aggression, which caused a fierce ethical debate: who decides what aggression is pathological, and what counts as a cure? The surgery clearly reduced violence when the violence was a reflexive outburst just before an epileptic seizure. When it was done only to control behaviour, the answer was \"maybe\": patients and techniques varied, there was no modern brain imaging, and reported success rates ran from 33 to 100 percent. The procedure has almost entirely disappeared.",
+          },
+          {
+            q: "Which two notorious violent cases point to the amygdala?",
+            a: "Ulrike Meinhof, co-founder of the Red Army Faction (the Baader-Meinhof Gang), had a benign brain tumour removed in 1962, and her 1976 autopsy found tumour remnants and scar tissue pressing on her amygdala. Charles Whitman, the 1966 \"Texas Tower\" sniper, killed his wife and mother and then sixteen people at the University of Texas. He had complained of headaches and violent impulses, asked in his suicide note for his brain to be examined, and had a glioblastoma pressing on his amygdala.",
+          },
+          {
+            q: "Did Whitman's tumour \"cause\" the killings?",
+            a: "Probably not in a simple \"amygdala tumour equals murderer\" way. Whitman had other risk factors that interacted with the tumour: his father beat him and he watched his mother and siblings beaten, he physically abused his wife, he was court-martialled as a Marine for threatening another soldier, and his brother was later killed in a bar fight at twenty-four.",
+          },
+          {
+            q: "What do amygdala experts think of first?",
+            a: "Fear and anxiety, not aggression. The crucial point is that the brain region most involved in feeling afraid and anxious is also the one most involved in producing aggression.",
+          },
+          {
+            q: "What did the \"Ms. Pac-Man from hell\" and waiting-for-a-shock studies show?",
+            a: "In a brain-scanner game, people were chased by a dot that would shock them. The amygdala stayed quiet while they were evading it and fired up as the dot came close; the stronger the shocks, the earlier and stronger the activation and the more panic people reported. In the waiting study, an unpredictable wait was so unpleasant that many people chose a stronger shock straight away, and for the rest, growing dread increasingly activated the amygdala.",
+          },
+          {
+            q: "How does the amygdala show up in PTSD and in anxiety about ambiguity?",
+            a: "In PTSD the amygdala overreacts to mildly frightening things, is slow to calm down, and grows larger with long-term PTSD. On ambiguity: betting on a red top card from a deck that is half red and half black is a known risk, while betting from a deck described only as \"at least one red and one black\" is ambiguous. The odds are the same, yet ambiguity makes people more anxious and activates the amygdala more.",
+          },
+          {
+            q: "What do monkey, ranking-game and conformity studies say about social uncertainty?",
+            a: "A high-ranking male rhesus monkey watching his female partner in another room with a rival activated his amygdala, and the activation tracked his anxiety (teeth chattering, self-scratching), not his aggression or testosterone. In a rigged competitive game, stable rankings activated the frontal cortex, while wildly shifting rankings also activated the amygdala, because being unsure of your place is unsettling. In a conformity test, people who stuck with what they really saw while everyone else said something different showed amygdala activation.",
+          },
+          {
+            q: "How is innate fear different from learned fear, and what is \"prepared learning\"?",
+            a: "Innate fear needs no trial and error: a lab-born rat that has never met a cat still avoids the smell of one, and all phobias activate the amygdala. Learned fears are things like a dangerous neighbourhood or a letter from the tax office. The line is fuzzy. Humans and other primates are not automatically afraid of snakes and spiders, but they learn to fear them far more readily than pandas or beagles, and lab monkeys that have never seen snakes are conditioned to fear them more easily than artificial flowers. The next chapter shows humans are similarly primed to learn fear of people who look a certain way.",
+          },
+          {
+            q: "How do the central and basolateral parts of the amygdala divide the work?",
+            a: "The evolutionarily ancient central amygdala handles innate fear. The newer, cortex-like basolateral amygdala (BLA) surrounds it, learns new fears, and passes the news to the central amygdala.",
+          },
+          {
+            q: "How did Joseph LeDoux show the amygdala learning fear?",
+            a: "A shock makes a rat freeze, release stress hormones and rev up its sympathetic nervous system. Pair a tone with the shock again and again and the tone alone triggers freezing. BLA neurons that respond to the tone gradually rewire to activate the central amygdala. These neurons respond to what the signal means, not what kind of signal it is, so they would respond to a light just the same. Stimulating them makes fear conditioning easier, and stimulating the hearing pathway during shocks, with no tone at all, creates a \"false fear\" of a tone. Conditioning also strengthens the connections between the BLA and the central amygdala and raises growth factors that build new connections.",
+          },
+          {
+            q: "How does a fear fade?",
+            a: "When the tone keeps sounding without a shock, a second group of BLA neurons starts responding to it as \"no longer scary,\" and the two groups inhibit each other. The \"not scary anymore\" neurons get their input from the frontal cortex. So we do not passively forget a fear; we actively learn that something is no longer dangerous.",
+          },
+          {
+            q: "What does amygdala damage do in the Ultimatum Game, and what does it say about trust?",
+            a: "Normally, the more the amygdala activates after an unfair offer, the more likely a player is to reject it out of anger and a wish to punish. People with damaged amygdalae are unusually generous and do not reject more as offers turn unfair. They understand the rules, play normally against a computer, and expect the same fairness as everyone else. The researchers called this \"pathological altruism\": our default is to trust, and the amygdala learns vigilance and distrust from bad social experience.",
+          },
+          {
+            q: "What does the amygdala do in desire and reward?",
+            a: "Young heterosexual men passively viewing pictures of attractive women activated reward circuitry; having to work for the pictures by pressing a button also activated the amygdala. The amygdala responds most to rewards whose value is shifting, and some of its neurons fire for changing rewards and changing punishments alike. So the amygdala is not about the pleasure itself but about uncertain longing and the anxiety that the reward may be smaller or may not come at all.",
+          },
+          {
+            q: "What are the amygdala's main inputs?",
+            a: "First, information from every sense, including a shortcut that skips the cortex. It is fast and excitable but inaccurate: a man with cortical blindness still recognised emotional faces through it, and it is why the amygdala can \"see\" a gun before the cortex reports that the object is a phone. Second, pain, through a brain stem region called the periaqueductal gray, which can trigger panic attacks and is enlarged in chronic panic; it is unpredictable pain, not pain itself, that activates the amygdala. Third, disgust from the insular cortex: rotten food and moral disgust both activate the insula, which drives the amygdala and predicts how much outrage and wish for revenge people feel. This happens only when a person, not a computer, betrays you, and it is how one group comes to see a neighbouring group as \"cockroaches.\" Fourth, heavy input from the frontal cortex.",
+          },
+          {
+            q: "What are its main outputs?",
+            a: "It talks back to the regions that talk to it. It pulls the hippocampus into focused fear learning, separating the cue (the tone) from the context (the cage), which is why we remember the plane hitting the second tower but not the clouds. Cue and context can rescale: in a robbery the gun can be the cue and the alley the context, or the alley the cue and the neighbourhood the context. A motor shortcut lets an aroused amygdala bypass the cortex, so a person can pull a trigger before consciously meaning to. For arousal, it signals through a relay to the hypothalamus to start the stress-hormone response, activates the sympathetic nervous system, and drives a brain stem region to flood the cortex with norepinephrine.",
+          },
+          {
+            q: "Why does Sapolsky say \"the opposite of love is not hate, it's indifference\"?",
+            a: "The sympathetic nervous system goes full blast in fear, flight, fight and sex, and also when you win the lottery. About a quarter of the neurons in one part of the hypothalamus drive sexual behaviour in male mice and, at higher stimulation, aggression. Your heart does roughly the same thing in a murderous rage as during an orgasm. Bodily arousal does not decide what you feel, but it does shape how intensely you feel it.",
+          },
+          {
+            q: "How are fear and aggression related, and what do psychopaths show?",
+            a: "They are not inevitably linked. Fear tends to increase aggression only in people already prone to it, and in subordinates who cannot safely be aggressive it does the opposite. Violent psychopaths are less sensitive to pain and have smaller, unresponsive amygdalae; their violence is cold and calculated rather than reactive. The link between fear and violence is strongest for frenzied, reactive aggression.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 45,
+        pagesTo: 60,
+        label:
+          "Pages 45-60: Chapter Two continued: the frontal cortex (read to p. 53 so far)",
+        qa: [
+          {
+            q: "What is Sapolsky's one-line definition of the frontal cortex, and what makes it distinctive?",
+            a: "\"The frontal cortex makes you do the harder thing when it's the right thing to do.\" It is the most recently evolved region, with a disproportionate share of genes found only in primates and highly individual gene activity. It is more intricately wired in humans, the last region to mature (not fully online until the mid-twenties), and home to von Economo (spindle) neurons. Those neurons are found only in the insula and the anterior cingulate, regions central to empathy, and only in socially complex species: primates, whales, dolphins and elephants.",
+          },
+          {
+            q: "How does the prefrontal cortex work, and how does it show up in everyday thinking?",
+            a: "The prefrontal cortex is \"the decider.\" It chooses between competing options, often thought against feeling, and sends its orders through the motor regions to the muscles. Remembering to add an old area code before dialling is one example. Monkeys switching between attending to the colour of dots or their motion showed a burst of prefrontal activity that suppressed the now-irrelevant information. People who hear a 16-item shopping list several times discover its categories (fruit, cleaning products, spices, starches) and regroup what they recall. In studies of images morphed between dogs and cats, \"dog\" neurons fired for images that were 80 or 60 percent dog, but \"cat\" neurons took over at 40 percent dog.",
+          },
+          {
+            q: "Why is willpower a limited resource, and how does habit rescue us?",
+            a: "Following rules (\"don't pee whenever you feel like it,\" \"self-discipline is good\") is metabolically expensive. Frontal neurons use a great deal of energy, and expensive cells are vulnerable cells. Under mental load (hard memory tasks, controlling behaviour, many shopping decisions, multitasking), performance on the next frontal task drops. People also become less charitable and helpful and more likely to lie, and after hard emotional self-control they cheat more on their diets. With practice, though, a hard task such as potty training, a piano trill or a sports skill moves from the frontal cortex to reflexive regions like the cerebellum and becomes automatic.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Behaviour is defined by its meaning, not its movements. The brain behind it is a two-way web: the body's state shapes thought, the \"rational\" frontal cortex is an honorary member of the emotional limbic system, and the amygdala sits at the heart of our worst behaviour.",
+            a: "The amygdala is a fast but inaccurate alarm for uncertainty, threat and distrust, while the frontal cortex is the costly, tireable part of the brain that makes you do the harder right thing until practice makes it automatic.",
           },
         ],
       },
@@ -360,6 +448,49 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 45,
+        pagesTo: 60,
+        label: "Pages 45-60",
+        qa: [
+          {
+            q: "How did she land her first television series?",
+            a: "Before her audition for the producers of Living Dolls, her mother brought home a group of Scientologists, and one of them drilled her for two hours on the Tone Scale, calling out \"Flunk\" and \"Not enough intention.\" She nailed the audition and landed her first series at eighteen. She credited \"the Scientology technology\" and the members who had rallied round her, not herself.",
+          },
+          {
+            q: "What did she learn from two weeks on Who's the Boss?",
+            a: "Tony Danza taught her how to behave on a set: know the crew's names, make guests feel at home, and never keep an audience waiting. \"There are two hundred and fifty people waiting out there,\" he told her. \"This isn't about you. You have to think about the audience. You've got to run.\"",
+          },
+          {
+            q: "Did success earn her any relief from the church?",
+            a: "No. She worked twelve-hour days on set and then spent two and a half hours on course at the church, and missed hours still had to be made up. She moved the family to Burbank, persuading her mother with \"LRH had very nice things, Mom. We need to live better.\" Her sister Nicole drifted away from the church, and her mother blamed every ordinary problem on that.",
+          },
+          {
+            q: "How did she take it when Living Dolls was cancelled?",
+            a: "The show was cancelled after twelve episodes, and her first question was \"What had I done?\" The pattern in these pages is that wins are credited to the church's methods and failures are treated as the member's own fault.",
+          },
+          {
+            q: "What happened in her career over Chapter Seven?",
+            a: "A run of cancelled shows and pilots. She became friends with Jennifer Aniston at auditions, won a role on Cheers, where Ted Danson asked her to run lines, and lost the part of Monica on Friends to Courteney Cox, which left her crying for days.",
+          },
+          {
+            q: "What was course life like at this stage?",
+            a: "She did fake \"survey\" drills on Hollywood Boulevard to practise reading strangers' emotional tone, pushed on with \"John Travolta did it. You're going to do it.\" There was a private entrance for celebrities and VIPs that she felt she had not yet earned: \"I didn't get that role on Friends, so I wasn't 'there' yet.\" Students sat perfectly still so supervisors would not spot \"study problems,\" and a failed checkout could send you back ten pages.",
+          },
+          {
+            q: "How does she describe auditing?",
+            a: "The auditor uses an E-Meter, and only topics that register on the meter are discussed. Criticism of others is turned back on yourself: Hubbard defined critical thought as \"a symptom of an overt act having been committed\" or \"a withhold from an auditor.\" The auditor assigns you a problem and repeats the question until you give in and the needle \"floats.\" As she puts it, \"they assigned you the problem and not the other way around.\" The relief felt real, but \"it really existed only when I was in the presence of other Scientologists, who completely bought into it,\" and it was gone by the time she reached the parking lot.",
+          },
+          {
+            q: "How did she handle her private life in Chapter Eight?",
+            a: "She dated men outside the church as one small part of life she kept for herself, going through a guarded and promiscuous period. Her mother's answer to every problem was \"You'll handle that in session.\" She met Angelo Pagan, who was married and admitted to cheating, and sent him on a church course to fix him; his confessions were treated as progress. Her mother's disgust (\"I did not raise this person\") jolted her, and the church's remedy was for her to pay for Angelo and his wife's church marriage counselling.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Credit for success flows to the system while blame for failure stays with the member, which makes the system look infallible. The demands never let up, however successful a member becomes. Visible tiers of access, like the VIP entrance, turn status into the next thing to chase. Redefining a word such as \"critical\" makes doubt itself feel like guilt. A problem the group assigns and a relief the group supplies create dependence, because the good feeling exists only among believers. One stock answer to everything (\"handle that in session\") shuts down real conversation. Tony Danza's plain courtesy is the decent counter-example.",
+          },
+        ],
+      },
     ],
   },
   {
@@ -469,6 +600,56 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What did the convention-centre work return?",
             a: "About $833,000, after years of it. He offered to give up the fee if the centre carried his father's name, and he was still barred from building it. The city's version, the book says, ran four years late and about $700 million over.",
+          },
+        ],
+      },
+      {
+        label:
+          "Part 4: Grand Hotel and the first half of Trump Tower (chapter 6 and chapter 7 up to the Kandell site)",
+        qa: [
+          {
+            q: "How did he turn New York's crisis into his argument?",
+            a: "In a city close to bankruptcy, he told the railway's trustee, Victor Palmieri, that he was the only buyer, told banks they owed it to New York, and told the city he would bring thousands of jobs. In his words, \"the city's desperate circumstances became my biggest weapon.\"",
+          },
+          {
+            q: "How did he gain control of the Commodore hotel without much money?",
+            a: "He took a $10 million option conditional on a tax abatement, financing and a hotel partner, and his $250,000 deposit was delayed so long that the copy he showed the city \"was signed only by me.\" Each provisional yes (Hyatt, the design, the Equitable, the banks) was used to win the next one. The book itself shows how close this came to implying commitments he did not yet hold.",
+          },
+          {
+            q: "Why does the book insist on going to the top?",
+            a: "Hyatt kept reopening terms until he called Jay Pritzker directly. \"If you're going to make a deal of any significance, you have to go to the top,\" he writes, because an employee \"isn't going to fight for your deal.\"",
+          },
+          {
+            q: "How did he borrow credibility he did not yet have?",
+            a: "He brought the older, white-haired broker Henry Pearce to meetings to reassure bankers, had architect Der Scutt's sketches made to look expensive (\"a good-looking presentation goes a long way\"), and staged a press conference with Hyatt so the banks had something real to see.",
+          },
+          {
+            q: "What happened when he asked for a 40-year tax abatement?",
+            a: "It was unprecedented, and he expected it to be cut. He got all of it, approved 8 to 0, and later joked that he got it \"because I didn't ask for fifty.\" Penn Central's announcement that it would close the hotel and a weak rival bid helped seal it.",
+          },
+          {
+            q: "Why does he value one clause above his half of the hotel?",
+            a: "Pritzker had refused Hyatt an exclusive covenant for the city. At closing, while Pritzker was in Nepal, Trump got the bank to demand it and drafted it himself within the hour. He values that clause above his 50 percent stake and wrote it into his will. The person not in the room lost the point.",
+          },
+          {
+            q: "How did persistence and timing win the Bonwit Teller site?",
+            a: "Franklin Jarman told him \"you've got to be crazy.\" He kept writing letters for three years, and on the day a new turnaround chief executive, Hanigan, arrived, he called at nine sharp and heard \"you're the guy who has been writing all those letters.\" He then locked in a one-page letter of intent and removed the board-approval condition before the market caught on.",
+          },
+          {
+            q: "Why did he pretend to have a fallback option?",
+            a: "To the Equitable, his partner, he stressed a cheap office conversion as his alternative, although \"I was no longer certain\" it could be financed, so they would not \"drive a much harder bargain.\"",
+          },
+          {
+            q: "How did he win Tiffany's air rights?",
+            a: "He appealed to Walter Hoving's pride, offering $5 million \"to let me preserve Tiffany,\" and showed him an ugly alternative design. Hoving honoured the price even after the market jumped and Avon, Tiffany's new owner, objected: \"When I make a deal, that's the deal.\"",
+          },
+          {
+            q: "What lever did he find in the paperwork for the Kandell parcel?",
+            a: "An option on the Kandell land, bought from Tiffany as an add-on, turned an owner who would not sell into a 20-minute deal: the lease was extended from under 20 years to 100 years, with no bar on rebuilding. Kandell later gave him 15 percent of the Ritz Carlton land.",
+          },
+          {
+            q: "What does the chapter say about relationships beyond the deal?",
+            a: "He cancelled a long-planned meeting to attend A.N. Pritzker's funeral and lost that deal, with \"no regrets.\" A Hyatt manager who wanted independence won it by flooding him with friendly detail, showing that being positive and attentive often works better than a fight.",
           },
         ],
       },
