@@ -918,6 +918,52 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Face perception and social cognition",
+    title:
+      "Hierarchical Encoding Makes Individuals in a Group Seem More Attractive",
+    authors: "Drew Walker and Edward Vul",
+    year: 2014,
+    citation: "Psychological Science, Volume 25, Issue 1",
+    link: "https://doi.org/10.1177/0956797613497969",
+    slug: "hierarchical-encoding",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Carragher and colleagues",
+        title:
+          "Visuospatial asymmetries do not modulate the cheerleader effect",
+        year: 2018,
+        citation: "Scientific Reports",
+      },
+    ],
+    qa: [
+      {
+        q: "What did the study ask?",
+        a: "Whether a person looks more attractive when seen as part of a group than when seen alone, an idea popularly called the cheerleader effect.",
+      },
+      {
+        q: "How was it tested?",
+        a: "Across five experiments, participants rated the attractiveness of faces shown on their own and the same faces shown within a group of faces of the same gender.",
+      },
+      {
+        q: "What did it find?",
+        a: "Faces were rated more attractive in a group than in isolation.",
+      },
+      {
+        q: "Why would that happen?",
+        a: "The authors propose three steps. The visual system automatically forms an average impression of a group of faces. Each individual face is then remembered as somewhat closer to that average. Average faces are generally judged attractive, so each member benefits.",
+      },
+      {
+        q: "Has it held up?",
+        a: "Largely, yes. An independent team replicated the effect in 2018 and found it in every arrangement they tested, regardless of where the face sat in the group. The effect is modest, roughly a 1.5 to 2 percent increase in ratings, and at least one replication in Japan found a weaker, non-significant result.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "It shows that judgements of a single person are shaped by context. How we perceive someone depends partly on who they are seen with, a reminder that first impressions are rarely formed in isolation.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
