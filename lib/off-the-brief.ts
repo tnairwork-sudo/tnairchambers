@@ -492,6 +492,53 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 60,
+        pagesTo: 75,
+        label: "Pages 60-75",
+        qa: [
+          {
+            q: "How did the church close the matter with Angelo?",
+            a: "The counselling she was told to pay for came to about five thousand dollars. She was ordered not to contact him, sent back to auditing and ethics for her \"hidden evil intentions toward men,\" and made to apologise to his wife in person. Angelo thanked her for his \"whole new way of life.\" She took the hurt as something she had earned: \"The pain I was feeling was my punishment, and I deserved it.\" Months later he called to say the counselling had changed him and not his wife, and that he had left.",
+          },
+          {
+            q: "What did the cancellation of Fired Up confirm for her?",
+            a: "She counted it as another failure, as an actress and as a Scientologist. She states the rule she was living by: \"Being a Scientologist means you are responsible for all the bad things that happen to you (and anything good that was happening was due to the church).\" Believing that, she nearly turned down The King of Queens.",
+          },
+          {
+            q: "What got her to that meeting?",
+            a: "Les Moonves called, bluntly enough that she went. She met Kevin James. The part she had almost refused became the one that lasted.",
+          },
+          {
+            q: "What did she love about that set?",
+            a: "The ordinary repetition. Before each taping she and Kevin touched an old name carved in the wood: \"There were shows before us and there will be shows after us, so let's never take it for granted.\" She writes, \"The same thing, the same people, week in and week out, the routine was the part I loved. I had a home. Finally.\" Kevin's habit was to give the laugh away (\"Give Leah the joke instead of me\"), and Jerry Stiller told them, \"It's you kids. You kids are the show.\"",
+          },
+          {
+            q: "How did the church sit alongside the show?",
+            a: "She hid how many hours she spent there, declined drinks with the cast, and felt both judged for her faith and pressed to \"set a good example\" so she would not discourage anyone from joining. The show succeeded without awards, then was moved into what she calls a \"sitcom suicide\" time slot.",
+          },
+          {
+            q: "What was required before OT I?",
+            a: "An Ethics officer read every Knowledge Report that had ever been written about her. The policy she quotes says that anyone who knew of a breach \"and WHO DID NOT FILE A KNOWLEDGE REPORT becomes an ACCESSORY in any justice action taken thereafter.\" Not reporting a fellow member is itself an offence, so companions are recruited to watch one another.",
+          },
+          {
+            q: "How did that session lead to a wedding?",
+            a: "He asked why she was not married, on the grounds of public example: \"You don't think it's important to set a good example to the public?\" She and Angelo became engaged over calamari, and they married in Las Vegas in 2003. A private decision was being arranged for how it would look from outside.",
+          },
+          {
+            q: "Where did she refuse to cut someone off?",
+            a: "A person labelled a Suppressive Person is to be disconnected. After a tabloid story, the church wanted Angelo to disconnect from his son's mother. Leah would not report her friend Sherry, who had left and was thriving. The reply she was given was \"But are they happy, Leah, truly? What about their eternity, Leah?\" Leaving is made to cost you the people you love, and a life that looks content from the outside is waved away.",
+          },
+          {
+            q: "What happened around Sofia's birth?",
+            a: "Church teaching favoured a \"silent birth\" and labour without drugs. She had an epidural. A VH-1 special cut the cursing so the birth looked calm. When the baby would not stop crying, other members offered a cause and a remedy, among them a tree-touching \"assist,\" on the view that the method had not been followed properly or that something in the surroundings was wrong. What worked was the Teletubbies.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Misfortune is treated as the member's fault and success as the group's doing, which makes the system look incapable of error and nearly cost her the role that defined her career. A duty to file reports, with silence counted as being an accessory, turns companions into people who might inform on you. The price of leaving is the loss of family and friends, and even a marriage can be urged so that a member looks right to outsiders. Against that, the set offers a plainer kind of belonging: the same people, a small ritual in the wood, and a lead who gives his jokes away. Belonging grows from small shared rituals and generosity, not from control. People should not be made to monitor one another, and anyone who wishes to leave should be free to go.",
+          },
+        ],
+      },
     ],
   },
   {
