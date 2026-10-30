@@ -294,8 +294,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 45,
         pagesTo: 60,
-        label:
-          "Pages 45-60: Chapter Two continued: the frontal cortex (read to p. 53 so far)",
+        label: "pp 45-60: Chapter Two continued: the frontal cortex",
         qa: [
           {
             q: "What is Sapolsky's one-line definition of the frontal cortex, and what makes it distinctive?",
@@ -310,8 +309,87 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Following rules (\"don't pee whenever you feel like it,\" \"self-discipline is good\") is metabolically expensive. Frontal neurons use a great deal of energy, and expensive cells are vulnerable cells. Under mental load (hard memory tasks, controlling behaviour, many shopping decisions, multitasking), performance on the next frontal task drops. People also become less charitable and helpful and more likely to lie, and after hard emotional self-control they cheat more on their diets. With practice, though, a hard task such as potty training, a piano trill or a sports skill moves from the frontal cortex to reflexive regions like the cerebellum and becomes automatic.",
           },
           {
+            q: "Why are the hardest moral acts often automatic?",
+            a: "Honesty often comes easily because it is automatic, not because the frontal cortex is straining. People who rescue others usually say \"I wasn't thinking, before I knew it, I had jumped in.\" The frontal cortex is more involved in thinking about morality, such as writing a term paper on it, than in the bravest moral acts.",
+          },
+          {
+            q: "How does the size of the frontal cortex relate to social life?",
+            a: "Across primate species, the bigger the average social group, the larger the frontal cortex relative to the rest of the brain, especially in species whose groups split up and rejoin, such as chimpanzees, bonobos, orangutans and spider monkeys. In people, a bigger social network (measured by how many different people someone texts) goes with a larger region of the prefrontal cortex. To test cause and effect, rhesus monkeys were placed at random into groups of different sizes, and over 15 months the monkeys in bigger groups grew a larger prefrontal cortex. Social complexity expands the frontal cortex.",
+          },
+          {
+            q: "What happened to Phineas Gage, and what did his case show?",
+            a: "In 1848 in Vermont, a blasting accident drove a 13-pound iron rod through the left side of the railroad foreman's face and out the top of his skull, landing 80 feet away with much of his left frontal cortex. He survived, but the steady Gage became fitful, profane, impatient of restraint and unable to stick to plans; friends said he was \"no longer Gage,\" and he ended up as an exhibit for P. T. Barnum. Within a few years he improved enough to work as a stagecoach driver, because his remaining right frontal cortex took over some of the lost functions, an early example of the brain's ability to rewire itself.",
+          },
+          {
+            q: "What do diseases and altered states show about an underactive frontal cortex?",
+            a: "Frontotemporal dementia first destroys the von Economo neurons and causes disinhibition, socially inappropriate behaviour and apathy. In Huntington's disease, frontal damage often comes first, and about half of patients show disinhibition such as stealing, aggression, hypersexuality and compulsive gambling. Frontal strokes can do the same. In dreaming sleep the frontal cortex goes offline, and stimulating it makes dreams more self-aware; it also goes quiet during orgasm. Studies by Adrian Raine and Kent Kiehl found reduced frontal activity in criminal psychopaths, and many people jailed for violent crimes have a history of frontal head injury.",
+          },
+          {
+            q: "What are the dlPFC and the vmPFC?",
+            a: "The dorsolateral prefrontal cortex (dlPFC) is the \"decider of deciders\": the most rational, utilitarian part, the most recently evolved, the last to mature, and mostly connected to other cortical regions. The ventromedial prefrontal cortex (vmPFC) is so closely tied to the emotional limbic system that Walle Nauta counted it as an honorary member, and it handles how emotion shapes decisions.",
+          },
+          {
+            q: "What evidence shows that the dlPFC \"does the harder thing\"?",
+            a: "It is the most active region when someone gives up an immediate reward for a bigger later one, and stronger dlPFC activity predicts saying yes to killing one person to save five. Monkeys and people with dlPFC damage stick with whatever pays off soonest and cannot postpone gratification. In a study by Ernst Fehr, temporarily silencing the dlPFC with magnetic stimulation made people accept unfair offers in an economic game, but only when they believed the other player was human. They still rated the offers as unfair; they simply could no longer act on their sense of fairness.",
+          },
+          {
+            q: "What happens when the vmPFC is damaged?",
+            a: "Intelligence, working memory and logic puzzles are unaffected, but patients struggle with social and emotional decisions, especially personal ones, even though they can still give others sensible advice. Their choices become coldly utilitarian: they would sacrifice a family member to save five strangers, and they would punish someone who killed by accident but not someone who tried to kill and failed. Sapolsky likens them to Mr. Spock, running on the dlPFC alone.",
+          },
+          {
+            q: "How did Antonio Damasio show that emotion is essential to good decisions?",
+            a: "The vmPFC runs \"as if\" experiments on gut feelings: \"How would I feel if this happened?\" Without it, people choose badly in friends and partners and ignore negative feedback. In a gambling task where the odds secretly change, healthy people adapt even before they can explain why. vmPFC patients fail to adapt even when they can explain the change, because they know the feedback is bad but do not feel it. The result is the person who says \"I see you've put on some weight,\" and then adds, \"But it's true.\"",
+          },
+          {
+            q: "What is the takeaway for pages 45-60?",
+            a: "The amygdala is a fast but inaccurate alarm for threat and uncertainty, while the frontal cortex is the costly, tireable part of the brain that makes you do the harder right thing. Doing the harder thing depends on emotion as well as reason: lose the emotional input of the vmPFC and judgement falls apart.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 60,
+        pagesTo: 75,
+        label: "pp 60-75: Chapter Two continued: the two prefrontal regions, emotional regulation and the start of dopamine (read to p. 70 so far)",
+        qa: [
+          {
+            q: "How do the dlPFC and vmPFC work together?",
+            a: "Their activity can move in opposite directions. When jazz pianists improvised inside a brain scanner, the vmPFC became more active and the dlPFC less so. Judging how responsible a wrongdoer is uses the dlPFC, while choosing the punishment uses the vmPFC. In a gambling task with shifting odds, the most recent outcome was tracked by the vmPFC and long-run patterns by the dlPFC, and the balance between them predicted the choice. They are not at war: as tasks get harder, the two become more synchronised.",
+          },
+          {
+            q: "What does the trolley problem reveal about the brain?",
+            a: "If pulling a lever diverts a runaway trolley so it kills one person instead of five, 70 to 90 percent of people say they would do it. If they must push a person in front of the trolley with their own hands, 70 to 90 percent refuse, even though the numbers are the same. In Joshua Greene and Jonathan Cohen's brain-scanning study, the pushing version activated the dlPFC along with the amygdala, the vmPFC and regions for unpleasant emotion, and the more those emotional regions fired, the less likely people were to push. The lever version activated only the dlPFC, as purely cerebral as choosing which tool to use.",
+          },
+          {
+            q: "How does the prefrontal cortex calm the emotional brain?",
+            a: "Three examples. A face of another race flashed for a tenth of a second activates the amygdala, but with longer viewing the dlPFC kicks in and damps it down. Being left out of a game activates pain and distress regions, and the prefrontal cortex then soothes them with rationalisations (\"my dog loves me\"); with an immature prefrontal cortex the distress keeps growing, as in a typical teenager. And when a learned fear fades, the \"not this time\" lesson is stored in the prefrontal cortex, which inhibits the amygdala. The original fear remains underneath, which is why it can return quickly. In people, reimagining a square linked to shocks as a lovely blue sky reduces the amygdala's response.",
+          },
+          {
+            q: "What did James Gross find about controlling emotions?",
+            a: "Simply suppressing a reaction (\"sit still and breathe slowly\" while watching disturbing surgery footage) often increases amygdala and stress-system activity. Strategies used before the reaction work better: thinking about something else, such as a great holiday, or reframing the scene (\"those are just actors\"). These engage the prefrontal cortex, quiet the amygdala and reduce distress. The same mechanism helps explain placebos, where a cream believed to be a painkiller activates the prefrontal cortex and blunts pain, and cognitive behavioural therapy, where people learn to reframe present triggers as echoes of past experience.",
+          },
+          {
+            q: "What is Damasio's somatic marker hypothesis?",
+            a: "It is the emotional brain informing the rational one. When we choose, we do not only weigh costs and benefits; the limbic system also simulates how each outcome would feel and reports that to the vmPFC, like \"an emotional memory of a possible future.\" A mild signal stays in the brain (\"this feels scary\"). A strong one involves the body (\"my skin is getting clammy\"), and boosting that bodily signal in experiments strengthens the aversion.",
+          },
+          {
+            q: "Why do we sometimes do exactly the thing we are trying hardest to avoid?",
+            a: "Psychologist Daniel Wegner called it the \"imp of the perverse\": steering your bike into the rut you were watching, blurting out the sore point, spilling the red wine you were carefully holding. Self-control runs on two streams, one saying \"X is important\" and another saying \"do X\" or \"never do X.\" Under stress, distraction or mental overload the streams separate, and \"X is important\" pushes the act forward without the \"don't.\" You do the worst thing because of a stressed version of your best effort.",
+          },
+          {
+            q: "What final points does Sapolsky make about the frontal cortex?",
+            a: "Doing the harder thing does not always mean favouring thought over feeling: moral decisions about our own group go best when intuition leads, and decisions about outsiders when reasoning leads. The prefrontal cortex can also enable harmful acts, such as pulling a trigger. Its resting activity varies about thirtyfold between people. \"Right\" here means effective, not moral: lying well is a dlPFC task, and pathological liars have extra prefrontal wiring. His refrain is \"context, context, context.\"",
+          },
+          {
+            q: "Where does dopamine come from, and what is the evidence that it signals reward?",
+            a: "A region deep in the brain called the ventral tegmental area sends dopamine to the nucleus accumbens, amygdala and hippocampus, and to the prefrontal cortex. Cocaine, heroin and alcohol release dopamine in the accumbens; blocking it makes rewards unpleasant; and chronic stress or pain depletes it, leaving people unable to feel pleasure. Sex releases it in every species studied, and in people merely thinking about sex does. A picture of a milkshake does not trigger it after you have just drunk one, unless you are dieting. Accumbens activity even predicts whether someone will buy a new piece of music.",
+          },
+          {
+            q: "What do social studies of dopamine show?",
+            a: "Mutual cooperation released more dopamine than a bigger payoff from betraying a partner. Punishing a cheater released dopamine, even more when it cost the punisher something. In Elizabeth Phelps's auction study, losing a lottery did nothing, but losing a bidding war suppressed dopamine, because it felt like losing status. With envy, pain regions fire at an envied person's good fortune, and the more they fire, the more dopamine is released at that person's later misfortune. In monkeys, a surprise doubling of a usual reward doubles the dopamine response, but once the bigger reward becomes routine the response falls back, and a return to the old reward actually lowers dopamine. As Sapolsky puts it, \"nothing is ever as good as that first time.\"",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "The amygdala is a fast but inaccurate alarm for uncertainty, threat and distrust, while the frontal cortex is the costly, tireable part of the brain that makes you do the harder right thing until practice makes it automatic.",
+            a: "The frontal cortex does the harder thing by working with emotion rather than overruling it, and the dopamine system that motivates us responds to surprise and social standing more than to the absolute size of a reward.",
           },
         ],
       },
@@ -492,6 +570,45 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 60,
+        pagesTo: 75,
+        label: "pp 60-75: The end of Chapter Eight, Chapter Nine and Chapter Ten up to the Teletubbies scene",
+        qa: [
+          {
+            q: "How did the church handle her relationship with Angelo?",
+            a: "She was made to pay about five thousand dollars for Angelo and his wife's church marriage counselling, was ordered not to contact him, and was sent back to auditing and ethics for her \"hidden evil intentions toward men.\" She also had to apologise to his wife in person. She read her heartbreak as deserved punishment: \"The pain I was feeling was my punishment, and I deserved it.\" Months later Angelo called to say the counselling had changed his values but not his wife's, and that he had left.",
+          },
+          {
+            q: "How did she react when Fired Up was cancelled?",
+            a: "She counted it as \"another failure as an actress and as a Scientologist.\" In her words, being a Scientologist meant \"you are responsible for all the bad things that happen to you (and anything good that was happening was due to the church).\" That belief nearly made her turn down The King of Queens, until a blunt call from Les Moonves persuaded her to meet Kevin James.",
+          },
+          {
+            q: "What did The King of Queens give her?",
+            a: "A real sense of home. Before every taping she and Kevin James touched an old name carved into the set's wood as a reminder: \"There were shows before us and there will be shows after us, so let's never take it for granted.\" She loved the routine (\"The same thing, the same people, week in and week out... I had a home. Finally.\"), Kevin's generosity (\"Give Leah the joke instead of me\") and Jerry Stiller's (\"It's you kids. You kids are the show.\").",
+          },
+          {
+            q: "How did her faith shape life on set?",
+            a: "She hid how much time she spent at the church and turned down drinks with the cast. She felt judged for her beliefs and, at the same time, pressured to \"set a good example\" so she would not put anyone off joining. The show succeeded without awards and was given a difficult time slot.",
+          },
+          {
+            q: "What happened at her OT I pre-check?",
+            a: "An Ethics Officer read every Knowledge Report ever filed about her. Church policy says anyone who knows of a fellow member's wrongdoing and does not file a report \"becomes an ACCESSORY.\" He asked why she wasn't married, as a matter of setting an example to the public, and soon afterwards she and Angelo got engaged and married in Las Vegas in 2003.",
+          },
+          {
+            q: "What are disconnection and \"Suppressive Persons\"?",
+            a: "A Suppressive Person is someone the church declares an enemy, and members are expected to cut off contact with them. After a tabloid story, the church demanded that Angelo cut off his son's mother. Leah quietly refused to report her friend Sherry, who had left the church and was thriving. The church's stock reply to ex-members' happiness was \"But are they happy, Leah, truly? What about their eternity, Leah?\"",
+          },
+          {
+            q: "What were her pregnancy and early motherhood like?",
+            a: "Church teaching on \"silent birth\" and avoiding drugs during labour gave way to an epidural, and a television special edited out her cursing so she looked serene. When her daughter Sofia cried, every Scientologist had a fix: something about her environment, or \"technology wasn't being applied correctly,\" or an \"assist\" involving touching trees. In the end, the Teletubbies did what the technology could not.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Blaming members for every misfortune while crediting the group for every success makes the system look infallible. Asking members to report on each other turns friends into possible informants and keeps everyone in line through fear. Threatening to take away family and friends makes leaving very costly, and the group explains away the visible happiness of those who leave. Pressure to \"set a good example\" turns even private life into advertising for the group. The King of Queens set offers the healthy contrast: belonging built on routine, small shared rituals, gratitude and generosity.",
+          },
+        ],
+      },
     ],
   },
   {
@@ -651,6 +768,59 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What does the chapter say about relationships beyond the deal?",
             a: "He cancelled a long-planned meeting to attend A.N. Pritzker's funeral and lost that deal, with \"no regrets.\" A Hyatt manager who wanted independence won it by flooding him with friendly detail, showing that being positive and attentive often works better than a fight.",
+          },
+        ],
+      },
+      {
+        label: "Part 5: The second half of Trump Tower (chapter 7 from the Kandell site: Genesco, zoning, construction, sales and the tax-exemption case)",
+        qa: [
+          {
+            q: "Why did a one-page letter matter so much?",
+            a: "When Genesco tried to back out of the Bonwit Teller sale for richer bidders, his only leverage was the one-page letter of intent signed by its chief executive, Hanigan. \"I'm not at all sure the letter would have proved legally binding,\" he writes, \"but at the very least I could have litigated it.\"",
+          },
+          {
+            q: "How did going public hold the deal together?",
+            a: "He confirmed the deal to The New York Times. Bonwit's staff began leaving, and Genesco signed five days later. The book presents it as a calculated risk that could easily have soured the relationship.",
+          },
+          {
+            q: "Why did he pay half the price up front?",
+            a: "Against his lawyers' advice, he paid 50 percent, $12.5 million, at contract. He reasoned that the cash kept a struggling Genesco alive and won a 60-day closing instead of six months. He gave the seller the one thing it most needed in exchange for speed.",
+          },
+          {
+            q: "How did he win the zoning he wanted?",
+            a: "He showed city planners the building he could put up \"as of right,\" \"a thin little four-sided box going straight up eighty stories,\" which made his own design look far better. He also offered something the city wanted: Bonwit's owner, Allied, wanted its flagship store back on Fifth Avenue, and a long lease at $3 million a year against $2.5 million in carrying costs meant he \"owned the land for nothing.\" He ended up with nearly all the density he asked for.",
+          },
+          {
+            q: "Why did he show the plans to a known critic?",
+            a: "Before the vote he took the plans to Ada Louise Huxtable, the architecture critic who disliked skyscrapers. Her review, \"A New York Blockbuster of Superior Design,\" helped him more, he says, than \"any single thing I ever said or did.\"",
+          },
+          {
+            q: "What made the design work commercially?",
+            a: "Its twenty-eight sides gave every major room two views, which justified premium prices. \"To hit a real home run,\" he writes, \"you need both\": design that impresses and design that sells.",
+          },
+          {
+            q: "What did he come to regret?",
+            a: "Tearing down the building's Art Deco friezes to save a few weeks of carrying costs, which made him \"a symbol of everything evil about modern developers.\" He regrets it, though he also concludes that controversy sells.",
+          },
+          {
+            q: "How did he think about pricing?",
+            a: "When a rival tower priced its apartments lower, he said, \"they had just announced that it was not as good.\" He gave no celebrity a special deal, because \"a celebrity willing to pay full price\" is what means something.",
+          },
+          {
+            q: "How did scarcity help sell the apartments?",
+            a: "He kept waiting lists, never rushed buyers, raised prices twelve times and held a dozen apartments back. \"The more unattainable the apartments seemed, the more people wanted them.\" The building was sold \"not just as a beautiful building in a great location but as an event,\" and a discreet \"no comment\" policy let rumours, such as one about Prince Charles, spread on their own. Quality tenants drew more quality tenants: Asprey brought in Cartier and Harry Winston.",
+          },
+          {
+            q: "Why did he keep spending on upkeep?",
+            a: "He spent nearly $1 million a year on maintenance and had the brass polished twice a month. When a new manager at his partner, the Equitable, pushed for cuts, he bought the partner out. In his view the standard was the product.",
+          },
+          {
+            q: "How did the tax-exemption fight end?",
+            a: "The city denied him a tax exemption, which he saw as politics. He sued and won 7 to 0 twice in New York's highest court, the Court of Appeals, with Roy Cohn arguing the case without notes.",
+          },
+          {
+            q: "What were the results?",
+            a: "The building cost about $190 million, and apartment sales brought in about $240 million, roughly $50 million in profit, plus about $10 million in commissions and ongoing rent.",
           },
         ],
       },
