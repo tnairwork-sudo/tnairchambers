@@ -254,6 +254,14 @@ export default function OffTheBriefPage() {
                                         >
                                           {item.authors}, {item.title}, {item.year} (
                                           {item.citation}).
+                                          {item.link ? (
+                                            <a
+                                              href={item.link}
+                                              className={`${linkClass} mt-1 block break-words`}
+                                            >
+                                              {item.link}
+                                            </a>
+                                          ) : null}
                                         </li>
                                       ))}
                                     </ul>
