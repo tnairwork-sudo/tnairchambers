@@ -1134,6 +1134,44 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Perception and film psychology (face perception, emotional context)",
+    title:
+      "Does the Kuleshov Effect Really Exist? Revisiting a Classic Film Experiment on Facial Expressions and Emotional Contexts",
+    authors:
+      "Daniel Barratt, Anna Cabak Rédei, Åse Innes-Ker, Joost van de Weijer",
+    year: 2016,
+    citation: "Perception, volume 45, issue 8, pages 847 to 874",
+    link: "https://doi.org/10.1177/0301006616638595",
+    slug: "kuleshov-effect",
+    published: true,
+    qa: [
+      {
+        q: "What is the Kuleshov effect?",
+        a: "It is the idea that viewers judge the emotion on a face partly from the scene around it. A neutral face shown after an image of food, grief or play is said to look hungry, sad or tender, even though the face itself never changes. The name comes from the Soviet filmmaker Lev Kuleshov, who is said to have shown this in the 1920s.",
+      },
+      {
+        q: "Why did the question need revisiting?",
+        a: "Kuleshov's original footage is lost, accounts of the experiment differ, and earlier attempts to repeat it gave conflicting or unreliable results. A 1992 recreation found that most viewers saw no emotion at all, although that study used a single trial, which leaves a lot of room for noise.",
+      },
+      {
+        q: "What did the researchers do?",
+        a: "Thirty-six participants watched 24 short film sequences in which a neutral face was paired with one of five emotional contexts (happiness, sadness, hunger, fear and desire) or a neutral control. For each sequence they rated the person's emotion by category, by how pleasant it seemed and by how intense it seemed. Their eye movements were also recorded.",
+      },
+      {
+        q: "What did they find?",
+        a: "Participants tended to choose the emotion that matched the context more often than the alternatives, and their ratings generally moved in the expected direction. The results suggest that some form of the effect does exist. The eye tracking showed that context changed where people looked on the face, but it did not show the expected differences between the emotional conditions.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "Moderate. The effect appears in controlled studies, including a 2017 follow-up study by Calbi and colleagues in Frontiers in Psychology, where it was clearest for fearful contexts. The effects are modest, the samples are small, and not every emotion produced a reliable shift.",
+      },
+      {
+        q: "Why does it matter beyond film?",
+        a: "Faces are rarely read on their own. The setting, and what we have just seen, shapes how we interpret someone's expression. That is worth remembering when judging a first impression, and when deciding how a person or an organisation is presented to others.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
