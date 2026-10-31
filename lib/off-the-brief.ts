@@ -609,6 +609,46 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 75,
+        pagesTo: 90,
+        label:
+          "pp 75-90: Chapter Eleven and the first part of Chapter Twelve, up to the wedding invitation",
+        qa: [
+          {
+            q: "How did she decide to raise Sofia?",
+            a: "She hired a nanny, Trish, who was not a Scientologist, and she refused church practices such as the \"Contact Assist\" on her daughter. \"I refused to raise Sofia in a way that would make her incompatible with the rest of the world as I felt I was, and as were many second-generation Scientologists.\"",
+          },
+          {
+            q: "What happened when she returned to Flag as a celebrity?",
+            a: "She was charged $40,000 to make up for food she had stolen as a hungry teenager in the Sea Org. The man who had once thrown her overboard now flattered her: \"Because you do so much more for our church being a star.\" She writes, \"And with that, all of my resentment washed away in an instant.\"",
+          },
+          {
+            q: "What was expected of her in public, and whom did she bring in?",
+            a: "\"All Scientologists are expected to present an image to the outside world that is so perfect and happy that people can't help but want to join.\" She held back from recruiting, then brought in her friend Stacy Francis. Stacy was later questioned for asking \"Where's my invite?\" when a church official held out a barbecue at Tom Cruise's house to keep the singer Brandy from leaving.",
+          },
+          {
+            q: "Does she think the church really has pull in Hollywood?",
+            a: "No. \"The real truth is that while the church would like you to believe it wields a tremendous amount of influence in Hollywood, that is simply not the case.\" The attraction is the belief that membership confers an advantage. She says it does not.",
+          },
+          {
+            q: "How did the friendship with Sherry end?",
+            a: "Sherry brought her brother Stefan, a declared Suppressive Person, to breakfast. Leah reported it, was questioned at home by the Office of Special Affairs, and cut the friendship off. \"I was devastated because, as per the church, that would be the end of my friendship with Sherry. I felt I had no choice.\"",
+          },
+          {
+            q: "How was she pressed to give?",
+            a: "She was told that a celebrity has to lead: \"You've got to step up, because if you do it, people who are not contributing will start to. So you need to do this to save the planet.\" She felt \"a combination of coercion and responsibility.\" She asked where money she had given after Katrina had gone, and she walked out of plans for an Inglewood opening that centred on turkeys stuffed with a Way to Happiness booklet. A fundraiser waited in the parking lot day after day. In her own kitchen he used antisemitic propaganda from the Nazi era to obtain a gift. She told herself, \"It was just money, and as LRH says, you can always make more money,\" and she calls the pressure relentless.",
+          },
+          {
+            q: "What followed the million-dollar gift?",
+            a: "She was admitted to Tom Cruise's inner circle. \"He had that magical quality that makes the person he's talking to, in this case me, feel like the only one in the world.\" She concluded that \"all I was doing for my church by way of time and money had resulted in Tom's approval.\" Sea Org staff watched every meal, a joke was written up as a Knowledge Report, and one of them said, \"I am just collecting the data.\" His public couch-jumping was explained as \"up-tone,\" which left her asking, \"Maybe I am degraded and an S.P.?\" These pages end as she invites Jennifer Lopez and Marc Anthony to Tom Cruise and Katie Holmes's wedding.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Standing in the group can change overnight once a person becomes useful, and a compliment from above can erase years of resentment. Nearness is then sold through gifts, and the promise of access is held out to keep others close, which creates resentment of its own. Money is raised with urgency, guilt and repetition, sometimes by attacking who a person is, until giving feels like duty. Claims of outside influence are larger than the facts. Policy can end a friendship, and people posted to watch turn private remarks into reports, while doubt is treated as a flaw in the doubter. Belonging here depends on rank, payment and surveillance. The quieter lesson is the reverse: a place among people is not bought, access is not dangled, nobody is asked to monitor the others, and a request is made once, plainly, without guilt.",
+          },
+        ],
+      },
     ],
   },
   {
