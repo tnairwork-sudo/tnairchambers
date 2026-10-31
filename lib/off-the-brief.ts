@@ -349,7 +349,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 60,
         pagesTo: 75,
-        label: "pp 60-75: Chapter Two continued: the two prefrontal regions, emotional regulation and the start of dopamine (read to p. 70 so far)",
+        label: "pp 60-75: Chapter Two continued: the two prefrontal regions, emotional regulation, dopamine and the anticipation of reward",
         qa: [
           {
             q: "How do the dlPFC and vmPFC work together?",
@@ -388,8 +388,103 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Mutual cooperation released more dopamine than a bigger payoff from betraying a partner. Punishing a cheater released dopamine, even more when it cost the punisher something. In Elizabeth Phelps's auction study, losing a lottery did nothing, but losing a bidding war suppressed dopamine, because it felt like losing status. With envy, pain regions fire at an envied person's good fortune, and the more they fire, the more dopamine is released at that person's later misfortune. In monkeys, a surprise doubling of a usual reward doubles the dopamine response, but once the bigger reward becomes routine the response falls back, and a return to the old reward actually lowers dopamine. As Sapolsky puts it, \"nothing is ever as good as that first time.\"",
           },
           {
+            q: "Why does the brain's response to reward have to fade with repetition?",
+            a: "The same dopamine system has to handle rewards as different as solving a maths problem and having an orgasm. So its responses are not absolute; they are relative to the alternatives, and the system keeps rescaling. Each reward has to lose its punch with repetition so the system can respond across its full range to the next new thing.",
+          },
+          {
+            q: "What did Wolfram Schultz's \"two versus twenty\" study show?",
+            a: "Monkeys were trained to expect either 2 or 20 units of reward. Unexpectedly getting 4 instead of 2, or 40 instead of 20, produced the same burst of dopamine, and getting 1 or 10 produced the same drop. Across a tenfold range, what mattered was the relative size of the surprise, not the absolute amount.",
+          },
+          {
+            q: "What does dopamine signal once a reward arrives?",
+            a: "The gap between what was expected and what happened, in both directions. Get what you expected and there is a steady trickle. Get more, or get it sooner, and there is a burst; get less, or later, and there is a dip. Some neurons code pleasant surprises and others unpleasant ones, and the frontal cortex does the expectation sums (\"I expected 5.0 and got 4.9, how big a letdown is that?\").",
+          },
+          {
+            q: "How could brain scans predict whether someone buys an item?",
+            a: "Activity in the nucleus accumbens when people saw an item predicted how much they would pay. When the price was revealed, a price below that amount activated the emotional vmPFC, and a higher one activated the insula, a region tied to disgust. Combining the signals predicted the purchase.",
+          },
+          {
+            q: "What is the problem with pleasures humans invent?",
+            a: "We create rewards far stronger than anything in nature: organ music that was the loudest human-made sound a medieval peasant ever heard, engineered foods that outdo a hunter-gatherer's lucky find of honey, and drugs that release a thousand times more dopamine than anything natural. Unnaturally strong pleasure brings unnaturally strong habituation. We stop noticing small pleasures, like autumn leaves or the reward after a hard, worthwhile task, and we even get used to the artificial floods. \"The more we consume, the hungrier we get\": yesterday's unexpected pleasure becomes today's entitlement and tomorrow's not enough.",
+          },
+          {
+            q: "Once a monkey has learned a task, when is most dopamine released?",
+            a: "When the light signalling a reward trial comes on, before any lever pressing, while the treat itself brings only a small blip. Brian Knutson found the same in people anticipating money. Dopamine is about expectation and confidence (\"I know how this works; this is going to be great\"). The pleasure is in the anticipation, and the reward is almost an afterthought unless it fails to arrive.",
+          },
+          {
+            q: "How does learned anticipation explain craving in addiction?",
+            a: "Learning that a cue means reward makes the neurons that feed into the dopamine system more excitable. Someone sober for years who returns to the old street corner or bar gets those strengthened connections firing again: dopamine surges in anticipation and craving floods in.",
+          },
+          {
+            q: "Can a cue become rewarding in itself?",
+            a: "Yes. In Huda Akil's study, a light on one side of a cage signalled that pressing a lever on the other side would deliver food. Rats eventually worked just to hang around near the light, because the signal had taken on the pull of what it signalled. Sapolsky suggests this is what fetishes are, in both the anthropological and the sexual sense.",
+          },
+          {
+            q: "What sets how much dopamine rises in anticipation?",
+            a: "Two things. The first is the size of the expected reward: a signal that means a bigger payoff soon triggers more anticipatory dopamine. The second, more surprising, is uncertainty. When pressing a lever pays off only half the time, far more dopamine is released, because nothing fuels dopamine like the \"maybe\" of a reward that comes only some of the time. This extra rise comes after the pressing is done, while the monkey waits to find out.",
+          },
+          {
+            q: "What happens when the odds are 25 or 75 percent instead of 50?",
+            a: "Both are less uncertain than a coin flip, so both produce a smaller extra rise of dopamine. Anticipatory dopamine peaks at maximum uncertainty. This uncertainty-driven release runs mostly through the pathway to the frontal cortex, which suggests uncertainty is a more mentally demanding state.",
+          },
+          {
+            q: "What is the takeaway for pages 60-75?",
+            a: "The frontal cortex does the harder thing by working with emotion rather than overruling it. The dopamine system that motivates us responds to surprise, standing and anticipation more than to the reward itself, and it is never more excited than by a \"maybe.\"",
+          },
+        ],
+      },
+      {
+        pagesFrom: 75,
+        pagesTo: 90,
+        label: "pp 75-90: The end of Chapter Two, \"One Second Before\", and the opening of Chapter Three, \"Seconds to Minutes Before\" (read to p. 86 so far)",
+        qa: [
+          {
+            q: "How does this explain casinos and gambling addiction?",
+            a: "With long odds, gambling should not trigger much anticipatory dopamine. But round-the-clock activity with no clocks, cheap alcohol dulling judgement, and tricks that make today feel lucky shift the perceived odds into the range where dopamine pours out. In people with gambling addiction, a near miss (two of three slot-machine reels lining up) set the dopamine system off \"like crazy,\" while other people barely responded. And between two bets with the same odds, the one with less information activated the amygdala and silenced dopamine. A well-understood risk is addictive; ambiguity is just unsettling.",
+          },
+          {
+            q: "What shows that dopamine drives the pursuit of reward, not just the anticipation?",
+            a: "If the dopamine release after the cue does not happen, the monkey does not press the lever. A rat with a damaged nucleus accumbens makes impulsive choices instead of holding out for a bigger, later reward. Stimulate the dopamine source directly instead of flashing the light, and the monkey presses. Dopamine ties a reward's value to the work needed to get it: it is \"the happiness of pursuit of reward that has a decent chance of occurring.\" When it fails, it shows up in depression, where stress dampens dopamine, and in anxiety, where the amygdala does.",
+          },
+          {
+            q: "How does dopamine power willpower and waiting?",
+            a: "Thinking about an immediate reward activates the emotional targets of dopamine, while thinking about a larger, later one activates frontal targets, and more of the latter predicts waiting. During long, effortful work, dopamine ramps up gradually, scaled to the delay and the expected reward. We also \"discount\" the future: a reward that should feel half as valuable when it takes twice as long instead feels like a quarter of the value. In impatient people, the reward system underestimates the delayed reward and the dlPFC overestimates the delay. ADHD and addictive drugs both tilt the system toward impulsiveness.",
+          },
+          {
+            q: "What is uniquely human about delayed gratification?",
+            a: "Lab delays last seconds, but humans wait astonishingly long. \"No warthog restricts calories to look good in a bathing suit next summer,\" and no gerbil studies for exams to get into college, a good job and eventually \"a good nursing home.\" We even work for rewards that come after we die: our country winning a war, our children's inheritance, paradise, or the planet our great-grandchildren will live on. How we resist discounting the future so strongly is still unknown.",
+          },
+          {
+            q: "What does serotonin have to do with aggression?",
+            a: "Since a 1979 study, low brain serotonin has been linked to aggression in people and in species from other mammals to crickets and crustaceans. The key qualifier is that it predicts impulsive aggression, not planned violence, along with other impulsiveness such as impatience and impulsive suicide. Lowering serotonin makes people more impulsive, for example wrecking a stable, cooperative relationship in an economic game. Raising it does not change typical people but does calm those prone to impulsiveness, such as adolescents with conduct disorder. The genetics, including the so-called \"warrior gene\" that some courts have used to reduce sentences, is a contradictory mess that the book returns to in chapter 8.",
+          },
+          {
+            q: "What three misreadings of neuroscience does Sapolsky warn against?",
+            a: "First, needing brain science to confirm the obvious: it should not take a scan of brain damage to convince lawmakers that combat veterans' trauma is real, and a good neuropsychologist can beat a \"gazillion-dollar brain scanner.\" Second, putting \"neuro\" in front of everything (neuroeconomics, neuromarketing, even neuroliterature); writer Adam Gopnik warns that explaining everything leads to forgiving everything, and Sapolsky will argue later that words like evil, soul and blame do not fit science at all. Third, hidden dualism: an impulsive act is not more \"biological\" because the person has a damaged frontal cortex; that brain is simply easier to understand with our crude tools.",
+          },
+          {
+            q: "What did Isabel Gauthier show about the brain's \"face area\"?",
+            a: "The fusiform face area lights up for cars in car enthusiasts and for birds in birdwatchers. It is not really about faces; it recognises examples of whatever categories matter emotionally to that person. Sapolsky closes the chapter with the point that the brain is not where behaviour \"begins\" but the final common pathway where everything in the later chapters comes together.",
+          },
+          {
+            q: "How did behaviourism and ethology differ?",
+            a: "Chapter Three opens with two schools. American behaviourists such as John Watson and B. F. Skinner looked for universal rules: reward makes a behaviour more likely and punishment less likely, so any behaviour could be shaped, and \"a pigeon is a rat is a boy.\" They were often right but missed key exceptions: a young rat or monkey raised by an abusive mother becomes more attached to her, just as people can love someone who hurts them. European ethologists instead loved the variety of each species and studied animals in the wild (\"studying rat social behavior in a cage is like studying dolphin swimming behavior in a bathtub\").",
+          },
+          {
+            q: "What sensory triggers shape behaviour in other species?",
+            a: "Sounds: when female pandas ovulate their calls get higher, which males prefer, and the same shift and preference happen in people. Sights: play bows, plumage, \"threat yawns,\" and baby features like big eyes and round foreheads, which Walt Disney used to turn rodents into Mickey and Minnie. Hidden channels: scent signals called pheromones, snakes that see infrared, electric fish courtship songs, bats jamming each other's sonar, and rats \"laughing\" ultrasonically when tickled. Whatever sense dominates in a species has the most direct line to its emotional brain, which for rodents is smell.",
+          },
+          {
+            q: "What are examples of subliminal cues?",
+            a: "Crisps taste better with louder crunching sounds. A smiling face flashed for a twentieth of a second makes people like the next neutral image more. A pricier placebo painkiller works better. And reading the word \"ocean\" makes people more likely to pick Tide as their favourite detergent, and then explain its cleaning power.",
+          },
+          {
+            q: "What happens in the brain within a fraction of a second of seeing a face of another race?",
+            a: "People can guess its race better than chance even when unsure they saw anything. The amygdala activates, more so in people with stronger unconscious bias. Elizabeth Phelps found that fear conditioning forms faster for other-race faces, and neutral other-race faces are judged angrier. With longer viewing, frontal regions kick in and calm the amygdala. John Gabrieli found less activity in the face area for other-race faces, strongest in the most biased people; a purple-skinned face gets the same-race response, so it is not just novelty. The reflexive empathy people show when watching a needle prick a hand is weaker for other-race hands, in both white and black participants.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "The frontal cortex does the harder thing by working with emotion rather than overruling it, and the dopamine system that motivates us responds to surprise and social standing more than to the absolute size of a reward.",
+            a: "Dopamine is not about having a reward but about chasing one that might come, which is why \"maybe\" hooks us, overstimulation numbs us and the frontal cortex has to do the work of waiting. Chapter Three begins the step back in time: before the brain acts, senses and subtle cues it may never notice are already steering it.",
           },
         ],
       },
@@ -609,6 +704,45 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 75,
+        pagesTo: 90,
+        label: "pp 75-90: Chapter Eleven and the first part of Chapter Twelve (to Tom Cruise and Katie Holmes's wedding invitations; read to p. 90, which ends mid-chapter)",
+        qa: [
+          {
+            q: "How did she approach raising her daughter?",
+            a: "She hired a nanny, Trish, who was not a Scientologist, by choice, and refused to use church practices such as the \"Contact Assist\" on her daughter Sofia. \"I refused to raise Sofia in a way that would make her incompatible with the rest of the world as I felt I was, and as were many second-generation Scientologists.\"",
+          },
+          {
+            q: "What changed when she returned to the church's Flag base as a celebrity?",
+            a: "She was charged $40,000 to make amends for food she had stolen as a hungry teenager in the Sea Org. The man who had once thrown her overboard now flattered her, saying she did \"so much more for our church being a star.\" She writes: \"And with that, all of my resentment washed away in an instant.\"",
+          },
+          {
+            q: "What image were members expected to show the world?",
+            a: "\"All Scientologists are expected to present an image to the outside world that is so perfect and happy that people can't help but want to join.\" She adds that the church's supposed influence in Hollywood is a myth: \"while the church would like you to believe it wields a tremendous amount of influence in Hollywood, that is simply not the case.\"",
+          },
+          {
+            q: "What happened to her friend Stacy Francis?",
+            a: "Leah avoided recruiting, but brought in her friend, the singer Stacy Francis. When a church official dangled a barbecue at Tom Cruise's house to keep the singer Brandy interested, Stacy asked, \"Where's my invite?\" and was put through a security check for it.",
+          },
+          {
+            q: "How did the church end her oldest friendship?",
+            a: "Her oldest friend Sherry brought her brother Stefan, a declared Suppressive Person, to breakfast. Leah reported it, was questioned at home by the church's Office of Special Affairs, and ended the friendship. \"I was devastated because, as per the church, that would be the end of my friendship with Sherry. I felt I had no choice.\"",
+          },
+          {
+            q: "How was she pressured to give money?",
+            a: "She was told that as a celebrity she had to set the example: \"You've got to step up, because if you do it, people who are not contributing will start to. So you need to do this to save the planet.\" She felt \"a combination of coercion and responsibility.\" When she asked where her Hurricane Katrina donation had gone, and walked out of a plan to open a church branch in Inglewood with turkeys stuffed with a Way to Happiness booklet, the pressure only grew. A fundraiser waited in her parking lot every day and even used Nazi-era antisemitic propaganda in her own kitchen to push her, as a Jewish woman, into giving. \"It was just money, and as LRH says, you can always make more money.\" \"As I said, it was relentless.\"",
+          },
+          {
+            q: "What did a million-dollar donation buy?",
+            a: "Entry to Tom Cruise's inner circle. \"He had that magical quality that makes the person he's talking to, in this case me, feel like the only one in the world.\" She believed her time and money had earned his approval. But Sea Org minders watched every dinner, a joke could become a Knowledge Report (\"I am just collecting the data\"), and Tom's famous couch-jumping on television was explained as being \"up-tone.\" Doubt turned inward: \"Maybe I am degraded and an S.P.?\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Flattery from people with power can rewrite memory, as one compliment erased years of resentment. Access sold in tiers makes closeness itself the reward, so people pay for it, and visible tiers breed resentment. Guilt, urgency and constant presence wear down resistance better than argument, especially when the request is framed as a test of who you are. A myth of influence attracts people looking for an advantage. And reframing, such as calling couch-jumping \"up-tone,\" trains members to distrust their own judgement.",
+          },
+        ],
+      },
     ],
   },
   {
@@ -821,6 +955,51 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What were the results?",
             a: "The building cost about $190 million, and apartment sales brought in about $240 million, roughly $50 million in profit, plus about $10 million in commissions and ongoing rent.",
+          },
+        ],
+      },
+      {
+        label: "Part 6: Gaming: The Building on the Boardwalk (chapter 8)",
+        qa: [
+          {
+            q: "Why was he drawn to casinos?",
+            a: "He noticed that two Las Vegas casinos earned nearly 40 percent of the Hilton hotel company's net profit, while the famous New York Hilton earned under 1 percent. The lesson he draws is to look at where the profit actually sits, not at prestige.",
+          },
+          {
+            q: "Why didn't he buy Atlantic City land early?",
+            a: "He refused to buy before New Jersey's gambling referendum passed: \"I thought it was a better bet to pay more for a sure thing.\" Then he waited about three years for the overheated market to cool. \"The worst of times often create the best opportunities to make good deals.\"",
+          },
+          {
+            q: "How did he assemble the site?",
+            a: "The site, a two-and-a-half-acre piece at the centre of the Boardwalk beside the convention centre, was three large parcels, each owned by a different investment group, plus half a dozen small homes owned by immigrant families. He made every purchase depend on all the others, with all the closings at the same time (they took 28 hours) and lawsuits dropped first. Next door, the publisher Bob Guccione was left building around a single holdout house.",
+          },
+          {
+            q: "Why did owners finally deal with him?",
+            a: "By 1980 the Grand Hyatt and Trump Tower had made him believable to landowners who had been \"promised the world a half dozen times.\" His track record was what opened a hard negotiation.",
+          },
+          {
+            q: "Why did he hold off building until he had a licence?",
+            a: "\"Once you've begun investing huge sums of money, it's very hard to say no to anything they ask for.\" He set a timetable for the gaming regulators and a credible walk-away: \"if it takes a year, then I'm out of here.\"",
+          },
+          {
+            q: "How did he get banks to lend for a casino?",
+            a: "Most banks avoided lending to the gaming business because of its reputation, and he had no casino track record at all. He turned that into the pitch: better to lend to \"a reputable company with a clean slate\" than to an experienced gaming operator with a questionable reputation, and proven builders could promise a lender the project would actually get built.",
+          },
+          {
+            q: "How did he bring the casino in on time and on budget?",
+            a: "He gave regulators full drawings before building, which avoided costly changes midway, and complete plans stopped contractors from underbidding and making it back through change orders. Small savings were repeated at scale, such as one cheaper hinge across 2,000 doors. It became the first Atlantic City casino finished on time and on budget, about $218 million against $220 million. He credits a small, fast organisation: \"Anyone with a question could bring it directly to me and get an answer immediately.\"",
+          },
+          {
+            q: "How did he land Holiday Inns as a partner?",
+            a: "He spent ten minutes trying to sell Holiday's chairman, Mike Rose, on a different property before realising Rose had come to talk about an Atlantic City partnership. He then played hard to get (\"Frankly, I don't need a partner\") and won $50 million, reimbursement of $22 million already spent, financing, a five-year guarantee against losses and half the upside. He also had bulldozers move dirt back and forth so his nearly empty site looked like the busiest construction site anywhere when Holiday's board visited. The book's lesson is to find out what a visitor came for before pitching.",
+          },
+          {
+            q: "How did he run the casino once it opened?",
+            a: "He hired the best people from competitors and paid them more with performance bonuses, and he had his manager, Steve Hyde, focus on profit rather than revenue. Under his own management, gross operating profit reached about $58 million, against the $38 million his partner's Harrah's division had projected.",
+          },
+          {
+            q: "How did the Holiday Inns stake end?",
+            a: "After buying a large stake in Holiday, he sold when the company restructured to fend off a takeover and the stock jumped to 76, taking millions in eight weeks rather than fighting for control. He also paid more for bond financing, about $7 million a year, to avoid personal liability, because \"it assured I'd sleep better at night.\" And he kept a confidentiality promise even when he could have fought it: \"a deal is a deal.\"",
           },
         ],
       },
