@@ -1351,6 +1351,48 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Consumer psychology; anticipation and wellbeing",
+    title:
+      "Waiting for Merlot: Anticipatory Consumption of Experiential and Material Purchases",
+    authors: "Amit Kumar, Matthew A. Killingsworth, Thomas Gilovich",
+    year: 2014,
+    citation: "Psychological Science, Volume 25, Issue 10",
+    link: "https://doi.org/10.1177/0956797614546556",
+    slug: "waiting-for-merlot",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Evan Weingarten and Joseph K. Goodman",
+        title:
+          "Re-examining the Experiential Advantage in Consumption: A Meta-Analysis and Review",
+        year: 2021,
+        citation: "Journal of Consumer Research",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the researchers ask?",
+        a: "Earlier work found that money spent on doing tends to bring more lasting happiness than money spent on having. This paper asked whether the difference begins earlier, during the time people spend waiting.",
+      },
+      {
+        q: "How did they test it?",
+        a: "Across four studies, they used questionnaires about purchases people were actually planning, a large study that sampled people's feelings at random moments in daily life, and an analysis of news reports about people waiting in line to buy something.",
+      },
+      {
+        q: "What did they find?",
+        a: "Waiting for an experience was more pleasant and more exciting than waiting for a possession, which leaned more towards impatience. In the news reports, people queuing for experiences were described as cheerful and well behaved, while reports of unruly behaviour came mostly from queues for material goods.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "The original findings were consistent across different methods. A later meta-analysis of 141 studies supported the broader advantage of experiences over possessions, but at a moderate size, with roughly a third of the effect possibly due to publication bias. The advantage was strongest for feelings of connection with others and weaker for solitary experiences.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "Anticipation carries real value of its own. Planning experiences ahead, especially ones shared with other people, and leaving time to look forward to them, adds to the enjoyment before the experience even begins.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
