@@ -436,7 +436,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 75,
         pagesTo: 90,
-        label: "pp 75-90: The end of Chapter Two, \"One Second Before\", and the opening of Chapter Three, \"Seconds to Minutes Before\" (read to p. 86 so far)",
+        label: "pp 75-90: The end of Chapter Two, \"One Second Before\", and the opening of Chapter Three, \"Seconds to Minutes Before\"",
         qa: [
           {
             q: "How does this explain casinos and gambling addiction?",
@@ -483,8 +483,107 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "People can guess its race better than chance even when unsure they saw anything. The amygdala activates, more so in people with stronger unconscious bias. Elizabeth Phelps found that fear conditioning forms faster for other-race faces, and neutral other-race faces are judged angrier. With longer viewing, frontal regions kick in and calm the amygdala. John Gabrieli found less activity in the face area for other-race faces, strongest in the most biased people; a purple-skinned face gets the same-race response, so it is not just novelty. The reflexive empathy people show when watching a needle prick a hand is weaker for other-race hands, in both white and black participants.",
           },
           {
+            q: "What did Joshua Correll's \"shoot only the armed person\" study show?",
+            a: "Participants were rapidly shown people holding either a gun or a mobile phone and told to shoot only the armed ones. In white participants, a black face triggered a stronger early brain wave linked to feeling threatened (within 200 milliseconds), whether or not the person was armed, and a weaker frontal wave that acts as a \"hold on a second\" brake. The bigger the gap between the two, the more likely they were to shoot an unarmed black person. Sapolsky links it to the 1999 killing of Amadou Diallo, an unarmed West African immigrant in New York who was shot 41 times by four police officers when he reached for his wallet.",
+          },
+          {
+            q: "How do faces shape perception and punishment?",
+            a: "White participants shown black faces too briefly to notice became better at recognising blurred pictures of weapons, but not of cameras or books. For the same crime, the more stereotypically African a black defendant's features, the longer the sentence. Juries also judge black male defendants more kindly when they wear big, clunky glasses, a \"nerd defence\" that some defence lawyers exploit with fake glasses.",
+          },
+          {
+            q: "Are we hardwired to fear faces of another race?",
+            a: "No. People vary enormously (not everyone's amygdala reacts to an other-race face, and those exceptions are revealing), and small changes in context can shift the response quickly, a theme the book returns to in chapter 11.",
+          },
+          {
+            q: "Why does the amygdala get it wrong so fast?",
+            a: "Sensory information has a shortcut from the thalamus straight to the amygdala, skipping the slower decoding in the sensory cortex. So the amygdala reacts (\"That's a gun!\") before the frontal cortex can apply the brakes. It is fast but often inaccurate: \"an innocent man reaches for his wallet and dies.\"",
+          },
+          {
+            q: "How quickly do we read gender, status and beauty from a face?",
+            a: "Gender is processed within about 150 milliseconds, and so is social status. Dominance (direct gaze, open posture, leaning back with arms behind the head) and submission (averted gaze, arms shielding the body) are read accurately after just 40 milliseconds. Attractive people are judged smarter, kinder and more honest; they are voted for and hired more, convicted less and sentenced more lightly. The same brain region rates both how beautiful a face is and how good an action is, and its activity on one task predicts the other.",
+          },
+          {
+            q: "What do the eyes in particular tell us, and what is the \"watching eyes\" effect?",
+            a: "If you swap the parts of two emotional faces, people read the emotion from the eyes. A poster of eyes at a bus stop, rather than of flowers, increases litter clean-up; eyes in an office coffee room triple payments into an honesty box; and eyes on a screen make people more generous in economic games.",
+          },
+          {
+            q: "Can sounds act as subliminal cues too?",
+            a: "Yes. Chad Forbes found that white participants' amygdala response to subliminal black faces grew stronger with loud rap music playing, and the opposite happened with death metal, which evokes negative stereotypes of white people. The psychologist Claude Steele tells of a black graduate student who whistled Vivaldi while walking home at night in Palo Alto, to counter the stereotype he knew he triggered in passers-by.",
+          },
+          {
+            q: "What is the takeaway for pages 75-90?",
+            a: "Dopamine is about chasing a reward that might come, which is why \"maybe\" hooks us and overstimulation numbs us. Chapter Three then steps back in time: within fractions of a second, faces, eyes and sounds we barely register are already steering what we do, often faster than the thinking brain can check them.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 90,
+        pagesTo: 105,
+        label: "pp 90-105: Chapter Three, \"Seconds to Minutes Before\", continued, and the opening of Chapter Four, \"Hours to Days Before\" (read to p. 102 so far)",
+        qa: [
+          {
+            q: "What did the skydiving sweat study show about smell?",
+            a: "Human smell is weak compared with a rat's, but it connects more directly to the emotional brain than our other senses do. Sweat collected after a relaxed run and after a first tandem skydive could not be told apart consciously, yet sniffing the frightened sweat activated the amygdala, increased the startle reflex, sharpened detection of subliminal angry faces and made ambiguous faces look fearful. In another study, sitting near smelly rubbish made people more conservative on social issues, though not on foreign policy or economics.",
+          },
+          {
+            q: "What is the James-Lange theory, and how much of it holds?",
+            a: "In the 1880s William James and Carl Lange proposed that you do not feel fear and then your heart races; your body reacts first and you infer the emotion from it. There is support: making depressed people smile helps a little, a dominant posture lowers stress hormones, and muscle relaxants reduce anxiety. But the strict version fails, because a racing heart could mean a lion or an inviting look, and many bodily responses are too slow to come before awareness. Signals from the body influence emotion without determining it.",
+          },
+          {
+            q: "How does pain relate to aggression?",
+            a: "Pain activates the brain's social and emotional regions. But it does not cause aggression; it amplifies existing tendencies, making aggressive people more aggressive and unaggressive people less so.",
+          },
+          {
+            q: "What happens when the frontal cortex gets tired or hungry?",
+            a: "Roy Baumeister's work found that after a hard mental task people are more aggressive and less empathic, generous and honest. Blood sugar drops during demanding frontal work, and a sugary drink (but not an artificial sweetener) restores performance. Hungry people are less charitable and choose harsher punishments in games. Researchers still debate whether this is a loss of capacity or a loss of motivation for self-control.",
+          },
+          {
+            q: "How do words change behaviour?",
+            a: "Calling an economic game the \"Wall Street Game\" reduces cooperation, while calling it the \"Community Game\" increases it. Word lists with \"help,\" \"harmony\" and \"fair\" foster cooperation, while \"rank,\" \"power\" and \"fierce\" do the opposite. Daniel Kahneman and Amos Tversky showed that a drug with a \"95 percent survival rate\" wins more approval, even from doctors, than one with a \"5 percent death rate.\" Acts described as \"wrong\" are judged more harshly than the same acts described as \"forbidden.\"",
+          },
+          {
+            q: "What small group cues shift behaviour within minutes?",
+            a: "An American flag in the room produced more egalitarian answers. At English football matches, a planted fan who \"hurt his ankle\" got more help when wearing the home team's shirt. Pairs of Spanish-speaking Hispanic people at suburban Boston train stations made white commuters more exclusionary towards Hispanic immigrants. Asian American women did better on a maths test when reminded of their ethnic identity than when reminded of their gender.",
+          },
+          {
+            q: "What is wrong with the usual story of the bystander effect?",
+            a: "The famous 1964 report that 38 witnesses did nothing while Kitty Genovese was murdered was wrong: there were fewer witnesses, none saw the whole attack, windows were shut on a winter night, and most thought it was a lovers' quarrel. The bystander effect is real when helping is merely inconvenient, but in genuinely dangerous situations a bigger crowd makes someone more likely to step in, perhaps because there are more people to witness the heroism.",
+          },
+          {
+            q: "How does the presence of women change men's behaviour?",
+            a: "Men take more risks, discount the future more steeply, spend more on luxuries and become more aggressive. But where status is won by doing good, women's presence makes men more generous, which Sapolsky sums up as male generosity acting as a mating signal.",
+          },
+          {
+            q: "What is broken-window theory, and what did Kees Keizer find?",
+            a: "James Q. Wilson and George Kelling argued that small signs of disorder, such as litter, graffiti and broken windows, invite bigger disorder and crime. The idea shaped zero-tolerance policing in 1990s New York, though critics noted that crime was already falling across the country. Keizer's experiments in the Netherlands found that bikes chained to a fence despite a sign made people more likely to cut through it, graffiti increased littering, and strewn litter roughly doubled the rate at which people stole a five-euro note. Even the sound of fireworks increased littering.",
+          },
+          {
+            q: "How does the brain tune its own senses?",
+            a: "The brain sends signals out to the sense organs: all the senses sharpen under acute stress, and low blood sugar primes the nose to detect food smells. A woman whose amygdala was destroyed was poor at recognising fear and spent half the normal time looking at people's eyes; when told to look at the eyes, she improved. People from collectivist cultures tend to look at and remember the context of a scene, while people from individualist cultures focus on the central object, and going against your culture's habit takes frontal effort.",
+          },
+          {
+            q: "What is the conclusion of Chapter Three?",
+            a: "Information flowing in from the world and from the body, much of it below awareness, shapes kind and harmful acts within seconds to minutes. We are less rational and less independent decision-makers than we like to think.",
+          },
+          {
+            q: "How does Chapter Four test whether testosterone causes aggression?",
+            a: "Males have more testosterone, aggression peaks when testosterone is highest, and its receptors cluster in the brain's emotional regions. But that is only correlation. Removing testosterone through castration lowers aggression and replacing it restores it, in humans too. Yet aggression never falls to zero, and the more aggressive a male was before castration, the more aggression continues afterwards, which points to learning. Chemically castrating sex offenders reduces obsessive sexual urges but not reoffending among the most hostile.",
+          },
+          {
+            q: "Do individual testosterone levels predict aggression?",
+            a: "Generally not. Early studies of prisoners were confounded, because aggression itself raises testosterone. A 2006 review by John Archer found only \"a weak and inconsistent association,\" and giving testosterone to volunteers usually does not make them more aggressive. The brain largely ignores changes within the normal range. Very high doses, as in steroid abuse, do raise the risk, but users are self-selected and the drugs also cause anxiety and paranoia.",
+          },
+          {
+            q: "What does testosterone actually do?",
+            a: "It makes people worse at reading emotion in eyes and makes strangers' faces seem less trustworthy. It raises confidence and lowers fear, feeding a \"winner effect\" in which winning raises testosterone further. It makes people overconfident and self-centred, so pairs on testosterone ignored each other's input. It increases impulsiveness and risk-taking by weakening the frontal cortex's hold over the amygdala. And it feels good: rats will work to get it.",
+          },
+          {
+            q: "Why can't these effects tell us whether testosterone makes us aggressive?",
+            a: "Every effect cuts both ways. Less anxiety can mean cocky aggression, a taste for risk can mean starting a war or making a bold peace offer, and feeling good can mean another fight or a reconciliation. Testosterone's effects depend heavily on context.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Dopamine is not about having a reward but about chasing one that might come, which is why \"maybe\" hooks us, overstimulation numbs us and the frontal cortex has to do the work of waiting. Chapter Three begins the step back in time: before the brain acts, senses and subtle cues it may never notice are already steering it.",
+            a: "In the seconds before we act, cues we never consciously notice steer the brain, and the hormone we blame for aggression mostly turns up the volume on whatever the situation already favours. # Troublemaker: tonight's addition (append after pp 75-90)",
           },
         ],
       },
@@ -740,6 +839,49 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What are the key ideas of these pages?",
             a: "Flattery from people with power can rewrite memory, as one compliment erased years of resentment. Access sold in tiers makes closeness itself the reward, so people pay for it, and visible tiers breed resentment. Guilt, urgency and constant presence wear down resistance better than argument, especially when the request is framed as a test of who you are. A myth of influence attracts people looking for an advantage. And reframing, such as calling couch-jumping \"up-tone,\" trains members to distrust their own judgement.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 90,
+        pagesTo: 105,
+        label: "pp 90-105: Chapter Thirteen and most of Chapter Fourteen (Tom Cruise and Katie Holmes's wedding, and its aftermath at Flag; read to p. 105, which ends mid-interview)",
+        qa: [
+          {
+            q: "What did Remini notice about how the Rome wedding was staged?",
+            a: "At Tom Cruise and Katie Holmes's wedding in November 2006, the street outside the welcome dinner was roped off so famous guests had to walk past the cameras. In her account this tied their names to Scientology in the public mind: \"It was a smart way of legitimizing the church to the public and an attempt to recover from the bad PR of recent years.\"",
+          },
+          {
+            q: "How were the church's rules applied at the wedding?",
+            a: "Unevenly. Senior Sea Org members openly drank and flirted, breaking rules they enforced on everyone else, while Remini was scolded for upgrading her own hotel room and told she was \"ungrateful\" because she was going to \"the wedding of the century.\"",
+          },
+          {
+            q: "Why did church officials keep trying to move her?",
+            a: "They kept trying to separate her from her friends Jennifer Lopez and Marc Anthony, and to steer her into church cars and church seating, which she read as an attempt to recruit her famous friends. Choosing to sit with them was treated as \"a hostile act.\"",
+          },
+          {
+            q: "What happened when she asked where Shelly Miscavige was?",
+            a: "She asked why the leader's wife was missing and was told, \"You don't have the rank to be asking about Shelly Miscavige.\" Tom and Katie then snubbed her in the receiving line. She left shaken, feeling she \"had seen behind the curtain,\" and wrote formal reports on top officials, still believing she was helping her church.",
+          },
+          {
+            q: "What awaited her back at the Flag base?",
+            a: "A pile of reports written about her, including ones from Katie Holmes and Jessica Feshbach. She was interrogated for months and put through a \"Truth Rundown,\" in which every criticism she had raised was turned back on her: \"the only reason I was saying those things about such high-level Scientologists was because I myself was guilty of those same crimes.\"",
+          },
+          {
+            q: "How did it end for her?",
+            a: "She began to doubt what she had seen (\"Maybe it is me?\"). \"After weeks and weeks of twelve hours a day in auditing, they broke me and I retracted almost everything.\" She bought apology gifts, spent $300,000 and was demoted to auditor training.",
+          },
+          {
+            q: "What was life like afterwards?",
+            a: "Back on set she had to lie about her \"hiatus.\" \"Being a Scientologist was like having a double life,\" she writes. \"So I kept it all to myself, which was the loneliest feeling in the world.\"",
+          },
+          {
+            q: "How was she told to handle a journalist?",
+            a: "In 2007 she was briefed to discredit the BBC reporter John Sweeney, a tactic the church called \"dead agenting\": attack the source, give partial truths and point to good works. She reflects: \"Even though Scientology sees itself as the authority on ethics and responsibility, obscuring the truth is built into its core.\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Being photographed beside someone can be turned into a claim of their endorsement. Rules enforced on the many while the few are exempt show that the rules serve power. And when every complaint is reframed as the complainer's own guilt, people can be made to doubt what they saw with their own eyes, while secrecy forces members into a lonely double life. # The Art of the Deal: tonight's addition (append after Part 6)",
           },
         ],
       },
@@ -1000,6 +1142,51 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "How did the Holiday Inns stake end?",
             a: "After buying a large stake in Holiday, he sold when the company restructured to fend off a takeover and the stock jumped to 76, taking millions in eight weeks rather than fighting for control. He also paid more for bond financing, about $7 million a year, to avoid personal liability, because \"it assured I'd sleep better at night.\" And he kept a confidentiality promise even when he could have fought it: \"a deal is a deal.\"",
+          },
+        ],
+      },
+      {
+        label: "Part 7: Wynn-Fall: The Battle for Hilton (chapter 9)",
+        qa: [
+          {
+            q: "Why did Hilton lose its casino licence?",
+            a: "Hilton treated the licence as a formality and \"took the view that it was entitled to a license. It was a critical mistake.\" The burden of proof sat with the applicant, and Barron Hilton skipped the hearings. The vote went 3-2 in favour, which was still a loss, because four votes were needed.",
+          },
+          {
+            q: "What did Hilton's handling of Sidney Korshak show?",
+            a: "Hilton kept the lawyer Sidney Korshak on retainer until the regulators objected, then dropped him. The book says the company \"didn't get religion until it was pounding on the pearly gates of licensure.\" Korshak then wrote a public letter that contradicted Barron Hilton's testimony. The lesson is to fix a problem before you are forced to.",
+          },
+          {
+            q: "How did Trump open the conversation with Barron Hilton?",
+            a: "His first call was a condolence call. Only at the end did he add: \"if you're thinking of selling it, I'd be interested in buying it, if the price is right.\" At a later party he mostly listened: \"There are times when you have to be aggressive, but there are also times when your best strategy is to lie back.\"",
+          },
+          {
+            q: "How did Steve Wynn's hostile bid help him?",
+            a: "Wynn's attempt to take over Hilton made Trump the friendly alternative. He describes Wynn as someone who \"tries too hard to look perfect\" and presents himself as the more comfortable choice.",
+          },
+          {
+            q: "How did he decide what to pay?",
+            a: "He worked out the number the other side could not go below: Hilton had about $320 million in the Atlantic City property and could not report a loss to shareholders. \"There was no time to be cute, and no room to be tough,\" so he moved from $250 million to $320 million in days.",
+          },
+          {
+            q: "How did he raise the money so fast?",
+            a: "Manufacturers Hanover agreed to lend $320 million over the phone: \"It goes to show you the value of credibility.\" The book is frank about the risks: he guaranteed the loan personally, bid without walking through the building, and almost everyone advised against it. He later refinanced through bonds so he was no longer personally on the hook.",
+          },
+          {
+            q: "Why does he say price is the easy part?",
+            a: "Deals die over the details: completion guarantees, defects, deposits and who pays which costs. When Hilton reopened points already agreed, he read it as a pretext to walk away. He kept the break short, hours rather than a day, and told them he was \"more hurt than outraged\" that they would walk away from a handshake. The compromise was a list of items to fix and $5 million held back.",
+          },
+          {
+            q: "What happened with the $5 million holdback?",
+            a: "After opening, the cooling tower, sewage system, computers and fire alarms all had problems. Hilton sued for the $5 million the day after Barron Hilton had promised to sit down and talk, and Trump countersued listing 94 defects. \"From that day on I stopped defending Barron Hilton.\" Holding money back, and defining exactly what condition a building must be in, turned out to matter.",
+          },
+          {
+            q: "Why did he change the casino's name?",
+            a: "Caesars objected to the name \"Palace,\" so he switched to Trump's Castle rather than risk having to rebrand after spending on marketing.",
+          },
+          {
+            q: "How did the casino perform?",
+            a: "Ivana Trump hired the best people at every level, and the casino took in $226 million in its first full year, a first-year record. \"It pays to trust your instincts,\" he writes, though the book makes clear his instincts rested on years of studying the market.",
           },
         ],
       },
