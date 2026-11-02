@@ -1500,6 +1500,118 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Perception and film psychology (face perception, emotional context)",
+    title:
+      "Does the Kuleshov Effect Really Exist? Revisiting a Classic Film Experiment on Facial Expressions and Emotional Contexts",
+    authors:
+      "Daniel Barratt, Anna Cabak Rédei, Åse Innes-Ker, Joost van de Weijer",
+    year: 2016,
+    citation: "Perception, volume 45, issue 8, pages 847 to 874",
+    link: "https://doi.org/10.1177/0301006616638595",
+    slug: "kuleshov-effect",
+    published: true,
+    qa: [
+      {
+        q: "What is the Kuleshov effect?",
+        a: "It is the idea that viewers judge the emotion on a face partly from the scene around it. A neutral face shown after an image of food, grief or play is said to look hungry, sad or tender, even though the face itself never changes. The name comes from the Soviet filmmaker Lev Kuleshov, who is said to have shown this in the 1920s.",
+      },
+      {
+        q: "Why did the question need revisiting?",
+        a: "Kuleshov's original footage is lost, accounts of the experiment differ, and earlier attempts to repeat it gave conflicting or unreliable results. A 1992 recreation found that most viewers saw no emotion at all, although that study used a single trial, which leaves a lot of room for noise.",
+      },
+      {
+        q: "What did the researchers do?",
+        a: "Thirty-six participants watched 24 short film sequences in which a neutral face was paired with one of five emotional contexts (happiness, sadness, hunger, fear and desire) or a neutral control. For each sequence they rated the person's emotion by category, by how pleasant it seemed and by how intense it seemed. Their eye movements were also recorded.",
+      },
+      {
+        q: "What did they find?",
+        a: "Participants tended to choose the emotion that matched the context more often than the alternatives, and their ratings generally moved in the expected direction. The results suggest that some form of the effect does exist. The eye tracking showed that context changed where people looked on the face, but it did not show the expected differences between the emotional conditions.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "Moderate. The effect appears in controlled studies, including a 2017 follow-up study by Calbi and colleagues in Frontiers in Psychology, where it was clearest for fearful contexts. The effects are modest, the samples are small, and not every emotion produced a reliable shift.",
+      },
+      {
+        q: "Why does it matter beyond film?",
+        a: "Faces are rarely read on their own. The setting, and what we have just seen, shapes how we interpret someone's expression. That is worth remembering when judging a first impression, and when deciding how a person or an organisation is presented to others.",
+      },
+    ],
+  },
+  {
+    subject: "Consumer psychology; anticipation and wellbeing",
+    title:
+      "Waiting for Merlot: Anticipatory Consumption of Experiential and Material Purchases",
+    authors: "Amit Kumar, Matthew A. Killingsworth, Thomas Gilovich",
+    year: 2014,
+    citation: "Psychological Science, Volume 25, Issue 10",
+    link: "https://doi.org/10.1177/0956797614546556",
+    slug: "waiting-for-merlot",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Evan Weingarten and Joseph K. Goodman",
+        title:
+          "Re-examining the Experiential Advantage in Consumption: A Meta-Analysis and Review",
+        year: 2021,
+        citation: "Journal of Consumer Research",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the researchers ask?",
+        a: "Earlier work found that money spent on doing tends to bring more lasting happiness than money spent on having. This paper asked whether the difference begins earlier, during the time people spend waiting.",
+      },
+      {
+        q: "How did they test it?",
+        a: "Across four studies, they used questionnaires about purchases people were actually planning, a large study that sampled people's feelings at random moments in daily life, and an analysis of news reports about people waiting in line to buy something.",
+      },
+      {
+        q: "What did they find?",
+        a: "Waiting for an experience was more pleasant and more exciting than waiting for a possession, which leaned more towards impatience. In the news reports, people queuing for experiences were described as cheerful and well behaved, while reports of unruly behaviour came mostly from queues for material goods.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "The original findings were consistent across different methods. A later meta-analysis of 141 studies supported the broader advantage of experiences over possessions, but at a moderate size, with roughly a third of the effect possibly due to publication bias. The advantage was strongest for feelings of connection with others and weaker for solitary experiences.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "Anticipation carries real value of its own. Planning experiences ahead, especially ones shared with other people, and leaving time to look forward to them, adds to the enjoyment before the experience even begins.",
+      },
+    ],
+  },
+  {
+    subject: "Colour psychology",
+    title: "Meta-Analysis of the Effect of Red on Perceived Attractiveness",
+    authors: "Gabrielle K. Lehmann, Andrew J. Elliot, Robert J. Calin-Jageman",
+    year: 2018,
+    citation: "Evolutionary Psychology",
+    link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480976/",
+    slug: "red-attractiveness",
+    published: true,
+    qa: [
+      {
+        q: "What was the claim?",
+        a: "The red-romance hypothesis holds that the colour red makes a person seem more attractive to the opposite sex. It drew wide attention after Elliot and Niesta reported it in 2008.",
+      },
+      {
+        q: "What did this paper do?",
+        a: "It pooled the published experiments testing the idea. Unusually, it was written jointly by one of the hypothesis's originators and two researchers whose own preregistered replications had found little support.",
+      },
+      {
+        q: "What did it find?",
+        a: "A small effect for men rating women (d = 0.26) and a very small one for women rating men (d = 0.13). Results varied widely between studies, effects appeared to shrink over time, and there were signs of upward bias. Preregistered studies, the most reliable kind, found effects too small to matter in practice.",
+      },
+      {
+        q: "What is the authors' conclusion?",
+        a: "The simplest reading is that the true effect of incidental red on attraction is very small, possibly nonexistent. They leave open that particular conditions might produce larger effects, which future work would need to show.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "It shows how a striking, intuitive finding can fade under larger and more careful studies, and why pooled, preregistered evidence deserves more weight than any single memorable experiment.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
