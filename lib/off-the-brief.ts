@@ -1580,6 +1580,38 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Colour psychology",
+    title: "Meta-Analysis of the Effect of Red on Perceived Attractiveness",
+    authors: "Gabrielle K. Lehmann, Andrew J. Elliot, Robert J. Calin-Jageman",
+    year: 2018,
+    citation: "Evolutionary Psychology",
+    link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480976/",
+    slug: "red-attractiveness",
+    published: true,
+    qa: [
+      {
+        q: "What was the claim?",
+        a: "The red-romance hypothesis holds that the colour red makes a person seem more attractive to the opposite sex. It drew wide attention after Elliot and Niesta reported it in 2008.",
+      },
+      {
+        q: "What did this paper do?",
+        a: "It pooled the published experiments testing the idea. Unusually, it was written jointly by one of the hypothesis's originators and two researchers whose own preregistered replications had found little support.",
+      },
+      {
+        q: "What did it find?",
+        a: "A small effect for men rating women (d = 0.26) and a very small one for women rating men (d = 0.13). Results varied widely between studies, effects appeared to shrink over time, and there were signs of upward bias. Preregistered studies, the most reliable kind, found effects too small to matter in practice.",
+      },
+      {
+        q: "What is the authors' conclusion?",
+        a: "The simplest reading is that the true effect of incidental red on attraction is very small, possibly nonexistent. They leave open that particular conditions might produce larger effects, which future work would need to show.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "It shows how a striking, intuitive finding can fade under larger and more careful studies, and why pooled, preregistered evidence deserves more weight than any single memorable experiment.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
