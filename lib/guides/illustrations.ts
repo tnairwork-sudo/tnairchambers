@@ -93,10 +93,6 @@ const illustrations: Record<string, GuideIllustration> = {
   },
 };
 
-export function illustrationFor(slug: string): GuideIllustration {
-  const illustration = illustrations[slug];
-  if (!illustration) {
-    throw new Error(`No illustration copy for guide: ${slug}`);
-  }
-  return illustration;
+export function illustrationFor(slug: string): GuideIllustration | undefined {
+  return illustrations[slug];
 }

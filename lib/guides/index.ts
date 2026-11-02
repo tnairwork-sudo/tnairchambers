@@ -13,6 +13,7 @@ import { processGuide } from "@/lib/guides/process";
 import { repatriationGuide } from "@/lib/guides/repatriation";
 import { slpGuide } from "@/lib/guides/slp";
 import { subsidiaryGuide } from "@/lib/guides/subsidiary";
+import { scometGuide } from "@/lib/guides/scomet";
 import { successionGuide } from "@/lib/guides/succession";
 import { illustrationFor } from "@/lib/guides/illustrations";
 import type { GuidePage, GuidesIndexContent } from "@/lib/guides/types";
@@ -39,13 +40,17 @@ const pages: GuidePage[] = [
   eorGuide,
   repatriationGuide,
   enforcementGuide,
+  scometGuide,
 ];
 
 export function getGuides(): GuidePage[] {
-  return pages.map((page) => ({
-    ...page,
-    illustration: illustrationFor(page.slug),
-  }));
+  return pages.map((page) => {
+    const illustration = illustrationFor(page.slug);
+    if (!illustration && page.group !== "export") {
+      throw new Error(`No illustration copy for guide: ${page.slug}`);
+    }
+    return illustration ? { ...page, illustration } : page;
+  });
 }
 
 export function getGuide(slug: string): GuidePage | undefined {
@@ -207,7 +212,9 @@ export function articleQuestions(guide: GuidePage) {
           block.type === "paragraphs"
             ? block.paragraphs
             : block.type === "list"
-              ? block.items
+              ? block.items.flatMap((item) =>
+                  typeof item === "string" ? [item] : [item.text, ...item.items]
+                )
               : []
         )
         .join(" ");

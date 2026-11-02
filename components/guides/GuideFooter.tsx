@@ -27,6 +27,7 @@ export default function GuideFooter() {
               [
                 ["The High Court", "court"],
                 ["India Entry", "entry"],
+                ["Export controls", "export"],
               ] as const
             ).map(([label, group]) => (
               <div key={group}>

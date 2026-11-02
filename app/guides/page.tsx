@@ -100,6 +100,11 @@ export default function GuidesIndexPage() {
               note: "For a foreign company, including one reading from South Korea, Singapore, the Gulf, Europe, or the United States. The notes describe the Indian rules. They are published from New Delhi, India.",
               items: guides.filter((guide) => guide.group === "entry"),
             },
+            {
+              heading: "Export controls",
+              note: "SCOMET is India's list of sensitive items that need a government licence before they leave the country.",
+              items: guides.filter((guide) => guide.group === "export"),
+            },
           ].map((section) => (
             <div key={section.heading}>
               <h2 className="heading-section text-3xl md:text-4xl text-parchment mb-4">
@@ -117,8 +122,12 @@ export default function GuidesIndexPage() {
                     >
                       <span className="label text-gold">
                         {guide.eyebrow}
-                        <span className="mx-3 text-parchment-dim/40">/</span>
-                        {articleQuestions(guide).length} questions
+                        {articleQuestions(guide).length > 0 ? (
+                          <>
+                            <span className="mx-3 text-parchment-dim/40">/</span>
+                            {articleQuestions(guide).length} questions
+                          </>
+                        ) : null}
                       </span>
                       <span className="mt-3 block font-serif text-3xl font-light text-parchment group-hover:text-gold-light transition-colors duration-200 text-balance">
                         {guide.title}
