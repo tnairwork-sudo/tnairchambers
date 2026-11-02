@@ -519,7 +519,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 90,
         pagesTo: 105,
-        label: "pp 90-105: Chapter Three, \"Seconds to Minutes Before\", continued, and the opening of Chapter Four, \"Hours to Days Before\" (read to p. 102 so far)",
+        label: "pp 90-105: Chapter Three, \"Seconds to Minutes Before\", continued, and the opening of Chapter Four, \"Hours to Days Before\"",
         qa: [
           {
             q: "What did the skydiving sweat study show about smell?",
@@ -582,8 +582,95 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Every effect cuts both ways. Less anxiety can mean cocky aggression, a taste for risk can mean starting a war or making a bold peace offer, and feeling good can mean another fight or a reconciliation. Testosterone's effects depend heavily on context.",
           },
           {
+            q: "What does it mean that testosterone's effects are \"contingent\"?",
+            a: "Testosterone does not cause aggression on its own; it amplifies the power of something else to cause it. In a 1977 study of talapoin monkeys, the middle-ranking male in each group of five was given testosterone and became more aggressive. He did not challenge the two males above him. He picked on the two below him. The hormone exaggerated existing social patterns rather than creating new ones.",
+          },
+          {
+            q: "How does this show up in people and in neurons?",
+            a: "In people, testosterone did not raise the amygdala's baseline activity; it boosted its response, and heart-rate reactivity, to angry faces only. In an economic game it did not make people selfish, but it made them more punitive when they were treated badly. In neurons of the amygdala and hypothalamus it shortens the quiet spell after each firing, so the cells do not fire on their own but fire faster when something else stimulates them. It turns up the volume.",
+          },
+          {
+            q: "What is the \"challenge hypothesis\"?",
+            a: "Proposed in 1990 by John Wingfield of the University of California at Davis and colleagues, it holds that rising testosterone increases aggression only at the time of a challenge. That explains why baseline levels, and the rises that come with puberty, sexual stimulation or the mating season, do not predict aggression.",
+          },
+          {
+            q: "When does testosterone rise in a challenge?",
+            a: "In primates it rises when a dominance hierarchy forms or reorganises. In people it rises before and especially after sports such as basketball, wrestling, tennis, rugby and judo, most of all in the winners. Even watching your team win raises it, so the rise is about the psychology of dominance and identification rather than muscle. The same rise can mean a fight after a challenge, a thousand-mile migration at mating season, or getting giggly around the girl who plays clarinet in the band.",
+          },
+          {
+            q: "What is the second half of the challenge hypothesis?",
+            a: "After a challenge, testosterone prompts whatever behaviour is needed to keep one's status, not aggression as such. For male primates that is usually aggression or a threatening stare, but not necessarily.",
+          },
+          {
+            q: "What did the Ultimatum Game study in Zurich find?",
+            a: "Christoph Eisenegger and Ernst Fehr had people split money in the Ultimatum Game, where a rejected offer feels like a public snub, so status rests on being fair. People given testosterone made more generous offers. The twist was that people who believed they had received testosterone, whether or not they had, made less generous offers. The hormone does not make you behave badly; believing it does makes you behave badly.",
+          },
+          {
+            q: "So is testosterone the problem?",
+            a: "When pride rested on honesty, testosterone reduced men's cheating, and in a shared-pool game it made most people more generous. Testosterone makes us do what it takes to gain and keep status. Set up the right circumstances and people would compete to perform random acts of kindness. The real problem is how often we reward aggression.",
+          },
+          {
+            q: "What is the takeaway for pages 90-105?",
+            a: "In the seconds and minutes before we act, cues we barely notice steer the brain. Over hours, testosterone does not create aggression but amplifies whatever a situation rewards, which can just as easily be fairness and generosity.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 105,
+        pagesTo: 120,
+        label: "pp 105-120: Chapter Four, \"Hours to Days Before\", continued: oxytocin, vasopressin and the start of female aggression (read to p. 118 so far)",
+        qa: [
+          {
+            q: "What are oxytocin and vasopressin?",
+            a: "Two chemically similar hormones whose genes sit close together on the same chromosome, descended from a single ancestral gene duplicated as mammals emerged. Classically, oxytocin drove contractions in labour and milk letdown, and vasopressin controlled water retention in the kidneys. Then both were found to act throughout the brain, including its reward, memory, fear and frontal regions.",
+          },
+          {
+            q: "How do they drive parenting?",
+            a: "Give oxytocin to a virgin rat and she behaves maternally; block it in a mother and she stops, nursing included. It helps a mother learn her own offspring's smell, a nasal spray makes women find babies more appealing, and gene variants linked to more oxytocin go with more touching and shared gazing with infants. Vasopressin plays the father's role, but only in species where fathers help raise the young, such as prairie voles and marmosets.",
+          },
+          {
+            q: "What did prairie voles reveal about pair-bonding?",
+            a: "Prairie voles bond for life, unlike their polygamous cousins the montane voles. Sex releases oxytocin in females and vasopressin in males in the brain's reward centre, and prairie voles do not release more of it; they have more receptors there. Males with a gene variant giving more receptors bonded more strongly, and mice or montane voles given the prairie vole's receptors became more affectionate with a familiar partner.",
+          },
+          {
+            q: "Is there evidence in humans?",
+            a: "Oxytocin is high in new couples, and higher levels go with more affection, longer relationships and happier couples. Couples given an oxytocin spray argued more constructively with lower stress hormones. Men in stable relationships stood 4 to 6 inches further from an attractive female researcher and looked less at pictures of attractive women; they did not find the women less attractive, just less interesting.",
+          },
+          {
+            q: "What happens between dogs and their owners?",
+            a: "Over the last 50,000 years, dogs and their owners (but not strangers) have come to release oxytocin when they interact. The more mutual gazing, the bigger the rise, and dogs given oxytocin gaze longer, which raises their owner's levels in turn.",
+          },
+          {
+            q: "What are oxytocin's prosocial effects?",
+            a: "It calms the amygdala, reduces fear and anxiety, and activates the body's relaxation system; Sue Carter calls it \"a physiological metaphor for safety.\" It makes faces look more trustworthy, makes people more trusting in economic games (but not against a computer), and kept investors trusting even after betrayal. It sharpens detection of happy faces, increases giving to charity, and works as a loop, since being trusted or warmly touched releases it.",
+          },
+          {
+            q: "Does it make us kinder or simply better at reading people?",
+            a: "Both. It makes people look at eyes longer, read emotions more accurately and engage the brain region used to understand other minds. It improves memory for faces, and differences in oxytocin and vasopressin genes and receptors have been linked to autism, where the hormones can improve eye contact in some people.",
+          },
+          {
+            q: "Are oxytocin's effects contingent too?",
+            a: "Yes. Its calming of the amygdala is more consistent in men. It increases charity only in people who are already charitable, mirroring testosterone. And under stress, people with a socially sensitive receptor variant sought more emotional support, but only if they were American (including Korean Americans), not Korean.",
+          },
+          {
+            q: "What is oxytocin's dark side?",
+            a: "It increases a mother's aggression in defence of her young, and vasopressin increases aggression in father prairie voles. Towards anonymous strangers, oxytocin lowers cooperation and increases envy and gloating. Carsten de Dreu of the University of Amsterdam found it made men more generous to their own team but, at high stakes, more likely to betray the other team pre-emptively. In Dutch participants it strengthened bias against Middle Easterners and Germans and made them less willing to sacrifice a \"Dirk\" or \"Peter\" than a \"Helmut\" or \"Ahmed\" to save five others. It is prosocial towards Us, which also feeds ethnocentrism and xenophobia.",
+          },
+          {
+            q: "Why is the hormonal story of female aggression so confusing?",
+            a: "Ratios of hormones matter more than absolute levels, levels can change a hundredfold within hours, species differ widely, and \"oestrogen\" is really a family of hormones. In rodents, female aggression peaks around birth and is highest in species where infants are most at risk of being killed. Late in pregnancy, oestrogen and progesterone raise maternal aggression by boosting oxytocin, while progesterone alone calms the brain.",
+          },
+          {
+            q: "Is female aggression a by-product of male hormones?",
+            a: "No. Androgen receptors are distributed differently in female brains, so their effects were actively selected for. Female aggression is strategic: competing for food and nests, stressing rivals into infertility, and in some species killing rivals' young. In species where females dominate, such as bonobos, lemurs and spotted hyenas, females can be fiercely aggressive. Among spotted hyenas, females push males off a kill so their cubs eat first.",
+          },
+          {
+            q: "So do androgens explain female aggression?",
+            a: "Not neatly. Some species have high female androgens without female dominance, and individual androgen levels do not predict aggression. Because androgens disrupt reproduction and mothering, what evolved is androgens acting on the brain's aggression circuits but not on its reproductive and maternal ones.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "In the seconds before we act, cues we never consciously notice steer the brain, and the hormone we blame for aggression mostly turns up the volume on whatever the situation already favours. # Troublemaker: tonight's addition (append after pp 75-90)",
+            a: "Hormones do not create behaviour from nothing. Testosterone and oxytocin amplify whatever the situation, the person and the culture already favour, so testosterone can make people fairer and oxytocin can make them more hostile to outsiders.",
           },
         ],
       },
@@ -882,6 +969,49 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What are the key ideas of these pages?",
             a: "Being photographed beside someone can be turned into a claim of their endorsement. Rules enforced on the many while the few are exempt show that the rules serve power. And when every complaint is reframed as the complainer's own guilt, people can be made to doubt what they saw with their own eyes, while secrecy forces members into a lonely double life. # The Art of the Deal: tonight's addition (append after Part 6)",
+          },
+        ],
+      },
+      {
+        pagesFrom: 105,
+        pagesTo: 120,
+        label: "pp 105-120: The end of Chapter Fourteen, Chapter Fifteen and most of Chapter Sixteen (read to p. 120, which ends mid-story)",
+        qa: [
+          {
+            q: "How did the BBC interview end?",
+            a: "When John Sweeney asked whether David Miscavige hits people, Remini deflected with a joke. Church spokesmen then humiliated Sweeney, had him followed and provoked a screaming outburst, which the church filmed and posted online. Remini checked on him and refused to sign her release: \"there's nothing I hate more than seeing someone be humiliated, whether a Scientologist or not.\"",
+          },
+          {
+            q: "What happened after The King of Queens ended?",
+            a: "After nine years and 207 episodes, she joined the CBS daytime show The Talk in 2010. She found its \"candid\" conversations scripted (\"this felt manufactured\"), became an unofficial producer, and tried to make peace between co-hosts. A well-meant group email backfired, and she and Holly Robinson Peete were dropped after the first season.",
+          },
+          {
+            q: "What did she learn from that experience?",
+            a: "That authenticity cannot be staged: \"There is no 'right' way to be. I am flawed and imperfect, but am uniquely me.\" Years later she hugged Julie Chen and said, \"I'm sorry for my part.\" On friendship she writes, \"by their actions, they will show you who they are.\"",
+          },
+          {
+            q: "How did the church handle a mistake it made with her?",
+            a: "Her auditor admitted she had been wrongly handled and promised a $300,000 credit, but the paperwork never arrived. She came to see a system where members paid for every error while leaders \"took no responsibility for anything ever.\" Asking for your money back is itself grounds for expulsion: \"It is the perfect catch-22.\"",
+          },
+          {
+            q: "How did fundraising work?",
+            a: "Members were pushed into debt to donate, with fundraisers even raising their credit limits for them. The slogan was \"Either you're an able being, or you're not. Able beings make major donations.\"",
+          },
+          {
+            q: "What happened when she asked about Shelly Miscavige?",
+            a: "Her letters to Shelly were withheld as \"entheta,\" the church's word for negative information. David Miscavige met her and said Shelly was being kept away from legal subpoenas.",
+          },
+          {
+            q: "How did she start to break the rules?",
+            a: "She contacted Mike Rinder, a former senior official who had left, and heard about beatings in a place called \"the Hole\": \"What you don't understand is that we were backed up by policy.\" She read Debbie Cook's email and court testimony and searched the internet for herself.",
+          },
+          {
+            q: "How did her closest friends react?",
+            a: "They refused even to read a critic's email. \"Why would I read entheta?\" one asked. \"Because it's from somebody who's against our group.\" Remini reflects: \"You run back to the safety of the group that shares your mentality, and in this way your world becomes very insular.\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Provoking critics until they look unhinged makes their reaction the story instead of their questions. Labelling all criticism as bad energy in advance means members never have to weigh it. Tying status to spending makes generosity compulsory, and abuse becomes thinkable once it is written into policy.",
           },
         ],
       },
@@ -1187,6 +1317,47 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "How did the casino perform?",
             a: "Ivana Trump hired the best people at every level, and the casino took in $226 million in its first full year, a first-year record. \"It pays to trust your instincts,\" he writes, though the book makes clear his instincts rested on years of studying the market.",
+          },
+        ],
+      },
+      {
+        label: "Part 8: Low Rent, High Stakes: The Showdown on Central Park South (chapter 10)",
+        qa: [
+          {
+            q: "Why did he buy the two buildings on Central Park South?",
+            a: "For the location, not the income: \"I barely looked at what the two buildings were earning. I was drawn to the real estate value.\" The sellers were wealthy and unhurried, the deal was off the market, problems were argued down into the price and a mortgage covered the purchase, so he saw \"virtually no downside.\"",
+          },
+          {
+            q: "What did he underestimate about the tenants?",
+            a: "How hard they would fight. \"The lower the rent, the bigger the apartment, and the better the location, the harder people will fight.\" The rent-controlled tenants had a huge stake in staying, and some chipped in up to $8,000 a year to fund the fight.",
+          },
+          {
+            q: "What mistake does he admit making at the start?",
+            a: "Leaving it to others: \"I made a very critical mistake right at the start: I should have gotten involved myself.\" The management company he hired was sloppy, and it cost him.",
+          },
+          {
+            q: "How did sloppy legal work hurt him?",
+            a: "A non-payment case was filed against a tenant who had the cancelled cheque, and a notice was defective because the law had changed. Each error fed the tenants' story that they were being harassed.",
+          },
+          {
+            q: "Why did appearances matter as much as the law?",
+            a: "Covering empty apartments' windows with tin was standard practice but looked hostile. His impulsive offer to house homeless people in the empty units backfired, and he went quiet. \"You don't act on an impulse, even a charitable one, unless you've considered the downside.\"",
+          },
+          {
+            q: "How did he respond to pressure to settle?",
+            a: "He refused to sell the building for $10 million just to end the fight, and let time work. Meanwhile prices per room swung from $93,000 to $67,000 and up to $124,000. The courts found no clear harassment in August 1985, a ruling upheld unanimously in December 1986.",
+          },
+          {
+            q: "Why did he drop his original plan?",
+            a: "New zoning meant a replacement tower would be less than half the size. Gutting and rebuilding cost about $100 million against $250 million for a new building, and kept the 12-foot ceilings and the ornate crown. \"I'm not interested in buildings that don't sell.\" It started with asking the naive question of why they should knock it down at all.",
+          },
+          {
+            q: "How did he win the St. Moritz hotel?",
+            a: "Harry Helmsley's sale kept falling through with top-price bidders: \"Their eyes prove bigger than their pocketbooks.\" He offered certainty of closing at a fairer price, with a hidden advantage: closing his Barbizon hotel to shift staff and guests across. Business rose 31 percent, the margin nearly quadrupled, and he financed $6 million above the purchase price.",
+          },
+          {
+            q: "How did it turn out?",
+            a: "The converted building, Trump Parc, was 80 percent sold in eight months, grossing over $240 million with a profit of over $100 million, \"largely because the tenants managed to delay me.\"",
           },
         ],
       },
