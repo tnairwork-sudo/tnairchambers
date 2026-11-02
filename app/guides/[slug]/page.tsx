@@ -101,6 +101,7 @@ export default async function GuideArticlePage({ params }: GuidePageProps) {
   const hindi = guide.inLanguage === "hi-IN";
   const art = guideArt(guide.slug);
   const illustration = guide.illustration;
+  const questions = articleQuestions(guide);
   const schemas = [
     articleSchema({
       headline: guide.title,
@@ -115,7 +116,7 @@ export default async function GuideArticlePage({ params }: GuidePageProps) {
         description: illustration?.alt ?? guide.title,
       })),
     }),
-    faqSchema(articleQuestions(guide), url),
+    ...(questions.length > 0 ? [faqSchema(questions, url)] : []),
     breadcrumbSchema([
       { name: "Home", url: siteUrl },
       { name: "Guides", url: guidesIndexUrl },

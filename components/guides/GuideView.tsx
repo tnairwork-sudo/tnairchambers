@@ -13,23 +13,31 @@ import {
 } from "@/lib/guides";
 import type { GuideBlock, GuidePage } from "@/lib/guides/types";
 
-const INLINE_LINK = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
-
 function RichText({ text }: { text: string }) {
   const nodes: ReactNode[] = [];
   let last = 0;
-  for (const match of text.matchAll(INLINE_LINK)) {
+  let key = 0;
+  const pattern = /\*\*([^*]+)\*\*|\[([^\]]+)\]\((\/[^)\s]+)\)/g;
+  for (const match of text.matchAll(pattern)) {
     const start = match.index ?? 0;
     if (start > last) nodes.push(text.slice(last, start));
-    nodes.push(
-      <Link
-        key={`${start}-${match[2]}`}
-        href={match[2]}
-        className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
-      >
-        {match[1]}
-      </Link>
-    );
+    if (match[1]) {
+      nodes.push(
+        <strong key={key++} className="font-medium text-parchment">
+          {match[1]}
+        </strong>
+      );
+    } else {
+      nodes.push(
+        <Link
+          key={key++}
+          href={match[3]}
+          className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+        >
+          {match[2]}
+        </Link>
+      );
+    }
     last = start + match[0].length;
   }
   if (last < text.length) nodes.push(text.slice(last));
@@ -44,7 +52,14 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
           return (
             <div key={index} className="space-y-5">
               {block.paragraphs.map((paragraph, paragraphIndex) => (
-                <p key={paragraphIndex}>
+                <p
+                  key={paragraphIndex}
+                  className={
+                    block.italic
+                      ? "font-serif text-base italic font-light leading-relaxed text-parchment-dim md:text-lg"
+                      : undefined
+                  }
+                >
                   <RichText text={paragraph} />
                 </p>
               ))}
@@ -53,6 +68,32 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
         }
 
         if (block.type === "list") {
+          const ItemBody = ({
+            item,
+          }: {
+            item: (typeof block.items)[number];
+          }) => {
+            if (typeof item === "string") {
+              return <RichText text={item} />;
+            }
+            return (
+              <>
+                <RichText text={item.text} />
+                <ul className="mt-3 space-y-3">
+                  {item.items.map((child) => (
+                    <li key={child} className="relative pl-6">
+                      <span
+                        aria-hidden
+                        className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
+                      />
+                      <RichText text={child} />
+                    </li>
+                  ))}
+                </ul>
+              </>
+            );
+          };
+
           if (block.ordered) {
             return (
               <ol
@@ -61,7 +102,7 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
               >
                 {block.items.map((item, itemIndex) => (
                   <li key={itemIndex} className="pl-2">
-                    <RichText text={item} />
+                    <ItemBody item={item} />
                   </li>
                 ))}
               </ol>
@@ -76,7 +117,7 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
                     aria-hidden
                     className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
                   />
-                  <RichText text={item} />
+                  <ItemBody item={item} />
                 </li>
               ))}
             </ul>
@@ -202,9 +243,11 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             </figure>
           ) : null}
 
-          <p className="text-base md:text-lg text-parchment leading-relaxed max-w-3xl">
-            {guideQuestionSummary(guide)}
-          </p>
+          {questions.length > 0 ? (
+            <p className="text-base md:text-lg text-parchment leading-relaxed max-w-3xl">
+              {guideQuestionSummary(guide)}
+            </p>
+          ) : null}
           {questions.length > 0 ? (
             <nav aria-label="Questions in this guide" className="mt-6 max-w-3xl">
               <ol className="space-y-2 text-sm md:text-base leading-relaxed">
@@ -222,9 +265,11 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             </nav>
           ) : null}
 
-          <p className="mt-8 text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
-            <RichText text={guide.lede} />
-          </p>
+          {guide.lede ? (
+            <p className="mt-8 text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
+              <RichText text={guide.lede} />
+            </p>
+          ) : null}
 
           {guide.alternates && guide.alternates.length > 0 ? (
             <p className="mt-8 text-sm text-parchment-dim">
@@ -271,6 +316,13 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
             </section>
           ))}
 
+          {guide.closing ? (
+            <p className="font-serif text-base italic font-light leading-relaxed text-parchment-dim md:text-lg">
+              {guide.closing}
+            </p>
+          ) : null}
+
+          {others.length > 0 ? (
           <section>
             <h2
               className="heading-section text-3xl md:text-4xl text-parchment mb-6 text-balance"
@@ -291,6 +343,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
               ))}
             </ul>
           </section>
+          ) : null}
 
           <section className="border border-border bg-surface px-6 py-8 md:px-8 md:py-10">
             <p className="label mb-5">Bar Council of India</p>

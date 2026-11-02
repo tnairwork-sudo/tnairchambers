@@ -1,6 +1,8 @@
+export type GuideListItem = string | { text: string; items: string[] };
+
 export type GuideBlock =
-  | { type: "paragraphs"; paragraphs: string[] }
-  | { type: "list"; ordered?: boolean; items: string[] }
+  | { type: "paragraphs"; paragraphs: string[]; italic?: boolean }
+  | { type: "list"; ordered?: boolean; items: GuideListItem[] }
   | {
       type: "table";
       caption: string;
@@ -50,8 +52,10 @@ export type GuidePage = {
   /** Unused on articles. Questions live in the sections, and the schema is built from them. */
   faqs?: GuideFaq[];
   alternates?: GuideAlternate[];
-  /** Court notes, or the India Entry notes for a foreign company. */
-  group?: "court" | "entry";
+  /** Court notes, the India Entry notes, or an export-control note. */
+  group?: "court" | "entry" | "export";
+  /** Closing line printed after the sections, in italic. */
+  closing?: string;
   /** Set when the guides list is read. Not stored on each note. */
   illustration?: GuideIllustration;
 };
