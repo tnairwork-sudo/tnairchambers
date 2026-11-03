@@ -27,21 +27,7 @@ export default function SitePlay() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
 
-    let cursor: HTMLDivElement | null = null;
-    let move: ((event: PointerEvent) => void) | null = null;
     const fine = window.matchMedia("(pointer: fine)").matches;
-    if (!reduced && fine) {
-      cursor = document.createElement("div");
-      cursor.setAttribute("aria-hidden", "true");
-      cursor.style.cssText =
-        "position:fixed;top:0;left:0;z-index:70;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:999px;border:1px solid #d50000;pointer-events:none;mix-blend-mode:multiply;transition:transform 160ms ease-out;";
-      document.body.appendChild(cursor);
-      move = (event: PointerEvent) => {
-        if (!cursor) return;
-        cursor.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
-      };
-      window.addEventListener("pointermove", move);
-    }
 
     const onDown = (event: PointerEvent) => {
       if (reduced) return;
@@ -65,8 +51,6 @@ export default function SitePlay() {
       window.removeEventListener("storage", syncExplored);
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("pointerdown", onDown);
-      if (move) window.removeEventListener("pointermove", move);
-      cursor?.remove();
     };
   }, []);
 
