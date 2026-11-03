@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import Disclaimer from "@/components/Disclaimer";
+import SitePlay from "@/components/SitePlay";
 import SmoothScroll from "@/components/SmoothScroll";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -126,6 +127,7 @@ export default function RootLayout({
             __html: JSON.stringify(legalServiceJsonLd),
           }}
         />
+        <SitePlay />
         <Disclaimer />
         <SmoothScroll>
           {children}

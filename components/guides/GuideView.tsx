@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import MarkExplored from "@/components/MarkExplored";
 import SetHtmlLang from "@/components/guides/SetHtmlLang";
 import { bciDisclaimer, bciDisclaimerHindi } from "@/lib/guides/disclaimer";
 import { guideArt } from "@/lib/guides/art";
@@ -185,6 +186,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
       }
     >
       {hindi ? <SetHtmlLang lang="hi" /> : null}
+      <MarkExplored slug={guide.slug} />
 
       <section className="border-b border-border">
         <div className="container-site py-16 md:py-20 lg:py-24">

@@ -109,3 +109,36 @@
     text-wrap: balance;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn-primary:active,
+  .court-card:active,
+  .practice-card:active,
+  .team-card:active {
+    transform: scale(0.985);
+  }
+
+  .court-card,
+  .practice-card,
+  .team-card {
+    transition: transform 280ms ease, background-color 500ms ease;
+  }
+
+  @media (hover: hover) {
+    .court-card:hover,
+    .practice-card:hover,
+    .team-card:hover {
+      transform: translateY(-3px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .big-dinner-mark,
+  .btn-primary,
+  .court-card,
+  .practice-card,
+  .team-card {
+    transition: none;
+  }
+}
