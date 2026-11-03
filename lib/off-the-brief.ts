@@ -618,7 +618,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 105,
         pagesTo: 120,
-        label: "pp 105-120: Chapter Four, \"Hours to Days Before\", continued: oxytocin, vasopressin and the start of female aggression (read to p. 118 so far)",
+        label: "pp 105-120: Chapter Four, \"Hours to Days Before\", continued: oxytocin, vasopressin, female aggression and premenstrual mood",
         qa: [
           {
             q: "What are oxytocin and vasopressin?",
@@ -669,8 +669,111 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Not neatly. Some species have high female androgens without female dominance, and individual androgen levels do not predict aggression. Because androgens disrupt reproduction and mothering, what evolved is androgens acting on the brain's aggression circuits but not on its reproductive and maternal ones.",
           },
           {
+            q: "What are PMS and PMDD, and what are the two controversies around them?",
+            a: "PMS, premenstrual syndrome, is negative mood and irritability around menstruation, alongside bloating, cramps and acne. PMDD, premenstrual dysphoric disorder, is when the symptoms are severe enough to disrupt normal life, and it affects 2 to 5 percent of women. The controversies are whether it is a biological condition or a social construct, and whether it is linked to aggression.",
+          },
+          {
+            q: "Where did the \"it's just a social construct\" view come from?",
+            a: "Margaret Mead claimed in Coming of Age in Samoa (1928) that Samoan women showed no changes in mood or behaviour during menstruation. That led to claims that PMS was absent in other cultures and that, in places like America, it came from the repression of women. An offshoot argued that the most repressed women had the worst PMS.",
+          },
+          {
+            q: "What does the evidence actually show?",
+            a: "There are normal shifts in the brain and behaviour across the whole reproductive cycle, with as many behavioural changes around ovulation as around menstruation; PMS is an extreme version of those shifts. Symptoms vary by culture, which fits a condition with more than a hundred linked symptoms. The strongest evidence comes from other primates: female baboons and vervet monkeys become more aggressive and less social before menstruation. Among baboons only dominant females did so, presumably because subordinates could not afford to.",
+          },
+          {
+            q: "So which part is the social construct?",
+            a: "The shifts themselves are biological. What is constructed is treating them as medical problems, calling them \"symptoms\", a \"syndrome\" or a \"disorder\".",
+          },
+          {
+            q: "What causes PMS?",
+            a: "One theory blames the sharp fall in progesterone before menstruation, which removes its calming effect, but it has little support. Another, with some evidence, blames unusually low beta-endorphin, the hormone behind the \"runner's high\". Overall, very little is certain.",
+          },
+          {
+            q: "Is PMS linked to aggression?",
+            a: "Katharina Dalton, who coined the term in 1953, reported that female prisoners committed crimes disproportionately around menstruation, and a boarding-school study found more misconduct marks then. But the prison work did not separate violent from non-violent crimes, and the school work did not separate aggression from lateness. Taken together, there is little evidence of a link.",
+          },
+          {
+            q: "What was the Sandie Craddock case?",
+            a: "In 1980 Craddock killed a coworker; she already had more than 30 convictions for theft, arson and assault. Her diaries showed her crimes tracked her menstrual cycle so closely that she was given probation and progesterone treatment. When her doctor lowered the dose, she was arrested at her next period for trying to knife someone.",
+          },
+          {
+            q: "What is the takeaway for pages 105-120?",
+            a: "Hormones do not create behaviour from nothing. Testosterone and oxytocin amplify whatever the situation, the person and the culture already favour, and the mood shifts of the menstrual cycle are real but, for nearly everyone, have little to do with violence.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 120,
+        pagesTo: 135,
+        label: "pp 120-135: The end of Chapter Four, \"Hours to Days Before\": stress, alcohol and the chapter's conclusions (read to p. 133 so far)",
+        qa: [
+          {
+            q: "What does Sapolsky conclude about PMS and the courts?",
+            a: "A small number of women show perimenstrual behaviour severe enough to count as psychotic, and that should be a mitigating factor in court. Ordinary perimenstrual shifts in mood are not linked to more aggression.",
+          },
+          {
+            q: "What is a stressor, and how does the brain launch the stress response?",
+            a: "A stressor is anything that knocks the body out of balance: the zebra chased by a lion, or the hungry lion. The amygdala activates the sympathetic nervous system, releasing adrenaline and noradrenaline. It also triggers a hormonal chain from the hypothalamus to the pituitary to the adrenal glands, which release glucocorticoids, the main stress hormones.",
+          },
+          {
+            q: "Why is a short burst of stress lifesaving?",
+            a: "It floods the blood with stored energy, raises heart rate and blood pressure to carry it to the muscles, postpones long-term projects such as growth, repair and reproduction, dulls pain, boosts immunity and clotting, and sharpens the senses and thinking. It is ancient, shared with birds, fish and reptiles.",
+          },
+          {
+            q: "What goes wrong for primates like us?",
+            a: "We can switch on the stress response just by thinking something bad might happen. That helps when a threat is real, but chronic worry is something the system never evolved for. Kept on too long, it raises the risk of diabetes and hypertension, slows growth and repair, disrupts reproduction and suppresses immunity. We rarely get sick from failing to turn stress on; we get sick from turning it on too often and too long for purely psychological reasons.",
+          },
+          {
+            q: "What is \"stress that we love\", and what is the inverted U?",
+            a: "We enjoy stress that is mild, brief and safe: a roller coaster lasts three minutes and threatens queasiness, not death. We call that being stimulated or playing. The inverted U describes the pattern: no stress is boring, moderate short stress sharpens the brain, and severe prolonged stress destroys the benefit. Where the turning point lies varies enormously; one person's nightmare is another's hobby.",
+          },
+          {
+            q: "How does sustained stress affect fear?",
+            a: "Stressed people look more at angry faces and read faces less accurately, because the brain's fast route to the amygdala takes over and stress hormones dampen the frontal cortex. In the amygdala, stress hormones amplify activity and help build new connections, so fear is learned more easily and stored more firmly. It is a feedback loop: the amygdala triggers stress hormones, which excite the amygdala further.",
+          },
+          {
+            q: "Why does stress make it harder to unlearn fear?",
+            a: "Getting over a fear is not passive forgetting. It is the amygdala actively learning that a signal no longer means danger, driven by the frontal cortex. Stress weakens the frontal cortex's hold, so it helps us learn fear and hinders us from unlearning it.",
+          },
+          {
+            q: "What does sustained stress do to judgement?",
+            a: "High stress hormones over time impaired working memory in healthy people to a degree seen after damage to the frontal cortex. Stress makes switching between tasks harder and makes us perseverate: doing the failing thing again, faster and harder. It also weakens our ability to take in new information and pushes us towards habit.",
+          },
+          {
+            q: "How does stress change risk-taking?",
+            a: "Sleep deprivation, public speaking or high stress hormones shift gamblers from guarding against losses to chasing bigger wins. Major stress makes both sexes riskier, while moderate stress pushes men towards risk and women away from it. Broadly, sustained stress impairs risk assessment because new information is taken in poorly.",
+          },
+          {
+            q: "What is displacement aggression, and what is the evidence for it?",
+            a: "Aggression can reduce stress. A rat given a shock is buffered by running or gnawing, but especially by biting another rat. Nearly half of baboon aggression is displaced down the hierarchy, and baboons who displace more have lower stress hormones. In humans, economic downturns raise spousal and child abuse, and when a local American football team unexpectedly loses, male violence against partners rises by 10 percent, by 13 percent if the team was in playoff contention, and by 20 percent if the loss is to a rival. In Sapolsky's words, \"Giving an ulcer helps avoid getting one.\"",
+          },
+          {
+            q: "How does stress affect moral decisions?",
+            a: "After a social stressor, people gave more selfish answers to emotionally intense dilemmas, such as leaving your family for the love of your life, but not to mild ones, such as someone cutting into a queue. The bigger the rise in stress hormones, the more selfish the answer. Stress lowered altruism in personal decisions but not impersonal ones.",
+          },
+          {
+            q: "What did the mouse empathy studies show?",
+            a: "Jeffrey Mogil of McGill University found in 2006 that a mouse becomes more sensitive to pain near another mouse in pain, but only if it is a cagemate. A stranger triggers a stress response, and when stress hormones were blocked, mice showed the same empathy for strangers. People, too, showed pain empathy for a stranger only if stress hormones were blocked or the two had interacted first. Stress narrows who counts as \"Us\".",
+          },
+          {
+            q: "What is \"tend and befriend\"?",
+            a: "Shelley Taylor of UCLA pointed out that stress research mostly studied males, and that \"fight or flight\" fits males best. Females more often \"tend and befriend\", caring for the young and seeking company, probably helped by stronger oxytocin release. There are many exceptions on both sides.",
+          },
+          {
+            q: "Is the effect of stress always bad?",
+            a: "Only in a narrow biological sense. Like the frontal cortex, stress is value-free. A stressed paramedic who perseverates fails to save lives, which is bad. A stressed warlord who perseverates fails at his atrocity, which is not.",
+          },
+          {
+            q: "Does alcohol make people aggressive?",
+            a: "Only two kinds of people: those already prone to aggression, and those who believe alcohol makes you aggressive, which shows learning shaping biology. In everyone else it does other things, such as the drunken quickie wedding in Las Vegas. So \"I'd been drinking\" is no excuse.",
+          },
+          {
+            q: "What are Chapter Four's big conclusions?",
+            a: "Testosterone does not invent aggression; it raises sensitivity to triggers in people already prone to it, rises during status challenges and boosts whatever maintains status, so in a world that rewarded kindness it would be \"the most prosocial hormone in existence\". Oxytocin and vasopressin are not universal love hormones; they favour Us and sharpen suspicion of Them. Female aggression is adaptive. Premenstrual shifts are real but barely linked to aggression. Sustained stress overdrives the amygdala, weakens the frontal cortex and reduces empathy. Over minutes to hours, hormones do not cause behaviour; they exaggerate tendencies already there.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Hormones do not create behaviour from nothing. Testosterone and oxytocin amplify whatever the situation, the person and the culture already favour, so testosterone can make people fairer and oxytocin can make them more hostile to outsiders.",
+            a: "Short, mild stress sharpens us, but sustained stress makes us more fearful, rigid, blind to risk, selfish and narrower in who we feel for.",
           },
         ],
       },
@@ -1012,6 +1115,49 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What are the key ideas of these pages?",
             a: "Provoking critics until they look unhinged makes their reaction the story instead of their questions. Labelling all criticism as bad energy in advance means members never have to weigh it. Tying status to spending makes generosity compulsory, and abuse becomes thinkable once it is written into policy.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 120,
+        pagesTo: 135,
+        label: "pp 120-135: The end of Chapter Sixteen and the start of Chapter Seventeen (pp 128-131 are photo pages; read to p. 135, which ends mid-chapter)",
+        qa: [
+          {
+            q: "How did the church answer Remini's questions about Shelly Miscavige?",
+            a: "With process rather than answers. Two executives sent to \"answer questions\" read her policy and showed a slideshow of the church's property purchases, telling her that talking to former members Debbie Cook or Mike Rinder was \"cutting across the survival of mankind\". She replied that she \"could give a shit about buildings\". Two more officials arrived at her house unannounced, still could not say where Shelly was, and her husband Angelo threw one of them out.",
+          },
+          {
+            q: "What did it feel like to be \"acknowledged\"?",
+            a: "Empty. \"No answers. They just 'acknowledged' me ... There were no human qualities to any of this.\" Scripted listening can look like attention while giving nothing back.",
+          },
+          {
+            q: "What happened when she met David Miscavige?",
+            a: "He deflected blame onto someone else and asked her to \"focus on the good\". A promised $300,000 credit was finally paid, and then she was summoned by the church's ethics officer, Julian Swartz.",
+          },
+          {
+            q: "What did the ethics officer show her?",
+            a: "More than a dozen Knowledge Reports written about her by her closest friends. Friends who had sworn loyalty called her back in tears after \"speaking with Julian\", and soon emailed her that she had to \"get yourself handled\". Even her mother's security check turned out to be entirely about Leah.",
+          },
+          {
+            q: "What made her leave for good?",
+            a: "Being told, \"I'm not telling you to disconnect. LRH is.\" No one in the room owned the order; the founder's writings did. She decided to leave and called the Los Angeles police to file a missing person report for Shelly.",
+          },
+          {
+            q: "What happened to the police report?",
+            a: "The church cultivates good relations with police. Detective Kevin Becker took her report at her house, at some personal risk, but the LAPD closed it within days after speaking only to the church's lawyer and called it \"unfounded\". The church then used that word against her. \"And there you have it. Case closed.\"",
+          },
+          {
+            q: "What did leaving cost her, and who stayed?",
+            a: "She lost every Scientology friend who had written her a letter for her fortieth birthday. Her immediate family, her husband and her non-Scientologist staff did not hesitate: \"they simply chose me.\"",
+          },
+          {
+            q: "How did the church treat people around her?",
+            a: "A business manager who advised her against a million-dollar donation was put through a security check and quit. Tom Cruise's former assistant lost her house after a security check yet still felt proud. Remini concludes that \"the practice doesn't help you better the world or even yourself; it only helps you be a better Scientologist.\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "A closed group answers hard questions with procedure and grandeur, turns friends into informants, and lets each enforcer hide behind the founder's rules. When pressure comes, the people with no stake in the group are the ones who stay.",
           },
         ],
       },
@@ -1358,6 +1504,55 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "How did it turn out?",
             a: "The converted building, Trump Parc, was 80 percent sold in eight months, grossing over $240 million with a profit of over $100 million, \"largely because the tenants managed to delay me.\"",
+          },
+        ],
+      },
+      {
+        label: "Part 9: Long Shot: The USFL and Ice Capades: Rebuilding Wollman Rink (chapters 11 and 12)",
+        qa: [
+          {
+            q: "Why did he buy a USFL team?",
+            a: "The New Jersey Generals cost under $6 million, against about $70 million for an NFL team: \"a long shot, a lark that I could afford to take.\" He mapped both outcomes in advance, a fall television deal or an antitrust case with treble damages, so either was acceptable.",
+          },
+          {
+            q: "What sank the league?",
+            a: "Weak partners. \"In any partnership, you're only as strong as your weakest link.\" Many owners had thin pockets and little nerve, and public infighting hurt the league further.",
+          },
+          {
+            q: "What does he think of committees and consultants?",
+            a: "\"Committees are what insecure people create in order to put off making hard decisions.\" McKinsey took three months and $600,000 to recommend staying in the spring season. He forced a vote within two hours.",
+          },
+          {
+            q: "How did star signings move the market?",
+            a: "A futures contract with Lawrence Taylor forced the Giants to add about $3 million to his deal and pay $750,000 to release him. Doug Flutie's debut drew a television rating nearly double the usual. Don Shula walked away over a request for an apartment. And, on a cost-sharing letter for Flutie, \"You can't get hurt asking.\"",
+          },
+          {
+            q: "How did the antitrust case end?",
+            a: "The jury found the NFL liable but awarded $1 in damages. The book argues that over-slick advocacy and a wealthy owner as witness bred sympathy for the other side, and that the small owners with sad stories should have testified. The NFL also won the daily press battle outside the courtroom.",
+          },
+          {
+            q: "How did he exit the Herschel Walker contract?",
+            a: "Dallas wanted Walker under pressure from fans, so he released him only if they took on the full contract.",
+          },
+          {
+            q: "How did he take over the Wollman Rink?",
+            a: "The city had spent six years and millions failing to rebuild the Central Park rink. He wrote to the mayor offering to build it, pay for it and open by November. Ed Koch mocked the letter publicly, and within three days the press had taken Trump's side. \"The only thing guaranteed to force them into action is the press, or fear of the press.\"",
+          },
+          {
+            q: "What risk did he take on?",
+            a: "He fronted about $3 million, promised to finish by a deadline, covered any overruns and was reimbursed only if the rink worked. He built in a month's cushion and finished in about four months, more than $750,000 under budget.",
+          },
+          {
+            q: "How did one phone call solve the technical problem?",
+            a: "He asked the best rink builder, Cimco, a basic question: \"What does it take to build a great outdoor skating rink?\" The answer, a brine system rather than Freon, settled in one call what the city had taken six years to reach. Proven methods beat clever ones.",
+          },
+          {
+            q: "How does he describe leadership on the project?",
+            a: "\"Leadership is perhaps the key to getting any job done.\" He checked the site daily, hired top contractors who worked at cost or no profit, kept officials off site and ran the concrete pour in one continuous 10-hour session. He contrasts this with a city system where no one was accountable.",
+          },
+          {
+            q: "How did he turn the build into a story?",
+            a: "He held press conferences with no news (\"everything was proceeding right on schedule\") and still got headlines. The rink earned $1.2 million in its first season, gave over $500,000 in profit to charity and the parks department, and drew half a million skaters.",
           },
         ],
       },
