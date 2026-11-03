@@ -184,7 +184,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
       <main className="pt-16">
         <section className="about-hero-section grid grid-cols-1 md:grid-cols-2 min-h-[90vh]">
           <div className="flex flex-col justify-end pb-16 md:pb-24 pt-20 md:pt-32 px-6 md:pl-16 lg:pl-24 order-2 md:order-1">
-            <div className="about-eyebrow flex items-center gap-4 mb-8">
+            <div className="about-eyebrow kicker mb-8">
               <div className="gold-rule" />
               <span className="label">The Advocate</span>
             </div>
@@ -216,7 +216,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
         <section className="bio-section container-site py-20 md:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16 items-start">
             <div className="lg:sticky lg:top-24">
-              <div className="flex items-center gap-4 mb-6">
+              <div className="kicker mb-6">
                 <div className="gold-rule" />
                 <span className="label">Profile</span>
               </div>
@@ -240,7 +240,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                   <li key={profile.href}>
                     <a
                       href={profile.href}
-                      className="text-sm text-gold hover:text-gold-light transition-colors duration-300"
+                      className="text-sm text-parchment underline decoration-accent underline-offset-4 transition-colors duration-300"
                     >
                       {profile.label}
                     </a>
@@ -260,7 +260,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 Alongside litigation, the work includes advice to Indian and international businesses on commercial opportunities in Oman and the GCC: warehousing, logistics, market entry, regulatory structuring, and investment. He also writes on arbitration in India and on cross-border trade, including an{" "}
                 <a
                   href="/opportunity-atlas/duty-free-conditions-apply"
-                  className="text-gold hover:text-gold-light transition-colors duration-300"
+                  className="text-parchment underline decoration-accent underline-offset-4 transition-colors duration-300"
                 >
                   Opportunity Atlas note on the India-Oman CEPA
                 </a>
@@ -284,7 +284,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                 He founded and hosts{" "}
                 <a
                   href="https://thebigdinner.in"
-                  className="text-gold hover:text-gold-light transition-colors duration-300"
+                  className="text-parchment underline decoration-accent underline-offset-4 transition-colors duration-300"
                 >
                   The Big Dinner
                 </a>
@@ -299,7 +299,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
         </div>
 
         <section id="experience" className="experience-section container-site py-20 md:py-28">
-          <div className="flex items-center gap-4 mb-6">
+          <div className="kicker mb-6">
             <div className="gold-rule" />
             <span className="label">Experience</span>
           </div>
@@ -327,7 +327,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
         </div>
 
         <section className="container-site py-20 md:py-28">
-          <div className="flex items-center gap-4 mb-14">
+          <div className="kicker mb-14">
             <div className="gold-rule" />
             <span className="label">Courts, tribunals, and fora</span>
           </div>
@@ -350,7 +350,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
         <section className="about-cta bg-surface border-t border-border">
           <div className="container-site py-24 md:py-32">
             <div className="about-cta-content max-w-2xl">
-              <div className="flex items-center gap-4 mb-8">
+              <div className="kicker mb-8">
                 <div className="gold-rule" />
                 <span className="label">Chambers</span>
               </div>

@@ -191,7 +191,7 @@ export default function LandingPageClient({
             />
           )}
           <div className="container-site relative z-10">
-            <div className="lp-eyebrow flex items-center gap-4 mb-8">
+            <div className="lp-eyebrow kicker mb-8">
               <div className="gold-rule" />
               <span className="label">{eyebrow}</span>
             </div>
@@ -201,7 +201,7 @@ export default function LandingPageClient({
                 <span className="block leading-[1.2]">{heroLine1}</span>
               </span>
               <span className="lp-hero-emphasis line-mask block">
-                <em className="block leading-[1.2] text-gold-light font-light not-italic">
+                <em className="block leading-[1.2] text-parchment font-light not-italic">
                   {heroEmphasis}
                 </em>
               </span>
@@ -222,7 +222,7 @@ export default function LandingPageClient({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <div className="pain-headline flex flex-col gap-6">
-                <div className="flex items-center gap-4">
+                <div className="kicker">
                   <div className="gold-rule" />
                   <span className="label">{problemLabel}</span>
                 </div>
@@ -247,7 +247,7 @@ export default function LandingPageClient({
 
         {/* ── Services grid ────────────────────────────────────────── */}
         <section className="container-site py-24 md:py-32">
-          <div className="flex items-center gap-4 mb-14">
+          <div className="kicker mb-14">
             <div className="gold-rule" />
             <span className="label">{servicesLabel}</span>
           </div>
@@ -270,7 +270,7 @@ export default function LandingPageClient({
 
         {relatedNotes && relatedNotes.length > 0 ? (
           <section className="container-site pb-24 md:pb-32">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="kicker mb-8">
               <div className="gold-rule" />
               <span className="label">India Entry notes</span>
             </div>
@@ -282,7 +282,7 @@ export default function LandingPageClient({
                 <li key={note.href}>
                   <Link
                     href={note.href}
-                    className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                    className="text-parchment underline decoration-accent underline-offset-4"
                   >
                     {note.label}
                   </Link>
@@ -299,7 +299,7 @@ export default function LandingPageClient({
               <p className="heading-section text-2xl md:text-[2rem] text-parchment font-light italic leading-[1.4] mb-8">
                 &ldquo;{pullQuote}&rdquo;
               </p>
-              <footer className="flex items-center gap-4">
+              <footer className="kicker">
                 <div className="gold-rule" />
                 <span className="label">Nair &amp; Co</span>
               </footer>
@@ -311,7 +311,7 @@ export default function LandingPageClient({
         <section id="book" className="cta-section bg-surface border-t border-border">
           <div className="container-site py-24 md:py-32">
             <div className="cta-content max-w-2xl">
-              <div className="flex items-center gap-4 mb-8">
+              <div className="kicker mb-8">
                 <div className="gold-rule" />
                 <span className="label">{ctaEyebrow}</span>
               </div>

@@ -12,7 +12,10 @@ import {
   guidesIndex,
   guidesIndexUrl,
 } from "@/lib/guides";
+import { assertReadingMenu } from "@/lib/reading-menu-check";
 import { ogImage, siteUrl } from "@/lib/site";
+
+assertReadingMenu();
 
 export const metadata: Metadata = {
   title: guidesIndex.seoTitle,
@@ -64,7 +67,7 @@ export default function GuidesIndexPage() {
 
       <section className="border-b border-border">
         <div className="container-site py-16 md:py-20 lg:py-24">
-          <div className="flex items-center gap-4 mb-8">
+          <div className="kicker mb-8">
             <div className="gold-rule" />
             <span className="label">{guidesIndex.eyebrow}</span>
           </div>
@@ -75,7 +78,7 @@ export default function GuidesIndexPage() {
             {guidesIndex.lede}
           </p>
           <p className="text-sm text-parchment">
-            <Link href="/" className="underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200">
+            <Link href="/" className="underline decoration-accent underline-offset-4">
               Nair &amp; Co, Advocates &amp; Consultants
             </Link>
           </p>
@@ -118,9 +121,9 @@ export default function GuidesIndexPage() {
                   <li key={guide.slug} className="border-b border-border">
                     <Link
                       href={guidePath(guide.slug)}
-                      className="block py-7 group"
+                      className="block py-7"
                     >
-                      <span className="label text-gold">
+                      <span className="label">
                         {guide.eyebrow}
                         {articleQuestions(guide).length > 0 ? (
                           <>
@@ -129,7 +132,7 @@ export default function GuidesIndexPage() {
                           </>
                         ) : null}
                       </span>
-                      <span className="mt-3 block font-serif text-3xl font-light text-parchment group-hover:text-gold-light transition-colors duration-200 text-balance">
+                      <span className="mt-3 block font-serif text-3xl font-light text-parchment text-balance">
                         {guide.title}
                       </span>
                       <span className="mt-3 block text-sm md:text-base text-parchment-dim leading-relaxed">

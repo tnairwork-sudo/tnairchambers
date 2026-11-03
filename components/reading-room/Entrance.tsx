@@ -41,7 +41,7 @@ export default function Entrance({ error }: { error: boolean }) {
               type="text"
               autoComplete="username"
               required
-              className="w-full bg-surface border border-border text-parchment px-4 py-3 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-ink transition-all"
+              className="w-full bg-surface border border-border text-parchment px-4 py-3 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink transition-all"
             />
           </div>
 
@@ -55,13 +55,13 @@ export default function Entrance({ error }: { error: boolean }) {
               name="password"
               type="password"
               required
-              className="w-full bg-surface border border-border text-parchment px-4 py-3 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-ink transition-all"
+              className="w-full bg-surface border border-border text-parchment px-4 py-3 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink transition-all"
             />
           </div>
 
           {/* Error message */}
           {error && (
-            <p className="text-gold-light text-sm text-center">
+            <p className="text-parchment text-sm text-center">
               Those credentials were not recognised.
             </p>
           )}
@@ -75,7 +75,7 @@ export default function Entrance({ error }: { error: boolean }) {
           Clients without a reference should contact{" "}
           <a
             href="mailto:tushaar@tnairchambers.in"
-            className="text-gold hover:text-gold-light transition-colors"
+            className="text-parchment underline decoration-accent underline-offset-4"
           >
             tushaar@tnairchambers.in
           </a>

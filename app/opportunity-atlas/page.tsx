@@ -6,7 +6,10 @@ import {
   getFeaturedOpportunityAtlasArticle,
   siteUrl,
 } from "@/lib/opportunity-atlas";
+import { assertReadingMenu } from "@/lib/reading-menu-check";
 import { ogImage, websiteId } from "@/lib/site";
+
+assertReadingMenu();
 
 const articles = getAllOpportunityAtlasArticles();
 const featuredArticle = getFeaturedOpportunityAtlasArticle() ?? articles[0];

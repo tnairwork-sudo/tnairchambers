@@ -9,9 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Quiet base. Page ground.
         ink: "#faf9f6",
+        // Quiet text. Headings and body.
         parchment: "#0f0d0a",
         "parchment-dim": "#6b6460",
+        // Single loud accent. Buttons, link underlines, kicker hairlines, selected states.
+        accent: "#d50000",
+        // Left in place for Off the Brief entries and the reading-room model.
         gold: "#c4a55a",
         "gold-light": "#b8943f",
         "surface": "#f3efe8",

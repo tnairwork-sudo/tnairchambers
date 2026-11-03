@@ -77,10 +77,10 @@ export default function OpportunityAtlasHeroVideo({
             <button
               type="button"
               aria-label={`Play video: ${title}`}
-              className="group absolute inset-0 grid place-items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+              className="group absolute inset-0 grid place-items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
               onClick={() => setIsPlaying(true)}
             >
-              <span className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-gold text-surface transition-all duration-200 group-hover:scale-105 group-hover:brightness-105 motion-reduce:transform-none motion-reduce:transition-none md:h-20 md:w-20">
+              <span className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-parchment text-ink transition-all duration-200 group-hover:scale-105 motion-reduce:transform-none motion-reduce:transition-none md:h-20 md:w-20">
                 <svg
                   aria-hidden
                   viewBox="0 0 24 24"

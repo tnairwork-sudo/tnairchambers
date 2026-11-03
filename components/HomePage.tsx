@@ -202,7 +202,7 @@ export default function Home() {
           <section className="hero-section relative min-h-screen flex overflow-hidden bg-ink">
             {/* Left: text */}
             <div className="relative z-10 flex flex-col justify-end pb-16 md:pb-24 pt-32 w-full md:w-[48%] px-6 md:pl-16 lg:pl-24">
-              <div className="hero-eyebrow flex items-center gap-4 mb-10">
+              <div className="hero-eyebrow kicker mb-10">
                 <div className="gold-rule" />
                 <span className="label">Advocates &amp; Consultants · New Delhi</span>
               </div>
@@ -212,8 +212,8 @@ export default function Home() {
                   <div className="line-mask text-[clamp(1.65rem,2.6vw,2.35rem)]">
                     <div className="hero-line heading-display text-parchment leading-none">
                       Tushar Nair
-                      <span className="text-gold-light font-light"> · </span>
-                      <span className="italic font-light text-gold-light">Nair &amp; Co</span>
+                      <span className="text-parchment font-light"> · </span>
+                      <span className="italic font-light text-parchment">Nair &amp; Co</span>
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export default function Home() {
                 </div>
                 <div className="flow-root mt-1.5 md:mt-2">
                   <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
-                    <div className="hero-line heading-display text-gold-light leading-[1.2] font-light">
+                    <div className="hero-line heading-display text-parchment leading-[1.2] font-light">
                       a client needs,
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="overflow-hidden mb-8">
-                <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-gold-light italic leading-[1.3]">
+                <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-parchment italic leading-[1.3]">
                   A dedicated team for each.
                 </p>
               </div>
@@ -304,7 +304,7 @@ export default function Home() {
 
           {/* ── WHAT WE DO ───────────────────────────────────────── */}
           <section id="what-we-do" aria-labelledby="what-we-do-label" className="teams-section container-site py-24 md:py-32">
-            <div className="reveal-up flex items-center gap-4 mb-6">
+            <div className="reveal-up kicker mb-6">
               <div className="gold-rule" />
               <span id="what-we-do-label" className="label">What We Do</span>
             </div>
@@ -325,7 +325,7 @@ export default function Home() {
                         <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
                       </div>
                     </div>
-                    {team.href && <span className="label group-hover:text-gold transition-colors duration-300">View →</span>}
+                    {team.href && <span className="label group-hover:text-parchment transition-colors duration-300">View →</span>}
                   </>
                 );
                 return team.href ? (
@@ -345,7 +345,7 @@ export default function Home() {
           <section id="alliances" aria-labelledby="alliances-label" className="alliances-section border-y border-border bg-surface">
             <div className="container-site py-16 md:py-24">
               <div className="alliances-copy">
-                <div className="flex items-center gap-4 mb-10">
+                <div className="kicker mb-10">
                   <div className="gold-rule" />
                   <span id="alliances-label" className="label">Alliances</span>
                 </div>
@@ -353,7 +353,7 @@ export default function Home() {
                   {["GCC", "UK", "Europe", "Americas"].map((region, index) => (
                     <span key={region} className="inline-flex items-baseline gap-4">
                       {region}
-                      {index < 3 && <span className="text-gold" aria-hidden="true">·</span>}
+                      {index < 3 && <span className="text-parchment-dim" aria-hidden="true">·</span>}
                     </span>
                   ))}
                 </p>
@@ -368,7 +368,7 @@ export default function Home() {
           <section className="about-section relative min-h-screen flex flex-col md:flex-row overflow-hidden bg-ink">
             {/* Text */}
             <div className="relative z-10 flex flex-col justify-center py-24 md:py-32 w-full md:w-[50%] px-6 md:pl-16 lg:pl-24 md:pr-16">
-              <div className="about-text-item flex items-center gap-4 mb-8">
+              <div className="about-text-item kicker mb-8">
                 <div className="gold-rule" />
                 <span className="label">The Advocate</span>
               </div>
@@ -387,7 +387,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="about-text-item">
-                <Link href="/about" className="inline-flex items-center gap-3 label text-gold hover:text-gold-light transition-colors duration-300">
+                <Link href="/about" className="inline-flex items-center gap-3 label text-parchment underline decoration-accent underline-offset-4 transition-colors duration-300">
                   Full Profile →
                 </Link>
               </div>
@@ -415,7 +415,7 @@ export default function Home() {
                 <p className="font-serif text-[clamp(1.5rem,3vw,2.6rem)] font-light italic text-parchment leading-[1.4] mb-8">
                   &ldquo;The law, at its best, is not a service industry. It is a discipline of thinking: adversarial, structural, precise, applied to the irreducible messiness of human affairs.&rdquo;
                 </p>
-                <footer className="flex items-center gap-4">
+                <footer className="kicker">
                   <div className="gold-rule" />
                   <Link href="/about" className="label hover:text-parchment transition-colors duration-200">
                     A Discipline of Thinking →
@@ -427,7 +427,7 @@ export default function Home() {
 
           {/* ── COURTS & TABLE ───────────────────────────────────── */}
           <section className="courts-section container-site py-24 md:py-32">
-            <div className="reveal-up flex items-center gap-4 mb-14">
+            <div className="reveal-up kicker mb-14">
               <div className="gold-rule" />
               <span className="label">The Courts & The Table</span>
             </div>
@@ -460,7 +460,7 @@ export default function Home() {
 
           {/* ── INTERNATIONAL ADVISORY ───────────────────────────── */}
           <section className="practices-section container-site py-24 md:py-32">
-            <div className="reveal-up flex items-center gap-4 mb-14">
+            <div className="reveal-up kicker mb-14">
               <div className="gold-rule" />
               <span className="label">International Advisory</span>
             </div>
@@ -469,7 +469,7 @@ export default function Home() {
                 <Link key={p.href} href={p.href} className="practice-card group bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-6">
                   <div className="flex items-start justify-between">
                     <span className="label text-parchment-dim/30">{p.number}</span>
-                    <span className="label group-hover:text-gold transition-colors duration-300">View →</span>
+                    <span className="label group-hover:text-parchment transition-colors duration-300">View →</span>
                   </div>
                   <div>
                     <h2 className="heading-section text-2xl md:text-3xl text-parchment mb-3">{p.label}</h2>
@@ -484,13 +484,13 @@ export default function Home() {
           <section className="cta-section bg-surface border-t border-border min-h-[60vh] flex items-center">
             <div className="container-site py-24 md:py-32 w-full">
               <div className="cta-content max-w-3xl">
-                <div className="flex items-center gap-4 mb-8">
+                <div className="kicker mb-8">
                   <div className="gold-rule" />
                   <span className="label">Contact</span>
                 </div>
                 <h2 className="heading-display text-[clamp(2.4rem,5vw,4.8rem)] text-parchment mb-10 text-balance leading-[1.05]">
                   Tell us your problem.<br />
-                  <em className="text-gold-light font-light not-italic">We&apos;ll tell you if we&apos;re the right people to solve it.</em>
+                  <em className="text-parchment font-light not-italic">We&apos;ll tell you if we&apos;re the right people to solve it.</em>
                 </h2>
                 <ContactReveal />
               </div>

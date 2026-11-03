@@ -84,7 +84,7 @@ export default function OffTheBriefPage() {
       <article>
         <header className="border-b border-border">
           <div className="container-site py-16 md:py-20 lg:py-24">
-            <div className="mb-8 flex items-center gap-4">
+            <div className="kicker mb-8">
               <div className="gold-rule" />
               <span className="label">Reading</span>
             </div>

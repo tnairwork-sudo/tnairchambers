@@ -4,17 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ContactReveal from "@/components/ContactReveal";
+import ReadingMenu, { ReadingLinks } from "@/components/ReadingMenu";
 import Wordmark from "@/components/Wordmark";
-
-const links = [
-  { href: "/about", label: "Tushaar Nair" },
-  { href: "/energy", label: "Energy & Power" },
-  { href: "/entering-india", label: "Entering India" },
-  { href: "/guides", label: "Guides" },
-  { href: "/ngos", label: "NGOs" },
-  { href: "/employers", label: "Employers" },
-  { href: "/opportunity-atlas", label: "Opportunity Atlas" },
-];
+import { primaryLinks } from "@/lib/reading-menu";
 
 export default function Nav() {
   const pathname = usePathname();
@@ -28,20 +20,21 @@ export default function Nav() {
           <Wordmark className="text-[1.55rem]" />
         </Link>
 
-        <div className="hidden lg:flex items-center gap-x-4 xl:gap-x-6">
-          {links.map((link) => (
+        <div className="hidden lg:flex items-center gap-x-2 xl:gap-x-6">
+          {primaryLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               className={`nav-link whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
-                  ? "text-parchment"
+                  ? "text-parchment underline decoration-accent underline-offset-4"
                   : ""
               }`}
             >
               {link.label}
             </Link>
           ))}
+          <ReadingMenu />
           <ContactReveal variant="compact" className="shrink-0 py-2.5 px-5 text-2xs" />
         </div>
 
@@ -71,22 +64,25 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="lg:hidden bg-ink border-t border-border">
+        <div className="lg:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto bg-ink border-t border-border">
           <div className="container-site py-6 flex flex-col gap-5">
-            {links.map((link) => (
+            {primaryLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
                 className={`nav-link ${
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
-                    ? "text-parchment"
+                    ? "text-parchment underline decoration-accent underline-offset-4"
                     : ""
                 }`}
               >
                 {link.label}
               </Link>
             ))}
+            <div className="border-t border-border pt-5">
+              <ReadingLinks onNavigate={() => setOpen(false)} />
+            </div>
             <ContactReveal variant="compact" className="py-3 px-5 text-2xs w-fit" />
           </div>
         </div>

@@ -36,7 +36,7 @@ export default function OpportunityAtlasArticleCard({
 
         <div className={`flex flex-col ${featured ? "p-8 md:p-10 gap-5" : "p-6 md:p-8 gap-4 flex-1"}`}>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-            <span className="label text-gold">{article.category}</span>
+            <span className="label">{article.category}</span>
             {article.publishedAt ? (
               <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
                 {formatOpportunityAtlasDate(article.publishedAt)}
@@ -60,7 +60,7 @@ export default function OpportunityAtlasArticleCard({
             </p>
           </div>
 
-          <span className="mt-auto inline-flex items-center gap-3 label text-gold hover:text-gold-light transition-colors duration-200">
+          <span className="mt-auto inline-flex items-center gap-3 label text-parchment underline decoration-accent underline-offset-4">
             Read More
             <span aria-hidden>→</span>
           </span>

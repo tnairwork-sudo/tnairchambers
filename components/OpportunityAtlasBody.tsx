@@ -27,7 +27,7 @@ function TextBlock({ block }: { block: ArticleTextBlock }) {
           <li key={item} className="relative pl-6">
             <span
               aria-hidden
-              className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
+              className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-parchment"
             />
             <RichText text={item} />
           </li>
@@ -76,7 +76,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
                 &ldquo;{block.quote}&rdquo;
               </p>
               {block.citation ? (
-                <footer className="mt-6 flex items-center gap-4">
+                <footer className="mt-6 kicker">
                   <div className="gold-rule" />
                   <span className="label">{block.citation}</span>
                 </footer>
@@ -94,7 +94,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
 
           return (
             <section key={index} className="space-y-6">
-              <div className="flex items-center gap-4">
+              <div className="kicker">
                 <div className="gold-rule" />
                 <span className="label">Section</span>
               </div>
@@ -111,7 +111,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
             <section key={index} className="space-y-6">
               {block.title ? (
                 <>
-                  <div className="flex items-center gap-4">
+                  <div className="kicker">
                     <div className="gold-rule" />
                     <span className="label">Focus Areas</span>
                   </div>
@@ -145,7 +145,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
           <section key={index} className="space-y-6">
             {block.title ? (
               <>
-                <div className="flex items-center gap-4">
+                <div className="kicker">
                   <div className="gold-rule" />
                   <span className="label">Action Plan</span>
                 </div>
@@ -163,7 +163,7 @@ export default function OpportunityAtlasBody({ body }: OpportunityAtlasBodyProps
               {block.items.map((item) => (
                 <div key={item.timeframe} className="bg-ink p-6 md:p-8 grid grid-cols-1 md:grid-cols-[180px_1fr] gap-5 md:gap-8">
                   <div>
-                    <p className="label text-gold mb-2">{item.timeframe}</p>
+                    <p className="label mb-2">{item.timeframe}</p>
                     <h3 className="font-serif text-2xl font-light text-parchment">
                       {item.label}
                     </h3>
