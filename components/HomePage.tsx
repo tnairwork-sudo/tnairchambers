@@ -269,11 +269,6 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/60 to-transparent w-[45%]" />
               </div>
             </div>
-
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
-              <div className="w-px h-12 bg-parchment-dim animate-[pulse_2s_ease-in-out_infinite]" />
-            </div>
           </section>
 
           {/* ── MANIFESTO ────────────────────────────────────────── */}
