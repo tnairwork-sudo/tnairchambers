@@ -12,6 +12,8 @@ import {
   guidesIndex,
   guidesIndexUrl,
 } from "@/lib/guides";
+import ExploredCount from "@/components/ExploredCount";
+import GuideExploreGrid from "@/components/GuideExploreGrid";
 import { assertReadingMenu } from "@/lib/reading-menu-check";
 import { ogImage, siteUrl } from "@/lib/site";
 
@@ -91,6 +93,7 @@ export default function GuidesIndexPage() {
       </section>
 
       <section className="container-site py-16 md:py-20">
+        <ExploredCount />
         <div className="max-w-3xl space-y-16">
           {[
             {
@@ -116,32 +119,16 @@ export default function GuidesIndexPage() {
               <p className="text-sm md:text-base text-parchment-dim leading-relaxed mb-8 max-w-3xl">
                 {section.note}
               </p>
-              <ul className="border-t border-border">
-                {section.items.map((guide) => (
-                  <li key={guide.slug} className="border-b border-border">
-                    <Link
-                      href={guidePath(guide.slug)}
-                      className="block py-7"
-                    >
-                      <span className="label">
-                        {guide.eyebrow}
-                        {articleQuestions(guide).length > 0 ? (
-                          <>
-                            <span className="mx-3 text-parchment-dim/40">/</span>
-                            {articleQuestions(guide).length} questions
-                          </>
-                        ) : null}
-                      </span>
-                      <span className="mt-3 block font-serif text-3xl font-light text-parchment text-balance">
-                        {guide.title}
-                      </span>
-                      <span className="mt-3 block text-sm md:text-base text-parchment-dim leading-relaxed">
-                        {guideMetaDescription(guide)}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <GuideExploreGrid
+                items={section.items.map((guide) => ({
+                  slug: guide.slug,
+                  href: guidePath(guide.slug),
+                  eyebrow: guide.eyebrow,
+                  questions: articleQuestions(guide).length,
+                  title: guide.title,
+                  description: guideMetaDescription(guide),
+                }))}
+              />
             </div>
           ))}
         </div>

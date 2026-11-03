@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import BigDinner from "@/components/BigDinner";
 import ContactReveal from "@/components/ContactReveal";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -269,15 +270,11 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/60 to-transparent w-[45%]" />
               </div>
             </div>
-
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
-              <div className="w-px h-12 bg-parchment-dim animate-[pulse_2s_ease-in-out_infinite]" />
-            </div>
           </section>
 
           {/* ── MANIFESTO ────────────────────────────────────────── */}
-          <section className="manifesto-section bg-surface border-y border-border py-28 md:py-40">
+          <section className="manifesto-section relative overflow-hidden bg-surface border-y border-border py-28 md:py-40">
+            <div aria-hidden className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-accent/25 to-transparent md:w-28" />
             <div className="container-site max-w-4xl">
               <div className="overflow-hidden mb-2">
                 <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-parchment leading-[1.3]">
@@ -424,6 +421,8 @@ export default function Home() {
               </blockquote>
             </div>
           </section>
+
+          <BigDinner />
 
           {/* ── COURTS & TABLE ───────────────────────────────────── */}
           <section className="courts-section container-site py-24 md:py-32">
