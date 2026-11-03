@@ -3,17 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import ReadingMenu, { ReadingLinks } from "@/components/ReadingMenu";
 import Wordmark from "@/components/Wordmark";
-
-const links = [
-  { href: "/guides", label: "Guides" },
-  { href: "/about", label: "Tushaar Nair" },
-  { href: "/energy", label: "Energy & Power" },
-  { href: "/entering-india", label: "Entering India" },
-  { href: "/ngos", label: "NGOs" },
-  { href: "/employers", label: "Employers" },
-  { href: "/opportunity-atlas", label: "Opportunity Atlas" },
-];
+import { primaryLinks } from "@/lib/reading-menu";
 
 export default function GuideChrome() {
   const pathname = usePathname();
@@ -29,8 +21,8 @@ export default function GuideChrome() {
             <Wordmark className="text-[1.55rem]" />
           </Link>
 
-          <div className="hidden lg:flex items-center gap-x-4 xl:gap-x-6">
-            {links.map((link) => (
+          <div className="hidden lg:flex items-center gap-x-2 xl:gap-x-6">
+            {primaryLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -43,6 +35,7 @@ export default function GuideChrome() {
                 {link.label}
               </Link>
             ))}
+            <ReadingMenu />
           </div>
 
           <button
@@ -69,9 +62,9 @@ export default function GuideChrome() {
         </nav>
 
         {open && (
-          <div className="lg:hidden bg-ink border-t border-border">
+          <div className="lg:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto bg-ink border-t border-border">
             <div className="container-site py-6 flex flex-col gap-5">
-              {links.map((link) => (
+              {primaryLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -86,6 +79,9 @@ export default function GuideChrome() {
                   {link.label}
                 </Link>
               ))}
+              <div className="border-t border-border pt-5">
+                <ReadingLinks onNavigate={() => setOpen(false)} />
+              </div>
             </div>
           </div>
         )}

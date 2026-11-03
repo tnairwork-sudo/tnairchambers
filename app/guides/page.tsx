@@ -12,7 +12,10 @@ import {
   guidesIndex,
   guidesIndexUrl,
 } from "@/lib/guides";
+import { assertReadingMenu } from "@/lib/reading-menu-check";
 import { ogImage, siteUrl } from "@/lib/site";
+
+assertReadingMenu();
 
 export const metadata: Metadata = {
   title: guidesIndex.seoTitle,
