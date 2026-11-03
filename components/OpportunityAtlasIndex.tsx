@@ -39,14 +39,14 @@ export default function OpportunityAtlasIndex({
     <>
       <section className="min-h-[70vh] flex items-end border-b border-border">
         <div className="container-site py-20 md:py-28 lg:py-36">
-          <div className="flex items-center gap-4 mb-8">
+          <div className="kicker mb-8">
             <div className="gold-rule" />
             <span className="label">Opportunity Atlas</span>
           </div>
           <h1 className="heading-display text-[clamp(2.8rem,6vw,5.6rem)] text-parchment mb-6 text-balance max-w-hero">
             Opportunity Atlas
           </h1>
-          <p className="font-serif text-2xl md:text-3xl text-gold-light font-light mb-8">
+          <p className="font-serif text-2xl md:text-3xl text-parchment font-light mb-8">
             Mapping Global Business Opportunities.
           </p>
           <p className="text-base md:text-lg text-parchment-dim leading-relaxed max-w-3xl">
@@ -59,7 +59,7 @@ export default function OpportunityAtlasIndex({
       </section>
 
       <section className="container-site py-16 md:py-24">
-        <div className="flex items-center gap-4 mb-10">
+        <div className="kicker mb-10">
           <div className="gold-rule" />
           <span className="label">Featured Article</span>
         </div>
@@ -69,7 +69,7 @@ export default function OpportunityAtlasIndex({
       <section className="container-site pb-12 md:pb-16">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between mb-10">
           <div>
-            <div className="flex items-center gap-4 mb-4">
+            <div className="kicker mb-4">
               <div className="gold-rule" />
               <span className="label">Category Filters</span>
             </div>
@@ -101,9 +101,9 @@ export default function OpportunityAtlasIndex({
                 type="button"
                 onClick={() => setActiveCategory(category)}
                 aria-pressed={isActive}
-                className={`px-4 py-2 border text-2xs tracking-widest uppercase transition-colors duration-200 ${
+                className={`px-4 py-2 border text-2xs tracking-widest uppercase transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink ${
                   isActive
-                    ? "border-parchment bg-parchment text-ink"
+                    ? "border-accent bg-accent text-ink"
                     : "border-border text-parchment-dim hover:border-parchment-dim hover:text-parchment"
                 }`}
               >
@@ -138,7 +138,7 @@ export default function OpportunityAtlasIndex({
       <section className="bg-surface border-y border-border">
         <div className="container-site py-20 md:py-28">
           <div className="max-w-3xl">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="kicker mb-8">
               <div className="gold-rule" />
               <span className="label">Contact Nair &amp; Co</span>
             </div>

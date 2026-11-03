@@ -74,8 +74,8 @@ export default function Disclaimer() {
           <button
             onClick={handleAccept}
             disabled={!accepted}
-            className={`btn-primary w-full justify-center transition-opacity duration-200
-              ${!accepted ? "opacity-30 cursor-not-allowed" : "opacity-100"}`}
+            className={`btn-primary w-full justify-center transition-colors duration-200
+              ${!accepted ? "bg-parchment opacity-30 cursor-not-allowed" : "opacity-100"}`}
           >
             I Accept & Proceed
           </button>

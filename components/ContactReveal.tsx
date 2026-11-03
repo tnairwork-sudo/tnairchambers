@@ -52,7 +52,7 @@ export default function ContactReveal({
       <div ref={contentRef} style={{ opacity: 0 }} className="flex flex-col gap-1">
         <a
           href={officePhoneHref}
-          className="font-sans text-xs tracking-widest uppercase font-medium text-parchment hover:text-gold transition-colors duration-200"
+          className="font-sans text-xs tracking-widest uppercase font-medium text-parchment"
         >
           {officePhoneDisplay}
         </a>
@@ -70,7 +70,7 @@ export default function ContactReveal({
     <div ref={contentRef} style={{ opacity: 0 }}>
       <a
         href={officePhoneHref}
-        className="font-serif text-3xl md:text-4xl font-light text-parchment block mb-5 hover:text-gold-light transition-colors duration-200"
+        className="font-serif text-3xl md:text-4xl font-light text-parchment block mb-5"
       >
         {officePhoneDisplay}
       </a>

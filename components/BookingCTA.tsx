@@ -17,7 +17,7 @@ export default function BookingCTA({
     <section id={id} className="bg-surface border-t border-border">
       <div className="container-site py-24 md:py-32">
         <div className="max-w-2xl">
-          <div className="flex items-center gap-4 mb-8">
+          <div className="kicker mb-8">
             <div className="gold-rule" />
             <span className="label">{eyebrow}</span>
           </div>

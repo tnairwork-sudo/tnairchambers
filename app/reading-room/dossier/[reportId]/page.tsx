@@ -55,7 +55,7 @@ export default async function ReportPage({
         <div className="flex items-start justify-between gap-4 mb-4">
           <div className="flex-1">
             <div className="flex items-center gap-3 mb-3">
-              <span className="text-2xs tracking-ultra uppercase font-medium text-gold">
+              <span className="text-2xs tracking-ultra uppercase font-medium text-parchment-dim">
                 {report.kind === "scenario"
                   ? "Interactive Model"
                   : report.kind === "memorandum"

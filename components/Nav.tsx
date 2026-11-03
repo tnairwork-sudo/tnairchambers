@@ -35,7 +35,7 @@ export default function Nav() {
               href={link.href}
               className={`nav-link whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
-                  ? "text-parchment"
+                  ? "text-parchment underline decoration-accent underline-offset-4"
                   : ""
               }`}
             >
@@ -80,7 +80,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className={`nav-link ${
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
-                    ? "text-parchment"
+                    ? "text-parchment underline decoration-accent underline-offset-4"
                     : ""
                 }`}
               >

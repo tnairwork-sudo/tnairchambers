@@ -69,19 +69,19 @@ export default async function DossierPage() {
               <Link
                 key={report.id}
                 href={`/reading-room/dossier/${report.id}`}
-                className="block bg-surface border border-border p-6 hover:border-gold transition-colors group"
+                className="block bg-surface border border-border p-6 hover:border-parchment transition-colors group"
               >
                 <div className="flex items-start justify-between gap-4 mb-3">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
-                      <span className="text-2xs tracking-ultra uppercase font-medium text-gold">
+                      <span className="text-2xs tracking-ultra uppercase font-medium text-parchment-dim">
                         {kindLabel}
                       </span>
                       <span className="text-2xs text-parchment-dim">
                         {updatedDate}
                       </span>
                     </div>
-                    <h3 className="heading-section text-lg text-parchment group-hover:text-gold transition-colors">
+                    <h3 className="heading-section text-lg text-parchment">
                       {report.title}
                     </h3>
                     <p className="text-sm text-parchment-dim mt-2">
@@ -93,7 +93,7 @@ export default async function DossierPage() {
                       </p>
                     )}
                   </div>
-                  <div className="flex-shrink-0 text-gold group-hover:translate-x-1 transition-transform">
+                  <div className="flex-shrink-0 text-parchment group-hover:translate-x-1 transition-transform">
                     {report.kind === "scenario" ? "Open →" : "Read →"}
                   </div>
                 </div>

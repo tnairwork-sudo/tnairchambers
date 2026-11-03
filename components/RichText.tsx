@@ -56,7 +56,7 @@ export function parseInline(text: string): ReactNode[] {
             <a
               key={key++}
               href={href}
-              className="text-gold underline decoration-gold/40 underline-offset-4 transition-colors duration-200 hover:text-gold-light"
+              className="text-parchment underline decoration-accent underline-offset-4"
               {...(external
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}

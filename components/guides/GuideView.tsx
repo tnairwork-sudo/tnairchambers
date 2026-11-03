@@ -32,7 +32,7 @@ function RichText({ text }: { text: string }) {
         <Link
           key={key++}
           href={match[3]}
-          className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+          className="text-parchment underline decoration-accent underline-offset-4"
         >
           {match[2]}
         </Link>
@@ -84,7 +84,7 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
                     <li key={child} className="relative pl-6">
                       <span
                         aria-hidden
-                        className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
+                        className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-parchment"
                       />
                       <RichText text={child} />
                     </li>
@@ -115,7 +115,7 @@ function Blocks({ blocks }: { blocks: GuideBlock[] }) {
                 <li key={itemIndex} className="relative pl-6">
                   <span
                     aria-hidden
-                    className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-gold"
+                    className="absolute left-0 top-[0.72em] h-1.5 w-1.5 rounded-full bg-parchment"
                   />
                   <ItemBody item={item} />
                 </li>
@@ -190,14 +190,14 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
         <div className="container-site py-16 md:py-20 lg:py-24">
           <Link
             href="/guides"
-            className="inline-flex items-center gap-3 label text-gold hover:text-gold-light transition-colors duration-200 mb-8"
+            className="inline-flex items-center gap-3 label text-parchment underline decoration-accent underline-offset-4 mb-8"
           >
             <span aria-hidden>←</span>
             {hindi ? "सभी मार्गदर्शिकाएँ" : "All guides"}
           </Link>
 
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6">
-            <span className="label text-gold">{guide.eyebrow}</span>
+            <span className="label">{guide.eyebrow}</span>
             <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
               {guide.dateLabel}
             </span>
@@ -255,7 +255,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
                   <li key={item.question}>
                     <a
                       href={`#${questionHeadingId(item.question)}`}
-                      className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                      className="text-parchment underline decoration-accent underline-offset-4"
                     >
                       {item.question}
                     </a>
@@ -281,7 +281,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
                     key={alternate.slug}
                     href={guidePath(alternate.slug)}
                     hrefLang={alternate.hrefLang}
-                    className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                    className="text-parchment underline decoration-accent underline-offset-4"
                   >
                     {alternate.label}
                   </Link>
@@ -292,7 +292,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
           <p className="mt-8 text-sm text-parchment">
             <Link
               href="/"
-              className="underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+              className="underline decoration-accent underline-offset-4"
             >
               Nair &amp; Co, Advocates &amp; Consultants
             </Link>
@@ -335,7 +335,7 @@ export default function GuideView({ guide }: { guide: GuidePage }) {
                 <li key={item.slug}>
                   <Link
                     href={guidePath(item.slug)}
-                    className="text-parchment underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors duration-200"
+                    className="text-parchment underline decoration-accent underline-offset-4"
                   >
                     {item.title}
                   </Link>

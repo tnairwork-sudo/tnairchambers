@@ -24,8 +24,8 @@
   }
 
   ::selection {
-    background: #c4a55a28;
-    color: #0f0d0a;
+    background: theme("colors.accent");
+    color: theme("colors.ink");
   }
 
   /* Scrollbar */
@@ -33,10 +33,10 @@
     width: 2px;
   }
   ::-webkit-scrollbar-track {
-    background: #f3efe8;
+    background: theme("colors.surface");
   }
   ::-webkit-scrollbar-thumb {
-    background: #c4a55a66;
+    background: color-mix(in srgb, theme("colors.parchment") 35%, transparent);
   }
 }
 
@@ -69,10 +69,10 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-3 bg-parchment text-ink px-8 py-4
+    @apply inline-flex items-center gap-3 bg-accent text-ink px-8 py-4
            font-sans text-xs tracking-widest uppercase font-medium
-           transition-all duration-300 hover:bg-gold-light hover:text-ink
-           focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-ink;
+           transition-all duration-300 hover:brightness-95
+           focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink;
   }
 
   .btn-ghost {
@@ -82,8 +82,16 @@
            focus:outline-none focus:ring-2 focus:ring-parchment-dim focus:ring-offset-2 focus:ring-offset-ink;
   }
 
+  .kicker {
+    @apply flex flex-col items-start gap-2;
+  }
+
+  .kicker > .gold-rule {
+    order: 1;
+  }
+
   .gold-rule {
-    @apply w-8 h-px bg-gold;
+    @apply w-8 h-px bg-accent;
   }
 
   .container-site {

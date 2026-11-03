@@ -36,7 +36,7 @@ export default function GuideChrome() {
                 href={link.href}
                 className={`nav-link whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
-                    ? "text-parchment"
+                    ? "text-parchment underline decoration-accent underline-offset-4"
                     : ""
                 }`}
               >
@@ -47,7 +47,7 @@ export default function GuideChrome() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none focus:ring-2 focus:ring-gold"
+            className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink"
             aria-label="Toggle menu"
           >
             <span
@@ -79,7 +79,7 @@ export default function GuideChrome() {
                   className={`nav-link ${
                     pathname === link.href ||
                     pathname.startsWith(`${link.href}/`)
-                      ? "text-parchment"
+                      ? "text-parchment underline decoration-accent underline-offset-4"
                       : ""
                   }`}
                 >

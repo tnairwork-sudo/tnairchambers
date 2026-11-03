@@ -169,14 +169,14 @@ export default async function OpportunityAtlasArticlePage({
           <div className="container-site py-16 md:py-20 lg:py-24">
             <Link
               href="/opportunity-atlas"
-              className="inline-flex items-center gap-3 label text-gold hover:text-gold-light transition-colors duration-200 mb-8"
+              className="inline-flex items-center gap-3 label text-parchment underline decoration-accent underline-offset-4 mb-8"
             >
               <span aria-hidden>←</span>
               Back to Opportunity Atlas
             </Link>
 
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6">
-              <span className="label text-gold">{article.category}</span>
+              <span className="label">{article.category}</span>
               {article.publishedAt ? (
                 <span className="text-2xs tracking-wide uppercase text-parchment-dim/70">
                   {formatOpportunityAtlasDate(article.publishedAt)}
@@ -230,7 +230,7 @@ export default async function OpportunityAtlasArticlePage({
 
             <aside className="xl:pt-2">
               <div className="border border-border bg-surface p-6 md:p-8 sticky top-24">
-                <div className="flex items-center gap-4 mb-6">
+                <div className="kicker mb-6">
                   <div className="gold-rule" />
                   <span className="label">Article Details</span>
                 </div>
@@ -263,7 +263,7 @@ export default async function OpportunityAtlasArticlePage({
       {relatedArticles.length > 0 ? (
         <section className="border-t border-border bg-surface">
           <div className="container-site py-20 md:py-24">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="kicker mb-8">
               <div className="gold-rule" />
               <span className="label">Related Articles</span>
             </div>
