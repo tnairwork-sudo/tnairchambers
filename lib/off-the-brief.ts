@@ -1671,6 +1671,58 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Affective science, awe",
+    title:
+      "Big smile, small self: Awe walks promote prosocial positive emotions in older adults",
+    authors:
+      "Sturm VE, Datta S, Roy ARK, Sible IJ, Kosik EL, Veziris CR, Chow TE, Morris NA, Neuhaus J, Kramer JH, Miller BL, Holley SR, Keltner D",
+    year: 2020,
+    citation: "Emotion",
+    link: "https://doi.org/10.1037/emo0000876",
+    slug: "awe-walks",
+    published: true,
+    relatedWork: [
+      {
+        authors:
+          "Piff PK, Dietze P, Feinberg M, Stancato DM, Keltner D",
+        title: "Awe, the small self, and prosocial behavior",
+        year: 2015,
+        citation: "Journal of Personality and Social Psychology",
+      },
+      {
+        authors:
+          "Graziosi M, Chirico A, Clifton JD, Rohde JS, Chhabra R, Yaden DB",
+        title:
+          "A series of replication attempts of experimental awe-induction effects",
+        year: 2026,
+        citation: "PLOS One",
+        link: "https://doi.org/10.1371/journal.pone.0356728",
+      },
+    ],
+    qa: [
+      {
+        q: "What is awe, in the scientific sense?",
+        a: "Awe is the emotion people feel in the presence of something perceived as vast that does not fit their existing understanding. Keltner and Haidt (2003) described two features: perceptual vastness and a need to accommodate it. One commonly reported part of the experience is a \"small self\", the sense that one's own concerns have shrunk.",
+      },
+      {
+        q: "What did the awe walk study find?",
+        a: "Sixty healthy older adults took weekly 15-minute outdoor walks for eight weeks. Half were guided to look for awe. Compared with the control group, they reported more awe, joy and prosocial positive emotions during their walks. Their photographs of themselves gradually showed less of the person and more of the scenery, and their smiles grew stronger over time. Daily prosocial emotions rose and daily distress fell. Anxiety, depression and life satisfaction did not change.",
+      },
+      {
+        q: "Does awe make people more generous or ethical?",
+        a: "That was the claim of an influential 2015 paper of five studies with 2,078 participants. Later work has not held it up well. In 2026 a team ran six replication attempts using videos, writing tasks and virtual reality, three of them direct replications with about 2.5 times the original samples. Awe was reliably induced in five of the six studies, and the small-self rating replicated, but effects on ethical decisions, prosocial tendencies, belief and life satisfaction were generally not reproduced.",
+      },
+      {
+        q: "How should the evidence be read?",
+        a: "The feeling of awe and its small-self quality appear robust. The idea that brief, laboratory-style awe changes behaviour is contested. The replication authors suggest brief inductions may be too mild, and that more intense or sustained experiences may matter, which remains open.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "Awe seems easy to evoke through scale and attention, and it reliably shifts how people feel about their place among others. Claims that it changes conduct deserve caution until larger studies settle the question.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
