@@ -1015,6 +1015,86 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 106,
+        pagesTo: 120,
+        label:
+          "pp 106-120: The end of Chapter Fourteen, the whole of Chapter Fifteen, and most of Chapter Sixteen (read to p. 120, which ends mid-sentence)",
+        qa: [
+          {
+            q: "How did the BBC interview with John Sweeney end?",
+            a: "Sweeney asked whether David Miscavige hits people, and Remini deflected with a joke. Tommy Davis and Mike Rinder then humiliated him, had him followed, and provoked a screaming fit that the church filmed and posted on YouTube. She checked on him and refused to sign her release: \"I couldn't take it; there's nothing I hate more than seeing someone be humiliated, whether a Scientologist or not.\"",
+          },
+          {
+            q: "What was The Talk like after The King of Queens ended?",
+            a: "The series ended after nine years and 207 episodes. In 2010 she joined the CBS daytime show The Talk, found the conversations sold as candid to be scripted, and became an unofficial producer. She tried to make peace between Sharon Osbourne and Julie Chen. A group email meant to be positive backfired when Sharon attacked her at dinner. She and Holly Robinson Peete were dropped after the first season, then mocked on air by former co-hosts. Of the show itself she writes, \"Instead, this felt manufactured.\"",
+          },
+          {
+            q: "What did she come to say about being herself, and about friendship?",
+            a: "Years later she hugged Julie Chen and said she was sorry for her part. On being herself she writes, \"There is no 'right' way to be. I am flawed and imperfect, but am uniquely me.\" On friendship: \"If I call you a friend, I mean it. You are now on par with being a family member.\" And, of how people reveal themselves, \"by their actions, they will show you who they are.\"",
+          },
+          {
+            q: "How did the church treat a mistake it had made with her?",
+            a: "Around the time Tom Cruise and Katie Holmes divorced in 2012, her auditor admitted she had been wrongly handled and promised a $300,000 credit. The paperwork never arrived. Asking for the money back was itself treated as an offence. \"It is the perfect catch-22—if you ask for your money back, you will be Declared and thereby no longer qualify to get your money back.\" She writes that \"the leaders of our faith took no responsibility for anything ever.\"",
+          },
+          {
+            q: "How did the fundraising work?",
+            a: "She saw the International Association of Scientologists push members into debt, with fundraisers raising a person's credit limit for them. The line she records is \"Either you're an able being, or you're not. Able beings make major donations.\"",
+          },
+          {
+            q: "What happened when she wrote to Shelly Miscavige and then looked outside?",
+            a: "Her letters were withheld as \"entheta\". David Miscavige met her and said Shelly was being kept away from subpoenas. Remini then broke the rules: she contacted Mike Rinder, now out, and heard about beatings in a place called \"the Hole\". \"What you don't understand is that we were backed up by policy,\" Mike said to me. She read Debbie Cook's email and court testimony, and she searched the internet.",
+          },
+          {
+            q: "How did her closest friends respond?",
+            a: "The Futrises would not even read a critic's email. \"Why would I read entheta?\" Valerie said. ... \"Because it's from somebody who's against our group.\" Remini's reflection is \"You run back to the safety of the group that shares your mentality, and in this way your world becomes very insular.\" Page 120 ends mid-sentence, in the story of Stefan's plan to get his wife Tanja out of Gold Base.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "Harassment works as publicity when a critic can be baited, followed and filmed, so the reaction becomes the story. Candour that is scripted is felt as manufactured. Members pay for every mistake while the institution does not, and spending is treated as proof of worth. Criticism labelled entheta in advance is never weighed, which is how a private circle stays sealed.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 121,
+        pagesTo: 135,
+        label:
+          "pp 121-135: The end of Chapter Sixteen and the start of Chapter Seventeen (read to p. 135, which ends mid-chapter; pp. 128-131 carry no readable text)",
+        qa: [
+          {
+            q: "How did Tanja leave, and how did the church answer Leah's questions?",
+            a: "Tanja escaped Gold Base with Stefan in 2006. Two executives, Mike Sutter and Hansuli Stahli, were sent to answer questions. They showed policy and a slideshow of property purchases instead, and said that speaking to Debbie Cook or Mike Rinder was a betrayal of the whole project. \"When you connect up with a Debbie Cook or a Mike Rinder,\" Sutter said to me, \"you're cutting across the survival of mankind and impeding what we're trying to do here.\" Remini's reply was \"Listen, guys, I really appreciate the eighth-grade presentation, but I could give a shit about buildings.\"",
+          },
+          {
+            q: "What happened when officials came to her house?",
+            a: "Shane Woodruff and Dave Petit arrived unannounced, pressed policy on her, and still could not say where Shelly was. Shane insulted her, and Angelo threw him out. Of these visits she writes, \"No answers. They just 'acknowledged' me ... There were no human qualities to any of this.\"",
+          },
+          {
+            q: "What did David Miscavige ask of her, and what became of the credit?",
+            a: "He met her, put the blame on Jessica, and asked her to look at what was good. The $300,000 credit was at last paid. She was then summoned by the MAA, Julian Swartz, who showed her more than a dozen Knowledge Reports written by her closest friends. \"What's all this?\" I fired back. \"You tell me,\" Julian said.",
+          },
+          {
+            q: "What did those reports do to her friendships?",
+            a: "People who had sworn loyalty called back in tears after speaking with Julian. \"I'm not going to disconnect from you. I know that your heart's in the right place,\" and then, little by little, after hearing from Julian, they would write me emails that read, \"You have to get yourself handled.\" Her mother's security check turned out to be entirely about Leah.",
+          },
+          {
+            q: "Why did she decide to leave, and what did she do about Shelly?",
+            a: "She was told the order did not come from the person in the room. His response was \"I'm not telling you to disconnect. LRH is.\" She decided to leave for good and called the Los Angeles police to file a missing person report for Shelly. In a letter to Shelly she wrote, \"That is not human.\"",
+          },
+          {
+            q: "What happened to the missing person report?",
+            a: "Pages 128 to 131 carry no readable text. From page 132 the church is shown cultivating the police, a practice she calls \"safe pointing\". Detective Kevin Becker took her report at her house, at personal risk. Within days the department closed the file after speaking only to the church's lawyer, and called it unfounded, which the church then used against her. Her line on that ending is \"And there you have it. Case closed.\"",
+          },
+          {
+            q: "Who stayed, and what did the security checks show?",
+            a: "\"I realized that I had lost every single Scientology friend who had written me a letter.\" Her immediate family, her husband and her staff who were not Scientologists simply stayed. \"There was no discussion. It was not something they had to consider—they simply chose me.\" A business manager who had advised against a million-dollar donation was security-checked and quit. Tom Cruise's former assistant lost her house to a security check and still felt proud. Remini's judgement of the practice is that \"the practice doesn't help you better the world or even yourself; it only helps you be a better Scientologist.\" Page 135 ends mid-chapter, after that story.",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "A hard question is met with a policy, a slideshow or a bare acknowledgement, and scale is offered as if it answered a question about a missing person. Friends are asked to write reports on one another, so loyalty to the group outranks loyalty to the person. The cruel order is attributed to a text rather than owned by anyone in the room. When the pressure came, the people with no stake in the group stayed, and the wider circle did not. A belonging that only makes a person a better member, and not a better person outside it, is a closed loop.",
+          },
+        ],
+      },
     ],
   },
   {
