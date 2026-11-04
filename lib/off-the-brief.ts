@@ -705,7 +705,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 120,
         pagesTo: 135,
-        label: "pp 120-135: The end of Chapter Four, \"Hours to Days Before\": stress, alcohol and the chapter's conclusions (read to p. 133 so far)",
+        label: "pp 120-135: The end of Chapter Four, \"Hours to Days Before\": stress, alcohol and the chapter's conclusions, and the opening of Chapter Five",
         qa: [
           {
             q: "What does Sapolsky conclude about PMS and the courts?",
@@ -772,8 +772,99 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Testosterone does not invent aggression; it raises sensitivity to triggers in people already prone to it, rises during status challenges and boosts whatever maintains status, so in a world that rewarded kindness it would be \"the most prosocial hormone in existence\". Oxytocin and vasopressin are not universal love hormones; they favour Us and sharpen suspicion of Them. Female aggression is adaptive. Premenstrual shifts are real but barely linked to aggression. Sustained stress overdrives the amygdala, weakens the frontal cortex and reduces empathy. Over minutes to hours, hormones do not cause behaviour; they exaggerate tendencies already there.",
           },
           {
-            q: "What is the takeaway so far?",
-            a: "Short, mild stress sharpens us, but sustained stress makes us more fearful, rigid, blind to risk, selfish and narrower in who we feel for.",
+            q: "What question does Chapter Five ask, and how is it different from Chapter Four?",
+            a: "Chapter Four looked at changes over hours: testosterone making amygdala neurons more excitable, stress hormones dampening the prefrontal cortex. Chapter Five, \"Days to Months Before\", asks what happened in the days and months before a behaviour, because that is long enough for the brain's actual structure to change.",
+          },
+          {
+            q: "What is the takeaway for pages 120-135?",
+            a: "Short, mild stress sharpens us, but sustained stress makes us more fearful, rigid, blind to risk, selfish and narrower in who we feel for. Over minutes to hours, hormones exaggerate tendencies already there; over days to months, the brain itself starts to rebuild.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 135,
+        pagesTo: 150,
+        label: "pp 135-150: Chapter Five, \"Days to Months Before\": neuroplasticity",
+        qa: [
+          {
+            q: "What did Donald Hebb propose about memory?",
+            a: "Early neuroscientists thought a new memory needed a new neuron, then a new branch, then a new synapse. In The Organization of Behavior (1949), Hebb argued that none of these was needed: memory could come from strengthening synapses that already exist, so that one neuron more readily fires the next.",
+          },
+          {
+            q: "How do the two glutamate receptors explain \"getting it\"?",
+            a: "One receptor responds in proportion: a little glutamate lets in a little sodium. The other, the NMDA receptor, usually ignores the signal until a long train of glutamate pushes it past a threshold, and then it opens with a burst of excitation. Sapolsky likens it to a lecturer repeating a fact until the lightbulb finally goes on.",
+          },
+          {
+            q: "What is long-term potentiation, and how does it work?",
+            a: "Long-term potentiation (LTP), first shown in 1966 by Terje Lømo at the University of Oslo, is a lasting increase in a synapse's excitability after that first burst. Open NMDA channels let in calcium, which adds more receptors, makes existing ones more sensitive, and signals back so the sending neuron releases more glutamate. The sender speaks louder and the receiver listens harder.",
+          },
+          {
+            q: "What is long-term depression, and why is it not just forgetting?",
+            a: "It is a lasting, experience-driven decrease in a synapse's excitability. It is not simply LTP in reverse, and its job is to sharpen a signal by erasing what is extraneous.",
+          },
+          {
+            q: "How can someone in their eighties remember kindergarten when receptors last only days?",
+            a: "The altered receptors are broken down and replaced within days, yet the changes are somehow passed on to each new generation of receptor copies. Sapolsky calls the mechanism elegant but beyond the chapter.",
+          },
+          {
+            q: "Does LTP happen only in the memory centre?",
+            a: "No. It happens throughout the nervous system, to the dismay of many hippocampus researchers (\"LTP is what occurred in Schopenhauer's hippocampus when he read Hegel, not what the spinal cord does to make you more coordinated at twerking\"). It underlies fear conditioning in the amygdala, the frontal cortex learning to control the amygdala, and the link between a place and a drug that makes people with addiction crave in that setting.",
+          },
+          {
+            q: "How does stress affect this kind of learning in different regions?",
+            a: "It follows an inverted U. Moderate, brief stress helps LTP in the hippocampus, while prolonged stress disrupts it, one reason thinking suffers. Sustained stress also boosts LTP in the amygdala, increasing fear learning, and suppresses it in the frontal cortex. A more excitable amygdala and a less excitable frontal cortex help explain stress-driven impulsiveness.",
+          },
+          {
+            q: "How was the \"new synapses\" idea rescued?",
+            a: "Rats in rich, stimulating environments have more synapses in the hippocampus. Watching a single branch while a rat learns shows a new spine appearing within minutes to hours and a working synapse forming over weeks. The same happens in the motor cortex when learning a movement and in the visual cortex after visual stimulation.",
+          },
+          {
+            q: "What does chronic stress do to the branches of neurons?",
+            a: "In the hippocampus, moderate stress adds spines and sustained stress removes them; depression and anxiety shrink them through lower levels of a growth factor called BDNF. In the frontal cortex, chronic stress shrinks branches and removes synapses, worsening attention and decisions, and it shifts wiring so decisions become more habitual. In parts of the amygdala, stress does the opposite, raising BDNF and expanding branches, which increases anxiety and fear learning.",
+          },
+          {
+            q: "What does the running-wheel study show about context?",
+            a: "A terrified rat releasing a lot of stress hormone shows shrinking branches in the hippocampus, but a rat releasing the same amount by running voluntarily on a wheel shows them expanding. Whether the amygdala is also activated seems to decide whether the hippocampus treats it as good or bad stress. In female rats, hippocampal branches expand and contract \"like an accordion\" across the reproductive cycle, peaking with oestrogen along with cognitive skills.",
+          },
+          {
+            q: "What happens in the brains of blind and deaf people?",
+            a: "When a blind person reads Braille, the visual cortex activates, because touch pathways from the fingertips have grown into it. A woman blind from birth who had a stroke in her visual cortex lost the ability to read Braille while other touch was fine. Deaf people watching sign language activate the auditory cortex. Even five days of blindfolding starts hearing pathways moving into the visual cortex, and they retreat when the blindfold comes off.",
+          },
+          {
+            q: "What happens after an injury?",
+            a: "After a stroke in the part of the cortex that handles touch in the hand, nerve fibres from the hand sprout into neighbouring cortex over months to years and restore rough touch. If the hand's receptors are destroyed, neurons serving the wrist expand into the empty cortex: \"neurons abhor a vacuum.\" In blind people, hearing neurons expanding into the visual cortex sharpen hearing.",
+          },
+          {
+            q: "What did Alvaro Pascual-Leone's piano study show?",
+            a: "Non-musicians practised a five-finger piano exercise two hours a day. Within days, the motor cortex for that hand expanded, but the gain faded within a day without practice. After four weeks of daily practice, the change lasted for many days. Remarkably, people who only imagined playing also remapped. Musicians have larger auditory areas, especially for their own instrument and the younger they started, and three months of juggling expands the brain's map for visual motion.",
+          },
+          {
+            q: "How did new adult neurons go from heresy to accepted science?",
+            a: "In 1965 Joseph Altman at MIT showed new neurons forming in adult rats and was rejected, denied tenure and lost funding. A decade later Michael Kaplan extended the work and was crushed, notably by Yale's Pasko Rakic: \"Those may look like neurons in New Mexico, but they don't in New Haven.\" Kaplan left research. Then Fernando Nottebohm showed new neurons in songbirds that learn a new song each year, and Elizabeth Gould and Fred Gage showed it in rats. Sceptics kept moving the goalposts until every objection was answered. Altman's paper got 29 citations in its first five years and more than a thousand in the most recent five.",
+          },
+          {
+            q: "What do we now know about new adult neurons?",
+            a: "About 3 percent of neurons in the hippocampus are replaced each month throughout adult human life. Learning, exercise, oestrogen, antidepressants, a stimulating environment and brain injury increase it, and stress inhibits it. The new neurons join circuits and are essential for \"pattern separation\": learning that two things you thought were the same are different, such as baking soda and baking powder.",
+          },
+          {
+            q: "Why did acceptance take so long?",
+            a: "One view is that the sceptics were heavy-handed but provided quality control, since some early work was not solid. The other is that the establishment could not accept what it had failed to find, though Altman was actually a little older than Rakic. Altman later said he may have spent too little time promoting the work, and took it philosophically as a Hungarian Jew who had escaped a Nazi camp.",
+          },
+          {
+            q: "Can whole brain regions change size with experience?",
+            a: "Yes. Prolonged depression, severe chronic pain and Cushing's syndrome shrink the hippocampus, and PTSD enlarges the amygdala. London taxi drivers have an enlarged rear hippocampus, which handles spatial maps, and a study scanning trainees before and after the years-long licensing process found it grew only in those who passed. A parasite, Toxoplasma gondii, makes rats less afraid of the smell of cats. Many of these changes reverse in a different environment.",
+          },
+          {
+            q: "What cautions does Sapolsky give about neuroplasticity?",
+            a: "First, it is value-free: wonderful for taxi drivers and surgeons, disastrous when trauma enlarges the amygdala and shrinks the hippocampus, and \"probably not a societal plus in safe crackers.\" Second, it is finite: otherwise severed spinal cords would heal, and ten thousand hours of practice does not guarantee anyone becomes Yo-Yo Ma or LeBron James.",
+          },
+          {
+            q: "So why does neuroplasticity matter for understanding behaviour?",
+            a: "Mostly because it makes tangible that brains, and so people, really change. Within months, people in the Arab world went from voiceless to toppling tyrants, Rosa Parks from victim to catalyst, Sadat and Begin from enemies to peacemakers, and Mandela from prisoner to statesman. A different world makes a different worldview, which means a different brain.",
+          },
+          {
+            q: "What is the takeaway for pages 135-150?",
+            a: "Repetition physically rewires us, through stronger synapses, new connections, remapped pathways and even new neurons. But the rewiring is value-free, finite and shaped by context: chronic fear builds up the amygdala, while chosen effort such as exercise builds up the hippocampus.",
           },
         ],
       },
@@ -1121,7 +1212,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 120,
         pagesTo: 135,
-        label: "pp 120-135: The end of Chapter Sixteen and the start of Chapter Seventeen (pp 128-131 are photo pages; read to p. 135, which ends mid-chapter)",
+        label: "pp 120-135: The end of Chapter Sixteen and the start of Chapter Seventeen (pp 128-131 are photo pages)",
         qa: [
           {
             q: "How did the church answer Remini's questions about Shelly Miscavige?",
@@ -1158,6 +1249,61 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What are the key ideas of these pages?",
             a: "A closed group answers hard questions with procedure and grandeur, turns friends into informants, and lets each enforcer hide behind the founder's rules. When pressure comes, the people with no stake in the group are the ones who stay.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 135,
+        pagesTo: 150,
+        label: "pp 135-150: The end of Chapter Seventeen, Chapter Eighteen and Chapter Nineteen (the end of the book; the story ends on p. 149, followed by the photo insert)",
+        qa: [
+          {
+            q: "What does Remini allege happened to Nazanin Boniadi?",
+            a: "She writes that the church \"prepared\" the actress to become Tom Cruise's girlfriend: it ended her existing relationship using her boyfriend's confessional files, restyled her and staged a seemingly coincidental perfect date. When the relationship ended, Boniadi was isolated, demoted and made to scrub toilets. The church and Cruise deny all of it.",
+          },
+          {
+            q: "How did a church official justify arranging the match?",
+            a: "\"Of course, how else is he going to meet someone qualified? At a club? Look, I can lead a horse to water, but I can't make it drink.\" And Boniadi's own reply to being called robotic: \"If I am a robot, it is because you turned me into one.\"",
+          },
+          {
+            q: "What happened to her friendships once she fell out of favour?",
+            a: "Her friends turned their backs. One was told, \"You just got done scrubbing toilets. What makes you think you have anything to talk about with a successful Scientologist like that?\" Status inside the group decided who was worth talking to.",
+          },
+          {
+            q: "Why does the church feel so complete to its members?",
+            a: "It offers charity, purpose and constant recognition all in one place: \"It's a satisfaction you don't get in the real world, where doing good things doesn't immediately, or even necessarily, translate into recognition.\" Members rarely test that world against the outside, and certificates take the place of real results. Remini adds, \"My Scientology friends didn't really have non-Scientology friends. And if it appeared that they did, it was merely to eventually, over time, recruit them into the church.\"",
+          },
+          {
+            q: "What mistake does she admit?",
+            a: "\"The big mistake I made, however, was in trying to change the system instead of just changing myself.\"",
+          },
+          {
+            q: "Why did her mother stay so long?",
+            a: "She had spent decades and a fortune climbing the church's levels, and \"I just want to get through it\" kept her going long after doubt set in. What has already been spent becomes the reason to keep spending.",
+          },
+          {
+            q: "Who stood by her when she went public?",
+            a: "The friends she had kept outside the church were the ones who called the moment she left. Her Dancing with the Stars partner Tony Dovolani protected her rather than using her story, and Jennifer Lopez dismissed disconnection outright: \"That is the most ridiculous thing I have ever heard.\"",
+          },
+          {
+            q: "What was unlearning like?",
+            a: "Slow. She kept asking herself, \"Is that what you really think, or what a Scientologist would think?\" Therapy taught her to \"use what works for you and leave the rest,\" and she found that \"worlds open up to you that you were previously cut off from.\"",
+          },
+          {
+            q: "Where does she locate the real danger?",
+            a: "In the absolutism: \"You were either all in or all out. It is an extremist religion. There is no middle ground. And there within its structure lies the danger.\"",
+          },
+          {
+            q: "How does the book end?",
+            a: "\"Belief and faith are great, but very few people have been led astray by thinking for themselves.\" She closes, \"And to all my fellow troublemakers, I say, 'Carry on.'\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "An engineered \"coincidence\" can feel like fate. When rank inside a group decides who may speak to whom, friendship becomes conditional. A group that hands out its own recognition can replace real results with certificates, and sunk cost keeps people in long after belief has gone. Outside friendships are what make leaving possible.",
+          },
+          {
+            q: "What does the whole book show?",
+            a: "How a group wins total loyalty: it recruits people hungry for a better life, offers a ladder of courses with always one more rung, has members confess and report on one another, rewards celebrities and punishes doubters, and makes cutting off family the price of questioning. Remini's way out came through the people outside the group who still picked up the phone, and through slowly learning to think for herself again.",
           },
         ],
       },
@@ -1553,6 +1699,59 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "How did he turn the build into a story?",
             a: "He held press conferences with no news (\"everything was proceeding right on schedule\") and still got headlines. The rink earned $1.2 million in its first season, gave over $500,000 in profit to charity and the parks department, and drew half a million skaters.",
+          },
+        ],
+      },
+      {
+        label: "Part 10: Comeback: A West Side Story and The Week That Was (chapters 13 and 14)",
+        qa: [
+          {
+            q: "How did he get the West Side rail yards so cheaply?",
+            a: "He bought them for about $95 million, roughly $1 million an acre, because a bank was foreclosing on a desperate seller, he dealt before any public sale, and few rivals could carry the costs. Weeks later the far smaller Coliseum site sold for about $500 million.",
+          },
+          {
+            q: "Why had he walked away from the site earlier?",
+            a: "He dropped his 1979 option because he could not yet carry it, built cash flow and a track record elsewhere, and later bought back in for less. \"I'm lucky that I can afford to wait, because that way I'll be able to do it right.\"",
+          },
+          {
+            q: "What went wrong for the previous owner?",
+            a: "The developer who held the site in between, Francisco Macri, promised more than $100 million in concessions to win approval, including a $30 million subway station and a power-plant smokestack he never priced (\"How much can a smokestack cost?\"), and accepted a density that made the project unbuildable. \"He became his own worst enemy.\"",
+          },
+          {
+            q: "What is his rule on spending commitments?",
+            a: "Development is not a fixed-price contract. \"The less you commit to spend up front, the less you're at risk later.\"",
+          },
+          {
+            q: "How did goodwill pay off?",
+            a: "When Macri asked to be let out of a signed letter of intent that was likely binding, Trump tore it up. When Macri finally had to sell, he came back to Trump first. Trump also advises never signing a letter of intent.",
+          },
+          {
+            q: "How did he try to make approval easy?",
+            a: "By finding a shared interest. NBC was thinking of leaving for New Jersey, taking about 4,000 jobs and $500 million a year, and his site alone could offer 2 million square feet of studios. \"Deals work best when each side gets something it wants from the other.\"",
+          },
+          {
+            q: "What was the point of the world's tallest building?",
+            a: "A 1,670-foot tower was a headline symbol that put the project, renamed Television City from Lincoln West, on the CBS Evening News during the Reagan-Gorbachev summit. The name and the symbol sold the whole plan.",
+          },
+          {
+            q: "Where did he compromise?",
+            a: "On points that did not touch the economics. He moved the tower south and replaced a flamboyant architect with one trusted by city planners, without giving up the floor space that made the project work.",
+          },
+          {
+            q: "What does \"The Week That Was\" show about walking away?",
+            a: "He turned down an Australian casino (24 hours away), a Las Vegas deal, a deal with Drexel, the Beverly Hills Hotel (keeping his bid low after inspecting it) and a fund with outside investors: \"Making choices is a lot easier when you have to answer only to yourself.\"",
+          },
+          {
+            q: "How did he read the seller's counteroffer on a jet?",
+            a: "He spotted a 727 jet for sale in a Business Week article, called the new chairman directly and offered $5 million. They countered at $10 million, and \"at that point I knew I had a great deal.\" They settled at $8 million.",
+          },
+          {
+            q: "Why did the Resorts shareholders stick with him?",
+            a: "The founding families honoured his $135-a-share deal despite higher bids, because he was best placed to finish the Taj Mahal casino. Confidence that a deal will be carried out can beat a higher price.",
+          },
+          {
+            q: "What are the book's lessons overall?",
+            a: "Think big but protect the downside first. Keep options open and be willing to walk, because desperation is fatal. Know the market from your own legwork, not consultants or committees. Use leverage, especially when the other side is under pressure. Location and a strong, specific story create value. Fight unfair treatment but stay practical on points that do not touch the economics. Deliver on time and under budget, because a track record is what lets you wait and borrow. And price every concession before you give it.",
           },
         ],
       },
