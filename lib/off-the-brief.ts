@@ -1161,6 +1161,46 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        day: 10,
+        pagesFrom: 136,
+        pagesTo: 149,
+        label: "Day 10, pages 136 to 149",
+        qa: [
+          {
+            q: "What does Remini report about Nazanin Boniadi?",
+            a: "She writes that the church prepared Nazanin to become Tom Cruise's girlfriend. It ended Nazanin's existing relationship by using her boyfriend's confessional files, restyled her, and staged what looked like a chance meeting: sushi, ice skating, and a well-known building closed for the evening. When it ended, Nazanin was isolated, demoted, and set to scrubbing toilets. She said, \"If I am a robot, it is because you turned me into one.\" Asked how else such a meeting would happen, Greg Wilhere is quoted: \"Of course, how else is he going to meet someone qualified? At a club? Look, I can lead a horse to water, but I can't make it drink.\" Remini notes that the church and Cruise deny all of it.",
+          },
+          {
+            q: "What happened once Nazanin was out of favour?",
+            a: "Friends turned their backs. Standing inside the group was what made a person worth speaking to. She was told, \"You just got done scrubbing toilets. What makes you think you have anything to talk about with a successful Scientologist like that? You have nothing in common.\"",
+          },
+          {
+            q: "How does Remini describe the world the church supplied?",
+            a: "Charity, purpose and recognition all came from inside, so members rarely tested the group against life outside it. \"It's a satisfaction you don't get in the real world, where doing good things doesn't immediately, or even necessarily, translate into recognition.\" Certificates stood in for results. Her mother had spent decades on the Bridge. \"I just want to get through it\" kept her going long after doubt arrived. Remini's own line is \"The big mistake I made, however, was in trying to change the system instead of just changing myself.\"",
+          },
+          {
+            q: "Who was still there when she left?",
+            a: "The friends who were not Scientologists. \"My Scientology friends didn't really have non-Scientology friends. And if it appeared that they did, it was merely to eventually, over time, recruit them into the church.\" Those outside friends called the moment she left. On Dancing with the Stars, Tony Dovolani looked after her rather than using her story. Told about disconnection, Jennifer Lopez said, \"That is the most ridiculous thing I have ever heard.\"",
+          },
+          {
+            q: "What did unlearning ask of her?",
+            a: "Years of asking, \"Is that what you really think, or what a Scientologist would think?\" She writes, \"Worlds open up to you that you were previously cut off from.\" From therapy she kept one rule: \"Use what works for you and leave the rest.\" The danger, as she names it, is having no middle ground. \"You were either all in or all out. It is an extremist religion. There is no middle ground. And there within its structure lies the danger.\" A person can miss an evening, or leave, and still be a friend.",
+          },
+          {
+            q: "How does the book close?",
+            a: "The story ends on page 149. After that come photo pages with captions only, then acknowledgements, then a note about the author. Her closing lines include \"Belief and faith are great, but very few people have been led astray by thinking for themselves.\" \"We all have a newfound strength, in that we will never again 'believe' just because.\" And \"And to all my fellow troublemakers, I say, 'Carry on.'\"",
+          },
+          {
+            q: "What are the key ideas of these pages?",
+            a: "An arranged meeting can feel like fate and quiet the doubts of the person it is aimed at. When rank decides who may speak to whom, friendship becomes conditional. A group that hands out its own recognition can replace real results with certificates. Sunk effort keeps people in after belief has gone, and a threat to a relative's standing gets compliance where argument fails. Leaving is possible when ties outside the group are kept. Loyalty, in the examples she trusts, protects a person rather than using their story. Introductions should happen in the open. A returning guest and a first-timer are owed the same courtesy. What is worth noticing is what people do in the world, and the friendships they take back into that world.",
+          },
+          {
+            q: "What does the book come to, read as a whole?",
+            a: "Troublemaker traces how a group wins total loyalty. It recruits people when they are hungry for a better life, gives them a ladder of courses and certificates that always has another rung, makes members confess and report on each other, rewards celebrities and punishes doubters, and makes disconnection the consequence of questioning. Remini's way out came through the people outside the group who still picked up the phone, and through learning slowly to think for herself again. For The Big Dinner the lesson is plain: a closed circle stays healthy only if belonging is freely given, honest, and never used as a lever. One test is what a guest would still value even if they never came back.",
+          },
+        ],
+      },
     ],
   },
   {
