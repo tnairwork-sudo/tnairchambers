@@ -1866,6 +1866,49 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Social psychology (social perception and nonverbal behaviour)",
+    title:
+      "If They Move in Sync, They Must Feel in Sync: Movement Synchrony Leads to Attributions of Rapport and Entitativity",
+    authors: "Daniël Lakens and Mariëlle Stel",
+    year: 2011,
+    citation: "Social Cognition, 29(1), 1 to 14",
+    link: "https://doi.org/10.1521/soco.2011.29.1.1",
+    slug: "movement-synchrony",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Mogan, Fischer and Bulbulia",
+        title:
+          "To be in synchrony or not? A meta-analysis of synchrony's effects on behavior, perception, cognition and affect",
+        year: 2017,
+        citation: "Journal of Experimental Social Psychology, 72, 13 to 20",
+        link: "https://doi.org/10.1016/j.jesp.2017.03.009",
+      },
+    ],
+    qa: [
+      {
+        q: "What question did the paper ask?",
+        a: "Whether people who watch others move in time with each other conclude that those people share a psychological state, and whether that changes how close and unified the group appears.",
+      },
+      {
+        q: "How was it tested?",
+        a: "In two experiments, participants watched video clips of people waving. In the first, the people's movement rhythms were either in step or out of step. In the second, the rhythms were held constant and only the apparent source of the synchrony changed. Participants rated how much rapport the people seemed to share and how much they looked like a single unit.",
+      },
+      {
+        q: "What did it find?",
+        a: "Synchronised people were rated higher on rapport and on being a unit. Mediation analysis showed the sense of unity was driven by inferred rapport rather than by visual similarity alone. Synchrony that arose spontaneously was judged more favourably than synchrony that arose from instruction.",
+      },
+      {
+        q: "How strong is the wider evidence?",
+        a: "A 2017 meta-analysis of 42 studies with 4,327 participants found that synchrony has a medium effect on prosocial behaviour (about 0.28), a small to medium effect on perceived social bonding (about 0.17) and a small effect on positive mood (about 0.11). Some early findings did not replicate, so the effect is real but modest.",
+      },
+      {
+        q: "Why does it matter more generally?",
+        a: "Much of how we judge relationships happens before words. Timing, the quiet coordination of bodies, is one of the signals we use to decide who belongs together, and it is most persuasive when it is unforced.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
