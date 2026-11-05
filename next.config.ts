@@ -1,3 +1,4 @@
+// Redeploy marker. The production build of the Chapter Six notes failed, and an empty retry was not picked up. No runtime change.
 import type { NextConfig } from "next";
 
 const firmProfilePdfPath = "/profile/Nair-and-Co-Firm-Profile.pdf";
