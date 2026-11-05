@@ -868,6 +868,76 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        pagesFrom: 150,
+        pagesTo: 165,
+        label: "pp 150-165: Chapter Six, \"Adolescence; or, Dude, Where's My Frontal Cortex?\"",
+        qa: [
+          {
+            q: "What is the key fact of this chapter?",
+            a: "The frontal cortex is the last part of the brain to fully mature, and it is not fully online until the mid-twenties. So no part of the adult brain is shaped more by adolescence, and adolescence cannot be understood without this delay. The emotional, bodily and hormonal systems are already running at full blast while the frontal cortex is still working out its assembly instructions. That is why adolescence is the peak time for risk-taking, novelty-seeking and wanting to belong to a peer group.",
+          },
+          {
+            q: "Is adolescence a real stage of development or a Western invention?",
+            a: "The brain says it is real: an adolescent brain is not just a half-finished adult brain. Most traditional cultures also treat it as a distinct stage, with some but not all adult rights and duties. What the West invented is the longest version of it. The eye-rolling conflict between teenagers and parents seems more a product of individualistic cultures, and even in the West most people get through adolescence fine.",
+          },
+          {
+            q: "Does the frontal cortex mature by adding neurons or by losing them?",
+            a: "By losing them. The brain makes far more connections than it keeps. By early adolescence the frontal cortex has more grey matter and more synapses than an adult's, and over the next decade the weaker connections are pruned away. The oldest frontal regions mature first; the reasoning-focused dorsolateral prefrontal cortex does not even start pruning until late adolescence. One long-term study found that the longer grey matter kept thickening in early adolescence before pruning began, the higher a person's adult IQ. Maturity means a more efficient brain, not a bigger one.",
+          },
+          {
+            q: "What do irony and the brain's wiring show?",
+            a: "Teenagers are not yet as good as adults at spotting irony and have to work harder at it, using frontal regions, while adults can tell from one look at a face. The brain's insulated wiring (myelin) keeps growing through adolescence, so frontal regions gradually learn to work as one unit. Connections between regions matter more than any single region. Meanwhile, a reward region called the ventral striatum temporarily helps regulate emotions, standing in for a frontal cortex that is not ready yet.",
+          },
+          {
+            q: "How do puberty hormones affect the teenage frontal cortex?",
+            a: "Oestrogen, progesterone and testosterone change how fast frontal wiring is insulated and how many receptors neurons carry. Milestones of teenage brain and behaviour track the time since puberty began better than age itself. In girls, only about half of cycles ovulate in the first few years, adding extra hormonal swings. The result is a frontal cortex with surplus connections, incomplete wiring and regions out of sync, all steeped in sex hormones.",
+          },
+          {
+            q: "What improves as the frontal cortex matures?",
+            a: "Working memory, flexible use of rules, organisation and the ability to switch tasks all steadily improve, along with understanding other people's thoughts, irony included. Older teenagers react more strongly to emotional faces: in adults the amygdala fires and then a calming frontal region steps in, but in adolescents that frontal brake is weaker, so the reaction keeps building. Reframing a setback, such as turning \"I'm stupid\" after a bad grade into \"I had a cold\" or \"I didn't study\", gets better through adolescence as the frontal cortex takes over the job.",
+          },
+          {
+            q: "How do teenagers handle information about risk?",
+            a: "Badly, when the news is bad. The skeletons found at the bottom of a 180-foot drop in California Caverns are always adolescents. During risky choices, teenagers use the prefrontal cortex less than adults. Sarah-Jayne Blakemore of University College London asked people to estimate the chances of various events and then told them the real figures. Adults updated their beliefs for good and bad news alike. Teenagers updated for good news but barely moved for bad news, which helps explain why they have two to four times the adult rate of problem gambling. They also seek different thrills: bungee jumping rather than cheating on a low-salt diet.",
+          },
+          {
+            q: "How does the hunger for novelty show up in people and animals?",
+            a: "Lasting tastes in music, food and fashion usually form in adolescence, and openness declines afterwards. Adolescent rodents are the most willing to try a new food. In many mammals, one sex is driven out of the home group at puberty to avoid inbreeding, as when a breeding male impala chases out young males. Primates differ: an adolescent male baboon is fascinated by a new troop across a stream and moves over of his own accord, and among chimpanzees it is the young females who cannot wait to leave. Primates are not pushed out; they crave the new.",
+          },
+          {
+            q: "How do teenage brains respond to the size of a reward?",
+            a: "Dopamine signalling rises through adolescence, and novelty-seeking peaks in mid-adolescence. In a brain-scanning study of children, teenagers and adults winning small, medium or large sums of money, children's reward centres responded much the same to every size, and adults' responses rose in step with the reward. Teenagers matched everyone on the medium reward, showed a huge surge for the large one, and actually dipped for the small one. A bigger-than-expected reward feels better to a teenager than to an adult, and a sensible small reward feels like a letdown. An immature frontal cortex has little chance against that.",
+          },
+          {
+            q: "What did Laurence Steinberg find about peers and risk?",
+            a: "Alone in a video driving game, teenagers and adults took the same risks. With two peers egging them on, adults were unchanged but teenagers took three times as many risks. Brain scans showed that peer encouragement dampened a calming frontal region and boosted reward activity in teenagers but not adults. A 2013 study found teenagers averaged more than four hundred Facebook friends, far more than adults. Peer pressure usually pushes towards trouble, such as violence, drinking, crime and unsafe sex: the heavy drinker in a student hall influences the teetotaller more than the other way round, and eating disorders and, among girls, depression spread through friendship groups much like a contagion.",
+          },
+          {
+            q: "How does a teenage brain answer \"What do you think of yourself?\", and what does Cyberball show?",
+            a: "In adults, \"What do others think of you?\" and \"What do you think of yourself?\" use two partly separate brain networks. In teenagers they look the same: what they think of themselves is whatever everyone else thinks. Naomi Eisenberger of UCLA created Cyberball, a game of catch on screen in which the two other players suddenly stop throwing to you. Adults show activity in regions for pain, anger and disgust, then a frontal region steps in, quiets them and lowers the upset (\"it's a stupid game of catch\"). Most teenagers barely use that frontal region, react more strongly and feel worse. Rejection hurts more, so the need to fit in is stronger. The children most sensitive to peer pressure were also the most primed to imitate other people's facial expressions.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 165,
+        pagesTo: 180,
+        label: "pp 165-180: Chapter Six continued: empathy, sympathy and moral reasoning (read to p. 167 so far)",
+        qa: [
+          {
+            q: "How do teenage moral judgements still differ from adults'?",
+            a: "By adolescence most people can see another point of view (\"I still disagree, but I can see how he feels, given his experience\"), yet they are still better at imagining themselves in a situation than at imagining how someone else feels in it. Children's equal shares give way mostly to merit-based thinking, which is more sophisticated because it looks at causes as well as outcomes, but teenagers still understand individual circumstances better than systemic ones. With age they increasingly judge deliberate harm as worse than accidental harm, and it takes frontal effort to feel why. For damage to objects, the difference shrinks: accidental or not, the thing still needs fixing.",
+          },
+          {
+            q: "Why are teenagers so good at feeling someone else's pain, and when does that backfire?",
+            a: "Teenage empathy combines intense emotions (higher highs and lower lows), openness to new experiences, a sense of being uniquely important, and seemingly endless energy. Feeling someone's pain as if it were your own can come close to being them. But feeling too much can turn into personal distress and avoidance (\"This is too awful, I can't stay\"). People whose heart rate rises in a distressing scene are less likely to help than those whose heart rate falls; the ones who act are those who can ride the wave of empathy without being swamped. Teenagers, with full-strength emotions and a lagging frontal cortex, lean towards being overwhelmed. The flip side is that adult detachment, so useful for helping well, also makes it easy to decide something is not your problem.",
+          },
+          {
+            q: "What is the takeaway so far?",
+            a: "Adolescence is not half-finished adulthood. It is a brain whose emotional, reward and social systems are running at full strength while the frontal cortex is still pruning and wiring itself into the mid-twenties. That is why novelty, risk and belonging hit so hard, and why empathy can burn brightly without yet reliably turning into help.",
+          },
+        ],
+      },
     ],
   },
   {
