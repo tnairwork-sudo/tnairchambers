@@ -922,7 +922,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 165,
         pagesTo: 180,
-        label: "pp 165-180: Chapter Six continued: empathy, sympathy and moral reasoning (read to p. 167 so far)",
+        label: "pp 165-180: Chapter Six continued: empathy, adolescent violence, and why frontal maturation is delayed",
         qa: [
           {
             q: "How do teenage moral judgements still differ from adults'?",
@@ -933,8 +933,67 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Teenage empathy combines intense emotions (higher highs and lower lows), openness to new experiences, a sense of being uniquely important, and seemingly endless energy. Feeling someone's pain as if it were your own can come close to being them. But feeling too much can turn into personal distress and avoidance (\"This is too awful, I can't stay\"). People whose heart rate rises in a distressing scene are less likely to help than those whose heart rate falls; the ones who act are those who can ride the wave of empathy without being swamped. Teenagers, with full-strength emotions and a lagging frontal cortex, lean towards being overwhelmed. The flip side is that adult detachment, so useful for helping well, also makes it easy to decide something is not your problem.",
           },
           {
+            q: "When does violence peak, and is adolescent violence biologically special?",
+            a: "Late adolescence and early adulthood: murder, whether planned or impulsive, with fists or handguns, alone or in a group, against a stranger or a partner. Then the rates fall sharply. \"The greatest crime-fighting tool is a thirtieth birthday.\" Brain scans show nothing particularly distinct between adolescent and adult violence. Adolescent and adult psychopaths alike show less frontal and dopamine sensitivity to bad feedback, less pain sensitivity, and weaker coupling between the amygdala and the frontal cortex during moral reasoning or empathy. A teenage mugger and a teenage ecology-club volunteer share heightened emotion, craving for peers, hunger for novelty and an unfinished frontal cortex, but that is where the likeness ends.",
+          },
+          {
+            q: "Does the adolescent testosterone surge explain the violence peak?",
+            a: "No. As in Chapter Four, testosterone no more causes violence in adolescents than in adult males. Testosterone peaks in early adolescence; violence peaks later. What matters for now is that an average adolescent lacks an average adult's self-regulation and judgement, which can support treating teenage offenders as less responsible, or, on the other view, as still responsible enough for the same sentence.",
+          },
+          {
+            q: "What did Roper v. Simmons and Miller v. Alabama decide, and how does Sapolsky read them?",
+            a: "In 2005, Roper v. Simmons (5-4) held that executing someone for a crime committed before age eighteen is unconstitutional under the Eighth Amendment ban on cruel and unusual punishment. In 2012, Miller v. Alabama (also 5-4) banned mandatory life without parole for juvenile offenders on similar grounds. Justice Anthony Kennedy, writing for the Roper majority, said youth more often show \"lack of maturity and an underdeveloped sense of responsibility,\" producing \"impetuous and ill-considered actions and decisions.\" Sapolsky fully agrees with both rulings but calls them \"window dressing\": Chapter Sixteen will argue that the science should reshape the whole of criminal justice.",
+          },
+          {
+            q: "Why can't the frontal cortex just act its age? Is it simply too hard to build?",
+            a: "Probably not. It uses the same neurotransmitters and basic neurons as the rest of the brain, and its density and wiring complexity are similar to other fancy cortex. If the brain could grow frontal cortex as fast as the rest, it is not clear that it would. Sapolsky thinks there was evolutionary selection for delayed frontal maturation. The tidy story that the delay exists so clever teenagers can invent fire, cave painting and the wheel fails: behaviour evolves to pass on individuals' genes, not for the good of the species, and for every adolescent who gained reproductively through inventiveness, far more broke their necks through recklessness.",
+          },
+          {
+            q: "What is Sapolsky's real answer for the delay?",
+            a: "So the brain can get the frontal cortex right, through experience-dependent plasticity: new synapses, new neurons, rewiring, and regions that expand or shrink. Emotional and social intelligence predict adult success and happiness better than IQ or exam scores: social memory, perspective taking, impulse control, empathy, working with others, self-regulation. The same pattern shows in other primates. A male baboon attains high rank with muscle, canines and well-timed aggression, but keeps it with social skill: coalitions, intimidation, impulse control and limited displacement aggression. Among male rhesus monkeys, a large prefrontal cortex tracks social dominance. Because the frontal cortex is last to mature, it is by definition the region least constrained by genes and most sculpted by experience. Ironically, the genetic program of human brain development has evolved to free the frontal cortex from genes as much as possible.",
+          },
+          {
+            q: "What is the takeaway for pages 165-180?",
+            a: "Teenage empathy burns brightly while the frontal brake is still weak, and violence peaks in late adolescence before falling after thirty. Delayed frontal maturation is not a building flaw: it is selected so experience, not genes, can sculpt the social brain.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 180,
+        pagesTo: 195,
+        label: "pp 180-195: Chapter Seven, \"Back to the Crib, Back to the Womb\": early brain development, Piaget, Theory of Mind, childhood empathy and justice, and Kohlberg's Level 1 (read to p. 183 so far)",
+        qa: [
+          {
+            q: "What are the usual stages of human brain development in early life?",
+            a: "A few weeks after conception, a wave of neurons is born and migrates to the right places. Around twenty weeks there is a burst of synaptogenesis, then axons begin wrapping in myelin (white matter). Neuron formation, migration and synaptogenesis are mostly prenatal in humans. There is little myelin at birth, especially in evolutionarily newer regions, and myelination continues for about a quarter of a century. Language-comprehension cortex myelinates a few months before language-production cortex, so children understand before they speak. Myelination matters most on the longest axons, so distant regions can talk to each other. Overproduced neurons and synapses are then pruned into leaner circuits. The later a region matures, the less genes and the more environment shape it.",
+          },
+          {
+            q: "What are Piaget's four stages of cognitive development?",
+            a: "Sensorimotor (birth to about 24 months): thought only about what can be sensed and explored; around eight months, object permanence, a mental image of something no longer visible. Preoperational (about 2 to 7): ideas about how the world works without needing concrete examples, and symbolic play, but reasoning is intuitive, without logic or cause and effect. Children fail conservation of volume: identical beakers A and B, pour B into taller thinner C, and they say C has more because the water line is higher. Concrete operational (7 to 12): logical thought, no longer fooled by beaker shapes, but generalising from specific cases and abstract thinking are shaky (proverbs taken literally: \"'Birds of a feather flock together' means similar birds form flocks\"). Formal operational (adolescence onward): approaching adult abstraction, reasoning and thinking about thinking.",
+          },
+          {
+            q: "How do ego boundaries and Theory of Mind unfold?",
+            a: "Toddlers form ego boundaries (\"there is a 'me'\"); without them, a cut on Mum's finger makes the child claim his own finger hurts. Nine-month-olds follow a point (as can other apes and dogs), grasping that the pointer knows something they do not. Full Theory of Mind, the knowledge that others have different thoughts, beliefs and knowledge, arrives with the false-belief test: a cookie is placed in box A, an adult leaves, the cookie is moved to B, and the child is asked where the adult will look. A two-year-old says B (I know, so everyone knows); around three or four the child says A. Theory of Mind then grows into irony, perspective taking and secondary Theory of Mind (A's Theory of Mind about B). The cortical mediators include the medial prefrontal cortex, the precuneus, the superior temporal sulcus and the temporoparietal junction. Autistic people with limited Theory of Mind often show less grey matter and activity in the superior temporal sulcus; temporarily shutting down the temporoparietal junction makes people ignore intentions in moral judgements. Children with older siblings reach Theory of Mind earlier than average.",
+          },
+          {
+            q: "What do social and emotional factors do to neat cognitive stages?",
+            a: "A Piagetian framework sits in a \"cognition\" bucket and ignores social and emotional effects. Preverbal infants do not grasp object transitivity (if A is bigger than B and B bigger than C, then A is bigger than C) for shapes on a screen, but give the shapes eyes and a mouth and heart rate rises and the child stares: humans grasp logical operations between individuals earlier than between objects. Chimpanzees show more Theory of Mind rudiments when interacting with another chimpanzee than with a human, especially when food is at stake. Sapolsky's daughter, visiting her old preschool, shows Theory of Mind working (\"play on the swings; wait, tell them my new school has swings\") and failing in the same breath (\"Carolee reads us a story,\" with no explanation of who Carolee is, because the most wonderful teacher alive must be known to everyone).",
+          },
+          {
+            q: "How does childhood empathy develop in the brain, and what did Decety find?",
+            a: "Theory of Mind is neither enough for empathy (sociopaths use superb Theory of Mind to manipulate) nor strictly required (toddlers too young for Theory of Mind offer a pacifier to someone pretending to cry, a rudimentary act because they cannot imagine different comforts). Empathy progresses from feeling someone's pain because you are them, to feeling for them, to feeling as them. Adults seeing harm activate the anterior cingulate, the amygdala and insula (especially for intentional harm, with anger and disgust), and the emotional ventromedial prefrontal cortex. Watching a finger poked activates the periaqueductal gray, finger sensory cortex and motor neurons, so you clench your fingers. Jean Decety of the University of Chicago found that seven-year-olds watching pain light up concrete sensory and motor regions, with the periaqueductal gray coupled to little ventromedial prefrontal activity; older children couple the ventromedial prefrontal cortex to rising limbic activity; by adolescence a stronger ventromedial prefrontal cortex couples to Theory of Mind regions, and empathy shifts from \"her finger, my finger\" to the other person's emotions. Young children do not distinguish intentional from unintentional harm, or harm to a person from harm to an object; those distinctions, plus amygdala and insula activity for intentional harm, arrive as periaqueductal gray activity lessens and ventromedial prefrontal and Theory of Mind engagement rises. By about seven, children express empathy; by ten to twelve it generalises to \"poor people\" (and negative stereotyping of categories begins).",
+          },
+          {
+            q: "How does a child's sense of justice grow, and how self-interested is it?",
+            a: "Preschoolers tend toward equal shares (a friend should get a cookie too) but already show in-group bias, with less egalitarianism toward a stranger. Across cultures, children aged four to six respond negatively when they themselves are shortchanged. Only at ages eight to ten do they respond to someone else being treated unfairly, and that later stage varies a good deal by culture. Soon after, they try to correct past inequalities (\"he should get more now because he got less before\"). By preadolescence, egalitarianism yields to inequality justified by merit, effort or the greater good (\"she's better,\" \"worked harder,\" \"more important to the team\"); some manage self-sacrifice (\"she should play more than me\"). By adolescence, boys accept inequality more than girls on utilitarian grounds; both sexes also acquiesce as social convention: \"nothing can be done; that's the way it is.\"",
+          },
+          {
+            q: "What is Kohlberg's Level 1 (Preconventional), and what red flags and soft skills appear around it?",
+            a: "In the 1950s Lawrence Kohlberg, then a Chicago graduate student and later at Harvard, used moral puzzles (for example, steal the only unaffordable drug to save a dying woman?) and concluded that moral judgement is a cognitive process of increasingly complex reasoning: three levels, each with two stages. Faced with a cookie temptation, Level 1 Stage 1 asks \"will I be punished?\" (aggression typically peaks between ages two and four, then is reined in by adult punishment and peer ostracism); Stage 2 asks \"will I be rewarded?\" Both are ego-oriented, about obedience and self-interest. Children typically stay at this level until around ages eight to ten. A red flag: aggression that is callous and remorseless and does not fade then predicts a higher risk of adult sociopathy (antisocial personality). Future sociopaths seem impervious to negative feedback; high pain thresholds help explain both missing empathy and why punishment does not register. Around this stage children also first reconcile after conflict and find comfort in it (falling stress hormones and anxiety), in a self-interested way: they reconcile more readily when the relationship matters to them.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Adolescence is not half-finished adulthood. It is a brain whose emotional, reward and social systems are running at full strength while the frontal cortex is still pruning and wiring itself into the mid-twenties. That is why novelty, risk and belonging hit so hard, and why empathy can burn brightly without yet reliably turning into help.",
+            a: "Childhood builds cognition, Theory of Mind, empathy and justice in stages that start concrete and self-interested. The earliest moral reasoning is still about punishment, reward and relationships that pay off, which is why delayed frontal maturation and early moral life belong in the same story.",
           },
         ],
       },
