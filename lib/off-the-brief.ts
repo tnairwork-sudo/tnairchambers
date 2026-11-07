@@ -961,7 +961,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 180,
         pagesTo: 195,
-        label: "pp 180-195: Chapter Seven, \"Back to the Crib, Back to the Womb\": early brain development, Piaget, Theory of Mind, childhood empathy and justice, and Kohlberg's Level 1 (read to p. 183 so far)",
+        label: "pp 180-195: Chapter Seven, \"Back to the Crib, Back to the Womb\": early brain development, Piaget, Theory of Mind, childhood empathy and justice, and Kohlberg through the marshmallow test",
         qa: [
           {
             q: "What are the usual stages of human brain development in early life?",
@@ -992,8 +992,95 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "In the 1950s Lawrence Kohlberg, then a Chicago graduate student and later at Harvard, used moral puzzles (for example, steal the only unaffordable drug to save a dying woman?) and concluded that moral judgement is a cognitive process of increasingly complex reasoning: three levels, each with two stages. Faced with a cookie temptation, Level 1 Stage 1 asks \"will I be punished?\" (aggression typically peaks between ages two and four, then is reined in by adult punishment and peer ostracism); Stage 2 asks \"will I be rewarded?\" Both are ego-oriented, about obedience and self-interest. Children typically stay at this level until around ages eight to ten. A red flag: aggression that is callous and remorseless and does not fade then predicts a higher risk of adult sociopathy (antisocial personality). Future sociopaths seem impervious to negative feedback; high pain thresholds help explain both missing empathy and why punishment does not register. Around this stage children also first reconcile after conflict and find comfort in it (falling stress hormones and anxiety), in a self-interested way: they reconcile more readily when the relationship matters to them.",
           },
           {
+            q: "What does Kohlberg's Level 2, conventional reasoning, look like?",
+            a: "Stage 3 asks \"Who will be deprived if I eat the cookie? Do I like them? What will people think of me?\" because it is good to be well regarded. Stage 4 asks \"What's the law? What if everyone broke it?\" because order is good. Sapolsky's example is the judge who feels sorry for the victims of predatory but legal bank lending, yet rules only on whether the bank broke a law, and it did not. Conventional reasoning is relational, and most adolescents and adults sit at this level.",
+          },
+          {
+            q: "And Level 3, postconventional reasoning?",
+            a: "Stage 5 asks what circumstances put the cookie there, who decided I should not take it, and whether taking it would save a life, so clear rules get applied flexibly. Now the judge says the bank acted legally, but laws exist to protect the weak from the mighty, so the bank must be stopped. Stage 6 asks whether my moral stance matters more than the law, enough to pay the ultimate price (\"We Will Not Be Moved\"). Rules come from conscience, the cost of a transgression is having to live with yourself, and being good is not the same as being law-abiding (Woody Guthrie's \"Pretty Boy Floyd\").",
+          },
+          {
+            q: "What is the downside of Stage 6, and how common is it?",
+            a: "It is egotistical, built on self-righteousness against rule-followers, \"The Man\" and \"those sheep.\" Emerson: \"Every heroic act measures itself by its contempt of some external good.\" Bob Dylan: \"To live outside the law, you must be honest.\" It can inspire but can be insufferable when it treats being good and being law-abiding as opposites. Kohlbergians found hardly anyone consistently at Stage 5 or 6.",
+          },
+          {
+            q: "What are the four problems with Kohlberg's model?",
+            a: "First, the usual stage-model caveats: exceptions exist, transitions are not clean, and stage can depend on context. Second, tunnel vision: he studied Americans and males. Carol Gilligan agreed on the sequence of stages but showed girls and women generally value care over justice, tilting toward conventional, relationship-based thinking, while males tilt toward postconventional abstractions. Third, the cognitive emphasis: young kids and nonhuman primates show rudimentary fairness, which anchors the \"social intuitionist\" view of Martin Hoffman and Jonathan Haidt. Intuition is a different style of cognition, and moral reasoning is often flagrantly illogical. Fourth, lack of predictability: moral reasoning rarely predicts moral action. Heroism rarely comes from frontal willpower; it happens when the right thing is not the harder thing.",
+          },
+          {
+            q: "How did Walter Mischel's marshmallow test work, and what did the kids do?",
+            a: "In the 1960s at Stanford, a child got one marshmallow and was told that if they did not eat it until the experimenter came back, they would get a second one; the wait was fifteen minutes. Across hundreds of 3- to 6-year-olds, a few ate it before the experimenter left, about a third lasted the full fifteen minutes, and the rest averaged eleven minutes. Strategies included covering eyes, hiding it, singing, sitting on hands, or sniffing, petting and kissing it.",
+          },
+          {
+            q: "What helped or hurt the kids' self-control?",
+            a: "Trust mattered: if experimenters had broken promises before, kids waited less. In the pretzel versions, \"hot ideation\" (thinking about how crunchy and yummy the pretzels are) nuked self-discipline. \"Cold ideation\" (the pretzel's shape) or a different hot thought (ice cream) boosted resistance. Younger kids think about how good the second marshmallow will taste, which is \"two synapses away\" from the one in front of them. Older kids use distraction (toys, pets, birthdays), then reappraisal (\"This is about the kind of person I am\"). To Mischel, willpower matures through distraction and reappraisal, not stoicism.",
+          },
+          {
+            q: "What did marshmallow wait time predict decades later?",
+            a: "Five-year-old champions of patience went on to have higher SAT scores, more social success and resilience, and less aggressive and oppositional behaviour. Forty years later they had better frontal function, more PFC activation during a frontal task, and lower BMIs. One marshmallow beat a \"gazillion-dollar brain scanner\" for predictive power.",
+          },
+          {
+            q: "What is the takeaway for pages 180-195?",
+            a: "Early moral life moves from punishment and reward through conventional regard for rules and relationships, while few people live at pure conscience. Self-control grows through distraction and reappraisal more than through grit, and a short childhood wait for a marshmallow already foreshadows adult frontal strength.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 195,
+        pagesTo: 210,
+        label: "pp 195-210: Chapter Seven continued: mothers, attachment, childhood adversity, media violence and bullying (read to p. 199 so far)",
+        qa: [
+          {
+            q: "Why does Sapolsky insist that cold parenting is just as biological as malnutrition?",
+            a: "Malnutrition leading to poor adult cognition is easy to frame biologically. Cold, inexpressive parents leading to an adult who feels unlovable feels \"less biological,\" because we know less about it and cannot imagine a pill for it. But biology mediates both: \"A cloud may be less tangible than a brick, but it's constructed with the same rules about how atoms interact.\" The developing brain is neural plasticity writ large, and every hiccup of experience leaves a mark.",
+          },
+          {
+            q: "How did experts get mothering so wrong into the twentieth century?",
+            a: "Rat pups separated from mothers a few hours a day grow into anxious adults with high glucocorticoids, poor cognition and, in males, more aggression. Yet around 1900 Luther Holt of Columbia warned against the \"vicious practice\" of picking up a crying child. Behaviourists said infants attach because mothers provide calories; Freudians said infants can only relate to the breast. Together that meant affection was superfluous. Hospitalised kids got a few minutes of maternal visiting a week and died of \"hospitalism\" from infections and GI illness. Hospitalism was worst in hospitals with incubators adapted from poultry farming, and safest in poor hospitals where humans actually touched the babies.",
+          },
+          {
+            q: "What did Bowlby and Harlow show?",
+            a: "In the 1950s John Bowlby's attachment theory (the trilogy Attachment and Loss) said children need love, warmth, responsiveness, stimulation, consistency and reliability, and without them become anxious, depressed or poorly attached adults. Harry Harlow raised infant rhesus monkeys with two chicken-wire surrogates, one with a milk bottle and one wrapped in terry cloth. The infants chose the terry-cloth mom. Harlow: \"Man cannot live by milk alone. Love is an emotion that does not need to be bottle- or spoon-fed.\"",
+          },
+          {
+            q: "What is the controversial abortion and crime finding?",
+            a: "U.S. crime fell sharply from the 1990s. Liberals credited the economy and conservatives credited policing, prisons and three-strikes laws. John Donohue (Stanford) and Steven Levitt (Chicago) showed, state by state, that where abortion became readily available, young-adult crime dropped about twenty years later. Sapolsky's reading: a major predictor of a criminal life is being born to a mother who would have chosen not to have you. The most basic thing a mother provides is knowing she is happy you exist.",
+          },
+          {
+            q: "What did Harlow's isolation-reared monkeys reveal?",
+            a: "Monkeys raised for months or years with no social contact were wrecks: some rocked and clutched themselves, and others behaved inappropriately in hierarchy or sex. But the behaviours themselves were normal; they happened at the wrong time, place and target, like subordination gestures to small monkeys or threats to alphas. Motor patterns are hardwired; mothers and peers teach context, meaning when, where and to whom. Sapolsky's baboon example: a low-ranking mother pulled her infant back by the tail as it toddled toward a high-ranking female's infant. Twenty years later, as old ladies, the two still showed that rank asymmetry.",
+          },
+          {
+            q: "Why do infants cling to a mother who hurts them?",
+            a: "Harlow's surrogates blasted air at clinging infants, and they held on harder, just as abused children and battered partners often do. Regina Sullivan (NYU) conditioned rat pups to link an odour with a shock. Pups ten days or older showed amygdala activation, glucocorticoid release and avoidance, but younger pups were attracted to the odour. That is because of the stress hyporesponsive period (SHRP): adrenals atrophy within hours of birth, gambling that Mom will handle stress, and pups deprived of their mother regrow adrenal function within hours. Inject glucocorticoids into young pups' amygdalae and they develop aversion; block glucocorticoids in older pups, or condition them with Mom present, and they develop attraction. Attachment evolved to bond the infant to its caregiver \"regardless of the quality of care received.\"",
+          },
+          {
+            q: "How does this connect to adult abuse cycles?",
+            a: "It helps explain why people abused as kids are prone to abusive adult relationships. About 33 percent of adults abused as children become abusers. Beyond the psychology of identifying with the abuser (\"My father did that to me, so he could have loved me too\"), something deeper is going on, because infant monkeys abused by their mothers are more likely to become abusive mothers.",
+          },
+          {
+            q: "What does childhood adversity do, and what is its biological profile?",
+            a: "Different traumas (paternal loss, poverty, violence, disasters) converge enough to be grouped together. Adversity raises the odds of depression, anxiety and substance abuse; impaired frontal cognition; poor impulse control and emotion regulation; antisocial behaviour including violence; and relationships that replicate childhood adversity. Biologically, glucocorticoids, CRH and ACTH stay elevated with slow recovery, and Michael Meaney (McGill) showed early stress permanently blunts the brain's brake on glucocorticoids. Hippocampal BDNF drops: abused kids with PTSD have smaller adult hippocampi, and Victor Carrion (Stanford) saw growth slow within months of abuse. Frontal maturation is also impaired.",
+          },
+          {
+            q: "What does poverty do to a five-year-old's brain?",
+            a: "Martha Farah (Penn), Tom Boyce (UCSF) and others found that by age five, lower SES means higher or more reactive glucocorticoids, a thinner and less metabolically active frontal cortex, and poorer working memory, emotion regulation, impulse control and executive decisions. Lower-SES kids must activate more frontal cortex to achieve the same regulation, and corpus callosum maturation is impaired. Some causes are human-specific (toxins, dangerous neighbourhoods with more liquor stores than produce markets, weaker schools, low social capital), but subordination itself is corrosive: baboons with low-ranking mothers have elevated adult glucocorticoids.",
+          },
+          {
+            q: "What happens to the amygdala and dopamine system after adversity?",
+            a: "The amygdala grows larger and hyperreactive, raising anxiety risk. Normally, in adolescence the frontal cortex learns to inhibit the amygdala (\"I wouldn't do this if I were you\"), but after adversity the amygdala learns to inhibit the frontal cortex (\"I'm doing this and just try to stop me\"). Addiction vulnerability rises through the developing dopamine system, excess adult glucocorticoids that increase craving, and a weak frontal cortex. Depression risk rises because chronic stress depletes mesolimbic dopamine (anhedonia), and through a \"second hit\" that lowers thresholds. Depression is a pathological sense of lost control: instead of \"those were terrible circumstances I could not control,\" the person concludes \"life will always be uncontrollably awful.\"",
+          },
+          {
+            q: "What are the effects of observing violence, including media violence?",
+            a: "Witnessing gun violence doubles a child's odds of serious violence within two years, and violent criminals are more likely to have witnessed violence as kids. A violent TV or film clip raises short-term aggression, more strongly in girls, younger kids, and when violence is realistic or heroic. Violent music videos increased teen girls' acceptance of dating violence. Merely exciting or frustrating content does not do this; violence is the key. Heavy childhood exposure predicts adult aggression even after controlling for SES, IQ, neglect and more, a link stronger than lead and IQ, calcium and bone mass, or asbestos and laryngeal cancer. Two caveats: there is no evidence it creates mass shooters, and the effects are strongest in kids already prone to violence, for whom it desensitises and normalises.",
+          },
+          {
+            q: "What does Sapolsky say about bullying?",
+            a: "Being bullied has adult consequences on a par with maltreatment at home, but targets are not random; they often already have psychiatric or family issues and poor social and emotional intelligence. Bullies tend to come from single-mom or young, poorly educated families. There are two profiles: the common anxious, isolated kid who bullies for acceptance and matures out of it, and the confident, unempathic, socially intelligent kid with an imperturbable sympathetic nervous system, the future sociopath. The worst off are bully-victims, who bully at school and are terrorised at home. They have the most psychiatric problems, use weapons more, and carry the highest adult risk of depression, anxiety and suicidality. Reading bullying scenarios, victims condemned it, bullies condemned it but blamed the victim, and bully-victims said bullying is okay. \"A Möbius strip from hell.\"",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Childhood builds cognition, Theory of Mind, empathy and justice in stages that start concrete and self-interested. The earliest moral reasoning is still about punishment, reward and relationships that pay off, which is why delayed frontal maturation and early moral life belong in the same story.",
+            a: "Childhood shapes the adult through real biology, including glucocorticoids, a shrunken hippocampus, a weak frontal cortex and a bossy amygdala. And what a child most needs, before calories, is touch, consistency and a mother who is glad they exist.",
           },
         ],
       },
