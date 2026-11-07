@@ -2020,6 +2020,48 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
     ],
   },
   {
+    subject: "Affective science; retrospective evaluation; peak-end rule",
+    title:
+      "All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect",
+    authors:
+      "Balca Alaybek, Reeshad S. Dalal, Shea Fyffe, John A. Aitken, You Zhou, Xiao Qu, Alexis Roman, Julia I. Baines",
+    year: 2022,
+    slug: "peak-end-meta-analysis",
+    published: true,
+    relatedWork: [
+      {
+        authors: "Barbara L. Fredrickson and Daniel Kahneman",
+        title:
+          "Duration neglect in retrospective evaluations of affective episodes",
+        year: 1993,
+        citation:
+          "Journal of Personality and Social Psychology, 65(1), 45 to 55",
+      },
+    ],
+    qa: [
+      {
+        q: "What is the peak-end rule?",
+        a: "When people form a summary judgment of an experience after it is over, they rely more on the most intense moment (the peak) and on the final moments (the end) than on other parts of the episode.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "Alaybek and colleagues meta-analysed 174 effect sizes. The peak-end effect on retrospective evaluations was large (r = 0.581, 95% CI 0.487 to 0.661), robust across the boundary conditions they tested, stronger than beginning, trough, trend or variability effects, and comparable to the effect of the overall average of every moment. The unique effect of duration was essentially nil, which supports duration neglect.",
+      },
+      {
+        q: "Where did the idea start?",
+        a: "Fredrickson and Kahneman (1993) had people watch pleasant and aversive film clips of varying length and intensity. Real-time affect ratings and later global evaluations showed that duration had little independent influence once peak and end affect were taken into account. Related work on painful medical procedures found the same pattern: remembered discomfort tracked the worst and last minutes more than total length.",
+      },
+      {
+        q: "Are there caveats?",
+        a: "Yes. The meta-analysis notes that the plain average of the whole episode predicts about as well as peak-end. Later work in everyday well-being (Scharbert and colleagues, European Journal of Personality, 2025) still finds peak and end effects, but item framing and how broadly peak and end are defined can change their size. A 2025 replication of a happiness-scenario study found ending information influenced judgments mainly when contrast made that ending salient. So the heuristic is well supported; it is not the only route to a summary judgment, and context can mute or amplify the end.",
+      },
+      {
+        q: "Why does this matter beyond the lab?",
+        a: "Retrospective liking shapes what people choose again, recommend and remember. For any temporally unfolding experience (a film, a procedure, a day at work, an evening out), designing with a clear high point and a careful close often matters more than stretching the middle.",
+      },
+    ],
+  },
+  {
     subject: "Affective science / Social psychology (facial expression and emotion)",
     title:
       "A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration",
