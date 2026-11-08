@@ -1028,7 +1028,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 195,
         pagesTo: 210,
-        label: "pp 195-210: Chapter Seven continued: mothers, attachment, childhood adversity, media violence and bullying (read to p. 199 so far)",
+        label: "pp 195-210: Chapter Seven continued: mothers, attachment, childhood adversity, media violence, bullying, resilience and culture in childhood",
         qa: [
           {
             q: "Why does Sapolsky insist that cold parenting is just as biological as malnutrition?",
@@ -1079,8 +1079,83 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "Being bullied has adult consequences on a par with maltreatment at home, but targets are not random; they often already have psychiatric or family issues and poor social and emotional intelligence. Bullies tend to come from single-mom or young, poorly educated families. There are two profiles: the common anxious, isolated kid who bullies for acceptance and matures out of it, and the confident, unempathic, socially intelligent kid with an imperturbable sympathetic nervous system, the future sociopath. The worst off are bully-victims, who bully at school and are terrorised at home. They have the most psychiatric problems, use weapons more, and carry the highest adult risk of depression, anxiety and suicidality. Reading bullying scenarios, victims condemned it, bullies condemned it but blamed the victim, and bully-victims said bullying is okay. \"A Möbius strip from hell.\"",
           },
           {
+            q: "If childhood adversity so often scars adulthood, why do so many children who suffer it still turn out reasonably well?",
+            a: "Abuse raises the odds of becoming an abusive adult, witnessing violence raises the risk of PTSD, and losing a parent raises the chance of adult depression. Yet many, perhaps most, such children grow into reasonably functional adults. Genes and the environment in the womb matter, but what counts most is how many times life hits a child compared with how many protective factors stand in the way. Suffering sexual abuse or witnessing violence leaves a better outlook than suffering both, and childhood poverty does less harm in a stable, loving family than in a broken, bitter one. The more kinds of adversity a child faces, the dimmer the chances of a happy adulthood.",
+          },
+          {
+            q: "What happened to the children in Romania's institutions, and what did their brains show?",
+            a: "In the 1980s Nicolae Ceaușescu banned contraception and abortion and required women to have at least five children. Poor families left thousands of infants in overwhelmed institutions, often meaning to reclaim them later, and the children suffered severe neglect: no family, almost no peers, little stimulation and some malnutrition. Charles Nelson of Harvard has followed those later adopted abroad, those returned to their families and those who stayed. As adults most have low IQ, poor thinking skills, attachment problems that can border on autism, and a lot of anxiety and depression, and the longer the institution stay, the worse the outcome. Their brains are smaller overall, with less grey and white matter, a less active frontal cortex and weaker connections. The one exception is the amygdala, which is enlarged. \"That pretty much says it all.\"",
+          },
+          {
+            q: "Is there an ideal way to raise a child?",
+            a: "No. Childhood is when a culture is passed on, and cultures vary enormously in how long babies nurse, how often they are held or spoken to, how long they cry before someone comes, and when they sleep alone. As Meredith Small of Cornell stresses, every culture raises children to become the kind of adults that culture values.",
+          },
+          {
+            q: "What are Diana Baumrind's parenting styles, and where did they come from?",
+            a: "After the Second World War, scholars asked where fascist leaders and their followers came from. Hannah Arendt's The Origins of Totalitarianism and Theodor Adorno's The Authoritarian Personality linked traits such as extreme conformity, submission to authority, aggression and hostility to introspection with childhood. Building on that, Berkeley psychologist Diana Baumrind described three styles in the 1960s. Authoritative parents set clear, consistent rules they explain (\"because I said so\" is off limits), praise and forgive more than they punish, and welcome a child's input; their children tend to become happy, mature, independent adults. Authoritarian parents set many rigid rules with no explanation and rely on punishment; their children tend to be obedient, conformist and narrowly successful, often with buried resentment and weak social skills. Permissive parents make few demands and rarely enforce rules; their children tend to become self-indulgent adults with poor impulse control and little tolerance for frustration.",
+          },
+          {
+            q: "What did Maccoby and Martin add?",
+            a: "Stanford psychologists Eleanor Maccoby and John Martin added a fourth style, neglectful parenting, and arranged the four on a grid: authoritative is high demand and high warmth, authoritarian is high demand and low warmth, permissive is low demand and high warmth, and neglectful is low on both. Children usually grow up to parent the same way, and different cultures prize different styles.",
+          },
+          {
+            q: "What did Judith Rich Harris argue about parents and peers?",
+            a: "In The Nurture Assumption, Harris argued that parents' influence on adult personality is exaggerated and that, from a surprisingly young age, peers matter most. Her evidence: many apparent parenting effects are peer effects in disguise (a single mother's lower income often means a tougher neighbourhood with tougher peers); children pick up their peers' accent, not their parents'; and young primates are socialised mostly by peers. The book was often distorted into \"parents don't matter.\" The current view is that peer influence was underrated, but parents still matter a great deal, including in choosing which peers their children meet.",
+          },
+          {
+            q: "What is play for, and why is it worth the cost?",
+            a: "Play is how the young learn social competence: when to be friend or foe and where they fit in a hierarchy. It is a safe way to try out roles and practise skills, a dose of mild, healthy stress, and it helps the brain decide which surplus connections to prune. Johan Huizinga called humans \"Homo Ludens,\" Man the Player, but play is universal in socially complex species and peaks around puberty. A dominant dog crouches to invite play, and young animals give up food, burn energy and risk predators to play, even during famines. Play lights up the brain's reward pathways; young rats make the same calls playing as when rewarded with food. Stuart Brown, founder of the National Institute for Play, puts it this way: the opposite of play is not work, it is depression. Rough-and-tumble play, more common in males and boosted by testosterone before birth, is both practice for life's status contests and already part of them.",
+          },
+          {
+            q: "How do mothers in individualist and collectivist cultures raise children differently?",
+            a: "In individualist cultures such as the United States, mothers on average speak louder, are more animated, see themselves as teachers, dislike a bored child, and favour games of individual competition and assertiveness. Shown a cartoon of a school of fish with one in front, such a mother calls it the leader. In collectivist cultures such as those of East Asia, mothers spend more time soothing and keeping contact, prefer calm moods, sleep with the child longer, and use play to teach sharing and fitting in (\"Thank you for giving me your car; now I'll give it back to you\"). The fish out front must have done something wrong, since no one will play with him. Children in collectivist cultures develop the ability to understand other minds earlier, because for them social skill largely is taking another person's point of view.",
+          },
+          {
+            q: "Why do Japanese children play more violent video games than American children yet end up less aggressive?",
+            a: "Media violence also raises aggression less in Japanese children. Sapolsky suggests three reasons: American children more often play alone; Japanese children rarely have a screen in their bedroom, so they play near their parents; and violence in Japanese games more often carries cooperative, group-minded themes.",
+          },
+          {
+            q: "What is a culture of honour, and how does it shape parenting?",
+            a: "These cultures prize courtesy and hospitality, but an insult to the honour of a person, family or clan demands retribution, and failing to take it is shameful. Feuds, revenge and honour killings follow. The American South is a classic example, though such cultures exist worldwide. Especially dangerous is a sense of past victimisation combined with an ethic of retribution. Parenting tends to be authoritarian, and the children are aggressive, especially after an insult, and strongly endorse violent responses to one.",
+          },
+          {
+            q: "How does social class change what parents try to do?",
+            a: "A baboon infant learns her rank from her mother. Human children learn about status through subtle cues, language, family history (\"When your grandparents came here they couldn't even...\") and expectations (\"When you grow up, you're going to...\"). Human parents teach their children what is worth dreaming about. In Western societies, better-off parents tend to be authoritative or permissive and poorer parents authoritarian, for two reasons. One is protection: even affluent parents become authoritarian when there is danger (\"If you run into the street and I scream 'Stop,' you stop\"), and a poorer childhood holds more danger. The other is preparation: for the poor, adult life often means being treated in an authoritarian way by the powerful.",
+          },
+          {
+            q: "What did Adrie Kusserow find in three New York neighbourhoods?",
+            a: "The anthropologist studied wealthy families on Manhattan's Upper East Side, a stable working-class area in Queens, and a poor, crime-ridden area also in Queens. In the poor neighbourhood, parenting was \"hard defensive individualism\": shield the child from the street, with talk of standing your ground and not letting others get under your skin, strict authority and a lot of teasing to toughen children up. In the working-class neighbourhood it was \"hard offensive individualism\": keep the family's upward momentum going, with images of getting ahead and going for the gold. Both stressed respect for authority and treated children as a group (\"You kids get over here\"). The wealthy parents practised \"soft individualism\": success and health were taken for granted, the fragile thing was the child's psychological wellbeing, and the goal was a journey towards personal fulfilment, full of talk of blossoming and growing. Their parenting was authoritative or permissive and uneasy with open authority: not \"You kids, clean up this mess,\" but \"Caitlin, Zach, Dakota, could you clean things up a bit please? Malala is coming for dinner.\"",
+          },
+          {
+            q: "What is the takeaway for pages 195-210?",
+            a: "Childhood shapes the adult through real biology, and what matters most is how many blows land compared with how many buffers protect the child. Culture, working through parents and playmates, trains children to become the adults that culture wants.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 210,
+        pagesTo: 225,
+        label: "pp 210-225: Chapter Seven continued: learning in the womb and how prenatal hormones organise the brain (read to p. 216 so far)",
+        qa: [
+          {
+            q: "What can a fetus learn in the womb?",
+            a: "Near the end of pregnancy a fetus hears sounds from outside and tastes the amniotic fluid, and remembers and prefers those things after birth. Rat pups whose mothers' amniotic fluid was flavoured with lemon are born preferring lemon, and some spices a pregnant woman eats reach the fluid, so we may be born preferring our mother's foods. Anthony DeCasper of the University of North Carolina showed that newborns recognise and prefer their mother's voice: given two sucking patterns, one playing Mom and one another woman, they choose Mom. A newborn's cry even follows the contours of the mother's language. When a mother repeated \"biba, biba\" and then switched to \"babi,\" the fetal heart rate rose, showing the fetus noticed. With Melanie Spence, DeCasper found newborns preferred The Cat in the Hat over a similar-sounding story only if their mother had read it aloud for hours in the last trimester.",
+          },
+          {
+            q: "How do hormones before birth organise the brain?",
+            a: "Hormone effects over hours or days are \"activational.\" Hormones in the womb have \"organisational\" effects that change the brain for life. About eight weeks after conception the fetal gonads begin secreting hormones, and testosterone, along with another hormone from the testes, masculinises the brain. Surprisingly, testosterone mostly does this by being converted into oestrogen inside brain cells. So why is a female fetus, bathed in her mother's oestrogen, not masculinised? Because fetuses make a protein, alpha-fetoprotein, that binds oestrogen in the blood and takes it out of action. Without testosterone, the mammalian fetal brain develops as female by default. One clear difference is in the hypothalamus: female brains must run the cycles of ovulation, so they develop more complex wiring there.",
+          },
+          {
+            q: "What did Robert Goy's guinea pig studies show?",
+            a: "In the 1950s Goy, at the University of Wisconsin, gave testosterone to pregnant guinea pigs. Their daughters looked normal but, as adults, reacted to testosterone like males, with more aggression and more male-typical mounting, and responded less to oestrogen. Hormones before birth had set how the adult brain would respond to hormones later. This challenged the prevailing belief that sexual identity was purely social, under which a baby born with ambiguous genitals (roughly 1 to 2 percent of births) could be raised as either sex so long as the decision came early.",
+          },
+          {
+            q: "What happened when female rhesus monkeys were exposed to testosterone before birth?",
+            a: "In rhesus monkeys, males are more active and do more rough-and-tumble play within weeks of birth, long before puberty, and even if their testosterone is suppressed after birth, which points to hormones in the womb. Given a choice, adult males strongly preferred wheeled toys, while females showed only a slight preference for stuffed animals. Goy gave pregnant monkeys testosterone throughout pregnancy, and their daughters, who looked male on the outside, played rougher, were more aggressive and showed male-typical mounting and calls, yet were just as interested in infants as other females. His student Kim Wallen of Emory used lower doses in the last trimester only, producing daughters with typical female bodies but masculinised behaviour. The researchers noted the relevance to transgender people: the outward appearance of one sex with, in a sense, the brain of the other.",
+          },
+          {
             q: "What is the takeaway so far?",
-            a: "Childhood shapes the adult through real biology, including glucocorticoids, a shrunken hippocampus, a weak frontal cortex and a bossy amygdala. And what a child most needs, before calories, is touch, consistency and a mother who is glad they exist.",
+            a: "Learning begins before birth, and hormones in the womb do not just switch behaviour on and off; they wire the brain in ways that shape how it responds for life.",
           },
         ],
       },
