@@ -1135,7 +1135,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 210,
         pagesTo: 225,
-        label: "pp 210-225: Chapter Seven continued: learning in the womb and how prenatal hormones organise the brain (read to p. 216 so far)",
+        label: "pp 210-225: Chapter Seven continued: learning in the womb, prenatal hormones and how early environment leaves its mark",
         qa: [
           {
             q: "What can a fetus learn in the womb?",
@@ -1154,8 +1154,103 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "In rhesus monkeys, males are more active and do more rough-and-tumble play within weeks of birth, long before puberty, and even if their testosterone is suppressed after birth, which points to hormones in the womb. Given a choice, adult males strongly preferred wheeled toys, while females showed only a slight preference for stuffed animals. Goy gave pregnant monkeys testosterone throughout pregnancy, and their daughters, who looked male on the outside, played rougher, were more aggressive and showed male-typical mounting and calls, yet were just as interested in infants as other females. His student Kim Wallen of Emory used lower doses in the last trimester only, producing daughters with typical female bodies but masculinised behaviour. The researchers noted the relevance to transgender people: the outward appearance of one sex with, in a sense, the brain of the other.",
           },
           {
-            q: "What is the takeaway so far?",
-            a: "Learning begins before birth, and hormones in the womb do not just switch behaviour on and off; they wire the brain in ways that shape how it responds for life.",
+            q: "Why did prenatal testosterone seem to explain male aggression in humans, and what is CAH?",
+            a: "Congenital adrenal hyperplasia (CAH) is a condition in which a mutated adrenal enzyme makes androgens instead of glucocorticoids from fetal life onward. Girls with CAH are born with ambiguous genitals and are infertile as adults.",
+          },
+          {
+            q: "What did John Money report in the 1950s, and why was it flawed?",
+            a: "He reported that girls with CAH showed many male-typical behaviours, few female-typical ones, and raised IQ. The IQ result was misleading because the parents who enrolled their children were better educated than the controls. \"Normal\" was also judged by 1950s standards, so a CAH girl counted as \"pathological\" for wanting a career instead of babies.",
+          },
+          {
+            q: "What does careful modern CAH research show?",
+            a: "Work by Melissa Hines at Cambridge found that girls with CAH do more rough-and-tumble play and physical fighting, and prefer \"masculine\" toys over dolls. As adults they score lower on tenderness and higher on aggressiveness, report less interest in infants, and are more likely to be gay, bisexual or transgender-identified.",
+          },
+          {
+            q: "Why does treatment after birth matter for the interpretation?",
+            a: "Drugs started soon after birth bring androgen levels back to normal, so the extra androgen exposure happened only before birth. That points to organisational effects, the lasting changes made while the brain is being built.",
+          },
+          {
+            q: "What is androgen insensitivity syndrome (AIS), and what does it suggest?",
+            a: "In AIS an XY fetus has testes that make testosterone, but a mutation in the androgen receptor makes the body insensitive to it. The baby is usually born with a female appearance and raised as a girl, and the condition is discovered at puberty when periods do not come. Without testosterone's effects, the result is typically female-typical behaviour and identity.",
+          },
+          {
+            q: "What are the \"two whopping big problems\" with these conclusions?",
+            a: "First, girls with CAH are born with a sign that something is different: ambiguous genitals, surgeries, attentive doctors, hormone treatments, and parents who know something is unusual. So their behaviour cannot be put down to androgens alone. Second, in AIS, much of testosterone's effect on the fetal brain happens after it is converted into oestrogen, which works through the oestrogen receptor, and the mutation does not block that. Some effects in monkeys do not need the conversion at all. So some brain masculinisation may occur even in people raised as female, and women with AIS have above-expected rates of being gay or having a non-female or non-binary identity. The evidence is imperfect, and the real question is how big the effect is.",
+          },
+          {
+            q: "What is the 2D:4D ratio, and why is it useful?",
+            a: "In most people the second finger is shorter than the fourth, and the difference is larger in men than in women, as first noted in the 1880s. It is visible in third-trimester fetuses and tracks fetal testosterone measured from amniotic fluid. Females with CAH have a more masculine ratio, as do females who shared the womb with a male twin, and males with AIS have a more feminine one. The same sex difference appears in other primates and in rodents, and nobody knows why. Faint noises made by the inner ear show a similar prenatal-testosterone sex difference. The ratio is too variable to tell any one person's sex, but it is informative about fetal exposure.",
+          },
+          {
+            q: "What does a more masculine 2D:4D ratio predict?",
+            a: "In men it goes with more aggression, higher maths scores, more assertiveness, more ADHD and autism, less depression and anxiety, faces and handwriting that are judged more masculine, and in some reports a lower likelihood of being gay. In women a more feminine ratio goes with less autism, more anorexia, less left-handedness, less athletic ability, more attraction to masculine faces, and more likelihood of being straight (or taking stereotypically female roles, if lesbian).",
+          },
+          {
+            q: "How strong is the conclusion?",
+            a: "This is among the strongest evidence that fetal androgens have organisational effects in humans and that individual differences in exposure predict individual differences in behaviour. But the effects are small and variable, and only meaningful across large numbers of people. Even organisational plus activational effects do not determine the quality or quantity of aggression.",
+          },
+          {
+            q: "How does a pregnant woman's environment reach the fetal brain?",
+            a: "Through diet (broad maternal malnutrition impairs fetal brain development), through pathogens such as Toxoplasma gondii (from infected cat faeces), and through substance abuse (heroin and crack exposure, fetal alcohol syndrome). Most important is stress: through diet and substance use, through changes in blood pressure and immunity, and chiefly through maternal glucocorticoids entering the fetal circulation.",
+          },
+          {
+            q: "What do prenatal glucocorticoids do?",
+            a: "They have organisational effects: lower levels of growth factors, and fewer neurons and synapses. Just as prenatal testosterone makes an adult brain more sensitive to triggers of aggression, excess prenatal glucocorticoid makes it more sensitive to triggers of depression and anxiety.",
+          },
+          {
+            q: "What is epigenetics, in a simplified version?",
+            a: "Each gene codes for a protein, genes have on and off switches, and every cell holds the same genes. The pattern of genes switched on during development decides whether a cell becomes part of a nose or a toe, and cells keep that pattern. Epigenetic effects are these lasting on and off settings, which is how organisational hormone effects work.",
+          },
+          {
+            q: "What did the 2004 Meaney study show, and what followed?",
+            a: "Published in Nature Neuroscience, it became one of the most cited papers in the field. Pups of attentive rat mothers (lots of nursing, grooming and licking) grew into adults with lower glucocorticoids, less anxiety, better learning and delayed brain ageing. The cause was an epigenetic change in a gene for the brain's stress response. Work with Darlene Francis showed those pups become attentive mothers themselves, so behaviour is passed on at the molecular level. Later work by Meaney, Moshe Szyf and Frances Champagne found epigenetic effects on systems for BDNF, vasopressin, oxytocin and oestrogen sensitivity. Childhood abuse changes hundreds of genes in the human hippocampus, and Stephen Suomi and Szyf found that mothering style in monkeys affects over a thousand genes in the frontal cortex.",
+          },
+          {
+            q: "Why does Sapolsky urge restraint about these conclusions?",
+            a: "Findings are often overinterpreted, study quality has declined as the field became crowded, most childhood effects are probably not epigenetic, and most epigenetic changes are transient. The deeper point is that little in childhood determines adult behaviour, but nearly everything shifts propensities. Freud, Bowlby, Harlow and Meaney all said childhood matters. Hippocampal shrinkage in veterans with PTSD convinced many people that the disorder was \"real\", so the science confirms what we should provide anyway: safe, loving, nurturing childhoods full of opportunity.",
+          },
+          {
+            q: "What is the takeaway for pages 210-225?",
+            a: "Learning begins before birth, and hormones in the womb do not merely switch behaviour on and off; they wire the brain in ways that shape how it responds for life. A mother's stress, diet and care also leave lasting marks, but those marks shift tendencies rather than fix outcomes.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 225,
+        pagesTo: 240,
+        label: "pp 225-240: Chapter Eight: Genes: how genes are switched on and off by the environment (read to p. 231 so far)",
+        qa: [
+          {
+            q: "What two burdens does Sapolsky name when it comes to linking genes and behaviour?",
+            a: "The first is suspicion, because pseudoscience once justified racism, sexism, eugenics and forced sterilisation. He recalls a federally funded conference that was cancelled for suggesting genes relate to violence. The second is overenthusiasm: reductionism, \"holy grail\" and \"code of codes\" language, and essentialism. In one study of moral spillover, people judged biological grandchildren to be more obliged than adopted ones, and were more willing to jail long-lost identical twins for one twin's crime than unrelated look-alikes.",
+          },
+          {
+            q: "Do genes \"decide\" when to act?",
+            a: "No. About 95 percent of DNA is noncoding. Some of it is junk, such as inactivated pseudogenes, but much of it holds the on and off instructions. A promoter, placed before a gene, is the \"on\" switch. When a protein called a transcription factor (TF) binds to it, the gene is transcribed into RNA, and other TFs deactivate genes. Saying a gene decides is like saying a recipe decides when a cake is baked.",
+          },
+          {
+            q: "What regulates transcription factors?",
+            a: "The environment does. A neuron low on energy activates a TF that makes more glucose transporters. Low serotonin from a neighbouring neuron leads to more serotonin receptors being made. Testosterone binding to androgen receptors in muscle sets off a cascade that builds scaffolding proteins and muscle mass. A mother who smells her newborn has a rise in oxytocin and milk letdown. Promoters and TFs work like if-then clauses.",
+          },
+          {
+            q: "Why do transcription factors multiply as genomes get bigger?",
+            a: "Two genes need three regulatory profiles, three genes need seven, four need 15 and five need 31, so the number of profiles grows exponentially. TFs are themselves coded by genes and regulate one another, which avoids an infinite regress. The bigger the genome, the greater the share of genes that code for TFs, so complex organisms devote more of their genes to environmental regulation. In the 1970s Allan Wilson and Mary-Claire King argued that the evolution of regulatory sequences matters more than the evolution of genes themselves, and many of the gene differences between chimps and humans lie in TF genes. A single TF can regulate many genes (NF-kB, for example, activates inflammation genes). Humans have about 1,500 TFs and 4,000,000 binding sites, and a given cell uses about 200,000.",
+          },
+          {
+            q: "What are the epigenetic mechanisms, and what is Lamarck's role?",
+            a: "A chemical attaches tightly to a promoter or to nearby structural proteins, so TFs cannot bind and the gene is silenced. In prairie voles, mating changes the oxytocin and vasopressin receptor genes in the nucleus accumbens. Such marks can sometimes pass through egg and sperm: diabetic male mice pass the trait on to offspring. That is a narrow \"neo-Lamarckian\" vindication of the old idea that giraffes pass on stretched necks.",
+          },
+          {
+            q: "What are exons, introns and alternative splicing?",
+            a: "Genes are often split into coding exons separated by noncoding introns, with one fewer intron than exons. Enzymes splice the introns out. Different splicing patterns make different proteins: a gene with three exons can make seven different proteins. About 90 percent of human genes that contain exons are alternatively spliced, so \"one gene, one protein\" does not hold. The splicing enzymes are proteins too, and different TFs can drive different exon combinations.",
+          },
+          {
+            q: "Who was Barbara McClintock?",
+            a: "In the 1940s she studied kernel colour in maize and found mutation patterns that could only be explained by pieces of DNA being copied and pasted elsewhere in the genome, the \"jumping genes\" or transposons. She was derided and isolated, then vindicated by the molecular revolution of the 1970s, and awarded a Nobel Prize. Most transpositions produce gibberish (Sapolsky's example is a word scrambled into \"eggterus\"), but rarely they help (turning it into \"eggplant\"). Plants use transposons under stress, such as drought.",
+          },
+          {
+            q: "What is the takeaway for pages 225-240 so far?",
+            a: "Genes are switched on and off by promoters and transcription factors, which respond to the environment, so genes never act alone.",
           },
         ],
       },
