@@ -1218,7 +1218,7 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
       {
         pagesFrom: 225,
         pagesTo: 240,
-        label: "pp 225-240: Chapter Eight: Genes: how genes are switched on and off by the environment (read to p. 231 so far)",
+        label: "pp 225-240: Chapter Eight: Genes: how genes are switched on and off by the environment",
         qa: [
           {
             q: "What two burdens does Sapolsky name when it comes to linking genes and behaviour?",
@@ -1249,8 +1249,79 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
             a: "In the 1940s she studied kernel colour in maize and found mutation patterns that could only be explained by pieces of DNA being copied and pasted elsewhere in the genome, the \"jumping genes\" or transposons. She was derided and isolated, then vindicated by the molecular revolution of the 1970s, and awarded a Nobel Prize. Most transpositions produce gibberish (Sapolsky's example is a word scrambled into \"eggterus\"), but rarely they help (turning it into \"eggplant\"). Plants use transposons under stress, such as drought.",
           },
           {
-            q: "What is the takeaway for pages 225-240 so far?",
-            a: "Genes are switched on and off by promoters and transcription factors, which respond to the environment, so genes never act alone.",
+            q: "Why do plants use transposons, and where else do they show up?",
+            a: "A plant cannot move away from a drought, so stress such as drought triggers transposition in particular cells. The plant shuffles its DNA in the hope of making a new, life-saving protein. Mammals have fewer transposons, but one hot spot is the immune system's huge stretch of antibody-coding DNA, where shuffling raises the odds of an antibody that targets a new virus.",
+          },
+          {
+            q: "What do transposons do in the brain?",
+            a: "In humans, transposition happens in brain stem cells as they become neurons, so the brain is a mosaic of neurons with slightly different DNA sequences. Even in fruit flies, transposition occurs in the neurons that form memories.",
+          },
+          {
+            q: "How does chance weaken the idea of genes as a \"Code of Codes\"?",
+            a: "Brownian motion, the random jostling of particles in a fluid, affects tiny molecules inside cells. It influences how fast an activated transcription factor reaches its DNA, when splicing enzymes bump into their RNA targets, and when an enzyme catches the two precursors it needs.",
+          },
+          {
+            q: "What five points close the first part of the chapter?",
+            a: "Genes are not autonomous agents that command events. They are regulated by the environment, from inside the cell to the wider world. Much DNA exists to turn environmental signals into gene activity, and evolution is largely about changing gene regulation. Epigenetic changes can make environmental effects lifelong or even multigenerational. And transposons make the brain a mosaic of genomes. The bottom line is that genes determine much less than people assume.",
+          },
+          {
+            q: "How did behaviour genetics work before twin studies, and what was wrong with each step?",
+            a: "\"If the whole family does it, it must be genetic\" fails because environment runs in families too. \"It is more common in closer relatives\" fails because closer relatives also share more environment. Comparing a biological aunt with an uncle who married in is cleverer, because both share the household but only the aunt shares the genes, yet it still had problems.",
+          },
+          {
+            q: "What do twin and adoption designs show?",
+            a: "Identical twins share all their genes, yet if both do not always share a trait, genes cannot be the whole story. For schizophrenia the match between identical twins is about 50 percent. Comparing identical twins with same-sex fraternal twins, who share half their genes, lets researchers read the extra similarity as genetic. Adoption studies, begun in the 1960s, separate the two sources: adoptees share only genes with their biological parents and only environment with their adoptive ones. They were first used to show a strong genetic part in schizophrenia.",
+          },
+          {
+            q: "Who were Jack Yufe and Oskar Stohr?",
+            a: "They were the most famous pair in Thomas Bouchard's University of Minnesota study of identical twins raised apart, which began in 1979 and eventually covered over a hundred pairs. Born in Trinidad in 1933 to a German Catholic mother and a Jewish father, one was taken to Germany as a baby and became a committed member of the Hitler Youth. The other was raised in Trinidad and Israel as an observant, Yiddish-speaking Jew. When they met as adults they shared many quirks, including flushing the toilet before using it.",
+          },
+          {
+            q: "Which traits show genetic influence, and how indirect can the route be?",
+            a: "Intelligence, schizophrenia, depression, bipolar disorder, autism, attention problems, gambling, alcoholism, the Big Five personality traits, religiosity, attitudes to authority, risk-taking and political involvement all show some. So do odd things like how often teenagers text and fear of the dentist. The route is rarely a gene \"for\" the behaviour. Voting, for example, runs through a sense of control, which is linked to optimism and low anxiety. Self-confidence can even run through height, because taller people tend to be treated better.",
+          },
+          {
+            q: "What is the takeaway for pages 225-240?",
+            a: "Genes are switched on and off by promoters and transcription factors that respond to the environment, so genes never act alone. Twin and adoption studies are the main tools for separating genes from environment, and they show that many traits are influenced by genes, but only through indirect routes.",
+          },
+        ],
+      },
+      {
+        pagesFrom: 240,
+        pagesTo: 255,
+        label: "pp 240-255: Chapter Eight continued: the limits of twin and adoption studies, heritability, and gene and environment interactions (read to p. 248 so far)",
+        qa: [
+          {
+            q: "What are the five main criticisms of twin and adoption studies?",
+            a: "First, the assumption that identical and fraternal twins share equally similar environments is wrong, since identical twins are treated more alike. Kenneth Kendler's controls, such as childhood similarity and twins whose type was mistaken, mostly show this does not shrink genetic effects much. Second, about 75 percent of identical twins share one placenta while fraternal twins never do, which probably exaggerates genetic effects slightly. Third, effects from the mother before birth, such as the Dutch Hunger Winter, which raised some adult disease risks more than tenfold, can mimic genetics. Comparing resemblance to mothers against fathers suggests this is small for schizophrenia. Fourth, adoption agencies match ethnicity, so adoptive families share genes with the child more than chance would give. Bouchard, Kendler and Robert Plomin call this negligible, while Leon Kamin of Princeton disagrees fiercely. Fifth, adoptive homes tend to be richer, better educated and healthier, so environmental effects are harder to see.",
+          },
+          {
+            q: "What is Sapolsky's verdict on that debate?",
+            a: "The flaws are unavoidable and mostly inflate the importance of genes, but careful controls usually show they are smaller than critics claim. Nearly all of this work, though, concerns psychiatric disorders rather than the everyday social behaviours this book is about.",
+          },
+          {
+            q: "What is the difference between an \"inherited\" trait and \"heritability\"?",
+            a: "A trait is inherited when genes shape its average level. Heritability is the share of the variation around that average, within a particular population, that genes explain. People confuse the two in a way that inflates genes, and usually we care more about variation, such as why some people are smarter than others, than about why humans beat turnips. Many traits, including generosity, resilience, political attitudes, aggression and leadership, score between 40 and 60 percent.",
+          },
+          {
+            q: "What examples pull the two ideas apart?",
+            a: "Having five fingers is strongly inherited but has low heritability, because the variation that exists is mostly accidents. Knowing that someone works blindfolded with buzz saws tells you more about his finger count than his genome does. Wearing earrings at a 1958 high school dance was not inherited, since genes do not make humans wear earrings more than chimps, yet it was highly heritable, because having two X chromosomes predicted who wore them.",
+          },
+          {
+            q: "What does a desert and rain forest plant show about heritability?",
+            a: "Imagine three versions of a gene giving heights of 1, 2 and 3 inches in the desert and 101, 102 and 103 inches in the rain forest. Within each place, heritability is 100 percent. Pool the two and the environment predicts height far better than the gene, so heritability is tiny. Studying a trait in one controlled setting inflates heritability, and the more environments you include, the lower it falls. This matters most for humans, who live everywhere. Heritability of earring wearing has dropped a great deal since 1958.",
+          },
+          {
+            q: "What is a gene and environment interaction?",
+            a: "It is when a gene's effect flips depending on the environment, so that the answer to \"what does this gene do\" is \"it depends.\" In phenylketonuria, a mutation damages the brain only when the diet contains phenylalanine. A variant of the serotonin transporter gene raises the risk of depression only after childhood trauma. A fat-metabolism variant is linked to higher IQ only in children who were breastfed.",
+          },
+          {
+            q: "What did the 1999 three-lab mouse study find?",
+            a: "Laboratories in Oregon, Alberta and Albany used genetically identical mouse strains and standardised nearly everything, including age, cage, bedding, gloves, food, lighting and even simulated van rides. Yet cocaine raised one strain's activity by about 667 centimetres per 15 minutes in Oregon, 701 in Albany and over 5,000 in Alberta. Within each lab results were consistent, so tiny unnoticed differences in environment hugely changed what the genes did. Donald Hebb's line fits: asking whether a trait is more nature or nurture is like asking whether a rectangle's area depends more on its length or its width.",
+          },
+          {
+            q: "What is the takeaway so far?",
+            a: "A gene's effect exists only inside an environment. Heritability numbers describe the settings that were studied, not what a gene \"does\" in general.",
           },
         ],
       },
