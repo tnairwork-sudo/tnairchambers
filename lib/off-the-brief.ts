@@ -2536,6 +2536,48 @@ export const offTheBriefPapers: OffTheBriefPaper[] = [
       },
     ],
   },
+  {
+    subject: "Music psychology and affective science",
+    title:
+      "Chills in Music: A Systematic Review",
+    authors: "Rémi de Fleurian and Marcus T. Pearce",
+    year: 2021,
+    citation:
+      "Psychological Bulletin, volume 147, issue 9, pages 890 to 920; doi 10.1037/bul0000341",
+    link: "https://doi.org/10.1037/bul0000341",
+    slug: "chills-in-music",
+    published: true,
+    qa: [
+      {
+        q: "What are music-evoked chills?",
+        a: "A brief shiver, tingling or goosebumps some listeners feel at particular moments in a piece of music. The review treats them as a pleasurable bodily response that can be part of being moved by music, though they're not required for it.",
+      },
+      {
+        q: "How did the authors study them?",
+        a: "They systematically reviewed 167 research reports published between 1980 and 2020. The studies used such different methods that the authors chose a narrative synthesis over a single pooled meta-analysis.",
+      },
+      {
+        q: "What in the music tends to trigger chills?",
+        a: "Sudden changes come up most often: rising loudness, a new instrument or voice entering, the sound expanding into the high or low register, and a denser, brighter or rougher texture.",
+      },
+      {
+        q: "What happens in the body and brain?",
+        a: "Chills come with higher skin conductance, heart rate and breathing. Brain imaging studies the review covers link them to the reward system. One region grows more active as listeners anticipate a peak, and another responds during the peak, with dopamine release tracking how intense the chills were and how much pleasure people felt. In one drug study the review cites, raising dopamine increased time spent in chills and blocking it reduced them.",
+      },
+      {
+        q: "How do the authors explain them?",
+        a: "They propose three possible routes: sheer arousal from the sound, expectations being built and then met or broken, and the emotions the music conveys.",
+      },
+      {
+        q: "How strong is the evidence?",
+        a: "The triggers are reported consistently. The brain and drug studies are small, people differ a lot in whether they get chills at all, and the exact timing and causes are still open questions.",
+      },
+      {
+        q: "Why does it matter beyond music?",
+        a: "It shows that anticipation and contrast are a large part of pleasure. A build-up that sets an expectation and then pays it off moves people more than constant intensity does, which bears on how talks, films and other experiences are paced.",
+      },
+    ],
+  },
 ];
 
 function anchorSlug(value: string) {
