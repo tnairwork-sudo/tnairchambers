@@ -1,3 +1,4 @@
+// Redeploy marker. The production deployment of the chills paper failed, and this source already passes next build. No runtime change.
 import type { NextConfig } from "next";
 
 const firmProfilePdfPath = "/profile/Nair-and-Co-Firm-Profile.pdf";
