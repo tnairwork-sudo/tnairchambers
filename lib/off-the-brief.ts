@@ -1325,6 +1325,95 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           },
         ],
       },
+      {
+        day: 7,
+        pagesFrom: 103,
+        pagesTo: 118,
+        label:
+          "Day 7, pages 103-118: Chapter Four continued: contingent testosterone, oxytocin and the start of female aggression",
+        qa: [
+          {
+            q: "What is the idea of contingent testosterone effects, and what did the 1977 talapoin study show?",
+            a: "Testosterone does not cause a behaviour on its own. It amplifies the power of something else to cause it. Given testosterone, the number 3 male in a group of five became more aggressive, but not towards numbers 1 and 2. He became harsher towards numbers 4 and 5. The hormone exaggerated existing social patterns rather than creating new ones.",
+          },
+          {
+            q: "How does this show up in people, and in neurons?",
+            a: "In people, testosterone did not raise baseline amygdala activity. It boosted the amygdala and heart-rate response to angry faces only, not happy or neutral ones. In an economic game it did not make people selfish. It made them more punitive when they had been treated badly. In neurons it shortens the quiet spell after a signal fires, in the amygdala and the hypothalamus. It does not make neurons fire. It makes them fire faster if something else stimulates them. It turns up the volume.",
+          },
+          {
+            q: "What is the challenge hypothesis, and who proposed it?",
+            a: "John Wingfield and colleagues, in 1990: rising testosterone increases aggression only at the time of a challenge. That is why ordinary baseline levels, and the rises that come with puberty, sexual stimulation or the mating season, do not predict aggression.",
+          },
+          {
+            q: "When does testosterone rise in a challenge?",
+            a: "In primates, when a hierarchy is first forming or being rearranged. In people, in individual and team sport, including basketball, wrestling, tennis, rugby and judo. It rises before the contest and more afterwards, especially in winners. Even watching your own team win raises it, so the rise is about dominance, identification and self-esteem, not only muscle. The same rise can mean aggression after a challenge, a migration of a thousand miles in mating season, or getting giddy around someone at puberty.",
+          },
+          {
+            q: "What is the second part of the challenge hypothesis?",
+            a: "After a challenge, testosterone prompts whatever behaviour is needed to keep status, not aggression as such. For male primates that is usually aggression, or a stare that warns you have no idea whom you are facing. It is not always a fight.",
+          },
+          {
+            q: "What did Eisenegger and Fehr find with the Ultimatum Game?",
+            a: "In that game a rejected offer leaves you feeling slighted, so status rests on being fair. People given testosterone made more generous offers. People who believed they had been given testosterone, whether or not they had, made less generous offers. Testosterone does not make you behave badly. Believing that it does is what makes you behave badly.",
+          },
+          {
+            q: "What other prosocial effects does he note, and what is his conclusion?",
+            a: "When pride depends on honesty, testosterone decreased men's cheating. In a public-goods game it made most people more prosocial. Testosterone makes us do what it takes to gain and keep status. Arrange things so that kindness is what status requires, and people compete at kindness. The problem is not that testosterone can raise aggression. It is how often aggression is what gets rewarded.",
+          },
+          {
+            q: "What are the basics of oxytocin and vasopressin?",
+            a: "They are chemically similar, and their genes sit close together on the same chromosome. A single ancestral gene was duplicated as mammals emerged. Other vertebrates have only vasotocin. Classically they were made in hypothalamic neurons and released from the posterior pituitary. Oxytocin drove uterine contraction and milk release. Vasopressin, also called antidiuretic hormone, controlled water retention in the kidneys. They were later found to project throughout the brain, including the ventral tegmentum, nucleus accumbens, hippocampus, amygdala and frontal cortex, and came to be called neuropeptides.",
+          },
+          {
+            q: "How do they shape parenting?",
+            a: "Infuse oxytocin into a virgin rat and she acts like a mother, retrieving, grooming and licking pups. Block it in a mother and she stops, nursing included. It helps a mother rat or ewe learn her offspring's smell. A nasal spray makes women find babies more appealing, and gene variants for more oxytocin or more receptors go with more touching of infants and more synchronised gazing. Vasopressin does the father's side. A birth raises vasopressin and its receptors in the nearby father, and experienced monkey fathers have more branching in frontal neurons that carry those receptors. This holds in paternal species such as prairie voles and marmosets.",
+          },
+          {
+            q: "What did Insel, Young and Carter find in prairie voles?",
+            a: "Prairie voles pair-bond for life, socially if not always sexually, unlike polygamous montane voles. Sex releases oxytocin in females and vasopressin in males in the nucleus accumbens, but prairie voles do not release more of it. They have more receptors there. Males with a gene variant that gives more receptors bonded more strongly. Mice given the prairie vole vasopressin receptor groomed and huddled more with familiar females, and montane voles given more receptors became more affiliative. Bonobos have a higher-expression variant than chimpanzees and more female-male bonding, though they are anything but monogamous. In tamarins, a female's oxytocin tracked grooming and contact, and a male's tracked how much sex he had.",
+          },
+          {
+            q: "What is the human evidence for pair-bonding?",
+            a: "Oxytocin is high in new couples, and higher levels go with more affection, more synchrony, longer relationships and happier couples. With an oxytocin spray, couples discussing a conflict communicated more positively and showed fewer stress hormones. Men in stable relationships stood 4 to 6 inches further from an attractive woman researcher. There was no such effect in single men, or with a male researcher. They looked less at pictures of attractive women. They did not rate the women as less attractive. They were simply less interested.",
+          },
+          {
+            q: "What happens between dogs and people?",
+            a: "In the last 50,000 years, a very small fraction of the time oxytocin has existed, dogs and the people they live with, not strangers, started secreting oxytocin when they interact. The more they look at each other, the bigger the rise. Give dogs oxytocin and they gaze longer, which raises oxytocin in the person.",
+          },
+          {
+            q: "What are the calmer effects of oxytocin?",
+            a: "It inhibits the central amygdala, reduces fear and anxiety, and activates the parasympathetic system. Sue Carter calls it a physiological metaphor for safety. Mice that lack oxytocin or its receptor are unusually aggressive. It makes faces look more trustworthy, and it makes people more trusting in economic games, with no effect when the partner is a computer. Investors kept trusting even after a betrayal. It sharpens detection of happy faces and positive words, increases charity, and improves learning when the feedback is a smile or a frown rather than coloured lights. Being trusted, or touched warmly, releases it in turn.",
+          },
+          {
+            q: "Is the effect a warmer feeling, or a social skill?",
+            a: "Both. People look at eyes longer and read emotions more accurately, and a region involved in thinking about other minds is boosted. Women get better at detecting kinship, and men at detecting dominance. Memory for faces improves, and rodents learn the smell of an individual rather than a non-social smell. Gene variants affect activation in the fusiform face area. Autism has been linked to variants in the oxytocin and vasopressin genes, to silenced receptors and to fewer receptors, and the neuropeptides can improve eye contact in some people with autism. There is still a bias toward happy faces.",
+          },
+          {
+            q: "How are oxytocin's effects contingent?",
+            a: "On gender: its calming of the amygdala is more consistent in men. On the person: it increases charity only in people who are already charitable, which mirrors testosterone. On culture: under stress, people with the socially sensitive receptor variant sought more emotional support, but only Americans, including Korean Americans, not Koreans.",
+          },
+          {
+            q: "What is the darker side?",
+            a: "Oxytocin raises maternal aggression in defence of pups, through the central amygdala, and vasopressin raises aggression in paternal prairie vole males, most of all in those who are already aggressive. Against anonymous strangers, oxytocin decreases cooperation and increases envy and gloating. Carsten de Dreu found that it made men more generous to teammates but, when the stakes were high, more likely to betray the other team in advance in the Prisoner's Dilemma. In Dutch subjects it exaggerated an implicit bias against Middle Easterners and Germans, and made them less willing to sacrifice someone named Dirk or Peter than someone named Helmut or Ahmed in order to save five. It is prosocial toward one's own group, which is where ethnocentrism and xenophobia begin.",
+          },
+          {
+            q: "Why does the chemistry of female aggression confuse him, and what drives maternal aggression?",
+            a: "Ratios of hormones matter more than absolute levels. Levels can shift a hundredfold within hours, species vary widely, progesterone mostly acts through related steroids, and estrogen is a mixture rather than one chemical. Rodent aggression peaks around birth and is highest in species where infants are most at risk of being killed. Late in pregnancy, estrogen and progesterone raise maternal aggression by increasing oxytocin release. Estrogen can also reduce aggression and enhance empathy through a second receptor. Progesterone alone lowers aggression and anxiety. It is converted to a steroid that makes the calming GABA receptors more sensitive.",
+          },
+          {
+            q: "Why are the usual accounts of female aggression wrong?",
+            a: "Androgen receptors are not a leftover. They are laid out differently in female brains, and are denser in some regions, so those effects were selected for. Female aggression is strategic: competing for food and nests, harassing lower-ranking rivals into stress that stops them breeding, killing infants in chimpanzees, and competing for males who help raise the young. In some species the usual pattern is reversed and females dominate, including bonobos, lemurs, marmosets, tamarins, rock hyraxes, California mice, golden hamsters and naked mole rats. Spotted hyenas, studied by Laurence Frank, are the classic case. Lower-ranking males hunt, and females drive them off the kill so the cubs eat first. A male's erection is a sign of submission. Females exposed to androgens before birth develop a false scrotum and a clitoris the size of a penis.",
+          },
+          {
+            q: "Do androgens explain female aggression?",
+            a: "Not neatly. Female Brazilian guinea pigs have high androgens but are not dominant, and females in some sex-reversed bird species do not have high androgens. An individual's androgen level does not predict aggression, and levels do not rise in the periods when females are aggressive. Because androgens disrupt reproduction and mothering, females have to weigh the costs against the benefits, as Sarah Hrdy argues. What evolved is androgens acting on the parts of the brain involved in aggression, and not on the parts involved in reproduction and maternal care.",
+          },
+          {
+            q: "What is the takeaway for pages 103-118?",
+            a: "Hormones do not create behaviour from nothing. Testosterone and oxytocin amplify whatever the situation, the person and the culture already reward, so testosterone can make someone fairer, and oxytocin can make someone hostile to outsiders.",
+          },
+        ],
+      },
     ],
   },
   {
@@ -2209,6 +2298,55 @@ export const offTheBriefBooks: OffTheBriefBook[] = [
           {
             q: "What are the book's lessons overall?",
             a: "Think big but protect the downside first. Keep options open and be willing to walk, because desperation is fatal. Know the market from your own legwork, not consultants or committees. Use leverage, especially when the other side is under pressure. Location and a strong, specific story create value. Fight unfair treatment but stay practical on points that do not touch the economics. Deliver on time and under budget, because a track record is what lets you wait and borrow. And price every concession before you give it.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "cant-hurt-me",
+    title: "Can't Hurt Me",
+    author: "David Goggins",
+    intro: "Read as an account of capacity, and of a childhood that did not match the street it stood on.",
+    published: true,
+    sessions: [
+      {
+        day: 1,
+        pagesFrom: 1,
+        pagesTo: 23,
+        label: "Day 1, pages 1-23",
+        qa: [
+          {
+            q: "What question does Goggins open with?",
+            a: "Whether you actually know who you are and what you are capable of. His claim is that most people do not, and that most are too comfortable to find out. He says we live at about 40 percent of our real capacity, and that what holds us back is the mind settling early, not a lack of ability.",
+          },
+          {
+            q: "What does he say about a genetic ceiling?",
+            a: "At a talk at MIT, a professor argued that everyone has genetic limits that cannot be exceeded. Goggins rejected that, and offered himself as the counterexample. He allows that the claim may be broadly true, but not true in every case. A small minority, he says, are built to push past the ceiling they were handed.",
+          },
+          {
+            q: "What line does he borrow about the one warrior?",
+            a: "A line attributed to Heraclitus, about men in battle: out of every hundred, ten should not even be there, eighty are just targets, nine are the real fighters, and we are lucky to have them, for they make the battle. \"Ah, but the one, one is a warrior.\" That one is the person he wants the reader to aim to become.",
+          },
+          {
+            q: "Where does the childhood story begin, and how did the family look from the street?",
+            a: "In 1981 in Williamsville, the most affluent part of Buffalo, in western New York. The family lived on a corner lot on Paradise Road, in a two-storey white wooden house with four square pillars on the front porch. A Rolls-Royce, a Mercedes and a Corvette sat in the driveway, and they were among the only Black families on the street. From outside, it looked like a perfect family.",
+          },
+          {
+            q: "What was life inside, and what did his father run?",
+            a: "His father, Trunnis Goggins, was charming in public and violent at home. He built one of Buffalo's first roller rinks, Skateland, on Ferry Street, and ran a bar above it called the Vermillion Room, a place to be seen in 1970s East Buffalo, with celebrities such as O.J. Simpson among the regulars. He met David's mother, Jackie, there when she was 19 and he was 36. Trunnis drank heavily and was involved in pimping and prostitution.",
+          },
+          {
+            q: "What was David doing by the age of six, and why did school collapse?",
+            a: "His older brother, Trunnis Jr., was born in 1971, and David in 1975. By six, David worked at the rink every night, sorting and deodorising skates, while his brother ran the concession stand. The family often got home near dawn, and then the boys were sent to school, where David could not stay awake. That is why school fell apart for him.",
+          },
+          {
+            q: "Why could his mother not leave?",
+            a: "Jackie was beaten, controlled and left financially dependent. Trunnis kept everything in his name and did not pay her for her work. They never married, so she had no claim on anything, and that is why she could not leave.",
+          },
+          {
+            q: "What is the takeaway of these pages?",
+            a: "The claim that people live at about 40 percent of their capacity is the hook of the book. The limit he is pointing at is the mind settling early, not the body running out.",
           },
         ],
       },
