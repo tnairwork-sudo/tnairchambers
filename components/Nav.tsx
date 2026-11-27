@@ -14,18 +14,18 @@ export default function Nav() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-ink/90 backdrop-blur-sm border-b border-border">
-      <nav className="container-site flex items-center justify-between h-16 gap-8 lg:gap-10">
+      <nav className="mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between gap-s3 px-s3 md:px-s5 xl:px-s6">
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center hover:opacity-75 transition-opacity duration-200">
           <Wordmark className="text-[1.55rem]" />
         </Link>
 
-        <div className="hidden lg:flex items-center gap-x-2 xl:gap-x-6">
+        <div className="hidden xl:flex items-center gap-x-s1 2xl:gap-x-s2">
           {primaryLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
+              className={`nav-link whitespace-nowrap !tracking-[0.06em] ${
                 pathname === link.href || pathname.startsWith(`${link.href}/`)
                   ? "text-parchment underline decoration-accent underline-offset-4"
                   : ""
@@ -35,13 +35,13 @@ export default function Nav() {
             </Link>
           ))}
           <ReadingMenu />
-          <ContactReveal variant="compact" className="shrink-0 py-2.5 px-5 text-2xs" />
+          <ContactReveal variant="compact" className="shrink-0 !min-h-12 !px-s3 text-sm" />
         </div>
 
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
+          className="xl:hidden flex min-h-12 min-w-12 flex-col items-center justify-center gap-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-antique"
           aria-label="Toggle menu"
         >
           <span
@@ -64,14 +64,14 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="lg:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto bg-ink border-t border-border">
-          <div className="container-site py-6 flex flex-col gap-5">
+        <div className="xl:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto bg-ink border-t border-border">
+          <div className="container-site flex flex-col py-s3">
             {primaryLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className={`nav-link ${
+                className={`nav-link flex min-h-12 items-center ${
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
                     ? "text-parchment underline decoration-accent underline-offset-4"
                     : ""
@@ -80,10 +80,10 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <div className="border-t border-border pt-5">
+            <div className="border-t border-border pt-s3">
               <ReadingLinks onNavigate={() => setOpen(false)} />
             </div>
-            <ContactReveal variant="compact" className="py-3 px-5 text-2xs w-fit" />
+            <ContactReveal variant="compact" className="mt-s2 w-full justify-center" />
           </div>
         </div>
       )}

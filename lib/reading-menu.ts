@@ -4,6 +4,8 @@ export const primaryLinks = [
   { href: "/entering-india", label: "Entering India" },
   { href: "/ngos", label: "NGOs" },
   { href: "/employers", label: "Employers" },
+  { href: "/scomet", label: "SCOMET Cell" },
+  { href: "/space-aerospace-defence", label: "Space & Defence" },
   { href: "/opportunity-atlas", label: "Opportunity Atlas" },
 ] as const;
 
@@ -15,6 +17,11 @@ export const offTheBriefLink = {
 export const guidesIndexLink = {
   href: "/guides",
   label: "Guides",
+} as const;
+
+export const reelsLink = {
+  href: "/reels",
+  label: "Reels",
 } as const;
 
 export const articleLinks = [

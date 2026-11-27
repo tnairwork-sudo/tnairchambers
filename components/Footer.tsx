@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
 import {
+  firmInstagram,
   officeEmail,
   officePhoneDisplay,
   officePhoneHref,
@@ -13,14 +14,14 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-border bg-ink">
-      <div className="container-site py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 md:gap-x-10 md:gap-y-14 xl:gap-12 mb-14">
+      <div className="container-site py-s6 md:py-s7">
+        <div className="mb-s6 grid grid-cols-1 gap-s5 md:grid-cols-2 xl:grid-cols-4">
           {/* Identity */}
           <div>
             <Link href="/" className="inline-block mb-4 hover:opacity-75 transition-opacity duration-200">
               <Wordmark className="text-[1.8rem]" />
             </Link>
-            <p className="text-sm text-parchment-dim leading-relaxed max-w-xs">
+            <p className="body-copy max-w-xs text-parchment-dim">
               Advocates &amp; Consultants, New Delhi. Each practice is delivered
               by a dedicated team. Management consultancy and investment banking,
               with our strategic alliances.
@@ -36,11 +37,13 @@ export default function Footer() {
                 { href: "/entering-india", label: "India Market Entry" },
                 { href: "/ngos", label: "NGO & FCRA Compliance" },
                 { href: "/employers", label: "International Employers" },
+                { href: "/scomet", label: "SCOMET Cell" },
+                { href: "/space-aerospace-defence", label: "Space, Aerospace and Defence" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                    className="text-base text-parchment-dim hover:text-parchment transition-colors duration-200"
                   >
                     {item.label}
                   </Link>
@@ -56,7 +59,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/opportunity-atlas"
-                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                  className="text-base text-parchment-dim hover:text-parchment transition-colors duration-200"
                 >
                   Opportunity Atlas
                 </Link>
@@ -64,7 +67,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/guides"
-                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                  className="text-base text-parchment-dim hover:text-parchment transition-colors duration-200"
                 >
                   Guides
                 </Link>
@@ -72,9 +75,17 @@ export default function Footer() {
               <li>
                 <Link
                   href="/off-the-brief"
-                  className="text-sm text-parchment-dim hover:text-parchment transition-colors duration-200"
+                  className="text-base text-parchment-dim hover:text-parchment transition-colors duration-200"
                 >
                   Off the Brief
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/reels"
+                  className="text-base text-parchment-dim hover:text-parchment transition-colors duration-200"
+                >
+                  Reels
                 </Link>
               </li>
             </ul>
@@ -83,7 +94,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <p className="label mb-5">Contact</p>
-            <ul className="space-y-4 text-sm text-parchment-dim">
+            <ul className="space-y-s2 text-base text-parchment-dim">
               <li>
                 <a
                   href={officePhoneHref}
@@ -101,6 +112,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>{officePlace}</li>
+              <li>
+                <a
+                  href={firmInstagram}
+                  className="hover:text-parchment transition-colors duration-200"
+                >
+                  Nair &amp; Co on Instagram
+                </a>
+              </li>
               {personProfiles.map((profile) => (
                 <li key={profile.href}>
                   <a
@@ -117,17 +136,17 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="rule pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
+          <p className="text-xs tracking-[0.08em] text-parchment-dim/60 uppercase">
             &copy; {year} Nair &amp; Co. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link
               href="/reading-room"
-              className="text-2xs tracking-ultra uppercase text-parchment-dim hover:text-parchment transition-colors"
+              className="text-xs tracking-[0.14em] uppercase text-parchment-dim hover:text-parchment transition-colors"
             >
               The Reading Room
             </Link>
-            <p className="text-2xs tracking-wide text-parchment-dim/60 uppercase">
+            <p className="text-xs tracking-[0.08em] text-parchment-dim/60 uppercase">
               Supreme Court of India · New Delhi
             </p>
           </div>

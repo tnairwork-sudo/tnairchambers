@@ -14,6 +14,12 @@ export const officePhoneHref = "tel:+918595203751";
 export const officePhoneSchema = "+91-85952-03751";
 export const officeEmail = "tushaar@tnairchambers.in";
 
+/** Firm account. personProfiles stays on the personal account. */
+export const firmInstagram = "https://www.instagram.com/nairandco/";
+
+/** Quiet values band. Off until Tushar asks for it. */
+export const showValuesStrip = false;
+
 export const personProfiles = [
   { href: "https://www.linkedin.com/in/nairtushar9", label: "LinkedIn" },
   { href: "https://www.instagram.com/nairtushar9", label: "Instagram" },
@@ -104,6 +110,7 @@ export const siteJsonLd = {
       },
       telephone: officePhoneSchema,
       email: officeEmail,
+      sameAs: [firmInstagram],
       contactPoint: {
         "@type": "ContactPoint",
         telephone: officePhoneSchema,
