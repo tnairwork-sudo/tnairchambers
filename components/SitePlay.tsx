@@ -34,7 +34,7 @@ export default function SitePlay() {
       if (event.pointerType === "mouse" && fine) return;
       const spark = document.createElement("span");
       spark.setAttribute("aria-hidden", "true");
-      spark.style.cssText = `position:fixed;z-index:70;left:${event.clientX}px;top:${event.clientY}px;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:999px;background:#d50000;pointer-events:none;`;
+      spark.style.cssText = `position:fixed;z-index:70;left:${event.clientX}px;top:${event.clientY}px;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:999px;background:#a8875a;pointer-events:none;`;
       document.body.appendChild(spark);
       spark.animate(
         [

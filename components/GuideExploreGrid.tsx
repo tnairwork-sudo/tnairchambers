@@ -122,7 +122,7 @@ export default function GuideExploreGrid({ items }: { items: GuideExploreItem[] 
                 <TurnButton expanded={false} onClick={() => setFlipped(item.slug)} />
               </div>
               <div
-                className="absolute inset-0 flex flex-col border border-accent bg-accent p-6 text-ink [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                className="absolute inset-0 flex flex-col border border-antique bg-parchment p-s4 text-ink [backface-visibility:hidden] [transform:rotateY(180deg)]"
                 inert={!isFlipped ? true : undefined}
               >
                 <Eyebrow item={item} onAccent />

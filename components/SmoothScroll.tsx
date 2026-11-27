@@ -20,15 +20,24 @@ export default function SmoothScroll({
 
     lenis.on("scroll", ScrollTrigger.update);
 
-    gsap.ticker.add((time) => {
+    const onScrollLock = (event: Event) => {
+      const locked = (event as CustomEvent<boolean>).detail;
+      if (locked) lenis.stop();
+      else lenis.start();
+    };
+    window.addEventListener("nair:scroll-lock", onScrollLock);
+
+    const tick = (time: number) => {
       lenis.raf(time * 1000);
-    });
+    };
+    gsap.ticker.add(tick);
 
     gsap.ticker.lagSmoothing(0);
 
     return () => {
+      window.removeEventListener("nair:scroll-lock", onScrollLock);
       lenis.destroy();
-      gsap.ticker.remove((time) => lenis.raf(time * 1000));
+      gsap.ticker.remove(tick);
     };
   }, []);
 
