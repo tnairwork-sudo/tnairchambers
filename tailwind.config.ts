@@ -11,17 +11,37 @@ const config: Config = {
       colors: {
         // Quiet base. Page ground.
         ink: "#faf9f6",
-        // Quiet text. Headings and body.
+        // Quiet text. Headings and body on ivory. Also the dark section ground.
         parchment: "#0f0d0a",
         "parchment-dim": "#6b6460",
-        // Single loud accent. Buttons, link underlines, kicker hairlines, selected states.
-        accent: "#d50000",
-        // Left in place for Off the Brief entries and the reading-room model.
+        // Hairlines, focus rings, nav underline. Antique gold, not red.
+        accent: "#a8875a",
+        // Raised panels on dark sections.
+        graphite: "#1a1814",
+        // Gold on dark grounds. Do not use this for text on ivory.
         gold: "#c4a55a",
         "gold-light": "#b8943f",
-        "surface": "#f3efe8",
+        // Gold text on ivory. Passes contrast. Design ink-colourway gold.
+        "gold-ink": "#8a6840",
+        // Logo gold. Hairlines on ivory, focus ring.
+        antique: "#a8875a",
+        // Logo pewter. Secondary text on dark when needed.
+        silver: "#6c7178",
+        surface: "#f3efe8",
         "surface-2": "#ece7de",
-        "border": "#dcd7cc",
+        border: "#dcd7cc",
+      },
+      spacing: {
+        // One scale. 8, 16, 24, 32, 48, 64, 96, 128, 192.
+        s1: "8px",
+        s2: "16px",
+        s3: "24px",
+        s4: "32px",
+        s5: "48px",
+        s6: "64px",
+        s7: "96px",
+        s8: "128px",
+        s9: "192px",
       },
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],
@@ -32,11 +52,11 @@ const config: Config = {
       },
       letterSpacing: {
         widest: "0.2em",
-        "ultra": "0.35em",
+        ultra: "0.2em",
       },
       maxWidth: {
         "prose-tight": "58ch",
-        "hero": "900px",
+        hero: "900px",
       },
     },
   },

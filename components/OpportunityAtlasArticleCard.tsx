@@ -141,7 +141,7 @@ export default function OpportunityAtlasArticleCard({
           </button>
         </div>
         <div
-          className="absolute inset-0 flex flex-col justify-between border border-accent bg-accent p-6 text-ink [backface-visibility:hidden] [transform:rotateY(180deg)] md:p-8"
+          className="absolute inset-0 flex flex-col justify-between border border-antique bg-parchment p-s4 text-ink [backface-visibility:hidden] [transform:rotateY(180deg)] md:p-s5"
           inert={!flipped ? true : undefined}
         >
           <p className="text-sm leading-relaxed md:text-base">{article.excerpt}</p>

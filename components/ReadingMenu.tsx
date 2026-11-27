@@ -8,6 +8,7 @@ import {
   guideLinks,
   guidesIndexLink,
   offTheBriefLink,
+  reelsLink,
 } from "@/lib/reading-menu";
 
 function current(pathname: string, href: string, exact = false) {
@@ -20,23 +21,30 @@ function Item({
   label,
   exact = false,
   onNavigate,
+  tone = "light",
 }: {
   href: string;
   label: string;
   exact?: boolean;
   onNavigate?: () => void;
+  tone?: "light" | "dark";
 }) {
   const pathname = usePathname();
   const active = current(pathname, href, exact);
+  const dark = tone === "dark";
 
   return (
     <Link
       href={href}
       onClick={onNavigate}
-      className={`block text-sm leading-snug transition-colors duration-200 ${
+      className={`flex min-h-12 items-center text-base leading-snug transition-colors duration-200 ${
         active
-          ? "text-parchment underline decoration-accent underline-offset-4"
-          : "text-parchment-dim hover:text-parchment"
+          ? dark
+            ? "text-ink underline decoration-gold underline-offset-4"
+            : "text-parchment underline decoration-accent underline-offset-4"
+          : dark
+            ? "text-ink/80 hover:text-ink"
+            : "text-parchment-dim hover:text-parchment"
       }`}
     >
       {label}
@@ -44,29 +52,39 @@ function Item({
   );
 }
 
-export function ReadingLinks({ onNavigate }: { onNavigate?: () => void }) {
+export function ReadingLinks({
+  onNavigate,
+  tone = "light",
+}: {
+  onNavigate?: () => void;
+  tone?: "light" | "dark";
+}) {
+  const labelClass = tone === "dark" ? "label mb-3 !text-gold" : "label mb-3";
+
   return (
-    <div className="flex flex-col gap-6">
-      <Item href={offTheBriefLink.href} label={offTheBriefLink.label} onNavigate={onNavigate} />
+    <div className="flex flex-col gap-s3">
+      <Item href={offTheBriefLink.href} label={offTheBriefLink.label} onNavigate={onNavigate} tone={tone} />
+      <Item href={reelsLink.href} label={reelsLink.label} onNavigate={onNavigate} tone={tone} />
       <div>
-        <p className="label mb-3">Articles</p>
+        <p className={labelClass}>Articles</p>
         <div className="flex flex-col gap-3">
           {articleLinks.map((link) => (
-            <Item key={link.href} href={link.href} label={link.label} onNavigate={onNavigate} />
+            <Item key={link.href} href={link.href} label={link.label} onNavigate={onNavigate} tone={tone} />
           ))}
         </div>
       </div>
       <div>
-        <p className="label mb-3">Guides</p>
+        <p className={labelClass}>Guides</p>
         <div className="flex flex-col gap-3">
           <Item
             href={guidesIndexLink.href}
             label={guidesIndexLink.label}
             exact
             onNavigate={onNavigate}
+            tone={tone}
           />
           {guideLinks.map((link) => (
-            <Item key={link.href} href={link.href} label={link.label} onNavigate={onNavigate} />
+            <Item key={link.href} href={link.href} label={link.label} onNavigate={onNavigate} tone={tone} />
           ))}
         </div>
       </div>
@@ -81,6 +99,7 @@ export default function ReadingMenu() {
   const menuId = useId();
   const sectionActive =
     current(pathname, offTheBriefLink.href) ||
+    current(pathname, reelsLink.href) ||
     current(pathname, guidesIndexLink.href) ||
     articleLinks.some((link) => current(pathname, link.href));
 
@@ -115,7 +134,7 @@ export default function ReadingMenu() {
         aria-controls={menuId}
         aria-haspopup="true"
         onClick={() => setOpen((value) => !value)}
-        className={`nav-link inline-flex items-center gap-1.5 whitespace-nowrap !tracking-[0.08em] xl:!tracking-[0.14em] ${
+        className={`nav-link inline-flex min-h-12 items-center gap-1.5 whitespace-nowrap !tracking-[0.06em] ${
           open || sectionActive
             ? "text-parchment underline decoration-accent underline-offset-4"
             : ""

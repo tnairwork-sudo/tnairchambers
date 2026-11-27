@@ -1,3 +1,16 @@
+/* Spacing scale, one series, no exceptions in new work.
+   Base unit 8px. Tokens: --s-1 8, --s-2 16, --s-3 24, --s-4 32,
+   --s-5 48, --s-6 64, --s-7 96, --s-8 128, --s-9 192.
+   Tailwind aliases: s1 to s9.
+   Section padding: 96 phone, 128 from md. Hero may use 192 from lg.
+   Gutters: 24, 48, 64. Heading to body: 24. Paragraphs: 16.
+   Header block to content: 48 phone, 64 from md.
+   Card padding: 32 phone, 48 from md. Grid gaps: 24 phone, 32 from md.
+   Type: Cormorant Garamond for display, Inter for labels and UI.
+   Body 16px, 17px from md, line-height 1.65. Labels 12px, tracking 0.2em.
+   Colour: ivory, parchment, graphite, antique gold, gold on dark.
+   Gold text on ivory uses gold-ink. No blue. No red. */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +19,15 @@
   :root {
     --font-cormorant: "Cormorant Garamond", Georgia, serif;
     --font-inter: "Inter", system-ui, sans-serif;
+    --s-1: 8px;
+    --s-2: 16px;
+    --s-3: 24px;
+    --s-4: 32px;
+    --s-5: 48px;
+    --s-6: 64px;
+    --s-7: 96px;
+    --s-8: 128px;
+    --s-9: 192px;
   }
 
   * {
@@ -20,15 +42,22 @@
 
   body {
     @apply bg-ink text-parchment font-sans;
+    font-size: 1rem;
+    line-height: 1.65;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
   }
 
-  ::selection {
-    background: theme("colors.accent");
-    color: theme("colors.ink");
+  @media (min-width: 768px) {
+    body {
+      font-size: 1.0625rem;
+    }
   }
 
-  /* Scrollbar */
+  ::selection {
+    background: theme("colors.antique");
+    color: theme("colors.parchment");
+  }
+
   ::-webkit-scrollbar {
     width: 2px;
   }
@@ -46,7 +75,7 @@
   }
 
   .label {
-    @apply text-2xs tracking-ultra uppercase text-parchment-dim font-sans font-medium;
+    @apply text-xs tracking-widest uppercase text-parchment-dim font-sans font-medium;
   }
 
   .heading-display {
@@ -69,17 +98,45 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-3 bg-accent text-ink px-8 py-4
-           font-sans text-xs tracking-widest uppercase font-medium
-           transition-all duration-300 hover:brightness-95
-           focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink;
+    @apply inline-flex items-center justify-center gap-3 min-h-14 bg-parchment text-ink px-10
+           font-sans text-sm tracking-[0.14em] uppercase font-medium
+           border border-transparent
+           transition-colors duration-300
+           hover:border-antique hover:brightness-[1.02]
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-antique focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
   }
 
   .btn-ghost {
-    @apply inline-flex items-center gap-3 border border-border text-parchment-dim px-8 py-4
-           font-sans text-xs tracking-widest uppercase font-medium
-           transition-all duration-300 hover:border-parchment-dim hover:text-parchment
-           focus:outline-none focus:ring-2 focus:ring-parchment-dim focus:ring-offset-2 focus:ring-offset-ink;
+    @apply inline-flex items-center justify-center gap-3 min-h-14 border border-antique/50 bg-transparent text-parchment px-10
+           font-sans text-sm tracking-[0.14em] uppercase font-medium
+           transition-colors duration-300 hover:border-antique hover:brightness-[1.02]
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-antique focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
+  }
+
+  .chapter-dark .btn-primary {
+    background-color: #faf9f6;
+    color: #0f0d0a;
+  }
+
+  .chapter-dark .btn-primary:hover {
+    border-color: #c4a55a;
+  }
+
+  .chapter-dark .btn-ghost {
+    color: #faf9f6;
+    border-color: rgb(196 165 90 / 0.55);
+  }
+
+  .chapter-dark .contact-phone {
+    color: #faf9f6;
+  }
+
+  .chapter-dark .contact-meta {
+    color: rgb(250 249 246 / 0.72);
+  }
+
+  .chapter-dark .gold-rule {
+    background-color: rgb(196 165 90 / 0.4);
   }
 
   .kicker {
@@ -91,22 +148,86 @@
   }
 
   .gold-rule {
-    @apply w-8 h-px bg-accent;
+    @apply w-8 h-px bg-antique;
   }
 
   .container-site {
-    @apply max-w-[1200px] mx-auto px-6 md:px-12 lg:px-16;
+    @apply max-w-[1200px] mx-auto px-s3 md:px-s5 lg:px-s6;
   }
 
   .nav-link {
-    @apply text-2xs tracking-ultra uppercase text-parchment-dim font-sans font-medium
+    @apply text-xs tracking-[0.08em] uppercase text-parchment-dim font-sans font-medium
            hover:text-parchment transition-colors duration-200;
+  }
+
+  /* Ivory wordmark and links when the bar sits on a dark hero. */
+  .nav-on-dark .nav-link {
+    color: rgb(250 249 246 / 0.82);
+  }
+
+  .nav-on-dark .nav-link:hover,
+  .nav-on-dark .nav-link.underline {
+    color: #faf9f6;
+  }
+
+  .nav-on-dark .btn-primary {
+    background-color: #faf9f6;
+    color: #0f0d0a;
+  }
+
+  .nav-on-dark .btn-primary:hover {
+    border-color: #c4a55a;
+  }
+
+  /* Scrolled dark bar fades out, so it has no hard lower edge. */
+  .nav-on-dark.nav-solid {
+    background-color: transparent;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(15, 13, 10, 0.78),
+      rgba(15, 13, 10, 0.4) 68%,
+      rgba(15, 13, 10, 0)
+    );
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+  }
+
+  .hero-scrim {
+    background: linear-gradient(
+      90deg,
+      rgba(15, 13, 10, 0.78) 0%,
+      rgba(15, 13, 10, 0.5) 36%,
+      rgba(26, 24, 20, 0.12) 68%,
+      transparent 100%
+    );
+  }
+
+  .body-copy {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  @media (min-width: 768px) {
+    .body-copy {
+      font-size: 1.0625rem;
+    }
   }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(15, 13, 10, 0.42) 0%,
+      rgba(15, 13, 10, 0.28) 36%,
+      rgba(15, 13, 10, 0.78) 100%
+    );
   }
 }
 
@@ -140,5 +261,9 @@
   .practice-card,
   .team-card {
     transition: none;
+  }
+
+  .hero-image-inner {
+    transform: none;
   }
 }

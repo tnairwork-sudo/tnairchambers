@@ -70,11 +70,11 @@ export default function ContactReveal({
     <div ref={contentRef} style={{ opacity: 0 }}>
       <a
         href={officePhoneHref}
-        className="font-serif text-3xl md:text-4xl font-light text-parchment block mb-5"
+        className="contact-phone font-serif text-3xl md:text-4xl font-light text-parchment block mb-s3"
       >
         {officePhoneDisplay}
       </a>
-      <div className="space-y-1.5 text-sm text-parchment-dim leading-relaxed">
+      <div className="contact-meta space-y-s1 text-base text-parchment-dim leading-relaxed">
         <p>
           <a
             href={`mailto:${officeEmail}`}
@@ -85,7 +85,7 @@ export default function ContactReveal({
         </p>
         <p>{officePlace}</p>
       </div>
-      <p className="mt-6 text-xs text-parchment-dim/60 tracking-wide">
+      <p className="contact-meta mt-s3 text-xs tracking-[0.08em] text-parchment-dim/60">
         Confidential. Available for clients in all time zones.
       </p>
     </div>

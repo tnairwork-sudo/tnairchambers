@@ -16,7 +16,7 @@ export default function ExploredCount() {
   const label = `${count} ${count === 1 ? "guide" : "guides"} explored`;
 
   return (
-    <p className="mb-10 inline-flex border border-accent bg-accent px-4 py-2 text-2xs uppercase tracking-[0.14em] text-ink">
+    <p className="mb-s4 inline-flex min-h-12 items-center border border-antique bg-parchment px-s3 text-xs uppercase tracking-[0.14em] text-ink">
       {label}
     </p>
   );

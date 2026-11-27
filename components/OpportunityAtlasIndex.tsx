@@ -103,7 +103,7 @@ export default function OpportunityAtlasIndex({
                 aria-pressed={isActive}
                 className={`px-4 py-2 border text-2xs tracking-widest uppercase transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink ${
                   isActive
-                    ? "border-accent bg-accent text-ink"
+                    ? "border-antique bg-parchment text-ink"
                     : "border-border text-parchment-dim hover:border-parchment-dim hover:text-parchment"
                 }`}
               >

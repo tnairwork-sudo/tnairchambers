@@ -111,7 +111,7 @@ export default function LandingPageClient({
           y: 0,
           opacity: 1,
           duration: 0.8,
-          stagger: 0.14,
+          stagger: 0.12,
           ease: "power3.out",
           scrollTrigger: {
             trigger: ".pain-section",
@@ -183,7 +183,7 @@ export default function LandingPageClient({
 
       <main className="pt-16">
         {/* ── Hero ────────────────────────────────────────────────── */}
-        <section className="min-h-[80vh] flex flex-col justify-end pb-20 md:pb-28 relative overflow-hidden">
+        <section className="relative flex min-h-[80vh] flex-col justify-end overflow-hidden pb-s7 md:pb-s8">
           {gradientStyle && (
             <div
               className="absolute inset-0 pointer-events-none"
@@ -218,8 +218,8 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Pain point ──────────────────────────────────────────── */}
-        <section className="pain-section container-site py-24 md:py-32">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <section className="pain-section container-site py-s7 md:py-s8">
+          <div className="grid grid-cols-1 gap-s6 md:grid-cols-2">
             <div>
               <div className="pain-headline flex flex-col gap-6">
                 <div className="kicker">
@@ -231,7 +231,7 @@ export default function LandingPageClient({
                 </h2>
               </div>
             </div>
-            <div className="space-y-5 text-parchment-dim leading-relaxed md:pt-16">
+            <div className="space-y-s2 text-base leading-[1.65] text-parchment-dim md:pt-s6">
               {problemBody.map((para, i) => (
                 <p key={i} className="pain-body-para">
                   {para}
@@ -246,8 +246,8 @@ export default function LandingPageClient({
         </div>
 
         {/* ── Services grid ────────────────────────────────────────── */}
-        <section className="container-site py-24 md:py-32">
-          <div className="kicker mb-14">
+        <section className="container-site py-s7 md:py-s8">
+          <div className="kicker mb-s5 md:mb-s6">
             <div className="gold-rule" />
             <span className="label">{servicesLabel}</span>
           </div>
@@ -255,12 +255,12 @@ export default function LandingPageClient({
             {services.map((item) => (
               <div
                 key={item.title}
-                className="service-card bg-ink hover:bg-surface transition-colors duration-300 p-8 md:p-10 flex flex-col gap-5"
+                className="service-card flex flex-col gap-s3 bg-ink p-s4 transition-colors duration-300 hover:bg-surface md:p-s5"
               >
                 <h3 className="font-serif text-xl font-light text-parchment">
                   {item.title}
                 </h3>
-                <p className="text-sm text-parchment-dim leading-relaxed">
+                <p className="text-base leading-[1.65] text-parchment-dim">
                   {item.body}
                 </p>
               </div>
@@ -269,7 +269,7 @@ export default function LandingPageClient({
         </section>
 
         {relatedNotes && relatedNotes.length > 0 ? (
-          <section className="container-site pb-24 md:pb-32">
+          <section className="container-site pb-s7 md:pb-s8">
             <div className="kicker mb-8">
               <div className="gold-rule" />
               <span className="label">India Entry notes</span>
@@ -294,7 +294,7 @@ export default function LandingPageClient({
 
         {/* ── Pull quote ───────────────────────────────────────────── */}
         <section className="pull-quote-section bg-surface-2 border-y border-border">
-          <div className="container-site py-16 md:py-24">
+          <div className="container-site py-s6 md:py-s7">
             <blockquote className="pull-quote max-w-3xl">
               <p className="heading-section text-2xl md:text-[2rem] text-parchment font-light italic leading-[1.4] mb-8">
                 &ldquo;{pullQuote}&rdquo;
@@ -309,7 +309,7 @@ export default function LandingPageClient({
 
         {/* ── CTA ─────────────────────────────────────────────────── */}
         <section id="book" className="cta-section bg-surface border-t border-border">
-          <div className="container-site py-24 md:py-32">
+          <div className="container-site py-s7 md:py-s8">
             <div className="cta-content max-w-2xl">
               <div className="kicker mb-8">
                 <div className="gold-rule" />
@@ -318,10 +318,10 @@ export default function LandingPageClient({
               <h2 className="heading-section text-4xl md:text-5xl text-parchment mb-6 text-balance">
                 {ctaHeadline}
               </h2>
-              <p className="text-base text-parchment-dim leading-relaxed mb-10 max-w-prose-tight">
+              <p className="body-copy mb-s5 max-w-prose-tight text-parchment-dim">
                 {ctaSubtext}
               </p>
-              <ContactReveal />
+              <ContactReveal className="w-full justify-center md:w-auto" />
             </div>
           </div>
         </section>

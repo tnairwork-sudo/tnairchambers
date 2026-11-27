@@ -81,17 +81,17 @@ export default function BigDinner() {
       ref={ref}
       id="the-big-dinner"
       aria-labelledby="big-dinner-title"
-      className="big-dinner relative overflow-hidden border-y border-border bg-parchment text-ink"
+      className="big-dinner chapter-dark relative overflow-hidden border-y border-border bg-parchment text-ink"
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-gradient-to-br from-accent/30 via-transparent to-transparent"
+        className="pointer-events-none absolute inset-0 bg-gradient-to-br from-antique/25 via-transparent to-transparent"
       />
-      <div aria-hidden className="pointer-events-none absolute left-0 top-0 h-full w-2 bg-accent md:w-3" />
+      <div aria-hidden className="pointer-events-none absolute left-0 top-0 h-full w-px bg-antique" />
       <div className="container-site relative grid gap-12 py-20 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.2fr)] md:py-28 lg:gap-20">
         <div className="big-dinner-mark">
           <p className="label text-ink/70">thebigdinner.in</p>
-          <div className="relative mt-8 aspect-square max-w-[16rem] border border-ink/15 bg-accent text-ink">
+          <div className="relative mt-s4 aspect-square max-w-[16rem] border border-antique/40 bg-graphite text-ink">
             <svg viewBox="0 0 200 200" className="h-full w-full" aria-hidden>
               <circle cx="100" cy="100" r="62" fill="none" stroke="currentColor" strokeWidth="1" />
               <circle cx="100" cy="100" r="8" fill="currentColor" />
@@ -134,11 +134,11 @@ export default function BigDinner() {
                 key={rule.n}
                 className={`border p-5 transition-transform duration-300 hover:-translate-y-1 motion-reduce:hover:translate-y-0 ${
                   rule.n === "01"
-                    ? "border-accent bg-accent text-ink"
+                    ? "border-antique bg-graphite text-ink"
                     : "border-ink/15 bg-ink text-parchment"
                 }`}
               >
-                <p className="label opacity-70">{rule.n}</p>
+                <p className={`label opacity-70 ${rule.n === "01" ? "!text-ink" : ""}`}>{rule.n}</p>
                 <h4 className="mt-3 font-serif text-2xl font-light">{rule.title}</h4>
                 <p className="mt-3 text-sm leading-relaxed opacity-80">{rule.body}</p>
               </li>
