@@ -556,10 +556,10 @@ export default function Home() {
             <div className="relative w-full md:w-[50%] min-h-[60vw] md:min-h-0 overflow-hidden">
               <div className="absolute inset-0">
                 <Image
-                  src="/tushaar-2.png"
+                  src="/tushaar-portrait.webp"
                   alt="Tushar Nair (Tushaar Nair)"
                   fill
-                  className="object-cover object-[center_15%]"
+                  className="object-cover object-center"
                   sizes="50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent" />

@@ -75,7 +75,7 @@ export const siteJsonLd = {
       description:
         "Tushar Nair, also written Tushaar Nair, is an advocate enrolled with the Bar Council of Delhi in 2024 (enrolment D/4136/2024) and the founder of Nair & Co, Advocates & Consultants. He practises before the Supreme Court of India, the Delhi High Court and the Punjab & Haryana High Court. The firm was formerly T Nair Chambers.",
       url: `${siteUrl}/about`,
-      image: `${siteUrl}/tushaar-1.png`,
+      image: `${siteUrl}/tushaar-portrait.webp`,
       worksFor: {
         "@type": ["LegalService", "Organization"],
         "@id": organizationId,
