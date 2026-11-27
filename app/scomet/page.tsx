@@ -99,7 +99,44 @@ export default function ScometPage() {
           </div>
         </section>
 
-        <section className="bg-surface">
+        <section id="handbook" className="scroll-mt-s7 border-t border-border bg-surface">
+          <div className="container-site grid items-center gap-s6 py-s7 md:grid-cols-[minmax(0,220px)_minmax(0,1fr)] md:py-s8 lg:grid-cols-[minmax(0,260px)_minmax(0,1fr)]">
+            <div className="relative mx-auto aspect-[909/1287] w-full max-w-[260px]">
+              <Image
+                src="/downloads/scomet-handbook-cover.webp"
+                alt="Cover of the Nair and Co SCOMET handbook: a satellite above the curve of the Earth"
+                fill
+                sizes="260px"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <div className="kicker mb-s3">
+                <div className="gold-rule" />
+                <span className="label">Handbook</span>
+              </div>
+              <h2 className="font-serif text-[32px] font-light text-parchment md:text-[40px]">
+                SCOMET Handbook
+              </h2>
+              <p className="body-copy mt-s3 max-w-2xl text-parchment-dim">
+                India&apos;s strategic export controls, explained: the law, the licensing routes, the paperwork and the cases that show what is at stake. A free handbook from Nair &amp; Co, Advocates &amp; Consultants, New Delhi.
+              </p>
+              <a
+                href="/downloads/NairCo_SCOMET_Handbook.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary mt-s6 w-full justify-center md:w-auto"
+              >
+                Download the handbook
+              </a>
+              <p className="mt-s2 text-[12px] tracking-[0.06em] text-parchment-dim">
+                27 pages, PDF, 5.2 MB
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="border-t border-border bg-surface">
           <div className="container-site py-s7 md:py-s8">
             <div className="kicker mb-s5 md:mb-s6">
               <div className="gold-rule" />

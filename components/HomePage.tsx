@@ -422,6 +422,12 @@ export default function Home() {
                 >
                   Read the SCOMET crash course
                 </Link>
+                <Link
+                  href="/scomet#handbook"
+                  className="inline-flex min-h-12 items-center text-base text-parchment-dim underline decoration-antique underline-offset-4"
+                >
+                  SCOMET Handbook
+                </Link>
               </div>
             </div>
           </section>
