@@ -10,6 +10,11 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import BigDinner from "@/components/BigDinner";
 import ContactReveal from "@/components/ContactReveal";
+import ReelsGrid from "@/components/ReelsGrid";
+import ValuesStrip from "@/components/ValuesStrip";
+import { sectorAreas, sectorHeadline, sectorStatement, scometHomeList } from "@/lib/aerospace-copy";
+import { instagramReels } from "@/lib/instagram-reels";
+import { firmInstagram } from "@/lib/site";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -53,14 +58,20 @@ export default function Home() {
 
     // ── Hero load sequence ─────────────────────────────────────
     if (!reduceMotion) {
-      const heroTl = gsap.timeline({ defaults: { ease: "power4.out" } });
+      const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
       heroTl
-        .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 1 })
-        .from(".hero-line", { y: 80, opacity: 0, duration: 1.2, stagger: 0.12 }, "-=0.6")
-        .from(".hero-body p", { y: 30, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.5")
-        .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.4")
-        .from(".hero-image-wrap", { scale: 1.08, opacity: 0, duration: 1.8, ease: "power3.out" }, 0.2);
+        .from(".hero-eyebrow", { y: 24, opacity: 0, duration: 0.9 })
+        .from(".hero-line", { y: 48, opacity: 0, duration: 1.1, stagger: 0.12 }, "-=0.55")
+        .from(".hero-body p", { y: 24, opacity: 0, duration: 0.9, stagger: 0.1 }, "-=0.45")
+        .from(".hero-cta", { y: 16, opacity: 0, duration: 0.9 }, "-=0.4")
+        .from(".hero-image-wrap", { scale: 1.04, opacity: 0, duration: 1.2 }, 0.2);
+
+      gsap.to(".hero-image-inner", {
+        scale: 1.04,
+        duration: 40,
+        ease: "none",
+      });
     }
 
     // ── Hero photo parallax on scroll ──────────────────────────
@@ -79,7 +90,7 @@ export default function Home() {
     gsap.from(".manifesto-line", {
       y: 60,
       opacity: 0,
-      stagger: 0.18,
+      stagger: 0.12,
       duration: 1.2,
       ease: "power3.out",
       scrollTrigger: {
@@ -119,7 +130,7 @@ export default function Home() {
     gsap.from(".about-text-item", {
       y: 40,
       opacity: 0,
-      stagger: 0.15,
+      stagger: 0.12,
       duration: 1,
       ease: "power3.out",
       scrollTrigger: {
@@ -181,6 +192,31 @@ export default function Home() {
     });
 
     // ── CTA section ────────────────────────────────────────────
+    if (!reduceMotion) {
+      gsap.from(".sector-tile", {
+        y: 36,
+        opacity: 0,
+        stagger: 0.08,
+        duration: 0.9,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".sector-section",
+          start: "top 72%",
+        },
+      });
+
+      gsap.from(".scomet-home", {
+        y: 32,
+        opacity: 0,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".scomet-home",
+          start: "top 75%",
+        },
+      });
+    }
+
     gsap.from(".cta-content", {
       y: 50,
       opacity: 0,
@@ -200,81 +236,87 @@ export default function Home() {
         <main>
 
           {/* ── HERO ─────────────────────────────────────────────── */}
-          <section className="hero-section relative min-h-screen flex overflow-hidden bg-ink">
-            {/* Left: text */}
-            <div className="relative z-10 flex flex-col justify-end pb-16 md:pb-24 pt-32 w-full md:w-[48%] px-6 md:pl-16 lg:pl-24">
-              <div className="hero-eyebrow kicker mb-10">
+          <section className="hero-section chapter-dark relative flex min-h-screen overflow-hidden bg-parchment text-ink">
+            <div className="hero-image-wrap absolute inset-x-0 top-0 h-[120%]">
+              <div className="hero-image-inner absolute inset-0">
+                <Image
+                  src="/images/aerospace/hero-limb-mobile.webp"
+                  alt="The Moon above the curve of the Earth, with a bright band of atmosphere and cloud, photographed from orbit"
+                  fill
+                  priority
+                  sizes="100vw"
+                  className="object-cover md:hidden"
+                />
+                <Image
+                  src="/images/aerospace/hero-limb.webp"
+                  alt="The Moon above the curve of the Earth, with a bright band of atmosphere and cloud, photographed from orbit"
+                  fill
+                  priority
+                  sizes="100vw"
+                  className="hidden object-cover md:block"
+                />
+              </div>
+            </div>
+            <div className="hero-scrim absolute inset-0" />
+
+            <div className="relative z-10 flex w-full flex-col justify-end px-s3 pb-s6 pt-s8 md:w-[48%] md:pb-s7 md:pl-s6 lg:pb-s8 lg:pl-s6">
+              <div className="hero-eyebrow kicker mb-s5">
                 <div className="gold-rule" />
-                <span className="label">Advocates &amp; Consultants · New Delhi</span>
+                <span className="label !text-gold">Advocates &amp; Consultants · New Delhi</span>
               </div>
 
-              <h1 className="mb-10">
-                <div className="flow-root mb-8 md:mb-10">
+              <h1 className="mb-s5">
+                <div className="flow-root mb-s4 md:mb-s5">
                   <div className="line-mask text-[clamp(1.65rem,2.6vw,2.35rem)]">
-                    <div className="hero-line heading-display text-parchment leading-none">
+                    <div className="hero-line heading-display leading-none text-ink">
                       Tushar Nair
-                      <span className="text-parchment font-light"> · </span>
-                      <span className="italic font-light text-parchment">Nair &amp; Co</span>
+                      <span className="font-light text-ink"> · </span>
+                      <span className="italic font-light text-ink">Nair &amp; Co</span>
                     </div>
                   </div>
                 </div>
                 <div className="flow-root">
                   <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
-                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                    <div className="hero-line heading-display leading-[1.2] text-ink">
                       Everything
                     </div>
                   </div>
                 </div>
-                <div className="flow-root mt-1.5 md:mt-2">
+                <div className="flow-root mt-s1">
                   <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
-                    <div className="hero-line heading-display text-parchment leading-[1.2] font-light">
+                    <div className="hero-line heading-display font-light leading-[1.2] text-ink">
                       a client needs,
                     </div>
                   </div>
                 </div>
-                <div className="flow-root mt-1.5 md:mt-2">
+                <div className="flow-root mt-s1">
                   <div className="line-mask text-[clamp(2.4rem,5vw,4.8rem)]">
-                    <div className="hero-line heading-display text-parchment leading-[1.2]">
+                    <div className="hero-line heading-display leading-[1.2] text-ink">
                       under one roof.
                     </div>
                   </div>
                 </div>
               </h1>
 
-              <div className="hero-body max-w-md mb-10 space-y-4">
-                <p className="text-base text-parchment-dim leading-relaxed">
+              <div className="hero-body mb-s5 max-w-md space-y-s2">
+                <p className="body-copy text-ink/75">
                   Nair &amp; Co, Advocates &amp; Consultants. The New Delhi practice of Tushaar Nair, an advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab &amp; Haryana High Court. Each service is delivered by a dedicated, separate team.
                 </p>
-                <p className="text-base text-parchment leading-relaxed font-light">
+                <p className="body-copy font-light text-ink">
                   Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
                 </p>
               </div>
 
               <div className="hero-cta">
-                <ContactReveal />
+                <ContactReveal className="w-full justify-center md:w-auto" />
               </div>
-            </div>
-
-            {/* Right: photo */}
-            <div className="hidden md:block absolute right-0 top-0 w-[55%] h-full overflow-hidden">
-              <div className="hero-image-wrap w-full h-[120%] top-0 absolute">
-                <Image
-                  src="/tushaar-1.png"
-                  alt="Tushar Nair (Tushaar Nair), advocate practising before the Supreme Court of India, the Delhi High Court and the Punjab and Haryana High Court"
-                  fill
-                  className="object-cover object-top"
-                  priority
-                  sizes="55vw"
-                />
-                {/* Gradient fade on left edge */}
-                <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/60 to-transparent w-[45%]" />
-              </div>
+              <p className="mt-s3 text-[12px] tracking-[0.08em] text-ink/70">Image: NASA</p>
             </div>
           </section>
 
           {/* ── MANIFESTO ────────────────────────────────────────── */}
-          <section className="manifesto-section relative overflow-hidden bg-surface border-y border-border py-28 md:py-40">
-            <div aria-hidden className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-accent/25 to-transparent md:w-28" />
+          <section className="manifesto-section relative overflow-hidden border-y border-border bg-surface py-s7 md:py-s8">
+            <div aria-hidden className="pointer-events-none absolute inset-y-0 right-0 w-s2 bg-gradient-to-l from-antique/20 to-transparent md:w-s4" />
             <div className="container-site max-w-4xl">
               <div className="overflow-hidden mb-2">
                 <p className="manifesto-line font-serif text-[clamp(1.6rem,3.5vw,3rem)] font-light text-parchment leading-[1.3]">
@@ -299,18 +341,132 @@ export default function Home() {
             </div>
           </section>
 
+          <section className="sector-section chapter-dark bg-parchment text-ink">
+            <div className="container-site py-s7 md:py-s8">
+              <div className="kicker mb-s3">
+                <div className="gold-rule" />
+                <span className="label !text-gold">Space, Aerospace and Defence</span>
+              </div>
+              <h2 className="heading-display max-w-hero text-[clamp(2rem,4vw,3.5rem)] text-ink">
+                {sectorHeadline}
+              </h2>
+              <p className="body-copy mt-s3 max-w-3xl text-ink/80">{sectorStatement}</p>
+              <figure className="mt-s6">
+                <div className="relative aspect-video">
+                  <Image
+                    src="/images/aerospace/atmosphere.webp"
+                    alt="Earth's atmosphere at an orbital sunrise, a thin bright band above the cloud deck"
+                    fill
+                    sizes="(min-width: 1024px) 1100px, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                <figcaption className="mt-s2 text-[12px] tracking-[0.08em] text-ink/70">
+                  Image: NASA
+                </figcaption>
+              </figure>
+              <div className="mt-s6 grid grid-cols-1 gap-s3 md:grid-cols-2 md:gap-s4 lg:grid-cols-3">
+                {sectorAreas.map((area) => (
+                  <Link
+                    key={area.id}
+                    href={area.href}
+                    className="sector-tile border-t border-gold/40 bg-graphite p-s4 md:p-s5"
+                  >
+                    <h3 className="font-serif text-[24px] font-light text-ink">{area.title}</h3>
+                    <p className="body-copy mt-s3 text-ink/80">{area.sentences[0]}</p>
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href="/space-aerospace-defence"
+                className="mt-s6 inline-flex min-h-12 items-center font-serif text-[20px] text-ink"
+              >
+                Space, Aerospace and Defence →
+              </Link>
+            </div>
+          </section>
+
+          <section className="scomet-home bg-surface">
+            <div className="container-site py-s7 md:py-s8">
+              <div className="grid gap-s6 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:items-end">
+                <div>
+                  <div className="kicker mb-s3">
+                    <div className="gold-rule" />
+                    <span className="label">SCOMET Cell</span>
+                  </div>
+                  <h2 className="heading-display text-[clamp(2rem,4vw,3.5rem)] text-parchment">
+                    From classification to the completed file.
+                  </h2>
+                  <p className="body-copy mt-s3 max-w-2xl text-parchment-dim">
+                    The in-house SCOMET Cell advises on export authorisation for sensitive goods, software and technology under India&apos;s SCOMET list, and prepares the documents that go with an application.
+                  </p>
+                </div>
+                <ul className="grid gap-s2">
+                  {scometHomeList.map((item) => (
+                    <li key={item} className="border-t border-antique pt-s2 text-base text-parchment">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-s6 flex flex-col gap-s2 md:flex-row md:items-center md:gap-s5">
+                <Link
+                  href="/scomet"
+                  className="inline-flex min-h-12 items-center font-serif text-[20px] text-parchment"
+                >
+                  The SCOMET Cell →
+                </Link>
+                <Link
+                  href="/guides/scomet-crash-course"
+                  className="inline-flex min-h-12 items-center text-base text-parchment-dim underline decoration-antique underline-offset-4"
+                >
+                  Read the SCOMET crash course
+                </Link>
+              </div>
+            </div>
+          </section>
+
+          <section className="chapter-dark bg-parchment text-ink">
+            <div className="container-site py-s7 md:py-s8">
+              <div className="mb-s5 flex flex-col gap-s3 md:mb-s6 md:flex-row md:items-end md:justify-between">
+                <div>
+                  <div className="kicker mb-s3">
+                    <div className="gold-rule" />
+                    <span className="label !text-gold">Instagram</span>
+                  </div>
+                  <h2 className="heading-display text-[clamp(2rem,4vw,3.5rem)]">Notes on film.</h2>
+                  <p className="body-copy mt-s3 max-w-2xl text-ink/80">
+                    Short films from the Nair &amp; Co Instagram, on aircraft, engines, orbit and the industries around them.
+                  </p>
+                </div>
+                <div className="flex flex-col gap-s1">
+                  <a
+                    href={firmInstagram}
+                    className="inline-flex min-h-12 items-center text-ink underline decoration-gold/60 underline-offset-4"
+                  >
+                    Follow @nairandco
+                  </a>
+                  <Link href="/reels" className="inline-flex min-h-12 items-center font-serif text-[20px] text-ink">
+                    All reels →
+                  </Link>
+                </div>
+              </div>
+              <ReelsGrid reels={instagramReels.slice(0, 4)} layout="strip" />
+            </div>
+          </section>
+
           {/* ── WHAT WE DO ───────────────────────────────────────── */}
-          <section id="what-we-do" aria-labelledby="what-we-do-label" className="teams-section container-site py-24 md:py-32">
+          <section id="what-we-do" aria-labelledby="what-we-do-label" className="teams-section container-site py-s7 md:py-s8">
             <div className="reveal-up kicker mb-6">
               <div className="gold-rule" />
               <span id="what-we-do-label" className="label">What We Do</span>
             </div>
-            <p className="reveal-up text-base text-parchment-dim leading-relaxed max-w-2xl mb-14">
+            <p className="reveal-up body-copy mb-s5 max-w-2xl text-parchment-dim md:mb-s6">
               Ten practice teams, each separate from the others. Management consultancy and investment banking are delivered with our strategic alliances and partner firms.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
               {teams.map((team, index) => {
-                const className = `team-card group bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4 ${
+                const className = `team-card group flex flex-col gap-s3 bg-ink p-s4 transition-colors duration-500 hover:bg-surface md:p-s5 ${
                   team.featured ? "md:col-span-2 lg:col-span-3 md:flex-row md:items-end md:justify-between" : ""
                 }`;
                 const inner = (
@@ -319,7 +475,7 @@ export default function Home() {
                       <span className="label text-parchment-dim/30">{String(index + 1).padStart(2, "0")}</span>
                       <div>
                         <h2 className="font-serif text-xl md:text-2xl font-light text-parchment mb-4">{team.name}</h2>
-                        <p className="text-sm text-parchment-dim leading-relaxed">{team.line}</p>
+                        <p className="text-base leading-[1.65] text-parchment-dim">{team.line}</p>
                       </div>
                     </div>
                     {team.href && <span className="label group-hover:text-parchment transition-colors duration-300">View →</span>}
@@ -340,7 +496,7 @@ export default function Home() {
 
           {/* ── ALLIANCES ────────────────────────────────────────── */}
           <section id="alliances" aria-labelledby="alliances-label" className="alliances-section border-y border-border bg-surface">
-            <div className="container-site py-16 md:py-24">
+            <div className="container-site py-s7 md:py-s8">
               <div className="alliances-copy">
                 <div className="kicker mb-10">
                   <div className="gold-rule" />
@@ -364,7 +520,7 @@ export default function Home() {
           {/* ── TUSHAAR TEASER ───────────────────────────────────── */}
           <section className="about-section relative min-h-screen flex flex-col md:flex-row overflow-hidden bg-ink">
             {/* Text */}
-            <div className="relative z-10 flex flex-col justify-center py-24 md:py-32 w-full md:w-[50%] px-6 md:pl-16 lg:pl-24 md:pr-16">
+            <div className="relative z-10 flex w-full flex-col justify-center px-s3 py-s7 md:w-[50%] md:py-s8 md:pl-s6 md:pr-s6 lg:pl-s6">
               <div className="about-text-item kicker mb-8">
                 <div className="gold-rule" />
                 <span className="label">The Advocate</span>
@@ -406,7 +562,7 @@ export default function Home() {
           </section>
 
           {/* ── PHILOSOPHY PULL QUOTE ────────────────────────────── */}
-          <section className="philosophy-section bg-surface-2 border-y border-border py-24 md:py-36">
+          <section className="philosophy-section border-y border-border bg-surface-2 py-s7 md:py-s8">
             <div className="container-site">
               <blockquote className="philosophy-text max-w-4xl">
                 <p className="font-serif text-[clamp(1.5rem,3vw,2.6rem)] font-light italic text-parchment leading-[1.4] mb-8">
@@ -425,19 +581,19 @@ export default function Home() {
           <BigDinner />
 
           {/* ── COURTS & TABLE ───────────────────────────────────── */}
-          <section className="courts-section container-site py-24 md:py-32">
+          <section className="courts-section container-site py-s7 md:py-s8">
             <div className="reveal-up kicker mb-14">
               <div className="gold-rule" />
               <span className="label">The Courts & The Table</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
               {courts.map((court) => (
-                <div key={court.name} className="court-card bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-4">
+                <div key={court.name} className="court-card flex flex-col gap-s3 bg-ink p-s4 transition-colors duration-500 hover:bg-surface md:p-s5">
                   <div>
                     <h3 className="font-serif text-xl md:text-2xl font-light text-parchment">{court.name}</h3>
                     {court.sub && <p className="label text-parchment-dim/50 mt-1">{court.sub}</p>}
                   </div>
-                  <p className="text-sm text-parchment-dim leading-relaxed">{court.body}</p>
+                  <p className="text-base leading-[1.65] text-parchment-dim">{court.body}</p>
                 </div>
               ))}
             </div>
@@ -458,21 +614,21 @@ export default function Home() {
           </div>
 
           {/* ── INTERNATIONAL ADVISORY ───────────────────────────── */}
-          <section className="practices-section container-site py-24 md:py-32">
+          <section className="practices-section container-site py-s7 md:py-s8">
             <div className="reveal-up kicker mb-14">
               <div className="gold-rule" />
               <span className="label">International Advisory</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
               {practices.map((p) => (
-                <Link key={p.href} href={p.href} className="practice-card group bg-ink hover:bg-surface transition-colors duration-500 p-8 md:p-10 flex flex-col gap-6">
+                <Link key={p.href} href={p.href} className="practice-card group flex flex-col gap-s3 bg-ink p-s4 transition-colors duration-500 hover:bg-surface md:p-s5">
                   <div className="flex items-start justify-between">
                     <span className="label text-parchment-dim/30">{p.number}</span>
                     <span className="label group-hover:text-parchment transition-colors duration-300">View →</span>
                   </div>
                   <div>
                     <h2 className="heading-section text-2xl md:text-3xl text-parchment mb-3">{p.label}</h2>
-                    <p className="text-sm text-parchment-dim leading-relaxed">{p.body}</p>
+                    <p className="text-base leading-[1.65] text-parchment-dim">{p.body}</p>
                   </div>
                 </Link>
               ))}
@@ -481,7 +637,7 @@ export default function Home() {
 
           {/* ── CTA ──────────────────────────────────────────────── */}
           <section className="cta-section bg-surface border-t border-border min-h-[60vh] flex items-center">
-            <div className="container-site py-24 md:py-32 w-full">
+            <div className="container-site w-full py-s7 md:py-s8">
               <div className="cta-content max-w-3xl">
                 <div className="kicker mb-8">
                   <div className="gold-rule" />
@@ -491,10 +647,11 @@ export default function Home() {
                   Tell us your problem.<br />
                   <em className="text-parchment font-light not-italic">We&apos;ll tell you if we&apos;re the right people to solve it.</em>
                 </h2>
-                <ContactReveal />
+                <ContactReveal className="w-full justify-center md:w-auto" />
               </div>
             </div>
           </section>
+          <ValuesStrip />
 
         </main>
         <Footer />
