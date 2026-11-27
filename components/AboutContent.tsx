@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -258,12 +259,12 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
               </p>
               <p className="bio-para">
                 Alongside litigation, the work includes advice to Indian and international businesses on commercial opportunities in Oman and the GCC: warehousing, logistics, market entry, regulatory structuring, and investment. He also writes on arbitration in India and on cross-border trade, including an{" "}
-                <a
+                <Link
                   href="/opportunity-atlas/duty-free-conditions-apply"
                   className="text-parchment underline decoration-accent underline-offset-4 transition-colors duration-300"
                 >
                   Opportunity Atlas note on the India-Oman CEPA
-                </a>
+                </Link>
                 .
               </p>
 
