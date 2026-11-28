@@ -553,13 +553,13 @@ export default function Home() {
             </div>
 
             {/* Photo */}
-            <div className="relative w-full md:w-[50%] min-h-[60vw] md:min-h-0 overflow-hidden">
+            <div className="relative w-full aspect-[849/780] md:aspect-auto md:w-[50%] md:min-h-0 overflow-hidden">
               <div className="absolute inset-0">
                 <Image
                   src="/tushaar-portrait.webp"
                   alt="Tushar Nair (Tushaar Nair)"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-[center_18%]"
                   sizes="50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent" />

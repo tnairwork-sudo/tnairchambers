@@ -198,12 +198,12 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
             </p>
           </div>
 
-          <div className="relative min-h-[60vw] md:min-h-0 order-1 md:order-2 overflow-hidden">
+          <div className="relative order-1 aspect-[849/780] overflow-hidden md:order-2 md:aspect-auto md:min-h-0">
             <Image
               src="/tushaar-portrait.webp"
               alt="Tushar Nair (Tushaar Nair), advocate enrolled with the Bar Council of Delhi"
               fill
-              className="about-hero-photo object-cover object-center"
+              className="about-hero-photo object-cover object-[center_18%]"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
@@ -273,7 +273,7 @@ export default function AboutContent({ schemaJson }: { schemaJson: string }) {
                   src="/tushaar-portrait.webp"
                   alt="Tushar Nair (Tushaar Nair)"
                   fill
-                  className="about-photo-2 object-cover object-center"
+                  className="about-photo-2 object-cover object-[center_18%]"
                   sizes="(max-width: 768px) 100vw, 40vw"
                 />
               </div>
