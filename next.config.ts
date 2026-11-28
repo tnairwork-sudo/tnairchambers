@@ -1,4 +1,4 @@
-// Redeploy marker. The production deployment of the chills paper failed, and this source already passes next build. No runtime change.
+// Redeploy marker. The portrait production deployment failed in the same second it was created. This source already passes next build.
 import type { NextConfig } from "next";
 
 const firmProfilePdfPath = "/profile/Nair-and-Co-Firm-Profile.pdf";
@@ -11,6 +11,16 @@ const nextConfig: NextConfig = {
         source: "/profile",
         destination: firmProfilePdfPath,
         permanent: false,
+      },
+      {
+        source: "/tushaar-1.png",
+        destination: "/tushaar-portrait.webp",
+        permanent: true,
+      },
+      {
+        source: "/tushaar-2.png",
+        destination: "/tushaar-portrait.webp",
+        permanent: true,
       },
     ];
   },
